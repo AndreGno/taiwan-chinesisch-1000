@@ -1,0 +1,8 @@
+.tessdata/
+extraction/crops/
+extraction/crops2/
+extraction/verify_pages/
+extraction/verify_grids/
+extraction/__pycache__/
+extraction/.pytest_cache/
+extraction/tests/__pycache__/
