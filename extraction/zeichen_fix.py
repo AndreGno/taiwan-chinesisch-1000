@@ -439,8 +439,18 @@ def _big5_dekodieren(zeichen: str, offset: int) -> str:
 def fix_span(text: str, font: str) -> str:
     """Dekodiert den Text EINES PyMuPDF-Spans anhand seines Fontnamens.
 
-    Spans in unbekannten Fonts (Deutsch, Pinyin, Seitenzahlen ...) bleiben
-    unveraendert, ebenso ASCII-Zeichen in den Hanzi-Fonts."""
+    Nutzung im Lektions-Parser:
+      - Spans per page.get_text("dict") oder "rawdict" holen (nicht "text",
+        dort fehlt der Font) und span["font"] unveraendert uebergeben.
+      - fix_span pro Span aufrufen, ERST DANACH Spans zu Zeilen zusammensetzen.
+        Nie zusaetzlich fix_text anwenden (Tabelle veraltet, und echte Zeichen
+        wie 兼/令 wuerden sonst ein zweites Mal ersetzt).
+      - Spans in unbekannten Fonts (Deutsch, Pinyin, Seitenzahlen ...) kommen
+        unveraendert zurueck; Pinyin-Spans (PintoneTimes, TimesNewRomanPSMT)
+        separat mit pinyin_fix.fix_pinyin behandeln.
+      - Ergebnis kann "" sein, wenn der Span nur Zhuyin-Annotation enthaelt.
+      - ASCII-Zeichen in den Hanzi-Fonts bleiben roh ("!" Fuellzeichen,
+        ")" "*" "2/" ...), siehe Bericht Runde 2."""
     if font in FONT_CHAR_MAPS:
         tabelle = FONT_CHAR_MAPS[font]
         return "".join(tabelle.get(c, c) for c in text)

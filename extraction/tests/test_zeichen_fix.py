@@ -152,3 +152,10 @@ def test_fix_span_sonderfonts_zi_und_zhuyin_annotation():
 
 def test_fix_span_seitenzahl_im_mingliu_font_bleibt():
     assert fix_span("2", "MingLiU-ETen-B5-H") == "2"
+
+
+def test_fix_span_echtes_zeichen_wird_nicht_nochmals_ersetzt():
+    # Im ZhuIn-Font ist 䊤 das echte 兼 (Seite 93), das rohe 兼 aber 讓;
+    # ebenso 㵐 -> 令, rohes 令 -> 還. Keine Verkettung der Ersetzungen.
+    assert fix_span("䊤兼", ZHUIN) == "兼讓"
+    assert fix_span("㵐令", ZHUIN) == "令還"
