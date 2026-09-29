@@ -1,0 +1,362 @@
+:root {
+  --bg: #0f0e17;
+  --bg-elevated: #17151f;
+  --karte-bg: #1d1a28;
+  --karte-bg-hover: #241f33;
+  --text: #f2f1f9;
+  --text-muted: #a9a6c2;
+  --pink: #ff4fa3;
+  --blue: #4f9dff;
+  --gruen: #4fd88b;
+  --gradient: linear-gradient(90deg, var(--pink), var(--blue));
+  --radius: 16px;
+  --radius-klein: 10px;
+  --glow: 0 0 0 1px rgba(255, 79, 163, 0.15), 0 8px 24px rgba(79, 157, 255, 0.15);
+  --transition: 160ms ease;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3, .zh {
+  font-family: "Noto Sans TC", "Segoe UI", sans-serif;
+}
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Kopfbereich */
+
+header.kopf {
+  background: var(--bg-elevated);
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.kopf-zeile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header.kopf h1 {
+  margin: 0.5rem 0 0;
+  font-size: 1.4rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: anywhere;
+}
+
+.untertitel {
+  font-weight: normal;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.zurueck {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+.zurueck:hover { color: var(--text); }
+
+.streak-badge {
+  background: var(--karte-bg);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: var(--glow);
+}
+
+.fortschritt-gesamt {
+  max-width: 900px;
+  margin: 0.75rem auto 0;
+}
+
+.fortschritt-aktionen {
+  max-width: 900px;
+  margin: 0.75rem auto 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.fortschritt-aktionen button,
+.datei-label {
+  background: var(--karte-bg);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-klein);
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  transition: background var(--transition);
+}
+.fortschritt-aktionen button:hover,
+.datei-label:hover { background: var(--karte-bg-hover); }
+
+.tts-hinweis {
+  max-width: 900px;
+  margin: 0.5rem auto 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.tts-hinweis.warnung { color: var(--pink); }
+
+/* Layout */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Fortschrittsbalken (Gradient) */
+
+.fortschritt-balken {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.fortschritt-balken > span {
+  display: block;
+  height: 100%;
+  background: var(--gradient);
+  transition: width 300ms ease;
+}
+
+/* Startseiten-Grid */
+
+.lektion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.lektion-karte {
+  background: var(--karte-bg);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  box-shadow: var(--glow);
+  display: block;
+  transition: transform var(--transition), background var(--transition);
+}
+.lektion-karte:hover {
+  transform: translateY(-2px);
+  background: var(--karte-bg-hover);
+}
+.lektion-karte.besucht { border-left: 3px solid var(--gruen); }
+
+.lektion-karte .zh { font-size: 1.1rem; margin: 0 0 0.25rem; overflow-wrap: anywhere; }
+.lektion-karte .de { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 0.6rem; overflow-wrap: anywhere; }
+
+.hinweis, .fehler {
+  color: var(--text-muted);
+  background: var(--karte-bg);
+  border-radius: var(--radius-klein);
+  padding: 0.75rem 1rem;
+}
+.fehler { color: var(--pink); }
+.hinweis-klein { color: var(--text-muted); font-size: 0.75rem; margin: 0.15rem 0 0.75rem; }
+
+/* Tabs */
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tabs .tab {
+  background: var(--karte-bg);
+  color: var(--text-muted);
+  border: none;
+  border-radius: var(--radius-klein);
+  padding: 0.5rem 1rem;
+  transition: background var(--transition), color var(--transition);
+}
+.tabs .tab:hover { background: var(--karte-bg-hover); }
+.tabs .tab.aktiv {
+  background: var(--gradient);
+  color: #0f0e17;
+  font-weight: 600;
+}
+
+/* Dialog / Vokabeln / Grammatik */
+
+.dialog-zeile, .wort-zeile, .grammatik-block {
+  background: var(--karte-bg);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+  box-shadow: var(--glow);
+}
+
+.dialog-zeile .zh, .wort-zeile .zh {
+  font-size: 1.2rem;
+  margin: 0 0 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  overflow-wrap: anywhere;
+}
+
+.pinyin { color: var(--blue); margin: 0 0 0.2rem; overflow-wrap: anywhere; }
+.de { color: var(--text-muted); margin: 0; overflow-wrap: anywhere; }
+
+.tts-knopf {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+  color: var(--text);
+  padding: 0.15rem 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.tts-knopf:hover { background: var(--karte-bg-hover); }
+
+.grammatik-block h3 { margin: 0 0 0.4rem; color: var(--pink); }
+.grammatik-block ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+.grammatik-block li { margin-bottom: 0.25rem; overflow-wrap: anywhere; }
+
+/* Übungen */
+
+.uebungen-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.uebungen-menu button {
+  background: var(--karte-bg);
+  color: var(--text);
+  border: none;
+  border-radius: var(--radius-klein);
+  padding: 0.9rem;
+  font-weight: 600;
+  box-shadow: var(--glow);
+  transition: background var(--transition), transform var(--transition);
+}
+.uebungen-menu button:hover:not(:disabled) {
+  background: var(--karte-bg-hover);
+  transform: translateY(-2px);
+}
+.uebungen-menu button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#uebung-inhalt {
+  background: var(--karte-bg);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--glow);
+}
+
+/* Karteikarten */
+
+.karteikarte { text-align: center; }
+.karteikarte .zh { font-size: 2rem; margin-bottom: 1rem; }
+.bewertung {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.bewertung button {
+  background: var(--gradient);
+  color: #0f0e17;
+  border: none;
+  border-radius: var(--radius-klein);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+/* Satzbau */
+
+.satzbau-ziel, .satzbau-bausteine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 2.5rem;
+  margin: 0.75rem 0;
+}
+.satzbau-ziel {
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-klein);
+  padding: 0.5rem;
+}
+.satzbau-bausteine button, .satzbau-ziel span {
+  background: var(--karte-bg-hover);
+  border: none;
+  border-radius: var(--radius-klein);
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+  font-size: 1.2rem;
+}
+.satzbau-bausteine button:disabled { opacity: 0.3; }
+
+/* Hörverständnis */
+
+.quiz-optionen {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.quiz-optionen button {
+  width: 100%;
+  text-align: left;
+  background: var(--karte-bg-hover);
+  border: none;
+  border-radius: var(--radius-klein);
+  color: var(--text);
+  padding: 0.6rem 0.9rem;
+}
+.quiz-optionen button:disabled { opacity: 0.5; }
+
+/* Allgemeine Aktions-Buttons in Übungen (Prüfen, Vorlesen, Weiter …) */
+
+#uebung-inhalt > button,
+.satzbau-ziel + button,
+#pruefen, #weiter, #aufnehmen, #vorlesen, #anhoeren, #aufdecken, #ergebnis-weiter {
+  background: var(--gradient);
+  color: #0f0e17;
+  border: none;
+  border-radius: var(--radius-klein);
+  padding: 0.6rem 1.1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+@media (max-width: 480px) {
+  main { padding: 0.75rem; }
+  header.kopf { padding: 1rem 0.75rem; }
+  .karteikarte .zh { font-size: 1.5rem; }
+}
