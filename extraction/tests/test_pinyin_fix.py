@@ -38,6 +38,16 @@ def test_bindestrich_zwischen_silben_bleibt():
     assert fix_pinyin("x9ng-q0") == "xīng-qí"
 
 
+def test_tonvokal_nach_silbe_auf_n_oder_ng():
+    assert fix_pinyin("f5ngj-ng x0ngl- Sh5nt- zh7ngl- chōngx-") == "fēngjǐng xínglǐ Shēntǐ zhěnglǐ chōngxǐ"
+    assert fix_pinyin("g5ngy/n m3nz/ r7nb/zh*") == "gēngyún mǎnzú rěnbúzhù"
+    assert fix_pinyin("Y9nc- b4nl- ti1nsh- di4ny-ng g3nj-n") == "Yīncǐ bànlǐ tiānshǐ diànyǐng gǎnjǐn"
+
+
+def test_echte_bindestriche_nach_vokal_bleiben():
+    assert fix_pinyin("d=-s1n ji1ji1-h*h* r8r8-n4on4o") == "dì-sān jiājiā-hùhù rèrè-nàonào"
+
+
 def test_slash_und_caret_als_ton2_u():
     assert fix_pinyin("b/ji4n s/y& b^") == "bújiàn súyǔ bú"
 

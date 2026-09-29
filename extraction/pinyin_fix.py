@@ -5,6 +5,7 @@ Zeichen wie "-", "/", "=" oder "Č" eine andere Bedeutung.
 """
 
 import re
+import unicodedata
 
 SYMBOL_MAP = {
     "0": "í", "1": "ā", "2": "á", "3": "ǎ", "4": "à",
@@ -25,8 +26,16 @@ _ANLAUTE = ("zh", "ch", "sh", "b", "p", "m", "f", "d", "t", "n", "l", "g",
             "k", "h", "j", "q", "x", "r", "z", "c", "s", "y", "w")
 
 
+def _grundbuchstabe(zeichen: str) -> str:
+    """Tonvokal-Ersatzsymbol oder Tonvokal -> Grundvokal ("5" -> "e", "ǐ" -> "i")."""
+    zeichen = {"-": "i", "/": "u"}.get(zeichen, SYMBOL_MAP.get(zeichen, zeichen))
+    return unicodedata.normalize("NFD", zeichen)[:1] if zeichen.strip() else zeichen
+
+
 def _ist_tonvokal_position(davor: str, symbol: str) -> bool:
-    buchstaben = re.search(r"[A-Za-z]*$", davor).group().lower()
+    # Ersatzsymbole davor als Vokale lesen, sonst reißt die Silbe ab ("Sh5nt-" -> "shent")
+    grund = "".join(_grundbuchstabe(c) for c in davor)
+    buchstaben = re.search(r"[A-Za-z]*$", grund).group().lower()
     if symbol == "-" and buchstaben.endswith("u"):
         return True
     if symbol == "/" and buchstaben.endswith("i"):
@@ -34,8 +43,11 @@ def _ist_tonvokal_position(davor: str, symbol: str) -> bool:
     for anlaut in _ANLAUTE:
         if buchstaben.endswith(anlaut):
             rest = buchstaben[: -len(anlaut)]
-            # Davor muss eine Silbe mit Vokal enden. So bleibt das "g" in "ng" ein Auslaut.
-            return rest == "" or rest[-1] in "aeiou"
+            # Davor muss eine Silbe enden: auf Vokal, auf "ng" (fēngjǐng) oder auf "n"
+            # (shēntǐ). Ein "g" direkt nach "n" ist dagegen Auslaut "ng" (xīng-qí).
+            if rest == "" or rest[-1] in "aeiouü" or rest.endswith("ng"):
+                return True
+            return rest.endswith("n") and anlaut != "g"
     return False
 
 
