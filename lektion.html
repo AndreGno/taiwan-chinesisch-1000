@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lektion — 1000 Wörter Chinesisch</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="kopf">
+    <div class="kopf-zeile">
+      <a href="index.html" class="zurueck">← Alle Lektionen</a>
+      <span id="streak-badge" class="streak-badge">🔥 0 Tage</span>
+    </div>
+    <h1 id="lektion-titel">Lade…</h1>
+    <div class="fortschritt-balken"><span id="lektion-fortschritt" style="width:0%"></span></div>
+    <p class="tts-hinweis">
+      🔊 Die Aussprache wird per synthetischer Sprachausgabe des Browsers vorgelesen, nicht
+      von einer echten Sprecherin oder einem echten Sprecher.
+    </p>
+    <p id="keine-stimme-hinweis" class="tts-hinweis warnung" hidden>
+      Dieser Browser bietet keine chinesische Sprachausgabe an — probiere Chrome oder Edge.
+    </p>
+  </header>
+  <main>
+    <nav id="tabs" class="tabs"></nav>
+    <section id="tab-inhalt"></section>
+  </main>
+  <script type="module" src="js/lektion-main.js"></script>
+</body>
+</html>
