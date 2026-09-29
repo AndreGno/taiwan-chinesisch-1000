@@ -53,3 +53,71 @@ def test_fix_text_laesst_unbekannte_zeichen_unveraendert():
 
 def test_kein_eintrag_bildet_auf_mehr_als_ein_zeichen_ab():
     assert all(len(correct) == 1 for correct in BROKEN_CHAR_MAP.values())
+
+
+# --- fix_span (fontabhaengig, Runde 2) ---
+from zeichen_fix import fix_span
+
+ZHUIN = "DFPBiaoKai-W5-ZhuIn-BFW-"
+KAI_CHUIN = "DFKaiChuIn-Md-BPMW-BF-ET"
+YUAN_CHUIN = "DFYuanChuIn-Bd-BPMW-BF-E"
+
+
+def test_fix_span_lektion_1_erste_dialogzeile():
+    # Seite 8 (Lektion 1), inkl. Satzzeichen Ĉ Ă Ą ĉ
+    assert fix_span("㴿Ĉ䓗㸌Ă㻳䆛㴿䁍䞇Ą䱧䑻䞿㿢㳎㷵ĉ", ZHUIN) == "王：您好，我是王明華。請問貴姓大名？"
+
+
+def test_fix_span_satzzeichen():
+    assert fix_span("āĂăĄĈĉĊČćĞğĶķņŇƖ", ZHUIN) == "　，、。：？！…；（）「」“”→"
+
+
+def test_fix_span_satzzeichen_in_chuin_font_gleich():
+    assert fix_span("Ĉ", KAI_CHUIN) == "："
+    assert fix_span("ăĂ", YUAN_CHUIN) == "、，"
+
+
+def test_fix_span_beispiele_der_runde_1_im_zhuin_font():
+    assert fix_span("䖜㿢䑨㸀㸟", ZHUIN) == "第姓動在忙"
+    # 䖻 kommt nur im KaiChuIn-Font vor (Sprecher "售票員", Lektion 9)
+    assert fix_span("䖻", KAI_CHUIN) == "票"
+
+
+def test_fix_span_gleicher_codepoint_je_font_verschieden():
+    # 㸜: im ZhuIn-Font 年 (Seite 20 u.a.), in den ChuIn-Fonts 名 (Seite 9)
+    assert fix_span("㸜", ZHUIN) == "年"
+    assert fix_span("㸜", YUAN_CHUIN) == "名"
+    assert fix_span("㵦", KAI_CHUIN) == "王"
+
+
+def test_fix_span_korrigiert_ocr_fehler_der_runde_1():
+    # Tabelle Runde 1: 㳢->上, 䡉->媯; Seitenbild zeigt 才 bzw. 媽
+    assert fix_span("㳢䡉", ZHUIN) == "才媽"
+
+
+def test_fix_span_normale_cjk_codepoints_im_zhuin_font():
+    assert fix_span("倖兼儤令䷋", ZHUIN) == "識讓聽還錢"
+    assert fix_span("丈䫖", ZHUIN) == "儲蓄"
+
+
+def test_fix_span_big5_level_2_nach_reserviertem_bereich():
+    # 澣/澦 liegen hinter C6A1-C8FE -> ETen-Erweiterung F9D8 裏 / F9DB 粧
+    assert fix_span("澣澦", ZHUIN) == "裏粧"
+
+
+def test_fix_span_u3ccb_je_font():
+    assert fix_span("㳋", ZHUIN) == "土"
+    assert fix_span("㳋", YUAN_CHUIN) == "一"
+
+
+def test_fix_span_laesst_pinyin_und_deutsch_unveraendert():
+    assert fix_span("Dàw Č i ā Ɨ", "TimesNewRomanPSMT") == "Dàw Č i ā Ɨ"
+    assert fix_span("m0ngzi", "PintoneTimes") == "m0ngzi"
+
+
+def test_fix_span_laesst_ascii_im_hanzi_font_unveraendert():
+    assert fix_span(")㸍*!2/", ZHUIN) == ")她*!2/"
+
+
+def test_fix_span_unbekannter_font_laesst_echte_hanzi_stehen():
+    assert fix_span("兼　", "AdobeMingStd-Light-ETen-") == "兼　"

@@ -3,7 +3,13 @@ eigentlich gemeinten CJK-Unified-Ideographs. Ermittelt durch OCR-gestuetztes
 Scannen (Tesseract chi_tra) aller Lektionsseiten samt manueller Sichtpruefung
 anhand der im PDF eingebetteten Zhuyin-Lautschrift-Annotation. Siehe
 extraction/scan_zeichen.py und extraction/apply_manual_verification.py fuer
-die Herleitung."""
+die Herleitung.
+
+VERALTET: BROKEN_CHAR_MAP / fix_text gelten fontunabhaengig pro Codepoint. Die
+Hanzi-Fonts des PDFs kodieren aber verschieden (siehe fix_span unten), deshalb
+liefert die Tabelle ausserhalb des Fonts DFPBiaoKai-W5-ZhuIn-BFW- teils falsche
+Zeichen und enthaelt auch fuer diesen Font OCR-Fehler. Fuer den Lektions-Parser
+fix_span(span_text, span_font) verwenden."""
 
 BROKEN_CHAR_MAP = {
     "㲤": "一", "㲦": "丁", "㲧": "七", "㲩": "九",
@@ -335,3 +341,61 @@ def fix_text(text: str) -> str:
     for broken, correct in BROKEN_CHAR_MAP.items():
         text = text.replace(broken, correct)
     return text
+
+
+# --- Runde 2: fontabhaengige Dekodierung --------------------------------------
+# Die Hanzi-Fonts legen ihre Glyphen in Big5-Reihenfolge ab, PyMuPDF liest die
+# Glyph-Nummer als Codepoint:
+#   Satzzeichen/Symbole Big5 A140-A3FE  ->  ab U+0101 (A140 = U+0101)
+#   Hanzi ab Big5 A440                  ->  ab U+3CA4 + Font-Offset
+# Der reservierte Big5-Bereich C6A1-C8FE (408 Plaetze) hat keine Glyphen, danach
+# (Level 2 und ETen-Erweiterung F9D6 ff.) ruecken die Glyphen um 408 nach vorn.
+# Verifiziert per Sichtpruefung aller Codepoints jenseits von Ext-A und aller
+# Abweichungen zur Runde-1-Tabelle (extraction/verify_*, crops3/).
+BIG5_FONT_OFFSETS = {
+    "DFPBiaoKai-W5-ZhuIn-BFW-": 0,
+    "DFKaiChuIn-Md-BPMW-BF-ET": 39,
+    "DFYuanChuIn-Bd-BPMW-BF-E": 39,
+    "DFGirlChuIn-Bd-BPMW-BF-E": 39,
+}
+
+_PUNKT_START = 0x0101
+_PUNKT_ANZAHL = 3 * 157 + 94  # A140-A3FE
+_HANZI_START = 0x3CA4
+_LEVEL1_ANZAHL = 5401  # A440-C67E
+_RESERVIERT = 408  # C6A1-C8FE
+
+
+def _big5_zeichen(lead_start: int, index: int) -> str | None:
+    lead = lead_start + index // 157
+    rest = index % 157
+    trail = 0x40 + rest if rest < 63 else 0xA1 + rest - 63
+    if lead > 0xFE:
+        return None
+    try:
+        return bytes([lead, trail]).decode("cp950")
+    except UnicodeDecodeError:
+        return None
+
+
+def _big5_dekodieren(zeichen: str, offset: int) -> str:
+    cp = ord(zeichen)
+    if _PUNKT_START <= cp < _PUNKT_START + _PUNKT_ANZAHL:
+        return _big5_zeichen(0xA1, cp - _PUNKT_START) or zeichen
+    index = cp - _HANZI_START - offset
+    if index < 0:
+        return zeichen
+    if index >= _LEVEL1_ANZAHL:
+        index += _RESERVIERT
+    return _big5_zeichen(0xA4, index) or zeichen
+
+
+def fix_span(text: str, font: str) -> str:
+    """Dekodiert den Text EINES PyMuPDF-Spans anhand seines Fontnamens.
+
+    Spans in unbekannten Fonts (Deutsch, Pinyin, Seitenzahlen ...) bleiben
+    unveraendert, ebenso ASCII-Zeichen in den Hanzi-Fonts."""
+    offset = BIG5_FONT_OFFSETS.get(font)
+    if offset is None:
+        return text
+    return "".join(c if ord(c) < 0x80 else _big5_dekodieren(c, offset) for c in text)
