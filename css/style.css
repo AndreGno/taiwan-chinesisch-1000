@@ -163,7 +163,7 @@ main {
   transform: translateY(-2px);
   background: var(--karte-bg-hover);
 }
-.lektion-karte.besucht { border-left: 3px solid var(--gruen); }
+.lektion-karte.besucht { box-shadow: var(--glow), inset 0 0 0 1px var(--gruen); }
 
 .lektion-karte .zh { font-size: 1.1rem; margin: 0 0 0.25rem; overflow-wrap: anywhere; }
 .lektion-karte .de { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 0.6rem; overflow-wrap: anywhere; }
