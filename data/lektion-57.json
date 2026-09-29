@@ -6,7 +6,7 @@
     {
       "sprecher": "李先生",
       "zh": "晚上一塊兒去看電影好嗎？",
-      "pinyin": "Wǎnshang yíkuàir qù kàn diàny-ng hǎo ma",
+      "pinyin": "Wǎnshang yíkuàir qù kàn diànyǐng hǎo ma",
       "de": "Lass uns heute Abend zusammen ins Kino gehen."
     },
     {
@@ -18,7 +18,7 @@
     {
       "sprecher": "李先生",
       "zh": "你想看哪一類的電影呢？",
-      "pinyin": "Nǐ xiǎng kàn nǎ yí lèi de diàny-ng ne",
+      "pinyin": "Nǐ xiǎng kàn nǎ yí lèi de diànyǐng ne",
       "de": "Welche Art von Film möchtest du gerne ansehen?"
     },
     {
@@ -42,7 +42,7 @@
     {
       "sprecher": "李先生",
       "zh": "好吧，就看這部電影。",
-      "pinyin": "Hǎo ba jiù kàn zhè bù diàny-ng",
+      "pinyin": "Hǎo ba jiù kàn zhè bù diànyǐng",
       "de": "O.K. Dann sehen wir uns diesen Film an."
     },
     {
@@ -55,7 +55,7 @@
   "vokabeln": [
     {
       "zh": "電影",
-      "pinyin": "diàny-ng",
+      "pinyin": "diànyǐng",
       "de": "der Kinofilm"
     },
     {

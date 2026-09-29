@@ -6,7 +6,7 @@
     {
       "sprecher": "王先生",
       "zh": "聽說您住院了，趕緊來看您，好點兒了嗎？",
-      "pinyin": "Tīngshuō nín zhùyuàn le gǎnj-n lái kàn nín hǎo diǎnr le ma",
+      "pinyin": "Tīngshuō nín zhùyuàn le gǎnjǐn lái kàn nín hǎo diǎnr le ma",
       "de": "Ich habe gehört, dass Sie im Krankenhaus sind. Deshalb bin ich sofort gekommen, um Sie zu besuchen. Geht es Ihnen besser?"
     },
     {
@@ -30,7 +30,7 @@
     {
       "sprecher": "王先生",
       "zh": "喝酒對身體只有害處沒有好處。",
-      "pinyin": "Hē jiǔ duì shēnt- zhǐyǒu hàichù méiyǒu hǎochù",
+      "pinyin": "Hē jiǔ duì shēntǐ zhǐyǒu hàichù méiyǒu hǎochù",
       "de": "Trinken bringt dem Körper nur Schaden und keinen Nutzen."
     },
     {
@@ -42,7 +42,7 @@
     {
       "sprecher": "王先生",
       "zh": "對啊，身體健康，做起事來才有精神。",
-      "pinyin": "Duì a shēnt- jiànkāng zuò qǐ shì lái cái yǒu jīngshen",
+      "pinyin": "Duì a shēntǐ jiànkāng zuò qǐ shì lái cái yǒu jīngshen",
       "de": "Ja, nur wenn man gesund ist, kann man mit voller Energie arbeiten."
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "zh": "趕緊",
-      "pinyin": "gǎnj-n",
+      "pinyin": "gǎnjǐn",
       "de": "sich beeilen"
     },
     {

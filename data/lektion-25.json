@@ -18,13 +18,13 @@
     {
       "sprecher": "莉莉",
       "zh": "山上的風景怎樣？有沒有拍照片呢？",
-      "pinyin": "Shān shàng de fēngj-ng zěnyàng Yǒuméiyǒu pāi zhàopiàn ne",
+      "pinyin": "Shān shàng de fēngjǐng zěnyàng Yǒuméiyǒu pāi zhàopiàn ne",
       "de": "Wie war die Aussicht auf dem Berg? Haben Sie Bilder aufgenommen?"
     },
     {
       "sprecher": "方先生",
       "zh": "風景太美了。我照了很多彩色照片和幻燈片。",
-      "pinyin": "Fēngj-ng tài měi le Wǒ zhàole hěn duō cǎisè zhàopiàn hé huàndēng piàn",
+      "pinyin": "Fēngjǐng tài měi le Wǒ zhàole hěn duō cǎisè zhàopiàn hé huàndēng piàn",
       "de": "Die Landschaft ist einfach fantastisch. Ich habe viele Farbfotos und Dias aufgenommen"
     },
     {
@@ -48,7 +48,7 @@
     {
       "sprecher": "方先生",
       "zh": "謝謝。不過沖洗這些照片，可花了我不少錢。",
-      "pinyin": "Xièxie Búguò chōngx- zhèxiē zhàopiàn kě huāle wǒ bùshǎo qián",
+      "pinyin": "Xièxie Búguò chōngxǐ zhèxiē zhàopiàn kě huāle wǒ bùshǎo qián",
       "de": "Danke sehr. Das Entwickeln dieser Bilder hat mir aber viel Geld gekostet."
     }
   ],
@@ -100,7 +100,7 @@
     },
     {
       "zh": "沖洗",
-      "pinyin": "chōngx-",
+      "pinyin": "chōngxǐ",
       "de": "das Foto entwickeln"
     },
     {

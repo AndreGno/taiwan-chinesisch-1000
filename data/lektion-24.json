@@ -24,13 +24,13 @@
     {
       "sprecher": "方先生",
       "zh": "聽說阿里山的風景很不錯，我老早就想去了。",
-      "pinyin": "Tīngshuō Alǐ Shān de fēngj-ng hěn búcuò wǒ lǎo zǎo jiù xiǎng qù le",
+      "pinyin": "Tīngshuō Alǐ Shān de fēngjǐng hěn búcuò wǒ lǎo zǎo jiù xiǎng qù le",
       "de": "Ich habe von der schönen Landschaft um dem Ali Berg gehört. Ich wollte schon lange dorthin gehen."
     },
     {
       "sprecher": "王先生",
       "zh": "阿里山的風景美得像圖畫一樣。",
-      "pinyin": "Alǐ Shān de fēngj-ng měi de xiàng túhuà yíyàng",
+      "pinyin": "Alǐ Shān de fēngjǐng měi de xiàng túhuà yíyàng",
       "de": "Die Landschaft am Ali Berg ist so schön wie auf einem Gemälde."
     },
     {
@@ -48,7 +48,7 @@
     {
       "sprecher": "方先生",
       "zh": "我要把美麗的風景都照下來。",
-      "pinyin": "Wǒ yào bǎ měilì de fēngj-ng dōu zhào xiàlái",
+      "pinyin": "Wǒ yào bǎ měilì de fēngjǐng dōu zhào xiàlái",
       "de": "Ich möchte die gesamte wunderschöne Landschaft fotografieren."
     }
   ],
@@ -75,7 +75,7 @@
     },
     {
       "zh": "風景",
-      "pinyin": "fēngj-ng",
+      "pinyin": "fēngjǐng",
       "de": "die Landschaft, die Aussicht"
     },
     {
