@@ -1,0 +1,138 @@
+{
+  "nummer": 17,
+  "titel_zh": "買郵票",
+  "titel_de": "Briefmarken kaufen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "小姐，我要買郵票。",
+      "pinyin": "Xiǎojiě wǒ yào mǎi yóupiào",
+      "de": "Guten Tag, ich möchte Briefmarken kaufen."
+    },
+    {
+      "sprecher": "職員A",
+      "zh": "買郵票，請到三號窗口。",
+      "pinyin": "Mǎi yóupiào qǐng dào sān hào chuāngkǒu",
+      "de": "Um Briefmarken zu kaufen, gehen Sie bitte zum dritten Schalter."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我有兩封航空信，想寄到美國去，要貼多少錢的郵票？",
+      "pinyin": "Wǒ yǒu liǎng fēng hángkōngxìn xiǎng jì dào Měiguó qù yào tiē duōshao qián de yóupiào",
+      "de": "Ich habe zwei Luftpostbriefe, die ich in die USA schicken möchte. Wie viel kostet ein Luftpostbrief?"
+    },
+    {
+      "sprecher": "職員B",
+      "zh": "我給您秤一秤，看看有沒有過重。",
+      "pinyin": "Wǒ gěi nín chèngyíchèng kànkan yǒu méiyǒu guò zhòng",
+      "de": "Ich wiege sie mal, um zu sehen, ob sie zu schwer sind.."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "麻煩您了。我還要買兩封寄到日本的郵簡。",
+      "pinyin": "Máfan nín le wǒ hái yào mǎi liǎng fēng jì dào Rìběn de yóujiǎn.",
+      "de": "Danke für die Mühe. Ich möchte noch zwei Luftpostbriefpapiere für Japan kaufen."
+    },
+    {
+      "sprecher": "職員B",
+      "zh": "這是您的郵票和郵簡。",
+      "pinyin": "Zhè shì nín de yóupiào hé yóujiǎn",
+      "de": "Hier sind Ihre Briefmarken und Luftpostbriefpapiere."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我在哪兒寄信呢？",
+      "pinyin": "Wǒ zài nàr jì xìn ne",
+      "de": "Wo gebe ich die Briefe ab?"
+    },
+    {
+      "sprecher": "職員B",
+      "zh": "貼了郵票，投到郵筒裏就行了。",
+      "pinyin": "Tiēle yóupiào tóu dào yóutǒng lǐ jiù xíng le",
+      "de": "Nachdem Sie diese frankiert haben, genügt es, wenn Sie sie in den Briefkasten werfen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "郵票",
+      "pinyin": "yóupiào",
+      "de": "die Briefmarke"
+    },
+    {
+      "zh": "日本",
+      "pinyin": "Rìběn",
+      "de": "Japan"
+    },
+    {
+      "zh": "窗口",
+      "pinyin": "chuāngkǒu",
+      "de": "der Schalter"
+    },
+    {
+      "zh": "郵簡",
+      "pinyin": "yóujiǎn",
+      "de": "das Luftpostbriefpapier, der Luftpostleichtbrief"
+    },
+    {
+      "zh": "航空信",
+      "pinyin": "hángkōngxìn",
+      "de": "die Luftpost, der Luftpostbrief"
+    },
+    {
+      "zh": "投",
+      "pinyin": "tóu",
+      "de": "(ein)werfen"
+    },
+    {
+      "zh": "貼",
+      "pinyin": "tiē",
+      "de": "aufkleben, frankieren"
+    },
+    {
+      "zh": "郵筒",
+      "pinyin": "yóutǒng",
+      "de": "der Briefkasten"
+    },
+    {
+      "zh": "秤",
+      "pinyin": "chèng",
+      "de": "wiegen"
+    },
+    {
+      "zh": "行",
+      "pinyin": "xíng",
+      "de": "in Ordnung, es genügt"
+    },
+    {
+      "zh": "過重",
+      "pinyin": "guò zhòng",
+      "de": "zu schwer"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "給……",
+      "erklaerung": "介詞：1.替、被、為。 2.與。如：「送給」、「借給」。 3.向。如：「快給他說謝謝」。 4.被。如：「大家都給他騙了」。",
+      "beispiele": [
+        "我給您秤一秤。",
+        "你給我拿些吃的！"
+      ],
+      "uebungen": [
+        "他給我買（　）。",
+        "張先生給大家帶來（　）。"
+      ]
+    },
+    {
+      "titel": "……和……",
+      "erklaerung": "連接詞，與、跟。",
+      "beispiele": [
+        "這是您的郵票和郵簡。",
+        "我和他是好朋友。"
+      ],
+      "uebungen": [
+        "今年的（　）都很好吃。",
+        "這是我的（　）。"
+      ]
+    }
+  ]
+}

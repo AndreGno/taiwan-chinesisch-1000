@@ -1,0 +1,133 @@
+{
+  "nummer": 60,
+  "titel_zh": "探望祖父母",
+  "titel_de": "Die Großeltern besuchen",
+  "dialog": [
+    {
+      "sprecher": "蓓蒂",
+      "zh": "暑假有什麼安排嗎？",
+      "pinyin": "Shǔjià yǒu shénme ānpái ma",
+      "de": "Hast du irgendwelche Pläne für die Sommerferien?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "明天我就要回臺灣去探望我的祖父母了。",
+      "pinyin": "Míngtiān wǒ jiù yào huí Táiwān qù tànwàng wǒ de zǔfùmǔ le",
+      "de": "Morgen fliege ich nach Taiwan, um meine Großeltern zu besuchen."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "我也很想念我的爺爺、奶奶，可惜不能回去。",
+      "pinyin": "Wǒ yě hěn xiǎngniàn wǒ de yéye nǎinai kěxí bù néng huíqù",
+      "de": "Ich vermisse meinen Großvater und meine Großmutter auch sehr. Es ist schade, dass ich nicht zurück gehen kann."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "這次回臺灣，我母親還有一個要求呢。",
+      "pinyin": "Zhè cì huí Táiwān wǒ mǔqīn hái yǒu yí ge yāoqiú ne",
+      "de": "Meine Mutter hat diesmal für meine Reise nach Taiwan sogar eine Bedingung gestellt."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "什麼要求？一定是不准你跟弟弟吵架。",
+      "pinyin": "Shénme yāoqiú Yídìng shì bù zhǔn nǐ gēn dìdi chǎojià",
+      "de": "Welche Bedingung? Bestimmt, dass du dich nicht mehr mit deinem jüngeren Bruder streiten sollst."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "不是。母親規定我們，在臺灣不准說英文。",
+      "pinyin": "Bú shì Mǔqīn guīdìng wǒmen zài Táiwān bù zhǔn shuō Yīngwén",
+      "de": "Nein, meine Mutter hat die Regel aufgestellt, dass wir in Taiwan kein Wort Englisch sprechen dürfen."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "不管怎樣，我還是羨慕你能夠回臺灣渡假。",
+      "pinyin": "Bùguǎn zěnyàng wǒ háishì xiànmù nǐ nénggòu huí Táiwān dùjià",
+      "de": "Trotzdem beneide ich dich, dass du deine Ferien in Taiwan verbringen kannst."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我要去收拾行李了，到了臺灣再寫信給你。",
+      "pinyin": "Wǒ yào qù shōushi xíngl- le dàole Táiwān zài xiě xìn gěi nǐ",
+      "de": "Ich gehe jetzt mein Gepäck packen. Ich werde dir schreiben, wenn ich in Taiwan angekommen bin."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "祖父母",
+      "pinyin": "zǔfùmǔ",
+      "de": "die Großeltern"
+    },
+    {
+      "zh": "要求",
+      "pinyin": "yāoqiú",
+      "de": "die Bedingung"
+    },
+    {
+      "zh": "安排",
+      "pinyin": "ānpái",
+      "de": "arrangieren"
+    },
+    {
+      "zh": "吵架",
+      "pinyin": "chǎojià",
+      "de": "streiten"
+    },
+    {
+      "zh": "想念",
+      "pinyin": "xiǎngniàn",
+      "de": "vermissen"
+    },
+    {
+      "zh": "規定",
+      "pinyin": "guīdìng",
+      "de": "regeln"
+    },
+    {
+      "zh": "爺爺",
+      "pinyin": "yéye",
+      "de": "der Großvater"
+    },
+    {
+      "zh": "渡假",
+      "pinyin": "dùjià",
+      "de": "Urlaub machen"
+    },
+    {
+      "zh": "奶奶",
+      "pinyin": "nǎinai",
+      "de": "die Großmutter"
+    },
+    {
+      "zh": "收拾",
+      "pinyin": "shōushi",
+      "de": "packen, aufräumen"
+    },
+    {
+      "zh": "不管",
+      "pinyin": "bùguǎn",
+      "de": "trotzdem"
+    },
+    {
+      "zh": "羨慕",
+      "pinyin": "xiànmù",
+      "de": "beneiden"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不管……還是……",
+      "erklaerung": "這種複句表示在任何條件下都會產生第二句所說的結果。",
+      "beispiele": [
+        "不管你去還是不去，我都要去。",
+        "不管價錢便宜還是貴，我都要買。",
+        "不管晴天還是雨天，我們都要準時出發。"
+      ],
+      "uebungen": [
+        "（　）你要參加（　）不要參加，我都要參加。",
+        "（　）你買（　）不買，我都要買。",
+        "（　）你喝（　）不喝，我都要喝。"
+      ]
+    }
+  ]
+}

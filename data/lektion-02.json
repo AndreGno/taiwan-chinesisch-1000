@@ -1,0 +1,127 @@
+{
+  "nummer": 2,
+  "titel_zh": "早安",
+  "titel_de": "Guten Morgen",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "方先生，您早。",
+      "pinyin": "Fāng xiānsheng nín zǎo",
+      "de": "Guten Morgen, Herr Fang."
+    },
+    {
+      "sprecher": "方",
+      "zh": "早安，王先生。您今天好嗎？",
+      "pinyin": "Zǎoān wáng xiānsheng Nín jīntiān hǎo ma",
+      "de": "Guten Morgen, Herr Wang. Geht es Ihnen heute gut?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "我很好。方太太好嗎？",
+      "pinyin": "Wǒ hěn hǎo Fāng tàitai hǎo ma",
+      "de": "Mir geht es gut. Wie geht es Frau Fang?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "她很好。謝謝您。",
+      "pinyin": "Tā hěn hǎo Xièxie nín",
+      "de": "Es geht ihr gut. Danke Ihrer Nachfrage."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您一切都習慣了嗎？",
+      "pinyin": "Nín yíqiè dōu xíguàn le ma",
+      "de": "Haben Sie sich an alles gewöhnt?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "都習慣了，謝謝。您要上哪兒去？",
+      "pinyin": "Dōu xíguàn le xièxie Nín yào shàng nǎr qù",
+      "de": "Ja, ich habe mich eingewöhnt, danke schön. Wohin wollen Sie gehen?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "我要去公園運動。",
+      "pinyin": "Wǒ yào qù gōngyuán yùndòng",
+      "de": "Ich will im Park Sport treiben."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "早安",
+      "pinyin": "zǎoān",
+      "de": "Guten Morgen"
+    },
+    {
+      "zh": "今天",
+      "pinyin": "jīntiān",
+      "de": "heute"
+    },
+    {
+      "zh": "很",
+      "pinyin": "hěn",
+      "de": "sehr"
+    },
+    {
+      "zh": "太太",
+      "pinyin": "tàitai",
+      "de": "die Ehefrau"
+    },
+    {
+      "zh": "謝謝",
+      "pinyin": "xièxie",
+      "de": "vielen Dank, danke schön"
+    },
+    {
+      "zh": "一切",
+      "pinyin": "yíqiè",
+      "de": "im Großen und Ganzen"
+    },
+    {
+      "zh": "都",
+      "pinyin": "dōu",
+      "de": "alle, beide"
+    },
+    {
+      "zh": "習慣",
+      "pinyin": "xíguàn",
+      "de": "eingewöhnen, angewöhnen, die Gewohnheit"
+    },
+    {
+      "zh": "公園",
+      "pinyin": "gōngyuán",
+      "de": "der Park"
+    },
+    {
+      "zh": "運動",
+      "pinyin": "yùndòng",
+      "de": "Sport treiben"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……嗎",
+      "erklaerung": "助詞：1.表示疑問的語氣。 2.表示停頓的語氣，有提示下文的作用。",
+      "beispiele": [
+        "您一切都習慣了嗎？",
+        "這個嗎，讓我再好好的想一想。"
+      ],
+      "uebungen": [
+        "明天的考試一切都（　）？",
+        "小梅的生日宴嗎，我們都（　）。"
+      ]
+    },
+    {
+      "titel": "上……去",
+      "erklaerung": "「去一個地方」的另一種說法，要去的地方放在「上」與「去」的中間。",
+      "beispiele": [
+        "我明天想上台北去。 → 我明天想去台北。",
+        "你走了半天，到底想上哪兒去？ → 你走了半天，到底想去哪兒？"
+      ],
+      "uebungen": [
+        "今天你想去哪裡？ → （　）",
+        "天氣很好，我們去哪裡玩呢？ → （　）"
+      ]
+    }
+  ]
+}

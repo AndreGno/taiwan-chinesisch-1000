@@ -1,0 +1,117 @@
+{
+  "nummer": 15,
+  "titel_zh": "通知",
+  "titel_de": "Benachrichtigen",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "方小姐，明天上午要開會，你通知李先生了嗎？",
+      "pinyin": "Fāng xiǎojie míngtiān shàngwǔ yào kāihuì nǐ tōngzhī Lǐ xiānsheng le ma",
+      "de": "Frau Fang, morgen vormittags ist eine Sitzung. Haben Sie Herrn Li benachrichtigt?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我撥了半天電話，總是通話中。",
+      "pinyin": "Wǒ bōle bàntiān diànhuà zǒngshì tōnghuà zhōng",
+      "de": "Ich habe ständig versucht ihn anzurufen. Die Leitung war aber immer besetzt."
+    },
+    {
+      "sprecher": "王",
+      "zh": "你可以到他的辦公室去找他。",
+      "pinyin": "Nǐ kěyǐ dào tā de bàngōngshì qù zhǎo tā",
+      "de": "Sie können ihn in seinem Büro suchen."
+    },
+    {
+      "sprecher": "方",
+      "zh": "去過了，李先生不在辦公室。",
+      "pinyin": "Qùguò le Lǐ xiānsheng bú zài bàngōngshì",
+      "de": "Dort bin ich schon hingegangen. Herr Li ist nicht im Büro."
+    },
+    {
+      "sprecher": "王",
+      "zh": "你給他留話了嗎？",
+      "pinyin": "Nǐ gěi tā liú huà le ma",
+      "de": "Haben Sie eine Nachricht für ihn hinterlassen?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "沒有，我過一會兒再打電話給他。",
+      "pinyin": "Méiyǒu wǒ guò yìhuǐr zài dǎ diànhuà gěi tā",
+      "de": "Nein, ich werde ihn in Kürze noch einmal anrufen."
+    },
+    {
+      "sprecher": "王",
+      "zh": "這件事很重要，今天一定要通知到他。",
+      "pinyin": "Zhè jiàn shì hěn zhòngyào jīntiān yídìng yāo tōngzhī dào tā",
+      "de": "Diese Sache ist sehr wichtig. Er muss unbedingt heute benachrichtigt werden."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "開會",
+      "pinyin": "kāihuì",
+      "de": "an einer Sitzung teilnehmen"
+    },
+    {
+      "zh": "通知",
+      "pinyin": "tōngzhī",
+      "de": "mitteilen, benachrichtigen"
+    },
+    {
+      "zh": "總是",
+      "pinyin": "zǒngshì",
+      "de": "ununterbrochen, immer"
+    },
+    {
+      "zh": "辦公室",
+      "pinyin": "bàngōngshì",
+      "de": "das Büro"
+    },
+    {
+      "zh": "留話",
+      "pinyin": "liú huà",
+      "de": "eine Nachricht hinterlassen"
+    },
+    {
+      "zh": "沒有",
+      "pinyin": "méiyǒu",
+      "de": "nein, nicht, kein"
+    },
+    {
+      "zh": "一會兒",
+      "pinyin": "yìhuǐr",
+      "de": "eine Weile, in Kürze, ein Moment"
+    },
+    {
+      "zh": "重要",
+      "pinyin": "zhòngyào",
+      "de": "wichtig"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……過",
+      "erklaerung": "助詞：1.與「來」、「去」等動詞連用，表示動作的趨向。 2.用於動詞後面，表示曾經或已經的意思。",
+      "beispiele": [
+        "我去過了，李先生不在辦公室。",
+        "大家都聽過這件事。"
+      ],
+      "uebungen": [
+        "走（　）來、跳（　）去。",
+        "你聽（　）這個故事嗎？"
+      ]
+    },
+    {
+      "titel": "一定……",
+      "erklaerung": "表示非常確定、非如此不可的語氣。",
+      "beispiele": [
+        "這件事很重要，今天一定要通知到他。",
+        "這次比賽，他一定要得到冠軍才行！"
+      ],
+      "uebungen": [
+        "這條項鍊好漂亮，一定（　）。",
+        "日月潭這麼美，一定（　）。"
+      ]
+    }
+  ]
+}

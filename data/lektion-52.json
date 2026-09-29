@@ -1,0 +1,128 @@
+{
+  "nummer": 52,
+  "titel_zh": "買一雙鞋",
+  "titel_de": "Schuhe kaufen",
+  "dialog": [
+    {
+      "sprecher": "店員",
+      "zh": "小姐，您喜歡哪一雙鞋？拿給您試穿一下好嗎？",
+      "pinyin": "Xiǎojiě nín xǐhuan nǎ yì shuāng xié Ná gěi nín shì chuān yíxià hǎo ma",
+      "de": "Guten Tag, welches Paar Schuhe gefällt Ihnen? Ich kann Ihnen ein Paar zum Anprobieren holen."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "我想試試那雙紅色的高跟鞋。",
+      "pinyin": "Wǒ xiǎng shìshi nèi shuāng hóngsè de gāogēnxié",
+      "de": "Ich möchte diese roten Schuhe mit den hohen Absätzen anprobieren."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "這個款式沒有您要的尺寸。試試那雙黑色的好嗎？",
+      "pinyin": "Zhège kuǎnshì méiyǒu nín yào de chǐcùn Shìshi nèi shuāng hēisè de hǎo ma",
+      "de": "Dieses Paar gibt es leider nicht mehr in Ihrer Größe. Wollen Sie die schwarzen anprobieren?"
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "樣式還不錯，可是鞋跟太低了。",
+      "pinyin": "Yàngshì hái búcuò kěshì xié gēn tài dī le",
+      "de": "Sie sehen nicht schlecht aus, aber die Absätze sind zu flach."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "鞋跟低走起路來比較舒服。而且這雙是小羊皮做的，質地很柔軟。",
+      "pinyin": "diànyuán Xiégēn dī zǒu qǐ lù lái bǐjiào shūfu Erqiě zhè shuāng shì xiǎo yángpí zuò de zhídì hěn róuruǎn",
+      "de": "Flache Schuhe sind bequem zum Laufen. Außerdem sind diese Schuhe aus Nappaleder, das sehr weich ist."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "大小正好，可是價錢高了一點兒。",
+      "pinyin": "Dàxiǎo zhènghǎo kěshì jiàqián gāo le yìdiǎnr",
+      "de": "Die Größe ist perfekt, aber der Preis ist etwas hoch."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "「一分錢，一分貨」，我們的價錢很實在的。",
+      "pinyin": "Yì fēn qián yì fēn huò wǒmen de jiàqián hěn shízài de",
+      "de": "Qualität hat ihren Preis. Unsere Preise sind fair."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "我多看看幾雙再來決定吧！",
+      "pinyin": "Wǒ duō kànkan jǐ shuāng zài lái juédìng ba",
+      "de": "Ich sehe mich erst einmal nach anderen Schuhen um, dann werde ich mich entscheiden."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "雙",
+      "pinyin": "shuāng",
+      "de": "das Paar ( Schuhe)"
+    },
+    {
+      "zh": "小羊皮",
+      "pinyin": "xiǎo yángpí",
+      "de": "das Nappaleder"
+    },
+    {
+      "zh": "鞋",
+      "pinyin": "xié",
+      "de": "der Schuh"
+    },
+    {
+      "zh": "質地",
+      "pinyin": "zhídì",
+      "de": "die Qualität"
+    },
+    {
+      "zh": "試穿",
+      "pinyin": "shì chuān",
+      "de": "anprobieren"
+    },
+    {
+      "zh": "價錢",
+      "pinyin": "jiàqián",
+      "de": "der Preis"
+    },
+    {
+      "zh": "高跟鞋",
+      "pinyin": "gāogēnxié",
+      "de": "die Stöckelschuhe"
+    },
+    {
+      "zh": "實在",
+      "pinyin": "shízài",
+      "de": "fair"
+    },
+    {
+      "zh": "鞋跟",
+      "pinyin": "xié gēn",
+      "de": "der Schuhabsatz"
+    },
+    {
+      "zh": "一分錢，一分貨",
+      "pinyin": "yì fēn qián yì fēn huò",
+      "de": "Qualität hat ihren Preis"
+    },
+    {
+      "zh": "低",
+      "pinyin": "dī",
+      "de": "niedrig"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "V+V動詞重疊",
+      "erklaerung": "多數動詞可以重疊，例如：「看看」、「玩玩」、「考慮考慮」。動詞重疊常有「嘗試」的意思。如果動詞是僅有一次、無法重複的，就不能用重疊的形式，例如：「決定」、「出發」等等。",
+      "beispiele": [
+        "您考慮考慮再決定吧！",
+        "你要多讀讀課外讀物，寫作能力才會增強",
+        "每個人都說說自己的看法，才能得到共識",
+        "你先吃吃看好不好吃，再決定要不要買。"
+      ],
+      "uebungen": [
+        "要常動腦，才會愈來愈聰明。 → （　）",
+        "這件事，我必須和家人討論再說。 → （　）"
+      ]
+    }
+  ]
+}

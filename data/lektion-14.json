@@ -1,0 +1,139 @@
+{
+  "nummer": 14,
+  "titel_zh": "新住址",
+  "titel_de": "Neue Adresse",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "林小姐，聽說您最近搬家了。",
+      "pinyin": "Lín xiǎojie tīngshuō nín zuìjìn bānjiā le",
+      "de": "Frau Lin, ich habe gehört, dass Sie vor kurzem umgezogen sind."
+    },
+    {
+      "sprecher": "林",
+      "zh": "是上個月搬的。",
+      "pinyin": "Shì shàng ge yuè bān de",
+      "de": "Das war letzten Monat."
+    },
+    {
+      "sprecher": "王",
+      "zh": "現在住在哪兒呢？",
+      "pinyin": "Xiànzài zhù zài nǎr ne",
+      "de": "Wo wohnen Sie jetzt?"
+    },
+    {
+      "sprecher": "林",
+      "zh": "我的新地址是仁愛路三段三百二十巷十號。",
+      "pinyin": "Wǒ de xīn dìzhǐ shì Rénài Lù sānduàn sānbǎi èrshí xiàng shí hào",
+      "de": "Meine jetzige Adresse ist Nummer 10, Gasse 320, der 3.Sektion der Ren-ai Straße."
+    },
+    {
+      "sprecher": "王",
+      "zh": "離我家很近，我就住在仁愛路二段。",
+      "pinyin": "Lí wǒ jiā hěn jìn wǒ jiù zhù zài Rénài Lù èrduàn",
+      "de": "Das ist in der Nähe von meinem Haus. Ich wohne nämlich in der 2. Sektion der Ren- ai Straße."
+    },
+    {
+      "sprecher": "林",
+      "zh": "您上班方便嗎？",
+      "pinyin": "Nín shàngbān fāngbiàn ma",
+      "de": "Können Sie einfach zur Arbeit gehen?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "很方便，十五分鐘就到了。",
+      "pinyin": "Hěn fāngbiàn shíwǔ fēn zhōng jiù dào le",
+      "de": "Sehr einfach. Ich bin in 15 Minuten dort."
+    },
+    {
+      "sprecher": "林",
+      "zh": "如果有空，歡迎到我家坐坐。",
+      "pinyin": "Rúguǒ yǒukòng huānyíng dào wǒ jiā zuòzuo",
+      "de": "Wenn Sie Zeit haben, sind Sie herzlich willkommen bei mir zu Hause ."
+    },
+    {
+      "sprecher": "王",
+      "zh": "謝謝，改天有空一定去拜訪您。",
+      "pinyin": "Xièxie gǎitiān yǒu kòng yídìng qù bàifǎng nín",
+      "de": "Danke sehr, wenn ich einmal Zeit habe, besuche ich Sie bestimmt."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "最近",
+      "pinyin": "zuìjìn",
+      "de": "in letzter Zeit, vor kurzem"
+    },
+    {
+      "zh": "搬家",
+      "pinyin": "bānjiā",
+      "de": "umziehen"
+    },
+    {
+      "zh": "上個月",
+      "pinyin": "shàng ge yuè",
+      "de": "letzter Monat"
+    },
+    {
+      "zh": "地址",
+      "pinyin": "dìzhǐ",
+      "de": "die Adresse"
+    },
+    {
+      "zh": "仁愛路",
+      "pinyin": "Rénài Lù",
+      "de": "Ren-ai Straße"
+    },
+    {
+      "zh": "段",
+      "pinyin": "duàn",
+      "de": "der Abschnitt, die Sektion"
+    },
+    {
+      "zh": "巷",
+      "pinyin": "xiàng",
+      "de": "die Gasse"
+    },
+    {
+      "zh": "方便",
+      "pinyin": "fāngbiàn",
+      "de": "praktisch, einfach"
+    },
+    {
+      "zh": "歡迎",
+      "pinyin": "huānyíng",
+      "de": "willkommen"
+    },
+    {
+      "zh": "拜訪",
+      "pinyin": "bàifǎng",
+      "de": "besuchen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "聽說……",
+      "erklaerung": "聽他人所說，一種傳聞，未經證實的說法。",
+      "beispiele": [
+        "聽說您最近搬家了。",
+        "聽說這座城門是清代所遺留下來的古蹟。"
+      ],
+      "uebungen": [
+        "聽說（　）。",
+        "聽說（　）。"
+      ]
+    },
+    {
+      "titel": "如果……",
+      "erklaerung": "表示假設的複句關聯詞，第一句是一種假設，第二句說明在這種情況下會出現的結果。",
+      "beispiele": [
+        "如果有空，歡迎到我家坐坐。",
+        "如果我有錢，要環遊世界。"
+      ],
+      "uebungen": [
+        "如果你擔心被老師罵，（　）。",
+        "如果（　）。"
+      ]
+    }
+  ]
+}

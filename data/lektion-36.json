@@ -1,0 +1,126 @@
+{
+  "nummer": 36,
+  "titel_zh": "訂旅館",
+  "titel_de": "Ein Hotel buchen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "張先生，您預備哪天去日本？",
+      "pinyin": "Zhāng xiānsheng nín yùbèi nǎ tiān qù Rìběn",
+      "de": "Herr Chang, wann planen Sie nach Japan zu gehen?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "我打算這個月十二號動身。",
+      "pinyin": "Wǒ dǎsuàn zhè ge yuè shíèr hào dòngshēn",
+      "de": "Ich habe vor, am zwölften dieses Monats abzureisen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "您是住朋友家呢，還是住旅館呢？",
+      "pinyin": "Nín shì zhù péngyǒu jiā ne háishì zhù lǚguǎn ne",
+      "de": "Übernachten Sie bei Freunden oder im Hotel?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "我不想打擾朋友，已經訂好旅館了。",
+      "pinyin": "Wǒ bù xiǎng dǎrǎo péngyǒu yǐjīng dìng hǎo lǚguǎn le",
+      "de": "Ich will meinen Freunden keine Umstände bereiten und habe bereits ein Hotel gebucht."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "您訂的是什麼樣的旅館？",
+      "pinyin": "Nín dìng de shì shénmeyàng de lǚguǎn",
+      "de": "Was für ein Hotel haben Sie gebucht?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "一家觀光飯店。以前我住過一次，還不錯。",
+      "pinyin": "Yì jiā guānguāng fàndiàn Yǐqián wǒ zhùguò yí cì hái búcuò",
+      "de": "Ein Touristenhotel. Ich habe da früher schon einmal übernachtet. Es war nicht schlecht."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "價錢怎麼樣？貴不貴？",
+      "pinyin": "Jiàqián zěnmeyàng Guì bu guì",
+      "de": "Wie ist der Preis? Ist es teuer?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "不貴，一間雙人房一天大概台幣三千六百元。",
+      "pinyin": "Bú guì yì jiān shuāngrén fáng yì tiān dàgài táibì sānqiān liùbǎi yuán",
+      "de": "Nein, es ist nicht teuer. Ein Doppelzimmer kostet etwa 3.600 NT$ pro Tag/ Nacht."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "旅館",
+      "pinyin": "lǚguǎn",
+      "de": "das Hotel"
+    },
+    {
+      "zh": "預備",
+      "pinyin": "yùbèi",
+      "de": "planen, vorbereiten"
+    },
+    {
+      "zh": "日本",
+      "pinyin": "Rìběn",
+      "de": "Japan"
+    },
+    {
+      "zh": "動身",
+      "pinyin": "dòngshēn",
+      "de": "aufbrechen, abreisen"
+    },
+    {
+      "zh": "打擾",
+      "pinyin": "dǎrǎo",
+      "de": "stören; hier: die Umstände bereiten"
+    },
+    {
+      "zh": "訂",
+      "pinyin": "dìng",
+      "de": "buchen, reservieren"
+    },
+    {
+      "zh": "觀光飯店",
+      "pinyin": "guānguāng fàndiàn",
+      "de": "das Touristenhotel"
+    },
+    {
+      "zh": "以前",
+      "pinyin": "yǐqián",
+      "de": "früher"
+    },
+    {
+      "zh": "價錢",
+      "pinyin": "jiàqián",
+      "de": "der Preis, die Kosten"
+    },
+    {
+      "zh": "雙人房",
+      "pinyin": "shuāngrén fáng",
+      "de": "das Doppelzimmer"
+    },
+    {
+      "zh": "大概",
+      "pinyin": "dàgài",
+      "de": "etwa, ungefähr"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "打算……",
+      "erklaerung": "預備做什麼事，通常指一種即將進行的事情，和「計畫」通用。",
+      "beispiele": [
+        "我打算這個月十二號去日本。",
+        "李小姐打算明天去看王先生。"
+      ],
+      "uebungen": [
+        "張先生打算（　）。",
+        "趙科長打算（　）。"
+      ]
+    }
+  ]
+}

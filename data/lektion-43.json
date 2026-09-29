@@ -1,0 +1,121 @@
+{
+  "nummer": 43,
+  "titel_zh": "搭捷運",
+  "titel_de": "MRT fahren",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "請問下一站是不是國父紀念館？",
+      "pinyin": "Qǐngwèn xià yí zhàn shì bu shì Guófù jìniànguǎn",
+      "de": "Entschuldigung, ist die nächste Station die Sun Yat-Sen Gedenkstätte?"
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "還有三站才到呢。我也在那站下車。",
+      "pinyin": "Hái yǒu sān zhàn cái dào ne Wǒ yě zài nà zhàn xià chē",
+      "de": "Es sind noch drei Stationen. Ich steige auch dort aus."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "麻煩您下車的時候，叫我一聲，我不認識路。",
+      "pinyin": "Máfan nín xià chē de shíhou jiào wǒ yì shēng wǒ bú rènshì lù",
+      "de": "Bitte sagen Sie mir Bescheid, wenn Sie aussteigen. Ich kenne mich nicht aus."
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "沒問題。下車以後，我帶您去國父紀念館。",
+      "pinyin": "Méi wèntí xià chē yǐhòu wǒ dài nín qù Guófù jìniànguǎn",
+      "de": "Kein Problem. Wenn wir ausgestiegen sind, bringe ich Sie zur Sun Yat Sen Gedenkstätte."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "臺北的捷運系統真是方便，又快又穩。",
+      "pinyin": "Táiběi de jiéyùn xìtǒng zhēn shì fāngbiàn yòu kuài yòu wěn",
+      "de": "Das MRT System in Taipeh ist wirklich sehr praktisch, schnell und sicher."
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "是啊，特別是趕時間的時候，不必擔心路上交通擁擠。",
+      "pinyin": "Shì a tèbié shì gǎn shíjiān de shíhou búbì dānxīn lùshàng jiāotōng yǒngj-",
+      "de": "Ja, stimmt. Vor allem wenn man es eilig hat, braucht man sich keine Sorgen um Verkehrsstau zu machen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我跟朋友約好九點見面，應該不會遲到吧？",
+      "pinyin": "Wǒ gēn péngyǒu yuē hǎo jiǔ diǎn jiànmiàn yīnggāi bú huì chídào ba",
+      "de": "Ich habe mich mit Freunden um neun Uhr verabredet. Ich dürfte mich nicht verspäten, oder?"
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "你放心，別著急，我們已經到了。",
+      "pinyin": "Nǐ fàngxīn bié zhāojí wǒmen yǐjīng dào le",
+      "de": "Keine Aufregung. Machen Sie sich keine Sorgen. Wir sind ja schon da."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "下一站",
+      "pinyin": "xià yí zhàn",
+      "de": "die nächste Station/ Haltestelle"
+    },
+    {
+      "zh": "下車",
+      "pinyin": "xià chē",
+      "de": "aussteigen"
+    },
+    {
+      "zh": "沒問題",
+      "pinyin": "méi wèntí",
+      "de": "kein Problem"
+    },
+    {
+      "zh": "帶（領）",
+      "pinyin": "dài(lǐng)",
+      "de": "führen, bringen"
+    },
+    {
+      "zh": "系統",
+      "pinyin": "xìtǒng",
+      "de": "das System"
+    },
+    {
+      "zh": "趕時間",
+      "pinyin": "gǎn shíjiān",
+      "de": "es eilig haben, in Eile sein"
+    },
+    {
+      "zh": "擔心",
+      "pinyin": "dānxīn",
+      "de": "sich sorgen um etwas machen/sich Gedonken über etwas machen"
+    },
+    {
+      "zh": "交通",
+      "pinyin": "jiāotōng",
+      "de": "der Verkehr"
+    },
+    {
+      "zh": "擁擠",
+      "pinyin": "yǒngj-",
+      "de": "das Gedrängel, die Beengung, hier: Der Stau"
+    },
+    {
+      "zh": "著急",
+      "pinyin": "zhāojí",
+      "de": "aufregen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "又……又……",
+      "erklaerung": "「既……又……」的另一種說法，有兩者兼具的意思。",
+      "beispiele": [
+        "臺北的捷運系統真是方便，又快又穩。",
+        "這家餐廳的菜，又好吃又便宜。"
+      ],
+      "uebungen": [
+        "這車開起來又（　）又（　）。",
+        "這件洋裝又（　）又（　）。"
+      ]
+    }
+  ]
+}

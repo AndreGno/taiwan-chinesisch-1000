@@ -1,0 +1,138 @@
+{
+  "nummer": 41,
+  "titel_zh": "服飾店",
+  "titel_de": "Der Klamottenladen",
+  "dialog": [
+    {
+      "sprecher": "店員",
+      "zh": "小姐，您需要什麼款式？我拿給您看。",
+      "pinyin": "Xiǎojiě nín xūyào shénme kuǎnshì Wǒ ná gěi nín kàn",
+      "de": "Welches Muster brauchen Sie, Guten Tag? Ich bringe es Ihnen."
+    },
+    {
+      "sprecher": "張小姐",
+      "zh": "我想看看裙子套裝。",
+      "pinyin": "Wǒ xiǎng kànkan qúnzi tàozhuāng",
+      "de": "Ich möchte ein Kostüm mit Rock."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "這款的顏色、布料都是今年最流行的。",
+      "pinyin": "Zhè kuǎn de yánsè bùliào dōu shì jīnnián zuì liúxíng de",
+      "de": "Die Farbe und der Stoff dieses Musters sind in diesem Jahr im Trend."
+    },
+    {
+      "sprecher": "張小姐",
+      "zh": "我還想看一件洋裝，有淺顏色的嗎？",
+      "pinyin": "Wǒ hái xiǎng kàn yí jiàn yángzhuāng yǒu qiǎn yánsè de ma",
+      "de": "Ich möchte mir noch ein Kleid ansehen. Haben Sie etwas in Hell?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "這件怎麼樣？淺粉的顏色許多顧客都很喜歡，也很適合您。",
+      "pinyin": "Zhè jiàn zěnmeyàng Qiǎn fěn de yánsè xǔduō gùkè dōu hěn xǐhuān yě hěn shìhé nín",
+      "de": "Wie wäre es mit diesem hier? Viele Kunden mögen das Beige sehr und es passt hervorragend zu Ihnen."
+    },
+    {
+      "sprecher": "張小姐",
+      "zh": "看起來還不錯，可以試穿嗎？",
+      "pinyin": "Kàn qǐlai hái búcuò kěyǐ shì chuān ma",
+      "de": "Das sieht nicht schlecht aus. Kann ich es anprobieren?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "沒問題。試衣室在前方右邊兒，請跟我來。",
+      "pinyin": "Méi wèntí Shìyīshì zài qiánfāng yòu biānr qǐng gēn wǒ lái",
+      "de": "Kein Problem. Die Anprobe ist vorne rechts. Folgen Sie mir!"
+    },
+    {
+      "sprecher": "張小姐",
+      "zh": "謝謝。套裝和洋裝我都去試試。",
+      "pinyin": "Xièxie Tàozhuāng hé yángzhuāng wǒ dōu qù shìshi",
+      "de": "Dankeschön. Ich möchte beides, das Kostüm und das Kleid, anprobieren."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "需要",
+      "pinyin": "xūyào",
+      "de": "brauchen, benötigen"
+    },
+    {
+      "zh": "款式",
+      "pinyin": "kuǎnshì",
+      "de": "das Muster"
+    },
+    {
+      "zh": "裙子",
+      "pinyin": "qúnzi",
+      "de": "der Rock"
+    },
+    {
+      "zh": "套裝",
+      "pinyin": "tàozhuāng",
+      "de": "das Kostüm, der Anzug"
+    },
+    {
+      "zh": "顏色",
+      "pinyin": "yánsè",
+      "de": "die Farbe"
+    },
+    {
+      "zh": "布料",
+      "pinyin": "bùliào",
+      "de": "das Material, der Stoff"
+    },
+    {
+      "zh": "流行",
+      "pinyin": "liúxíng",
+      "de": "die Mode, modisch, der Trend"
+    },
+    {
+      "zh": "顧客",
+      "pinyin": "gùkè",
+      "de": "der Kunde"
+    },
+    {
+      "zh": "洋裝",
+      "pinyin": "yángzhuāng",
+      "de": "das Kleid"
+    },
+    {
+      "zh": "試穿",
+      "pinyin": "shì chuān",
+      "de": "anprobieren"
+    },
+    {
+      "zh": "試衣室",
+      "pinyin": "shìyīshì",
+      "de": "die Anprobe"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "最……",
+      "erklaerung": "副詞：至極，通常加在形容詞的前面。如：「最好」、「最大」、「最美」。",
+      "beispiele": [
+        "這款的顏色、布料都是今年最流行的。",
+        "他是我們班上最用功的學生。"
+      ],
+      "uebungen": [
+        "我最高興的事情是（　）。",
+        "這是我吃過最好吃的（　）。"
+      ]
+    },
+    {
+      "titel": "看起來……",
+      "erklaerung": "一種表示猜測或判斷的語氣。",
+      "beispiele": [
+        "這件衣服看起來還不錯，可以試穿嗎？",
+        "妳今天的氣色看起來還不錯。"
+      ],
+      "uebungen": [
+        "天氣看起來（　）。",
+        "這些水果看起來（　）。"
+      ]
+    }
+  ]
+}

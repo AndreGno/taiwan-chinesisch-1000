@@ -1,0 +1,133 @@
+{
+  "nummer": 11,
+  "titel_zh": "說中文",
+  "titel_de": "Chinesisch sprechen",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "方先生，聽說您想學中文，是嗎？",
+      "pinyin": "Fāng xiānsheng tīngshuō nín xiǎng xué Zhōngwén shì ma",
+      "de": "Herr Fang, ich habe gehört, dass Sie Chinesisch lernen möchten. Ist das wahr?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "是啊。中文容易學嗎？",
+      "pinyin": "Shì a Zhōngwén róngyì xué ma",
+      "de": "Das stimmt. Ist Chinesisch einfach zu lernen?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "學中文不能說難，也不能說容易。",
+      "pinyin": "Xué Zhōngwén bù néng shuō nán yě bù néng shuō róngyì",
+      "de": "Man kann nicht sagen, dass Chinesisch schwer zu lernen ist. Aber einfach ist es auch nicht."
+    },
+    {
+      "sprecher": "方",
+      "zh": "您能教我說中文嗎？",
+      "pinyin": "Nín néng jiāo wǒ shuō Zhōngwén ma",
+      "de": "Können Sie mir beibringen Chinesisch zu sprechen?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "好啊，我教您一句俗語。",
+      "pinyin": "Hǎo a wǒ jiāo nín yí jù súyǔ",
+      "de": "Gut, ich bringe Ihnen ein chinesisches Sprichwort bei."
+    },
+    {
+      "sprecher": "方",
+      "zh": "太好了！您快說吧！",
+      "pinyin": "Tài hǎo le Nín kuài shuō ba",
+      "de": "Prima! Fangen wir sofort an!"
+    },
+    {
+      "sprecher": "王",
+      "zh": "「衣服是新的好，朋友是舊的好」。您聽過嗎？",
+      "pinyin": "Yīfú shì xīn de hǎo péngyǒu shì jiù de hǎo Nín tīngguò ma",
+      "de": "Wenn es um Kleidung geht, ist neue besser. Wenn es um Freunde geht, die alten. Haben Sie das schon mal gehört?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我聽過，這句話的意思是老朋友最好。",
+      "pinyin": "Wǒ tīngguò zhè jù huà de yìsi shì lǎo péngyǒu zuì hǎo",
+      "de": "Ich habe das schon einmal gehört. Dieser Satz bedeutet, dass die alten Freunde die besten sind."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "聽說",
+      "pinyin": "tīngshuō",
+      "de": "ich habe gehört, man sagt"
+    },
+    {
+      "zh": "衣服",
+      "pinyin": "yīfú",
+      "de": "die Kleidung"
+    },
+    {
+      "zh": "學",
+      "pinyin": "xué",
+      "de": "lernen"
+    },
+    {
+      "zh": "新",
+      "pinyin": "xīn",
+      "de": "neu"
+    },
+    {
+      "zh": "難",
+      "pinyin": "nán",
+      "de": "schwer, schwierig"
+    },
+    {
+      "zh": "舊",
+      "pinyin": "jiù",
+      "de": "alt"
+    },
+    {
+      "zh": "容易",
+      "pinyin": "róngyì",
+      "de": "einfach"
+    },
+    {
+      "zh": "意思",
+      "pinyin": "yìsi",
+      "de": "die Bedeutung"
+    },
+    {
+      "zh": "俗語",
+      "pinyin": "súyǔ",
+      "de": "das Sprichwort"
+    },
+    {
+      "zh": "最",
+      "pinyin": "zuì",
+      "de": "Superlativ, z.B. am meisten, am besten, am liebsten"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不能……，也不能……",
+      "erklaerung": "指兩種狀況都不可以，「也」表示「又」。",
+      "beispiele": [
+        "學中文，不能說難，也不能說容易。",
+        "學開車，不能說難，也不能說容易。"
+      ],
+      "uebungen": [
+        "（　）不能說難，也不能說容易。",
+        "（　）不能說難，也不能說容易。"
+      ]
+    },
+    {
+      "titel": "……啊",
+      "erklaerung": "嘆詞：1.表驚訝、痛苦、讚嘆的語氣。 2.表疑問或反問的語氣。",
+      "beispiele": [
+        "好啊，我教您一句中國的俗語。",
+        "啊！你說什麼？"
+      ],
+      "uebungen": [
+        "啊！這裡的風景（　）！",
+        "啊，你說這是（　）！"
+      ]
+    }
+  ]
+}

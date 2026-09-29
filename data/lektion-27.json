@@ -1,0 +1,136 @@
+{
+  "nummer": 27,
+  "titel_zh": "租房子",
+  "titel_de": "Ein Haus mieten",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "請問張太太在嗎？我跟她約好來看房子的。",
+      "pinyin": "Qǐngwèn Zhāng tàitai zài ma Wǒ gēn tā yuē hǎo lái kàn fángzi de",
+      "de": "Entschuldigung, ist Frau Chang da? Ich habe einen Termin mit ihr und möchte mir das Haus anschauen."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "方先生，您真準時。我現在就陪您去看房子。",
+      "pinyin": "Fāng xiānsheng nín zhēn zhǔnshí Wǒ xiànzài jiù péi nín qù kàn fángzi",
+      "de": "Herr Fang, Sie sind so pünktlich. Ich begleite Sie jetzt zur Hausbesichtigung."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "請問房租一個月多少錢？要不要押金?",
+      "pinyin": "Qǐngwèn fángzū yí ge yuè duōshao qián Yào bu yào yājīn",
+      "de": "Darf ich fragen, wie hoch die monatliche Miete ist? Bedarf es einer Kaution?"
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "房租一個月一萬塊錢。押金要三萬元。",
+      "pinyin": "Fángzū yí ge yuè yíwàn kuài qián Yājīn yào sānwàn yuán",
+      "de": "Die monatliche Miete beträgt 10.000 NT$. Die Kaution beträgt 30.000 NT$."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "這房間大小正好，光線也不錯。",
+      "pinyin": "Zhè fángjiān dàxiǎo zhènghǎo guāngxiàn yě búcuò",
+      "de": "Die Größe des Zimmers ist genau richtig und die Helligkeit ist auch nicht schlecht."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "這間屋子剛剛油漆過，窗簾、地毯也是新的。",
+      "pinyin": "Zhè jiān wūzi gānggāng yóuqī guò chuānglián dìtǎn yě shì xīn de",
+      "de": "Dieses Zimmer wurde gerade neu gestrichen. Vorhänge und Teppiche sind auch neu."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "這兒的環境怎麼樣？",
+      "pinyin": "Zhèr de huánjìng zěnmeyàng",
+      "de": "Wie ist die Umgebung hier?"
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "您放心，這兒的環境非常安靜。",
+      "pinyin": "Nín fàngxīn zhèr de huánjìng fēicháng ānjìng",
+      "de": "Seien Sie unbesorgt, die Gegend hier ist sehr ruhig."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "約好",
+      "pinyin": "yuē hǎo",
+      "de": "abgemacht, einen Termin haben"
+    },
+    {
+      "zh": "準時",
+      "pinyin": "zhǔnshí",
+      "de": "pünktlich, zur rechten Zeit"
+    },
+    {
+      "zh": "陪（伴）",
+      "pinyin": "péi(bàn)",
+      "de": "begleiten, mitgehen, mitkommen"
+    },
+    {
+      "zh": "房租",
+      "pinyin": "fángzū",
+      "de": "die Miete"
+    },
+    {
+      "zh": "押金",
+      "pinyin": "yājīn",
+      "de": "die Kaution"
+    },
+    {
+      "zh": "大小正好",
+      "pinyin": "dàxiǎo zhènghǎo",
+      "de": "(genau) die richtige Größe"
+    },
+    {
+      "zh": "光線",
+      "pinyin": "guāngxiàn",
+      "de": "die Helligkeit, die Beleuchtung"
+    },
+    {
+      "zh": "油漆",
+      "pinyin": "yóuqī",
+      "de": "die Anstrichfarbe, der Lack"
+    },
+    {
+      "zh": "窗簾",
+      "pinyin": "chuānglián",
+      "de": "der Vorhang"
+    },
+    {
+      "zh": "地毯",
+      "pinyin": "dìtǎn",
+      "de": "der Teppich"
+    },
+    {
+      "zh": "環境",
+      "pinyin": "huánjìng",
+      "de": "die Umgebung, die Gegend"
+    },
+    {
+      "zh": "放心",
+      "pinyin": "fàngxīn",
+      "de": "sich beruhigen, sich keine Sorgen machen, erleichtert sein"
+    },
+    {
+      "zh": "安靜",
+      "pinyin": "ānjìng",
+      "de": "ruhig, still"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "剛（剛）……",
+      "erklaerung": "指某個動作或事情才完成。",
+      "beispiele": [
+        "這間屋子剛剛油漆過，窗簾、地毯也是新的。",
+        "他剛剛才離開，你來晚了一步。"
+      ],
+      "uebungen": [
+        "小美剛剛才進教室，（　）。",
+        "大雨剛剛（　）。"
+      ]
+    }
+  ]
+}

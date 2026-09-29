@@ -1,0 +1,131 @@
+{
+  "nummer": 67,
+  "titel_zh": "一封信",
+  "titel_de": "Ein Brief",
+  "dialog": [
+    {
+      "sprecher": "芳芳",
+      "zh": "媽，郵差剛送來一封信，好像是舅媽寄來的。",
+      "pinyin": "Mā yóuchāi gāng sòng lái yì fēng xìn hǎoxiàng shì jiùmā jì lái de",
+      "de": "Der Briefträger hat gerade einen Brief gebracht. Er ist wahrscheinlich von unserer Tante."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "快拆開看看。你看得懂嗎？",
+      "pinyin": "Kuài chāi kāi kànkan Nǐ kàn de dǒng ma",
+      "de": "Öffne ihn schnell und sieh nach. Verstehst du ihn?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "內容很簡單，信上說舅舅和舅媽要來美國。",
+      "pinyin": "Nèiróng hěn jiǎndān xìn shàng shuō jiùjiu hé jiùmā yào lái Měiguó",
+      "de": "Der Inhalt ist sehr einfach. Onkel und Tante wollen nach Amerika kommen."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "這真是個好消息。他們是來觀光的嗎？",
+      "pinyin": "Zhè zhēn shì ge hǎo xiāoxi Tāmen shì lái guān'guāng de ma",
+      "de": "Das ist wirklich eine gute Nachricht. Kommen sie nur zum Urlaub?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "舅媽陪舅舅到西雅圖開會，順便來看我們。",
+      "pinyin": "Jiùmā péi jiùjiù dào Xīyǎtú kāihuì shùnbiàn lái kàn wǒmen",
+      "de": "Die Tante wird den Onkel begleiten, der an einer Konferenz in Seattle teilnimmt. Bei dieser Gelegenheit werden sie uns besuchen."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "他們哪一天會到我們家呢？",
+      "pinyin": "Tāmen nǎ yì tiān huì dào wǒmen jiā ne",
+      "de": "Wird in dem Brief erwähnt, an welchem Tag sie bei uns sein werden?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "按照信上說的時間，應該是三十號到。",
+      "pinyin": "Ànzhào xìn shàng shuō de shíjiān yīnggāi shì sānshí hào dào",
+      "de": "Laut dem Brief werden sie am 30. ankommen."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "我得把客房打掃乾淨，他們一來就可以住。",
+      "pinyin": "Wǒ děi bǎ kèfáng dǎsǎo gānjìng tāmen yì lái jiù kěyǐ zhù",
+      "de": "Ich muss das Gästezimmer sauber machen, damit sie dort wohnen können, sobald sie hier ankommen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "郵差",
+      "pinyin": "yóuchāi",
+      "de": "der Briefträger"
+    },
+    {
+      "zh": "觀光",
+      "pinyin": "guān'guāng",
+      "de": "besichtigen"
+    },
+    {
+      "zh": "舅媽",
+      "pinyin": "jiùmā",
+      "de": "die Ehefrau des Onkels mütterlicherseits"
+    },
+    {
+      "zh": "西雅圖",
+      "pinyin": "Xīyǎtú",
+      "de": "Seattle"
+    },
+    {
+      "zh": "拆開",
+      "pinyin": "chāi kāi",
+      "de": "öffnen"
+    },
+    {
+      "zh": "順便",
+      "pinyin": "shùnbiàn",
+      "de": "bei dieser Gelegenheit"
+    },
+    {
+      "zh": "懂",
+      "pinyin": "dǒng",
+      "de": "verstehen"
+    },
+    {
+      "zh": "按照",
+      "pinyin": "ànzhào",
+      "de": "laut, gemäß"
+    },
+    {
+      "zh": "內容",
+      "pinyin": "nèiróng",
+      "de": "der Inhalt"
+    },
+    {
+      "zh": "客房",
+      "pinyin": "kèfáng",
+      "de": "das Gästezimmer"
+    },
+    {
+      "zh": "消息",
+      "pinyin": "xiāo xi",
+      "de": "die Nachricht"
+    },
+    {
+      "zh": "打掃",
+      "pinyin": "dǎsǎo",
+      "de": "sauber machen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "得和應該",
+      "erklaerung": "「得」和「應該」用法相同，都表示事實上或情理上的必要，一般可以替換，但用「得」比較口語化。「得」的否定是「不必」或「不用」。",
+      "beispiele": [
+        "你得按照他的意思做。 → 你必須按照他的意思做。",
+        "你們得按照學校的規定做。 → 你們必須按照學校的規定做。"
+      ],
+      "uebungen": [
+        "他得按照規定的時間付房租。 → （）",
+        "他必須按照自己的興趣選課。 → （）"
+      ]
+    }
+  ]
+}

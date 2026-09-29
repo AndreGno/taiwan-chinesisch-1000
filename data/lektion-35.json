@@ -1,0 +1,121 @@
+{
+  "nummer": 35,
+  "titel_zh": "網路通訊",
+  "titel_de": "Die Internetkommunikation",
+  "dialog": [
+    {
+      "sprecher": "張太太",
+      "zh": "你又在寫E-mail給兒子啦！",
+      "pinyin": "Nǐ yòu zài xiě E-mail gěi érzi la",
+      "de": "Du schreibst ja wieder eine E-Mail an deinen Sohn!"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "對呀，現在網路通訊真是方便。",
+      "pinyin": "Duì ya xiànzài wǎnglù tōngxùn zhēn shì fāngbiàn",
+      "de": "Ja, genau. Mit dem Internet ist die Kommunikation echt praktisch."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "順便提醒他，記得回臺北時替我帶一件羊毛衣。",
+      "pinyin": "Shùnbiàn tíxǐng tā jìde huí Táiběi shí tì wǒ dài yí jiàn yángmáo yī",
+      "de": "Erinnere ihn nebenbei daran, mir einen Wolljacke mitzubringen, wenn er zurück nach Taipeh kommt."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "咦，他正好上網了，我用Skype跟他說",
+      "pinyin": "Yí tā zhènghǎo shàngwǎng le wǒ yòng Skype gēn tā shuō",
+      "de": "Hey, er ist gerade online. Ich sag es ihm über Skype."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "我也要跟他說話。",
+      "pinyin": "Wǒ yě yào gēn tā shuōhuà",
+      "de": "Ich will auch mit ihm reden."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "好好好，別急，讓我先連上兒子的網路帳號。",
+      "pinyin": "Hǎo hǎo hǎo bié jí ràng wǒ xiān liánshàng érzi de wǎnglù zhànghào",
+      "de": "Jaja, ok. Nicht so dringlich. Lass mich erst mit dem Internetkonto unseres Sohnes online gehen."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "他那裡不是半夜一點嗎？這麼晚了他還沒睡呀!",
+      "pinyin": "Tā nàlǐ bú shì bànyè yì diǎn ma Zhème wǎn le tā háiméi shuì ya",
+      "de": "Ist es bei ihm nicht ein Uhr morgens? Es ist so spät und er schläft noch nicht!"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "可能工作忙吧，妳自己問問他。",
+      "pinyin": "Kěnéng gōngzuò máng ba nǐ zìjǐ wènwen tā",
+      "de": "Wahrscheinlich hat er viel zu tun, aber frag ihn doch selbst."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "網路",
+      "pinyin": "wǎnglù",
+      "de": "das Internet"
+    },
+    {
+      "zh": "通訊",
+      "pinyin": "tōngxùn",
+      "de": "kommunizieren, die Kommunikation, die Information"
+    },
+    {
+      "zh": "順便",
+      "pinyin": "shùnbiàn",
+      "de": "übrigens, nebenbei"
+    },
+    {
+      "zh": "提醒",
+      "pinyin": "tíxǐng",
+      "de": "erinnern"
+    },
+    {
+      "zh": "羊毛衣",
+      "pinyin": "yángmáo yī",
+      "de": "die Wolljacke"
+    },
+    {
+      "zh": "上網",
+      "pinyin": "shàngwǎng",
+      "de": "ins Internet gehen, online gehen"
+    },
+    {
+      "zh": "急",
+      "pinyin": "jí",
+      "de": "eilig, rasch, hastig, dringlich"
+    },
+    {
+      "zh": "網路帳號",
+      "pinyin": "wǎnglù zhànghào",
+      "de": "das Internetkonto"
+    },
+    {
+      "zh": "半夜",
+      "pinyin": "bànyè",
+      "de": "mitten in der Nacht"
+    },
+    {
+      "zh": "睡（覺）",
+      "pinyin": "shuì(jiào)",
+      "de": "schlafen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "正好……",
+      "erklaerung": "「剛好」的另一種說法。",
+      "beispiele": [
+        "他正好上網了，我用Skype跟他說。",
+        "我正好要去城裡，可以順道帶你過去。"
+      ],
+      "uebungen": [
+        "明天正好（　），我們一起去玩吧。",
+        "張太太正好（　）。"
+      ]
+    }
+  ]
+}

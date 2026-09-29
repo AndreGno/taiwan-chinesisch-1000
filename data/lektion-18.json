@@ -1,0 +1,136 @@
+{
+  "nummer": 18,
+  "titel_zh": "春夏秋冬",
+  "titel_de": "Frühling, Sommer, Herbst, Winter",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "今天的天氣真熱啊！",
+      "pinyin": "Jīntiān de tiānqì zhēn rè a",
+      "de": "Heute ist das Wetter wirklich warm!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是啊，臺灣的夏天總是這麼熱。",
+      "pinyin": "Shì a Táiwān de xiàtiān zǒngshì zhème rè",
+      "de": "In der Tat, in Taiwan ist der Sommer immer so warm."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "這兒的夏天長嗎？",
+      "pinyin": "zhèr de xiàtiān cháng ma",
+      "de": "Ist der Sommer hier lange?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "不但熱而且長，差不多有半年呢。",
+      "pinyin": "Búdàn rè érqiě cháng chàbuduō yǒu bànnián ne",
+      "de": "Nicht nur warm, sondern auch lange. Er dauert ungefähr ein halbes Jahr."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "有人說「臺灣是沒有冬天的」。",
+      "pinyin": "Yǒu rén shuō Táiwān shì méiyǒu dōngtiān de",
+      "de": "Jemand hat gesagt: “In Taiwan gibt es keinen Winter”."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "臺灣的冬天比較短，也不太冷，可是不能說沒有。",
+      "pinyin": "Táiwān de dōngtiān bǐjiào duǎn yě bútài lěng kěshì bù néng shuō méiyǒu",
+      "de": "Der Winter in Taiwan ist kürzer und auch nicht besonders kalt. Man kann nicht sagen, dass es ihn nicht gäbe."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "春、秋兩季的氣候好嗎？",
+      "pinyin": "Chūn qiū liǎng jì de qìhòu hǎo ma",
+      "de": "Ist das Klima im Frühling und Herbst gut?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "春天不冷不熱，秋天秋高氣爽，都很舒服。",
+      "pinyin": "Chūntiān bù lěng bú rè qiūtiān qiū gāo qì shuǎng dōu hěn shūfu",
+      "de": "Der Frühling ist weder kalt noch warm, im Herbst ist der Himmel klar und und die Luft frisch. Beides ist angenehm."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "春（天）",
+      "pinyin": "chūn(tiān)",
+      "de": "der Frühling"
+    },
+    {
+      "zh": "夏（天）",
+      "pinyin": "xià(tiān)",
+      "de": "der Sommer"
+    },
+    {
+      "zh": "秋（天）",
+      "pinyin": "qiū(tiān)",
+      "de": "der Herbst"
+    },
+    {
+      "zh": "冬（天）",
+      "pinyin": "dōng(tiān)",
+      "de": "der Winter"
+    },
+    {
+      "zh": "天氣",
+      "pinyin": "tiānqì",
+      "de": "das Wetter"
+    },
+    {
+      "zh": "熱",
+      "pinyin": "rè",
+      "de": "warm"
+    },
+    {
+      "zh": "臺灣",
+      "pinyin": "Táiwān",
+      "de": "Taiwan"
+    },
+    {
+      "zh": "長",
+      "pinyin": "cháng",
+      "de": "lang"
+    },
+    {
+      "zh": "短",
+      "pinyin": "duǎn",
+      "de": "kurz"
+    },
+    {
+      "zh": "冷",
+      "pinyin": "lěng",
+      "de": "kalt"
+    },
+    {
+      "zh": "氣候",
+      "pinyin": "qìhòu",
+      "de": "das Klima"
+    },
+    {
+      "zh": "秋高氣爽",
+      "pinyin": "qiū gāo qì shuǎng",
+      "de": "angenehmes Klima(Redewendung für das Klima im Herbst)"
+    },
+    {
+      "zh": "舒服",
+      "pinyin": "shūfu",
+      "de": "angenehm"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不但……而且……",
+      "erklaerung": "連接兩個句子一組連接詞，兩個分句的意思都是必須要表達的，但後一分句比前一分句表示更進一層的意思。",
+      "beispiele": [
+        "臺灣的夏天，不但熱而且長。",
+        "他的字，不但美觀而且工整。"
+      ],
+      "uebungen": [
+        "李小梅不但（　）而且（）。",
+        "媽媽做的菜不但（　）而且（　）。"
+      ]
+    }
+  ]
+}

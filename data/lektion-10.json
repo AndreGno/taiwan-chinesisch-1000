@@ -1,0 +1,137 @@
+{
+  "nummer": 10,
+  "titel_zh": "買東西",
+  "titel_de": "Einkaufen",
+  "dialog": [
+    {
+      "sprecher": "店員",
+      "zh": "先生，您要買什麼？",
+      "pinyin": "Xiānsheng nín yào mǎi shénme",
+      "de": "Was möchten Sie kaufen, mein Herr?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我想買一些紙和信封。",
+      "pinyin": "Wǒ xiǎng mǎi yìxiē zhǐ hé xìnfēng",
+      "de": "Ich möchte einige Papierbögen und Briefumschläge kaufen."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "這種紙是五十元一包，那一種要六十元一包。",
+      "pinyin": "Zhè zhǒng zhǐ shì wǔshí yuán yì bāo nà yì zhǒng yào liùshí yuán yì bāo",
+      "de": "Diese Sorte Papier kostet pro Packung 50 NT$, jene Sorte kostet 60NT$ pro Packung."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "哪一種比較好呢？",
+      "pinyin": "Nǎ yì zhǒng bǐjiào hǎo ne",
+      "de": "Welche Sorte ist besser?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "貴的那種比較好，容易書寫。",
+      "pinyin": "Guì de nà zhǒng bǐjiào hǎo róngyì shūxiě",
+      "de": "Die teurere ist besser. Sie lässt sich einfacher beschreiben."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "好吧。信封要多少錢呢？",
+      "pinyin": "Hǎo ba Xìnfēng yào duōshao qián ne",
+      "de": "In Ordnung. Wie viel kosten die Briefumschläge?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "兩塊錢一個。",
+      "pinyin": "Liǎng kuài qián yí ge",
+      "de": "Zwei NT$ für einen."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我買一打吧。一共是多少錢？",
+      "pinyin": "Wǒ mǎi yì dǎ ba Yígòng shì duōshao qián",
+      "de": "Ich kaufe ein Dutzend. Wie viel kostet alles zusammen?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "一共是八十四元。您還買別的東西嗎？",
+      "pinyin": "Yígòng shì bāshísì yuán Nín hái mǎi bié de dōngxi ma",
+      "de": "Das macht insgesamt 84 NT$. Darf es noch etwas sein?"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "買",
+      "pinyin": "mǎi",
+      "de": "kaufen"
+    },
+    {
+      "zh": "一些",
+      "pinyin": "yìxiē",
+      "de": "einige"
+    },
+    {
+      "zh": "紙",
+      "pinyin": "zhǐ",
+      "de": "das Papier"
+    },
+    {
+      "zh": "信封",
+      "pinyin": "xìnfēng",
+      "de": "der Briefumschlag"
+    },
+    {
+      "zh": "包",
+      "pinyin": "bāo",
+      "de": "die Packung"
+    },
+    {
+      "zh": "這種",
+      "pinyin": "zhè zhǒng",
+      "de": "diese Sorte"
+    },
+    {
+      "zh": "比較",
+      "pinyin": "bǐjiào",
+      "de": "vergleichen, im Vergleich"
+    },
+    {
+      "zh": "貴",
+      "pinyin": "guì",
+      "de": "teuer"
+    },
+    {
+      "zh": "容易",
+      "pinyin": "róngyì",
+      "de": "einfach"
+    },
+    {
+      "zh": "書寫",
+      "pinyin": "shūxiě",
+      "de": "schreiben, beschreiben"
+    },
+    {
+      "zh": "一打",
+      "pinyin": "yì dǎ",
+      "de": "ein Dutzend"
+    },
+    {
+      "zh": "一共",
+      "pinyin": "yígòng",
+      "de": "insgesamt"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "這……，那……",
+      "erklaerung": "兩種物件或情況的說明或區別。",
+      "beispiele": [
+        "這種紙是五十元一包，那一種要六十元一包。",
+        "這種顏色太淺，那一種顏色又太深了。"
+      ],
+      "uebungen": [
+        "這種東西（　），那種水果（）。",
+        "這（　），那（　）。"
+      ]
+    }
+  ]
+}

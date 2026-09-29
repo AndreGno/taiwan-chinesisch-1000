@@ -1,0 +1,135 @@
+{
+  "nummer": 59,
+  "titel_zh": "暑假的計畫",
+  "titel_de": "Die Planung der Sommerferien",
+  "dialog": [
+    {
+      "sprecher": "媽媽",
+      "zh": "今天開始放暑假了，你有什麼計劃嗎？",
+      "pinyin": "Jīntiān kāishǐ fàng shǔjià le nǐ yǒu shénme jìhuà ma",
+      "de": "Heute fangen die Sommerferien an. Hast du irgendetwas geplant?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "最近忙著準備考試，哪有心情想其他的事！",
+      "pinyin": "Zuìjìn mángze zhǔnbèi kǎoshì nǎ yǒu xīnqíng xiǎng qítā de shì",
+      "de": "In der letzten Zeit habe ich mich auf die Prüfung vorbereitet. Ich bin gar nicht in der Stimmung darüber nachzudenken."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "暑假至少有兩個半月，千萬不要浪費掉了。",
+      "pinyin": "Shǔjià zhìshǎo yǒu liǎnggebàn yuè qiānwàn búyào làngfèi diào le",
+      "de": "Die Sommerferien dauern mindestens zweieinhalb Monate. Verschwende sie nicht!"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "我想去打工賺錢，等存夠了錢就去旅行。",
+      "pinyin": "Wǒ xiǎng qù dǎgōng zhuàn qián děng cún gòule qián jiù qù lǚxíng",
+      "de": "Ich habe vor einen Ferienjob anzunehmen, um Geld zu verdienen. Wenn ich genug gespart habe, möchte ich eine Reise machen."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "你的年紀只能幫人剪草坪、送報，還能做什麼？",
+      "pinyin": "Nǐ de niánjì zhǐ néng bāng rén jiǎn cǎopíng sòng bào hái néng zuò shénme",
+      "de": "In deinem Alter kannst du nur Rasen mähen oder Zeitung austragen. Was kannst du noch?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "可以給我一些建議嗎？",
+      "pinyin": "Kěyǐ gěi wǒ yì xiē jiànyì ma",
+      "de": "Kannst du mir einige Vorschläge machen?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "我認為學電腦、中文，對未來比較有幫助。",
+      "pinyin": "Wǒ rènwéi xué diànnǎo zhōngwén duì wèilái bǐjiào yǒu bāngzhù",
+      "de": "Ich denke, es wird in der Zukunft von Vorteil sein, zu lernen mit dem Computer umzugehen oder Chinesisch zu lernen."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "好，我就一邊打工一邊學電腦。",
+      "pinyin": "Hǎo wǒ jiù yìbiān dǎgōng yìbiān xué diànnǎo",
+      "de": "O.K. Dann werde ich halt einerseits arbeiten und andererseits lernen mit dem Computer umzugehen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "暑假",
+      "pinyin": "shǔjià",
+      "de": "die Sommerferien"
+    },
+    {
+      "zh": "年紀",
+      "pinyin": "niánjì",
+      "de": "das Alter"
+    },
+    {
+      "zh": "考試",
+      "pinyin": "kǎoshì",
+      "de": "die Prüfung"
+    },
+    {
+      "zh": "夠",
+      "pinyin": "gòu",
+      "de": "genug"
+    },
+    {
+      "zh": "心情",
+      "pinyin": "xīnqíng",
+      "de": "die Laune, die Stimmung"
+    },
+    {
+      "zh": "剪草坪",
+      "pinyin": "jiǎn cǎopíng",
+      "de": "Rasen mähen"
+    },
+    {
+      "zh": "至少",
+      "pinyin": "zhìshǎo",
+      "de": "mindestens"
+    },
+    {
+      "zh": "認為",
+      "pinyin": "rènwéi",
+      "de": "denken"
+    },
+    {
+      "zh": "打工",
+      "pinyin": "dǎgōng",
+      "de": "jobben, die Aushilfsarbeit annehmen"
+    },
+    {
+      "zh": "電腦",
+      "pinyin": "diànnǎo",
+      "de": "der Computer"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "千萬和萬萬的用法",
+      "erklaerung": "「千萬」多用於祈使句中，表示懇切叮嚀的語氣，可用於肯/否定句。「萬萬」更強調否定，意思是「無論如何」，只用於否定句中。",
+      "beispiele": [
+        "暑假至少有兩個半月的時間，千萬不要浪費了。",
+        "這件事萬萬不能忘記。"
+      ],
+      "uebungen": [
+        "你（　）不要對任何人說出這個秘密。",
+        "趕快出門，（　）不要遲到了。",
+        "（　）別著急。",
+        "（　）想不到，他居然會得第一名。"
+      ]
+    },
+    {
+      "titel": "認為和以為的用法",
+      "erklaerung": "「認為」和「以為」都可以表示對人或事物作出某種推斷，「認為」可以用被動句，「以為」前面不可以加「被」。「認為」是客觀地對人或事物有一個確定的看法或判斷。「以為」多用在推斷的結果與事實不相符合，有發現自己推斷錯誤的意思。",
+      "beispiele": [
+        "原來你們早就認識了，我以為你們是第一次見面呢。",
+        "小華被認為是班上最用功的學生。"
+      ],
+      "uebungen": [
+        "我（　）今天下午沒有課，沒想到居然要上課。",
+        "既然大家都這麼（　），我也不方便表示意見了。"
+      ]
+    }
+  ]
+}

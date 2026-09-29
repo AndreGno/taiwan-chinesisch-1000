@@ -1,0 +1,140 @@
+{
+  "nummer": 13,
+  "titel_zh": "學了多久",
+  "titel_de": "Wie lange schon gelernt",
+  "dialog": [
+    {
+      "sprecher": "李",
+      "zh": "方先生，您到臺北多久了？",
+      "pinyin": "Fāng xiānsheng nín dào Táiběi duō jiǔ le",
+      "de": "Herr Fang, wie lange sind Sie schon in Taipeh?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我去年八月來的，在這兒住了快一年。",
+      "pinyin": "Wǒ qùnián bāyuè lái de zài zhèr zhùle kuài yì nián",
+      "de": "Ich bin letztes Jahr im August gekommen. Ich wohne fast ein Jahr hier."
+    },
+    {
+      "sprecher": "李",
+      "zh": "您在美國學過中文嗎？",
+      "pinyin": "Nín zài Měiguó xuéguò Zhōngwén ma",
+      "de": "Haben Sie in den USA schon einmal Chinesisch gelernt?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "沒有，我的中文是在這兒開始學的。",
+      "pinyin": "Méiyǒu wǒ de Zhōngwén shì zài zhèr kāishǐ xué de",
+      "de": "Nein, ich habe Chinesisch erst hier angefangen zu lernen."
+    },
+    {
+      "sprecher": "李",
+      "zh": "您學了多久？",
+      "pinyin": "Nín xuéle duō jiǔ",
+      "de": "Wie lange haben Sie es gelernt?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我學了差不多八個月了。",
+      "pinyin": "Wǒ xuéle chàbuduō bā ge yuè le",
+      "de": "Ich lerne es etwa seit acht Monaten."
+    },
+    {
+      "sprecher": "李",
+      "zh": "才八個月，就能說得那麼好，您真聰明。",
+      "pinyin": "Cái bā ge yuè jiù néng shuō de nàme hǎo nín zhēn cōngmíng",
+      "de": "Erst seit acht Monaten, und Sie sprechen schon so gut. Sie sind wirklich klug."
+    },
+    {
+      "sprecher": "方",
+      "zh": "哪裏，謝謝您的誇獎。",
+      "pinyin": "Nǎlǐ xièxie nín de kuājiǎng",
+      "de": "Nicht doch. Danke für Ihr Lob."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "到",
+      "pinyin": "dào",
+      "de": "ankommen, kommen, bis"
+    },
+    {
+      "zh": "差不多",
+      "pinyin": "chàbuduō",
+      "de": "ungefähr, ca."
+    },
+    {
+      "zh": "去年",
+      "pinyin": "qùnián",
+      "de": "letztes Jahr"
+    },
+    {
+      "zh": "那麼",
+      "pinyin": "nàme",
+      "de": "so, dann(nicht zeitlich)"
+    },
+    {
+      "zh": "住",
+      "pinyin": "zhù",
+      "de": "wohnen"
+    },
+    {
+      "zh": "真",
+      "pinyin": "zhēn",
+      "de": "echt, wirklich"
+    },
+    {
+      "zh": "快",
+      "pinyin": "kuài",
+      "de": "fast, schnell"
+    },
+    {
+      "zh": "聰明",
+      "pinyin": "cōngmíng",
+      "de": "klug, intelligent"
+    },
+    {
+      "zh": "過",
+      "pinyin": "guò",
+      "de": "vorbei, nach, vergehen(Zeit)"
+    },
+    {
+      "zh": "開始",
+      "pinyin": "kāishǐ",
+      "de": "beginnen, anfangen"
+    },
+    {
+      "zh": "誇獎",
+      "pinyin": "kuājiǎng",
+      "de": "das Lob"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "才……",
+      "erklaerung": "副詞：1.僅、只有。2.表示強調的語氣。 3.方、始。",
+      "beispiele": [
+        "才八個月，就能說得那麼好。",
+        "我才不去呢。",
+        "第一堂課才開始。"
+      ],
+      "uebungen": [
+        "我身上（　）帶五塊錢。",
+        "他怎麼會累？我（　）累呢！",
+        "他說了半天，我（　）明白。"
+      ]
+    },
+    {
+      "titel": "那麼……",
+      "erklaerung": "在本課中是一種強調的語氣，通常放在形容詞或副詞前面。",
+      "beispiele": [
+        "才八個月，就能說得那麼好。",
+        "這水果那麼好吃，是在哪裡買的？"
+      ],
+      "uebungen": [
+        "王小姐長得（　），大家都喜歡她。",
+        "你跑得（　），車子已經開了。"
+      ]
+    }
+  ]
+}

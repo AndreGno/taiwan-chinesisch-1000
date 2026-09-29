@@ -1,0 +1,143 @@
+{
+  "nummer": 29,
+  "titel_zh": "看醫生",
+  "titel_de": "Der Arztbesuch",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "醫生，我發燒頭痛，是不是感冒了？",
+      "pinyin": "Yīshēng wǒ fāshāo tóutòng shì bu shì gǎnmào le",
+      "de": "Herr Doktor, ich habe Fieber und Kopfschmerzen. Bin ich vielleicht erkältet?"
+    },
+    {
+      "sprecher": "醫生",
+      "zh": "讓我用聽診器為你仔細的檢查一下。",
+      "pinyin": "Ràng wǒ yòng tīngzhěnqì wèi nǐ zǐxì de jiǎnchá yíxià",
+      "de": "Lassen Sie sich mal sorgfältig von mir mit dem Stethoskop untersuchen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "是昨天開始頭痛的，今天更嚴重了。",
+      "pinyin": "Shì zuótiān kāishǐ tóutòng de jīntiān gèng yánzhòng le",
+      "de": "Gestern fingen die Kopfschmerzen an und heute ist es noch schlimmer geworden."
+    },
+    {
+      "sprecher": "醫生",
+      "zh": "你的胃口怎麼樣？有沒有咳嗽？",
+      "pinyin": "Nǐ de wèikǒu zěnmeyàng Yǒuméiyǒu késou",
+      "de": "Wie ist Ihr Appetit? Haben Sie Husten?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "有點兒咳嗽。胃口不好，不想吃東西。",
+      "pinyin": "Yǒudiǎnr késou Wèikǒu bù hǎo bù xiǎng chī dōngxi",
+      "de": "Ich huste etwas. Ich habe kaum Appetit und möchte nichts essen."
+    },
+    {
+      "sprecher": "醫生",
+      "zh": "你扁桃腺發炎了，必須打針。",
+      "pinyin": "Nǐ biǎntáoxiàn fāyán le bìxū dǎzhēn",
+      "de": "Sie haben eine Mandelentzündung. Ich muss Ihnen eine Spritze geben."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "要不要吃藥呢？",
+      "pinyin": "Yào bú yào chī yào ne",
+      "de": "Muss ich Medikamente einnehmen?"
+    },
+    {
+      "sprecher": "醫生",
+      "zh": "我開個藥方給你，記得按時服藥、多休息。",
+      "pinyin": "Wǒ kāi ge yàofāng gěi nǐ jìde ànshí fúyào duō xiūxi",
+      "de": "Ich verschreibe Ihnen ein Rezept. Nehmen Sie die Medikamente regelmäßig und ruhen Sie sich viel aus."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "頭痛",
+      "pinyin": "tóutòng",
+      "de": "die Kopfschmerzen"
+    },
+    {
+      "zh": "聽診器",
+      "pinyin": "tīngzhěnqì",
+      "de": "das Stethoskop"
+    },
+    {
+      "zh": "仔細",
+      "pinyin": "zǐxì",
+      "de": "sorgfältig, genau"
+    },
+    {
+      "zh": "嚴重",
+      "pinyin": "yánzhòng",
+      "de": "schlimm"
+    },
+    {
+      "zh": "胃口",
+      "pinyin": "wèikǒu",
+      "de": "der Appetit"
+    },
+    {
+      "zh": "咳嗽",
+      "pinyin": "késou",
+      "de": "der Husten, husten"
+    },
+    {
+      "zh": "扁桃腺",
+      "pinyin": "biǎntáoxiàn",
+      "de": "die Mandeln (auf den menschlichen Körper bezogen)"
+    },
+    {
+      "zh": "發炎",
+      "pinyin": "fāyán",
+      "de": "die Entzündung"
+    },
+    {
+      "zh": "打針",
+      "pinyin": "dǎzhēn",
+      "de": "die Spritze geben, spritzen"
+    },
+    {
+      "zh": "開藥方",
+      "pinyin": "kāi yàofāng",
+      "de": "ein Rezept ausstellen/verschreiben"
+    },
+    {
+      "zh": "按時",
+      "pinyin": "ànshí",
+      "de": "regelmäßig"
+    },
+    {
+      "zh": "休息",
+      "pinyin": "xiūxi",
+      "de": "sich ausruhen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "更……",
+      "erklaerung": "副詞：表示加重一層的語氣。如：「更好」。",
+      "beispiele": [
+        "我昨天開始頭痛，今天更嚴重了。",
+        "張先生為了家庭，一定會更加努力。"
+      ],
+      "uebungen": [
+        "你中文學得不錯，可以更（　）",
+        "臺灣很有人情味兒，臺灣的菜更（）。"
+      ]
+    },
+    {
+      "titel": "必須……",
+      "erklaerung": "一定要怎樣的意思，是一種十分強調的語氣。",
+      "beispiele": [
+        "你扁桃腺發炎了，必須打針。",
+        "他為了維持生計，必須辛勤工作。"
+      ],
+      "uebungen": [
+        "小明受傷了，必須（　）。",
+        "張小姐忘了帶東西，必須（　）。"
+      ]
+    }
+  ]
+}

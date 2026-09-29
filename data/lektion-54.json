@@ -1,0 +1,126 @@
+{
+  "nummer": 54,
+  "titel_zh": "健康的重要",
+  "titel_de": "Die Bedeutung der Gesundheit",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "聽說您住院了，趕緊來看您，好點兒了嗎？",
+      "pinyin": "Tīngshuō nín zhùyuàn le gǎnj-n lái kàn nín hǎo diǎnr le ma",
+      "de": "Ich habe gehört, dass Sie im Krankenhaus sind. Deshalb bin ich sofort gekommen, um Sie zu besuchen. Geht es Ihnen besser?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "好多了，因為胃出血，所以醫生要我住院。",
+      "pinyin": "Hǎo duō le yīnwèi wèi chū xiě suǒyǐ yīsheng yào wǒ zhùyuàn",
+      "de": "Es geht mir viel besser. Ich habe Magenblutung. Deshalb möchte der Arzt, dass ich stationär behandelt werde."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "怎麼會這樣呢？",
+      "pinyin": "Zěnme huì zhèyàng ne",
+      "de": "Woher kann das kommen?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "因為愛喝酒，所以把胃弄壞了。",
+      "pinyin": "Yīnwèi ài hē jiǔ suǒyǐ bǎ wèi nòng huài le",
+      "de": "Weil ich so gerne Alkohol trinke, ist mein Magen kaputt."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "喝酒對身體只有害處沒有好處。",
+      "pinyin": "Hē jiǔ duì shēnt- zhǐyǒu hàichù méiyǒu hǎochù",
+      "de": "Trinken bringt dem Körper nur Schaden und keinen Nutzen."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "以後我一定遵照醫生的吩咐，不會再喝酒了。",
+      "pinyin": "Yǐhòu wǒ yídìng zūnzhào yīsheng de fēnfù bú huì zài hē jiǔ le",
+      "de": "In Zukunft werde ich bestimmt die Anordnungen des Arztes befolgen. Ich werde nicht mehr trinken."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "對啊，身體健康，做起事來才有精神。",
+      "pinyin": "Duì a shēnt- jiànkāng zuò qǐ shì lái cái yǒu jīngshen",
+      "de": "Ja, nur wenn man gesund ist, kann man mit voller Energie arbeiten."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "我就是平時不注意，等到生病以後才知道健康的重要。",
+      "pinyin": "Wǒ jiùshì píngshí bú zhùyì děng dào shēngbìng yǐhòu cái zhīdào jiànkāng de zhòngyào",
+      "de": "Ich habe sonst nicht genug auf mich geachtet. Erst seit ich krank geworden bin, weiss ich, wie wichtig die Gesundheit ist."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "健康",
+      "pinyin": "jiànkāng",
+      "de": "die Gesundheit"
+    },
+    {
+      "zh": "好處",
+      "pinyin": "hǎochù",
+      "de": "der Nutzen"
+    },
+    {
+      "zh": "住院",
+      "pinyin": "zhùyuàn",
+      "de": "im Krankenhaus bleiben"
+    },
+    {
+      "zh": "遵照",
+      "pinyin": "zūnzhào",
+      "de": "befolgen"
+    },
+    {
+      "zh": "趕緊",
+      "pinyin": "gǎnj-n",
+      "de": "sich beeilen"
+    },
+    {
+      "zh": "吩咐",
+      "pinyin": "fēnfù",
+      "de": "anordnen"
+    },
+    {
+      "zh": "胃出血",
+      "pinyin": "wèi chū xiě",
+      "de": "die Magenblutung"
+    },
+    {
+      "zh": "精神",
+      "pinyin": "jīngshen",
+      "de": "die Energie"
+    },
+    {
+      "zh": "喝酒",
+      "pinyin": "hē jiǔ",
+      "de": "Alkohol trinken"
+    },
+    {
+      "zh": "注意",
+      "pinyin": "zhùyì",
+      "de": "Acht geben"
+    },
+    {
+      "zh": "害處",
+      "pinyin": "hàichù",
+      "de": "der Schaden"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "把字句",
+      "erklaerung": "介詞「把」是處置式動詞，後接名詞與名詞組合，用在動詞前，後面一定要有補語，例：把胃弄壞了，把那些功課寫完。把字句可用來表示確定的人或事物因動作而改變位置、處於某種狀態、發生某種變化或產生某種結果。「把」後面的名詞多半是後面動詞的賓語，由「把」字提到動詞前。「把」後面的名詞都指事物是有定的、已知的，或見於上文，或可以意會的。前面常加「這」、「那」或其他限制性的修飾語。",
+      "beispiele": [
+        "這串聖誕樹燈，請你掛在樹上。 → 請你把這串聖誕樹燈掛在樹上。",
+        "這本字典，請你放在書架上。 → 請你把這本字典放在書架上。"
+      ],
+      "uebungen": [
+        "那些禮物，請用包裝紙包起來。 → （　）",
+        "這些錢，請你拿給王先生。 → （　）"
+      ]
+    }
+  ]
+}

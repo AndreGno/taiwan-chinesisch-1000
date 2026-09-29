@@ -1,0 +1,115 @@
+{
+  "nummer": 47,
+  "titel_zh": "新年新希望",
+  "titel_de": "Neues Jahr, neue Hoffungen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "這本記事年曆送給你，祝你新年快樂。",
+      "pinyin": "Zhè běn jìshì niánlì sòng gěi nǐ zhù nǐ xīnnián kuàilè",
+      "de": "Ich schenke dir diesen Jahreskalender. Frohes neues Jahr."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "謝謝！新的一年，你有什麼計畫呢？",
+      "pinyin": "Xièxie Xīn de yì nián nǐ yǒu shénme jìhuà ne",
+      "de": "Dankeschön! Hast Du jetzt, wo das neue Jahr ansteht, irgendwelche Pläne?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我唯一的願望，就是把中文學好。",
+      "pinyin": "Wǒ wéiyī de yuànwàng jiùshì bǎ Zhōngwén xué hǎo",
+      "de": "Mein einziger Wunsch ist mein Chinesisch richtig zu lernen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "「一年之計在於春」，華人很重視一年的開始。",
+      "pinyin": "Yì nián zhī jì zàiyú chūn huárén hěn zhòngshì yì nián de kāishǐ",
+      "de": "Die Pläne eines Jahres entspringen dem Frühling. Chinesen schätzen den Jahresanfang sehr."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "這也就是我送你這本記事年曆的目的。",
+      "pinyin": "Zhè yě jiùshì wǒ sòng nǐ zhè běn jìshì niánlì de mùdì",
+      "de": "Das ist ja auch der Grund, warum ich dir diesen Jahreskalender geschenkt habe."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "你想得真周到，我會好好兒利用它的。",
+      "pinyin": "Nǐ xiǎng de zhēn zhōudào wǒ huì hǎohāor lìyòng tā de",
+      "de": "Du hast wirklich an alles gedacht. Ich werde ihn gut gebrauchen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "讓我們一起努力吧。",
+      "pinyin": "Ràng wǒmen yìqǐ nǔlì ba",
+      "de": "Lass uns gemeinsam das Beste machen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "記事年曆",
+      "pinyin": "jìshì niánlì",
+      "de": "der Jahreskalender"
+    },
+    {
+      "zh": "計畫",
+      "pinyin": "jìhuà",
+      "de": "der Plan, das Vorhaben"
+    },
+    {
+      "zh": "唯一願望",
+      "pinyin": "wéiyī yuànwàng",
+      "de": "der einzige Wunsch"
+    },
+    {
+      "zh": "華人",
+      "pinyin": "huárén",
+      "de": "die Chinesen"
+    },
+    {
+      "zh": "重視",
+      "pinyin": "zhòngshì",
+      "de": "schätzen, Wert legen, achten"
+    },
+    {
+      "zh": "開始",
+      "pinyin": "kāishǐ",
+      "de": "anfangen, der Anfang"
+    },
+    {
+      "zh": "目的",
+      "pinyin": "mùdì",
+      "de": "der Grund, die Absicht"
+    },
+    {
+      "zh": "周到",
+      "pinyin": "zhōudào",
+      "de": "gründlich, hier: fürsorglich"
+    },
+    {
+      "zh": "利用",
+      "pinyin": "lìyòng",
+      "de": "gebrauchen, benutzen"
+    },
+    {
+      "zh": "努力",
+      "pinyin": "nǔlì",
+      "de": "sein Bestes tun, sein Bestes geben"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "唯一的……",
+      "erklaerung": "僅有的、只有一個的。",
+      "beispiele": [
+        "我唯一的願望，就是把中文學好。",
+        "他唯一的盼望，就是兒子早日歸來。"
+      ],
+      "uebungen": [
+        "媽媽唯一的要求，就是（　）。",
+        "王伯伯唯一的（　）回來了。"
+      ]
+    }
+  ]
+}

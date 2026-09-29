@@ -1,0 +1,126 @@
+{
+  "nummer": 38,
+  "titel_zh": "接機",
+  "titel_de": "Jemanden vom Flughafen abholen",
+  "dialog": [
+    {
+      "sprecher": "張秘書",
+      "zh": "王先生，我在這裏，請走這邊兒。",
+      "pinyin": "Wáng xiānsheng wǒ zài zhèlǐ qǐng zǒu zhè biānr",
+      "de": "Herr Wang, ich bin hier. Kommen Sie bitte hierher."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "張祕書，你怎麼來了？",
+      "pinyin": "Zhāng mìshū nǐ zěnme lái le",
+      "de": "Sekretär Chang, warum sind Sie hergekommen?"
+    },
+    {
+      "sprecher": "張秘書",
+      "zh": "是公司派我來接你們的。一路上飛機還平穩嗎？",
+      "pinyin": "Shì gōngsī pài wǒ lái jiē nǐmen de Yí lù shàng fēijī hái píngwěn ma",
+      "de": "Die Firma hat mich hergeschickt, um Sie abzuholen. Hatten Sie einen ruhigen Flug?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "很不平穩，我太太暈機，吐得很厲害",
+      "pinyin": "Hěn bù píngwěn wǒ tàitai yūnjī tǔ de hěn lìhai",
+      "de": "Er war sehr unruhig. Meine Frau ist luftkrank geworden und musste sich sehr heftig übergeben."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "沒什麼關係了。飛機一降落，我就全好了。",
+      "pinyin": "Méi shénme guānxì le Fēijī yí jiàngluò wǒ jiù quán hǎo le",
+      "de": "Das macht nichts mehr. Jetzt da das Flugzeug gelandet ist, ist alles wieder in Ordnung."
+    },
+    {
+      "sprecher": "張秘書",
+      "zh": "海關檢查行李順利嗎？",
+      "pinyin": "Hǎiguān jiǎnchá xíngl- shùnlì ma",
+      "de": "Ist die Kontrolle des Gepäcks am Zoll reibungslos verlaufen?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "因為我們沒有需要上稅的東西，所以很快就好了。",
+      "pinyin": "Yīnwèi wǒmen méiyǒu xūyào shàng shuì de dōngxi suǒyǐ hěn kuài jiù hǎo le",
+      "de": "Weil wir nichts zu verzollen hatten, war die sehr schnell erledigt."
+    },
+    {
+      "sprecher": "張秘書",
+      "zh": "車子在外頭等著，我先送兩位去旅館休息吧。",
+      "pinyin": "Chēzi zài wàitou děngzhe wǒ xiān sòng liǎng wèi qù lǚguǎn xiūxi ba",
+      "de": "Der Wagen wartet draußen. Ich bringe Sie beide zuerst in Ihr Hotel, damit Sie sich ausruhen können."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "秘書",
+      "pinyin": "mìshū",
+      "de": "der Sekretär"
+    },
+    {
+      "zh": "派",
+      "pinyin": "pài",
+      "de": "senden, schicken"
+    },
+    {
+      "zh": "平穩",
+      "pinyin": "píngwěn",
+      "de": "ruhig, stabil, sanft"
+    },
+    {
+      "zh": "暈機",
+      "pinyin": "yūnjī",
+      "de": "luftkrank, die Luftkrankheit"
+    },
+    {
+      "zh": "吐",
+      "pinyin": "tù",
+      "de": "sich übergeben, erbrechen"
+    },
+    {
+      "zh": "厲害",
+      "pinyin": "lìhai",
+      "de": "heftig, unerträglich"
+    },
+    {
+      "zh": "降落",
+      "pinyin": "jiàngluò",
+      "de": "landen, die Landung"
+    },
+    {
+      "zh": "海關",
+      "pinyin": "hǎiguān",
+      "de": "das Zollamt"
+    },
+    {
+      "zh": "順利",
+      "pinyin": "shùnlì",
+      "de": "reibungslos, glatt, zügig"
+    },
+    {
+      "zh": "上稅",
+      "pinyin": "shàng shuì",
+      "de": "verzollen, versteuern"
+    },
+    {
+      "zh": "外頭",
+      "pinyin": "wàitou",
+      "de": "draußen, außerhalb"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "一……就……",
+      "erklaerung": "即刻、馬上。表示一個動作出現後，緊接著又有一個動作或情況發生。",
+      "beispiele": [
+        "飛機一降落，我就全好了。",
+        "到郵局一問，就知道了。"
+      ],
+      "uebungen": [
+        "他（　）開始跑，（　）取得領先的地位。",
+        "小明一（　），就（　）。"
+      ]
+    }
+  ]
+}

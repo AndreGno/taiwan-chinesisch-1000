@@ -1,0 +1,136 @@
+{
+  "nummer": 61,
+  "titel_zh": "環島旅行（一）",
+  "titel_de": "Die Inselrundfahrt (1)",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "我們環島旅行的第一站日月潭到啦。",
+      "pinyin": "Wǒmen huándǎo lǚxíng de dì-yī zhàn Rìyuètán dào la",
+      "de": "Wir sind an der ersten Station der Inselrundfahrt angekommen. Hier ist der Sun Moon Lake."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "這兒青山綠水，景色非常優美。什麼時候去遊湖呢？",
+      "pinyin": "Zhèr qīng shān lǜ shuǐ jǐngsè fēicháng yōuměi Shénme shíhou qù yóu hú ne",
+      "de": "Die grünen Berge und der See sind so schön. Wann machen wir eine Schifffahrt am See?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我們先到旅館休息一下，再去坐船遊湖吧。",
+      "pinyin": "Wǒmen xiān dào lǚguǎn xiūxí yíxià zài qù zuò chuán yóu hú ba",
+      "de": "Wir sollen erst in das Hotel gehen und uns ein bisschen ausruhen. Dann machen wir eine Schifffahrt."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我一點兒也不想浪費時間，不要休息好嗎？",
+      "pinyin": "Wǒ yìdiǎnr yě bù xiǎng làngfèi shíjiān bú yào xiūxi hǎo ma",
+      "de": "Ich möchte keine einzige Minute verschwenden. Wir müssen uns nicht ausruhen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "也好。明天一早就出發去東西橫貫公路嗎？",
+      "pinyin": "Yě hǎo Míngtiān yìzǎo jiù chūfā qù Dōngxī hénguàn gōnglù ma",
+      "de": "Na gut. Gehen wir morgen früh zum East-West Cross-Island Highway?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "下午先到天祥，那兒有不少好玩的地方。",
+      "pinyin": "Xiàwǔ xiān dào Tiānxiáng nàr yǒu bùshǎo hǎowán de dìfāng",
+      "de": "Am Nachmittag gehen wir zuerst nach Tien Hsiang. Dort gibt es viele interessante Plätze."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "後天就可以看到太魯閣的天然奇觀了。",
+      "pinyin": "Hòutiān jiù kěyǐ kàn dào Tàilǔgé de tiānrán qíguān le",
+      "de": "Schon übermorgen werden wir das Naturwunder der Taroko Gorge sehen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我們可以在那兒買些大理石做的紀念品。",
+      "pinyin": "Wǒmen kěyǐ zài nàr mǎi xiē Dàlǐshí zuò de jìniànpǐn",
+      "de": "Wir können dort einige Souvenirs aus Marmor kaufen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "環島旅行",
+      "pinyin": "huándǎo lǚxíng",
+      "de": "die Inselrundfahrt"
+    },
+    {
+      "zh": "東西橫貫公路",
+      "pinyin": "Dōngxī hénguàn gōnglù",
+      "de": "der East-West Cross-Island Highway"
+    },
+    {
+      "zh": "第一站",
+      "pinyin": "dì-yī zhàn",
+      "de": "die erste Station"
+    },
+    {
+      "zh": "天祥",
+      "pinyin": "Tiānxiáng",
+      "de": "Tien Hsiang"
+    },
+    {
+      "zh": "日月潭",
+      "pinyin": "Rìyuètán",
+      "de": "der Sun Moon Lake"
+    },
+    {
+      "zh": "太魯閣",
+      "pinyin": "Tàilǔgé",
+      "de": "Taroko Gorge"
+    },
+    {
+      "zh": "青山綠水",
+      "pinyin": "qīngshān lǜshuǐ",
+      "de": "die blauen Berge und das grüne Wasser"
+    },
+    {
+      "zh": "天然奇觀",
+      "pinyin": "tiān rán qí guān",
+      "de": "das Naturwunder"
+    },
+    {
+      "zh": "遊湖",
+      "pinyin": "yóu hú",
+      "de": "die Kreuzfahrt auf dem See"
+    },
+    {
+      "zh": "大理石",
+      "pinyin": "Dàilǐshí",
+      "de": "der Marmor"
+    },
+    {
+      "zh": "船",
+      "pinyin": "chuán",
+      "de": "das Schiff"
+    },
+    {
+      "zh": "紀念品",
+      "pinyin": "jìniànp-n",
+      "de": "das Andenken, das Souvenir"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "語氣詞：吧、嗎、呢",
+      "erklaerung": "「吧」、「嗎」、「呢」表示疑問語氣的區別：「吧」和「嗎」主要用於是非問句，「呢」用於是非問句以外的問句。「是非句」問句中沒有表示疑問的詞語或方式，通過疑問語氣詞「嗎」、「吧」表示疑問。「吧」主要用於含有測度語氣的疑問句。通常是問話人已經有了初步想法，但是不十分肯定，於是用自己的推測來試探，以求得到證實。",
+      "beispiele": [
+        "你要在教堂結婚，還是在飯店舉行婚禮呢?",
+        "您是早上出發，還是下午才去呢？",
+        "那些水果吃起來很甜吧？",
+        "你喜歡這款手錶嗎？"
+      ],
+      "uebungen": [
+        "王小姐要出國留學，還是留在國內工作（　）？",
+        "今天上數學課，還是上語文課（　）？",
+        "你怎麼這麼晚才回來（　）？",
+        "那首歌聽起來很動聽（　）？",
+        "明天要上中文課（　）？"
+      ]
+    }
+  ]
+}

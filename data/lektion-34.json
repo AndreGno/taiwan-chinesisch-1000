@@ -1,0 +1,138 @@
+{
+  "nummer": 34,
+  "titel_zh": "支票",
+  "titel_de": "Der Scheck",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "小姐，我有一張支票要兌現。",
+      "pinyin": "Xiǎojiě wǒ yǒu yì zhāng zhīpiào yào duìxiàn",
+      "de": "Guten Tag, ich habe einen Scheck einzulösen."
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "這張支票不能馬上領現金。",
+      "pinyin": "Zhè zhāng zhīpiào bù néng mǎshàng lǐng xiànjīn",
+      "de": "Dieser Scheck kann nicht sofort für Bargeld eingelöst werden."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "為什麼？這張是空頭支票嗎？",
+      "pinyin": "Wéi shénme Zhè zhāng shì kōngtóu zhīpiào ma",
+      "de": "Warum nicht? Ist es ein ungedeckter Scheck?"
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "不是的。這是銀行本票，得交換以後才能兌現。",
+      "pinyin": "Bú shì de Zhè shì yínháng běnpiào děi jiāohuàn yǐhòu cái néng duìxiàn",
+      "de": "Nein, es ist ein Verrechnungsscheck. Er muss über ein Konto abgerechnet werden und kann dann erst eingelöst werden."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "那我應該怎麼做呢？",
+      "pinyin": "Nà wǒ yīnggāi zěnme zuò ne",
+      "de": "Und was soll ich machen?"
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "您先把支票存到戶頭裏，過兩天再來領錢。",
+      "pinyin": "Nín xiān bǎ zhīpiào cún dào hùtóu lǐ guò liǎng tiān zài lái lǐng qián",
+      "de": "Zahlen Sie den Scheck erst mal auf Ihr Konto ein und dann können Sie das Geld nach zwei Tagen abheben."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "要不要填存款單？需要存摺嗎？",
+      "pinyin": "Yào bu yào tián cún kuǎn dān Xūyào cúnzhé ma",
+      "de": "Muss ich einen Einzahlungsschein ausfüllen? Benötige ich mein Sparbuch?"
+    },
+    {
+      "sprecher": "小姐",
+      "zh": "都要。您還得在支票後面蓋章簽名。",
+      "pinyin": "Dōu yào Nín hái děi zài zhīpiào hòumiàn gài zhāng qiānmíng",
+      "de": "Beides. Sie müssen noch auf der Rückseite des Schecks unterschreiben und den Namensstempel einfügen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "支票",
+      "pinyin": "zhīpiào",
+      "de": "der Scheck"
+    },
+    {
+      "zh": "兌現",
+      "pinyin": "duìxiàn",
+      "de": "(einen Scheck) einlösen"
+    },
+    {
+      "zh": "領",
+      "pinyin": "lǐng",
+      "de": "abheben"
+    },
+    {
+      "zh": "現金",
+      "pinyin": "xiànjīn",
+      "de": "das Bargeld"
+    },
+    {
+      "zh": "空頭支票",
+      "pinyin": "kōngtóu zhīpiào",
+      "de": "der ungedeckte Scheck"
+    },
+    {
+      "zh": "銀行本票",
+      "pinyin": "yínháng běnpiào",
+      "de": "der Verrechnungsscheck"
+    },
+    {
+      "zh": "交換",
+      "pinyin": "jiāohuàn",
+      "de": "die Abrechnung"
+    },
+    {
+      "zh": "應該",
+      "pinyin": "yīnggāi",
+      "de": "sollen"
+    },
+    {
+      "zh": "存款單",
+      "pinyin": "cúnkuǎn dān",
+      "de": "der Einzahlungsschein"
+    },
+    {
+      "zh": "存摺",
+      "pinyin": "cúnzhé",
+      "de": "das Sparbuch"
+    },
+    {
+      "zh": "蓋章",
+      "pinyin": "gài zhāng",
+      "de": "stempeln, hier: den Namensstempel einfügen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "馬上……",
+      "erklaerung": "在本課是「趕快、立刻、即時」的意思。",
+      "beispiele": [
+        "這張支票不能馬上領現金。",
+        "你馬上到我這兒來！"
+      ],
+      "uebungen": [
+        "老師一叫我，我馬上（　）。",
+        "湯姆聽說瑪莉有危險，馬上（　）。"
+      ]
+    },
+    {
+      "titel": "得……",
+      "erklaerung": "必須的意思，是一種口語化的說法。",
+      "beispiele": [
+        "這是銀行本票，得交換以後才能兌現。",
+        "我們得先去買票，才能進去看電影。"
+      ],
+      "uebungen": [
+        "你得把功課寫完，（　）。",
+        "每個人都得（　），國家才會富強。"
+      ]
+    }
+  ]
+}

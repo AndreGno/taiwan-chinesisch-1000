@@ -1,0 +1,136 @@
+{
+  "nummer": 56,
+  "titel_zh": "逛超市",
+  "titel_de": "Das Einkaufen im Supermarkt",
+  "dialog": [
+    {
+      "sprecher": "張太太",
+      "zh": "好新鮮的水果，價錢也不貴。",
+      "pinyin": "Hǎo xīnxiān de shuǐguǒ jiàqián yě bú guì",
+      "de": "Die Früchte hier sind so frisch und sie sind nichtmal teuer."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "這家新開幕的超級市場價錢公道，而且購物環境也很舒服。",
+      "pinyin": "Zhè jiā xīn kāimù de chāojí shìchǎng jiàqián gōngdào érqiě gòu wù huánjìng yě hěn shūfu",
+      "de": "In diesem neueröffneten Supermarkt sind die Preise noch fair und das Umfeld ist auch sehr angenehm."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "超級市場比起傳統市場貨色齊全。",
+      "pinyin": "Chāojí shìchǎng bǐ qǐ chuántǒng shìchǎng huòsè qíquán",
+      "de": "Im Vergleich zum Wochenmarkt hat der Supermarkt fast alles."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "超級市場有冷藏設備，所以食物更新鮮、衛生。",
+      "pinyin": "Chāojí shìchǎng yǒu lěngcáng shèbèi suǒyǐ shíwù gèng xīnxiān wèishēng",
+      "de": "Durch die Kühleinrichtungen bleiben die Lebensmittel im Supermarkt länger frisch und außerdem ist es hygenischer."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "除了東西價廉物美之外，停車也很方便。",
+      "pinyin": "Chúle dōngxi jiàlián wùměi zhī wài tíngchē yě hěn fāngbiàn",
+      "de": "Abgesehen von dem guten Preis-Leistungs-Verhältnis ist das Parken auch sehr praktisch."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "超級市場的生鮮蔬果都是直接向產地批發的，所以價錢比較便宜。",
+      "pinyin": "Chāojí shìchǎng de shēng xiān shūguǒ dōu shì zhíjiē xiàng chǎndì pīfā de suǒyǐ jiàqián bǐjiào piányi",
+      "de": "Da das frische Gemüse und Obst direkt vom Anbaugebiet in großen Mengen eingekauft wird, ist der Preis sogar niedriger."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "許多人下班以後，都會到這裡買菜。",
+      "pinyin": "Xǔduō rén xiàbān yǐhòu dōu huì dào zhèlǐ mǎi cài",
+      "de": "Viele kommen nach der Arbeit hierher, um einzukaufen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "超級市場營業時間長，買東西不但方便而且省時。",
+      "pinyin": "Chāojí shìchǎng yíngyè shíjiān cháng mǎi dōngxi búdàn fāngbiàn érqiě shěng shí",
+      "de": "Da der Supermarkt längere Öffnungszeiten hat, ist das Einkaufen leichter und zeitsparender."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "超級市場",
+      "pinyin": "chāojí shìchǎng",
+      "de": "der Supermarkt"
+    },
+    {
+      "zh": "價廉物美",
+      "pinyin": "jiàlián wùměi",
+      "de": "das gute Preis-Leistungs-Verhältnis"
+    },
+    {
+      "zh": "價錢",
+      "pinyin": "jiàqián",
+      "de": "der Preis"
+    },
+    {
+      "zh": "方便",
+      "pinyin": "fāngbiàn",
+      "de": "praktisch"
+    },
+    {
+      "zh": "開幕",
+      "pinyin": "kāimù",
+      "de": "die Eröffnung"
+    },
+    {
+      "zh": "直接",
+      "pinyin": "zhíjiē",
+      "de": "direkt"
+    },
+    {
+      "zh": "傳統市場",
+      "pinyin": "chuántǒng shìchǎng",
+      "de": "der Wochenmarkt / der traditionelle Markt"
+    },
+    {
+      "zh": "產地",
+      "pinyin": "chǎndì",
+      "de": "der Herstellungsort / das Anbaugebiet"
+    },
+    {
+      "zh": "貨色齊全",
+      "pinyin": "huòsè qíquán",
+      "de": "ein reiches Warenangebot"
+    },
+    {
+      "zh": "冷藏設備",
+      "pinyin": "lěngcáng shèbè",
+      "de": "die Kühlanlage"
+    },
+    {
+      "zh": "批發",
+      "pinyin": "pīfā",
+      "de": "in großen Mengen einkaufen / handeln"
+    },
+    {
+      "zh": "衛生",
+      "pinyin": "wèishēng",
+      "de": "hygienisch"
+    },
+    {
+      "zh": "省時",
+      "pinyin": "shěng shí",
+      "de": "zeitsparend"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不但……而且……",
+      "erklaerung": "「不但……而且」連接兩個分句，兩個分句的意思都是必須要表達的，但後一分句比前一分句表示更進一層的意思。",
+      "beispiele": [
+        "超級市場營業時間長，買東西不但方便而且省時。",
+        "他不但功課好，而且社團表現也很優秀。"
+      ],
+      "uebungen": [
+        "減肥用錯方法，（　）不能減輕體重，（　）影響身體健康。",
+        "蘋果（　）好吃，（　）價錢便宜。"
+      ]
+    }
+  ]
+}

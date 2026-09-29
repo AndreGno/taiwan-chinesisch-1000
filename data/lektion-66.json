@@ -1,0 +1,147 @@
+{
+  "nummer": 66,
+  "titel_zh": "萬聖節的遊戲",
+  "titel_de": "Halloween",
+  "dialog": [
+    {
+      "sprecher": "蓓蒂",
+      "zh": "芳芳，我們去買南瓜來做南瓜燈吧。",
+      "pinyin": "Fāngfāng wǒmen qù mǎi nánguā lái zuò nánguādēng ba",
+      "de": "Fang-Fang, lass uns einen Kürbis kaufen und daraus eine Kürbislaterne machen."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "做南瓜燈要先把瓜肉挖乾淨，再刻上鼻子、嘴巴，非常麻煩。",
+      "pinyin": "Zuò nánguādēng yào xiān bǎ guā ròu wā gānjìng zài kē shàng bízi zuǐba fēicháng máfan",
+      "de": "Um eine Kürbislaterne zu machen, müssen wir das Fruchtfleisch herausnehmen und dann eine Nase und einen Mund hineinschneiden. Es ist zu umständlich."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "可是萬聖節時家家戶戶都是這樣做的。",
+      "pinyin": "Kěshì Wànshèng Jié shí jiājiā-hùhù dōu shì zhèyàng zuò de",
+      "de": "Aber jede Familie macht das zu Halloween."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "打扮得怪模怪樣地去鄰居家要糖，其實也很好玩。",
+      "pinyin": "Dǎbàn de guài mó guài yàng de qù línjū jiā yào táng qíshí yě hěn hǎowán",
+      "de": "Es ist lustiger, sich seltsam zu verkleiden und bei den Nachbarn nach Bonbons zu fragen."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "但是我們這麼大了，不能再玩這種遊戲了。",
+      "pinyin": "Dànshì wǒmen zhème dà le bú néng zài wán zhè zhǒng yóuxì le",
+      "de": "Aber wir sind schon zu groß, um dieses Spiel zu spielen."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我可以替弟弟打扮打扮，讓他裝扮成小飛俠。",
+      "pinyin": "Wǒ kěyǐ tì dìdi dǎbàn dǎbàn ràng tā zhuāngbàn chéng Xiǎofēixiá",
+      "de": "Ich kann meinen kleinen Bruder als Peter Pan verkleiden."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "我幫妹妹裝扮成巫婆吧。",
+      "pinyin": "Wǒ bāng mèimei zhuāngbàn chéng wūpó ba",
+      "de": "Und ich helfe meiner kleinen Schwester, sich als Hexe zu verkleiden."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "好，比比看誰的化妝技術比較好。",
+      "pinyin": "Hǎo bǐbǐkàn shéi de huàzhuāng jìshù bǐjiào hǎo",
+      "de": "Gut. Wir werden sehen, wessen Verkleidungskünste besser sind."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "萬聖節",
+      "pinyin": "Wànshèng Jié",
+      "de": "Halloween"
+    },
+    {
+      "zh": "打扮",
+      "pinyin": "dǎbàn",
+      "de": "verkleiden"
+    },
+    {
+      "zh": "南瓜",
+      "pinyin": "nánguā",
+      "de": "der Kürbis"
+    },
+    {
+      "zh": "怪模怪樣",
+      "pinyin": "guài mó guài yàng",
+      "de": "seltsam aussehen"
+    },
+    {
+      "zh": "南瓜燈",
+      "pinyin": "nánguādēng",
+      "de": "die Kürbislaterne"
+    },
+    {
+      "zh": "鄰居",
+      "pinyin": "línjū",
+      "de": "der Nachbar"
+    },
+    {
+      "zh": "瓜肉",
+      "pinyin": "guā ròu",
+      "de": "das Fruchtfleisch der Melone"
+    },
+    {
+      "zh": "種",
+      "pinyin": "zhǒng",
+      "de": "eine Art"
+    },
+    {
+      "zh": "挖",
+      "pinyin": "wā",
+      "de": "aushöhlen, graben"
+    },
+    {
+      "zh": "遊戲",
+      "pinyin": "yóuxì",
+      "de": "das Spiel"
+    },
+    {
+      "zh": "刻",
+      "pinyin": "kē",
+      "de": "eingravieren"
+    },
+    {
+      "zh": "小飛俠",
+      "pinyin": "Xiǎofēixiá",
+      "de": "Peter Pan"
+    },
+    {
+      "zh": "麻煩",
+      "pinyin": "máfan",
+      "de": "umständlich, problematisch"
+    },
+    {
+      "zh": "巫婆",
+      "pinyin": "wūpó",
+      "de": "die Hexe"
+    },
+    {
+      "zh": "家家戶戶",
+      "pinyin": "jiājiāhùhù",
+      "de": "jede Familie"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不和沒的用法",
+      "erklaerung": "「不」和「沒（有）」都有否定的意義，都可以放在動詞、形容詞前，對動作、性狀加以否定。但是「不」多用於主觀意願，否定過去、現在、將來的動作行為。「沒有」主要用於客觀敘述，否定動作、狀態的發生或完成，因此只限於指過去和現在，不能指將來。",
+      "beispiele": [
+        "你還要吃嗎？ → 我不能再吃了。",
+        "我很久沒聽到有關他的消息了。"
+      ],
+      "uebungen": [
+        "他還想要游泳嗎？ → （　）",
+        "你沒去過法國嗎？ → （　）",
+        "他關心過這件事嗎？ → （　）"
+      ]
+    }
+  ]
+}

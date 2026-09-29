@@ -1,0 +1,153 @@
+{
+  "nummer": 37,
+  "titel_zh": "機場",
+  "titel_de": "Der Flughafen",
+  "dialog": [
+    {
+      "sprecher": "王太太",
+      "zh": "這班飛機的乘客不少，快去劃位吧！",
+      "pinyin": "Zhè bān fēijī de chéngkè bù shǎo kuài qù huà wèi ba",
+      "de": "Auf diesem Flug sind viele Passagiere. Gehen wir schnell einchecken!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "把機票、護照給我，我去劃位。",
+      "pinyin": "Bǎ jīpiào hùzhào gěi wǒ wǒ qù huà wèi",
+      "de": "Gib mir die Flugtickets und die Pässe. Ich gehe uns einchecken."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "行李都交給航空公司託運嗎？",
+      "pinyin": "Xíngl- dōu jiāo gěi hángkōng gōngsī tuōyùn ma",
+      "de": "Wollen wir das gesamte Gepäck aufgeben?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "最好都託運，隨身帶的東西越少越好。",
+      "pinyin": "Zuìhǎo dōu tuōyùn suíshēn dài de dōngxi yuè shǎo yuè hǎo",
+      "de": "Das wäre am besten. Je weniger Handgepäck, desto besser."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我的座位要劃在靠走道的位置。",
+      "pinyin": "Wǒ de zuòwèi yào huà zài kào zǒudào de wèizhì",
+      "de": "Ich will einen Platz am Gang haben."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "都弄好了，該去檢查行李了。",
+      "pinyin": "Dōu nòng hǎo le gāi qù jiǎnchá xíngl- le",
+      "de": "Es ist alles erledigt. Wir sollten das Gepäck kontrollieren."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "現在就去候機室太早了吧？",
+      "pinyin": "Xiànzài jiù qù hòujīshì tài zǎo le ba",
+      "de": "Ist es nicht zu früh, jetzt schon zur Abflugshalle zu gehen?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "機場那麼大，候機室很遠，還是先進去吧！",
+      "pinyin": "Jīchǎng nàme dà hòujīshì hěn yuǎn háishì xiān jìnǐ qù ba",
+      "de": "Der Flughafen ist sehr groß und die Abflugshalle sehr weit weg. Gehen wir lieber schon mal hin!"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "機場",
+      "pinyin": "jīchǎng",
+      "de": "der Flughafen"
+    },
+    {
+      "zh": "航空公司",
+      "pinyin": "hángkōng gōngsī",
+      "de": "die Fluggesellschaft"
+    },
+    {
+      "zh": "乘客",
+      "pinyin": "chéngkè",
+      "de": "der Passagier"
+    },
+    {
+      "zh": "託運",
+      "pinyin": "tuōyùn",
+      "de": "das Gepäck aufgeben"
+    },
+    {
+      "zh": "劃（座）位",
+      "pinyin": "huà (zuò)wèi",
+      "de": "einchecken, die Plätze reservieren (im Flugzeug/ Zug)"
+    },
+    {
+      "zh": "隨身",
+      "pinyin": "suíshēn",
+      "de": "das Handgepäck"
+    },
+    {
+      "zh": "護照",
+      "pinyin": "hùzhào",
+      "de": "der Pass"
+    },
+    {
+      "zh": "座位",
+      "pinyin": "zuòwèi",
+      "de": "der Sitzplatz"
+    },
+    {
+      "zh": "行李",
+      "pinyin": "xíngl-",
+      "de": "das Gepäck"
+    },
+    {
+      "zh": "靠走道",
+      "pinyin": "kào zǒudào",
+      "de": "am Gang gelegen"
+    },
+    {
+      "zh": "交（給）",
+      "pinyin": "jiāo(gěi)",
+      "de": "überlassen, übergeben"
+    },
+    {
+      "zh": "遠",
+      "pinyin": "yuǎn",
+      "de": "weit, weit weg"
+    },
+    {
+      "zh": "候機室",
+      "pinyin": "hòujīshì",
+      "de": "die Abflugshalle"
+    },
+    {
+      "zh": "班",
+      "pinyin": "bān",
+      "de": "das Zählwort für einen planmäßigen Bus/Zug/ein Flugzeug etc.)"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "越……越……",
+      "erklaerung": "表示在怎樣的情況下會更加如何如何的意思。",
+      "beispiele": [
+        "上飛機，隨身帶的東西越少越好。",
+        "出國旅遊，打包的行李越簡單越好。"
+      ],
+      "uebungen": [
+        "吃東西，越（　）越（　）。",
+        "為人處事，越（　）越（　）。"
+      ]
+    },
+    {
+      "titel": "還是……",
+      "erklaerung": "在本課是表示希望，含有建議的意味。",
+      "beispiele": [
+        "候機室很遠，還是先進去吧！",
+        "路程這麼遠，我看你還是早點出門的好。"
+      ],
+      "uebungen": [
+        "快下雨了，你（　）帶把傘吧。",
+        "頭痛發燒，（　）趕快去看醫生吧。"
+      ]
+    }
+  ]
+}

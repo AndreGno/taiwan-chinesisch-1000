@@ -1,0 +1,131 @@
+{
+  "nummer": 22,
+  "titel_zh": "請客",
+  "titel_de": "Einladung",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "好久不見，近來好嗎？",
+      "pinyin": "Hǎojiǔ bújiàn jìnlái hǎo ma",
+      "de": "Lange nicht mehr gesehen. Ging es Ihnen in letzter Zeit gut?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "最近公司的事情多，比較忙。",
+      "pinyin": "Zuìjìn gōngsī de shìqing duō bǐjiao máng",
+      "de": "In letzter Zeit ist in der Firma viel los, daher bin ich ziemlich beschäftigt."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "怪不得昨天李先生請客，您沒去。",
+      "pinyin": "Guàibude zuótiān Lǐ xiānsheng qǐngkè nín méi qù",
+      "de": "Kein Wunder, dass Sie gestern nicht erschienen sind, als Herr Li zum Essen eingeladen hatte."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "您今天來有什麼事嗎？",
+      "pinyin": "Nín jīntiān lái yǒu shénme shì ma",
+      "de": "Gibt es einen bestimmten Grund für Ihren heutigen Besuch?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "下個星期天晚上我想請您吃飯，有空嗎？",
+      "pinyin": "Xià ge xīngqí tiān wǎnshang wǒ xiǎng qǐng nín chī fàn yǒu kòng ma",
+      "de": "Nächsten Sonntagabend möchte ich Sie zum Essen einladen, haben Sie Zeit?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "那天我沒事，一定準時去。",
+      "pinyin": "Nà tiān wǒ méi shì yídìng zhǔnshí qù",
+      "de": "An dem Tag habe ich nichts vor und werde bestimmt pünktlich kommen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "莉莉新學了幾道菜，味道不錯，請您來嚐嚐。",
+      "pinyin": "Lìlì xīn xué le jǐ dào cài wèidào búcuò qǐng nín lái chángchang",
+      "de": "Li- Li hat einige neue Kochrezepte gelernt. Es schmeckt nicht schlecht. Kommen Sie doch mal Zum Probieren."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "每次您請客，我都可以大飽口福。",
+      "pinyin": "Měi cì nín qǐngkè wǒ dōu kěyǐ dàbǎo-kǒufú",
+      "de": "Immer wenn Sie mich einladen, kann ich es in vollen Zügen genießen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "請客",
+      "pinyin": "qǐngkè",
+      "de": "einladen"
+    },
+    {
+      "zh": "好久不見",
+      "pinyin": "hǎojiǔ bújiàn",
+      "de": "lange nicht mehr gesehen"
+    },
+    {
+      "zh": "公司",
+      "pinyin": "gōngsī",
+      "de": "die Firma"
+    },
+    {
+      "zh": "事情",
+      "pinyin": "shìqíng",
+      "de": "die Beschäftigung, die Angelegenheit"
+    },
+    {
+      "zh": "忙（碌）",
+      "pinyin": "máng(lù)",
+      "de": "beschäftigt"
+    },
+    {
+      "zh": "有空",
+      "pinyin": "yǒu kòng",
+      "de": "Zeit haben"
+    },
+    {
+      "zh": "準時",
+      "pinyin": "zhǔnshí",
+      "de": "pünktlich"
+    },
+    {
+      "zh": "道",
+      "pinyin": "dào",
+      "de": "ZEW. für Gerichte"
+    },
+    {
+      "zh": "味道",
+      "pinyin": "wèidào",
+      "de": "der Geschmack"
+    },
+    {
+      "zh": "不錯",
+      "pinyin": "búcuò",
+      "de": "nicht schlecht"
+    },
+    {
+      "zh": "嚐",
+      "pinyin": "cháng",
+      "de": "probieren"
+    },
+    {
+      "zh": "大飽口福",
+      "pinyin": "dàbǎo-kǒufú",
+      "de": "in vollen Zügen genießen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "怪不得……",
+      "erklaerung": "難怪、在意料之內。",
+      "beispiele": [
+        "中國菜那麼好吃，怪不得他喜歡吃。",
+        "他對太太那麼好，怪不得大家叫他好好先生。"
+      ],
+      "uebungen": [
+        "這裡風景這麼美，怪不得（　）。",
+        "她那麼努力，怪不得（　）。"
+      ]
+    }
+  ]
+}

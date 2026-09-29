@@ -1,0 +1,138 @@
+{
+  "nummer": 46,
+  "titel_zh": "年貨大街",
+  "titel_de": "Neujahrseinkauf",
+  "dialog": [
+    {
+      "sprecher": "張先生",
+      "zh": "快過年了，年貨大街活動開鑼了。",
+      "pinyin": "Kuài guònián le niánhuò dàjiē huódòng kāiluó le",
+      "de": "Bald ist dao Neujahr. Die Neujahrseinkäufe sind im vollen Gange."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "什麼時候一塊兒去買些年貨吧。",
+      "pinyin": "Shénme shíhou yíkuàir qù mǎi xiē niánhuò ba",
+      "de": "Gehen wir bald mal einige Neujahrssachen einkaufen."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "好哇，你想買什麼特別的東西嗎？",
+      "pinyin": "Hǎo wā nǐ xiǎng mǎi shénme tèbié de dōngxi ma",
+      "de": "Ja, gerne. Was willst du denn Besonderes kaufen?"
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "年夜飯要準備的東西。我們明天一起去看看，好不好？",
+      "pinyin": "Niányè fàn yào zhǔnbèi de dōngxi Wǒmen míngtiān yìqǐ qù kànkan hǎo bu hǎo",
+      "de": "Die Sachen für das Neujahrsessen. Gehen wir morgen und schauen mal?"
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "好哇！我也想買些南北乾貨和紅棗、瓜子。",
+      "pinyin": "Hǎo wa Wǒ yě xiǎng mǎi xiē nánběi gānhuò hé hóngzǎo guāzǐ",
+      "de": "Alles klar! Ich will mir auch chinesische Knabbereien, rote Datteln und Melonenkerne kaufen."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "就怕人太多很擁擠。",
+      "pinyin": "Jiù pà rén tài duō hěn yǒngj-",
+      "de": "Ich befürchte nur, dass es wegen der vielen Leute sehr eng sein wird."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "擠一擠，熱鬧熱鬧，才有過年的氣氛嘛。",
+      "pinyin": "Jǐ yi jǐ rènào rènào cái yǒu guònián de qìfēn ma",
+      "de": "Sich heiter mit den anderen herumquetschen, da kommt erst Neujahrsstimmung auf."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "也對，那就明天下午一塊兒去。",
+      "pinyin": "Yě duì nà jiù míngtiān xiàwǔ yíkuàir qù",
+      "de": "Du hast recht. Dann gehen wir morgen Nachmittag gemeinsam hin."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "年貨大街",
+      "pinyin": "niánhuò dàjiē",
+      "de": "der Neujahrseinkauf"
+    },
+    {
+      "zh": "過年",
+      "pinyin": "guònián",
+      "de": "das Neujahr"
+    },
+    {
+      "zh": "開鑼",
+      "pinyin": "kāiluó",
+      "de": "„den Anpfiff gegeben“, den Startschuss/-gong geben"
+    },
+    {
+      "zh": "活動",
+      "pinyin": "huódòng",
+      "de": "die Tätigkeit, die Veranstaltung"
+    },
+    {
+      "zh": "擠",
+      "pinyin": "jǐ",
+      "de": "quetschen"
+    },
+    {
+      "zh": "年夜飯",
+      "pinyin": "niányè fàn",
+      "de": "das Neujahrsessen"
+    },
+    {
+      "zh": "熱鬧",
+      "pinyin": "rènào",
+      "de": "erheitern, viel los"
+    },
+    {
+      "zh": "南北乾貨",
+      "pinyin": "nánběi gānhuò",
+      "de": "die Knabbereien"
+    },
+    {
+      "zh": "氣氛",
+      "pinyin": "qìfēn",
+      "de": "die Stimmung, die Atmosphäre"
+    },
+    {
+      "zh": "紅棗",
+      "pinyin": "hóngzǎo",
+      "de": "die rote Dattel"
+    },
+    {
+      "zh": "瓜子",
+      "pinyin": "guāzǐ",
+      "de": "der Melonenkern"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "快……",
+      "erklaerung": "本課是副詞，「將要、趕緊」的意思，通常放在動詞的前面。",
+      "beispiele": [
+        "快過年了，年貨大街活動開鑼了。",
+        "真高興，我快畢業了！"
+      ],
+      "uebungen": [
+        "我快完成了，你再（　）。",
+        "這裡很危險，你（　）吧！"
+      ]
+    },
+    {
+      "titel": "才……",
+      "erklaerung": "形容事情的一種轉折。",
+      "beispiele": [
+        "擠一擠人潮，熱鬧熱鬧，才有過年的味道嘛。",
+        "工作了這麼久，才領到這麼一點錢。"
+      ],
+      "uebungen": [
+        "乾旱了一個月，今天才（　）。",
+        "他說了半天，才（　）。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "nummer": 16,
+  "titel_zh": "去郵局",
+  "titel_de": "Zum Postamt gehen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "請問這附近有郵局嗎？",
+      "pinyin": "Qǐngwèn zhè fùjìn yǒu yóujú ma",
+      "de": "Gibt es hier in der Nähe ein Postamt?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "在前面，往前走五分鐘就到了。",
+      "pinyin": "Zài qiánmiàn wǎng qián zǒu wǔ fēn zhōng jiù dào le",
+      "de": "Da vorne. Es sind geradeaus fünf Minuten zu Fuß. Dann sind Sie da."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "謝謝！我要去郵局寄兩封信。",
+      "pinyin": "Xièxie Wǒ yào qù yóujú jì liǎng fēng xìn",
+      "de": "Danke sehr! Ich muss im Postamt zwei Briefe abschicken."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是給朋友的信嗎？",
+      "pinyin": "Shì gěi péngyǒu de xìn ma",
+      "de": "Sind die Briefe für Freunde?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "一封是寫給我父母親的，另一封是寫給朋友的。",
+      "pinyin": "Yì fēng shì xiě gěi wǒ fùmǔ qīn de lìng yì fēng shì xiě gěi péngyǒu de",
+      "de": "Der eine ist an meine Eltern, der andere an einen Freund."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "這兩封信都要寄到美國去嗎？",
+      "pinyin": "Zhè liǎng fēng xìn dōu yào jì dào Měiguó qù ma",
+      "de": "Sind beide Briefe für die USA bestimmt?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "是啊，不知道郵費要多少？",
+      "pinyin": "Shì a bùzhīdào yóufèi yào duōshao",
+      "de": "Richtig, ich weiß aber nicht, wie viel das Porto kostet."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "到郵局一問，就知道了。",
+      "pinyin": "Dào yóujú yí wèn jiù zhīdào le",
+      "de": "Wenn Sie im Postamt fragen, werden Sie es wissen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "郵局",
+      "pinyin": "yóujú",
+      "de": "das Postamt"
+    },
+    {
+      "zh": "附近",
+      "pinyin": "fùjìn",
+      "de": "in der Nähe"
+    },
+    {
+      "zh": "前面（頭）",
+      "pinyin": "qiánmiàn(tou)",
+      "de": "da vorne"
+    },
+    {
+      "zh": "往",
+      "pinyin": "wǎng",
+      "de": "nach (Richtung)"
+    },
+    {
+      "zh": "走",
+      "pinyin": "zǒu",
+      "de": "gehen"
+    },
+    {
+      "zh": "寄",
+      "pinyin": "jì",
+      "de": "senden, per Post schicken"
+    },
+    {
+      "zh": "信",
+      "pinyin": "xìn",
+      "de": "der Brief"
+    },
+    {
+      "zh": "父母親",
+      "pinyin": "fùmǔ qīn",
+      "de": "die Eltern"
+    },
+    {
+      "zh": "美國",
+      "pinyin": "Měiguó",
+      "de": "die USA"
+    },
+    {
+      "zh": "郵費",
+      "pinyin": "yóufèi",
+      "de": "das Porto"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "一……，另一……",
+      "erklaerung": "把同性質的兩件事，分開說明，讓人聽得比較清楚。",
+      "beispiele": [
+        "這兩封信，一封是寫給我父母親的，另一封是寫給朋友的。",
+        "前面那兩個人，一個是大明，另一個是小華。"
+      ],
+      "uebungen": [
+        "這兩道菜，一（　），另一（）。",
+        "我去了兩次超市，一（　），另一（　）。"
+      ]
+    }
+  ]
+}

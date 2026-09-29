@@ -1,0 +1,133 @@
+{
+  "nummer": 39,
+  "titel_zh": "游泳",
+  "titel_de": "Das Schwimmen",
+  "dialog": [
+    {
+      "sprecher": "林小姐",
+      "zh": "你喜歡做什麼運動？",
+      "pinyin": "Nǐ xǐhuān zuò shénme yùndòng",
+      "de": "Welche Sportart betreibst du gerne?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我最喜歡游泳了，幾乎天天都去游。",
+      "pinyin": "Wǒ zuì xǐhuān yóuyǒng le jīhū tiāntiān dōu qù yóu",
+      "de": "Schwimmen gefällt mir am besten. Ich schwimme fast jeden Tag."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我到現在還不會游泳呢！",
+      "pinyin": "Wǒ dào xiànzài hái bú huì yóuyǒng ne",
+      "de": "Ich kann bis jetzt immer noch nicht schwimmen!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "要是你想學，我可以教你。",
+      "pinyin": "Yàoshì nǐ xiǎng xué wǒ kěyǐ jiāo nǐ",
+      "de": "Wenn du schwimmen lernen willst, kann ich es dir beibringen."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "可是我一看到水，就會緊張。",
+      "pinyin": "Kěshì wǒ yí kàn dào shuǐ jiù huì jǐnzhāng",
+      "de": "Aber immer wenn ich Wasser sehe, werde ich nervös."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我的游泳技術是一流的，一定能把你教會。",
+      "pinyin": "Wǒ de yóuyǒng jìshù shì yìliú de yídìng néng bǎ nǐ jiāo huì",
+      "de": "Meine Schwimmtechnik ist ausgezeichnet. Ich kann es dir sicher beibringen."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我想學自由式，姿勢比較好看。",
+      "pinyin": "Wǒ xiǎng xué zìyóushì zīshì bǐjiào hǎokàn",
+      "de": "Ich würde gerne das Kraulen lernen, da die Haltung besser aussieht."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "對初學的人來說，還是先學蛙式比較好。",
+      "pinyin": "Duì chūxué de rén lái shuō háishì xiān xué wāshì bǐjiào hǎo",
+      "de": "Für einen Anfänger ist es besser zuerst das Brustschwimmen zu lernen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "游泳",
+      "pinyin": "yóuyǒng",
+      "de": "schwimmen"
+    },
+    {
+      "zh": "教",
+      "pinyin": "jiāo",
+      "de": "beibringen, lehren"
+    },
+    {
+      "zh": "緊張",
+      "pinyin": "jǐnzhāng",
+      "de": "nervös, aufgeregt"
+    },
+    {
+      "zh": "技術",
+      "pinyin": "jìshù",
+      "de": "die (technische) Fertigkeit, die Technik"
+    },
+    {
+      "zh": "一流",
+      "pinyin": "yìliú",
+      "de": "ausgezeichnet, ‚eins A‘"
+    },
+    {
+      "zh": "自由式",
+      "pinyin": "zìyóushì",
+      "de": "das Kraulen"
+    },
+    {
+      "zh": "姿勢",
+      "pinyin": "zīshì",
+      "de": "die Haltung, die Stellung"
+    },
+    {
+      "zh": "初學",
+      "pinyin": "chūxué",
+      "de": "der Anfänger"
+    },
+    {
+      "zh": "蛙式",
+      "pinyin": "wāshì",
+      "de": "das Brustschwimmen"
+    },
+    {
+      "zh": "比較",
+      "pinyin": "bǐjiào",
+      "de": "vergleicnsweise, komperatir"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "幾乎……",
+      "erklaerung": "差不多的意思。",
+      "beispiele": [
+        "我最喜歡游泳了，幾乎天天都去游。",
+        "他最喜歡吃苦瓜了，幾乎天天都吃。"
+      ],
+      "uebungen": [
+        "最近這幾天，幾乎（　）。",
+        "這裡的交通狀況，幾乎（　）。"
+      ]
+    },
+    {
+      "titel": "要是……",
+      "erklaerung": "在本課，和「如果、假如」的意思一樣，一種假設語氣詞。",
+      "beispiele": [
+        "要是你想學，我可以教你。",
+        "要是你早點來，就可以見到她了。"
+      ],
+      "uebungen": [
+        "要是（　），那就太好了。",
+        "要是（　），大明也就不必那麼辛苦了。"
+      ]
+    }
+  ]
+}

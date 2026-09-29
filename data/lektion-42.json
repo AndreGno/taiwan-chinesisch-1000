@@ -1,0 +1,133 @@
+{
+  "nummer": 42,
+  "titel_zh": "問路",
+  "titel_de": "Nach dem Weg fragen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "請問從這裡到仁愛路，該怎麼走呢？",
+      "pinyin": "Qǐngwèn cóng zhèlǐ dào Rénài Lù gāi zěnme zǒu ne",
+      "de": "Entschuldigen Sie bitte, wie komme ich von hier zur Ren-ai Straße?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "仁愛路很長，你要到哪兒啊？",
+      "pinyin": "Rénài Lù hěn cháng nǐ yào dào nǎr a",
+      "de": "Die Ren-ai Straße ist sehr lang. Wohin wollen Sie denn?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我要去國父紀念館。",
+      "pinyin": "Wǒ yào qù Guófù jìniànguǎn",
+      "de": "Ich möchte zur Sun Yat-Sen Gedenkstätte."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "這裏有一張台北市地圖，我來指給你看。",
+      "pinyin": "Zhèlǐ yǒu yì zhāng Táiběi Shì dìtú wǒ lái zhǐ gěi nǐ kàn",
+      "de": "Hier ist ein Stadtplan von Taipeh. Ich zeige Ihnen den Weg."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "看起來有一段距離。我可以坐公共汽車去嗎？",
+      "pinyin": "Kàn qǐlai yǒu yí duàn jùlí Wǒ kěyǐ zuò gōnggòng qìchē qù ma",
+      "de": "Sieht nach einer größeren Strecke aus. Kann ich auch einen Bus nehmen?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "當然可以，到那兒的公共汽車很多。不過，搭捷運更快。",
+      "pinyin": "Dāngrán kěyǐ dào nàr de gōnggòng qìchē hěn duō búguò dā jiéyùn gèng kuài",
+      "de": "Natürlich geht das. Es gibt viele Busse, die dahin fahren, aber mit der MRT sind Sie schneller."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "這兒附近有公車站或捷運站嗎？",
+      "pinyin": "Zhèr fùjìn yǒu gōngchē zhàn huò jiéyùn zhàn ma",
+      "de": "Ist hier in der Nähe eine Bushaltestelle oder eine MRT Station?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "向前走，到了十字路口向右轉，就有捷運站了。",
+      "pinyin": "Xiàng qián zǒu dàole shízì lùkǒu xiàng yòu zhuǎn jiù yǒu jiéyùn zhàn le",
+      "de": "Gehen Sie geradeaus. An der Kreuzung biegen Sie rechts ab. Da ist dann eine MRT Station."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "問路",
+      "pinyin": "wèn lù",
+      "de": "nach dem Weg fragen"
+    },
+    {
+      "zh": "搭捷運",
+      "pinyin": "dā jiéyùn",
+      "de": "die MRT fahren"
+    },
+    {
+      "zh": "國父紀念館",
+      "pinyin": "Guófù jìniànguǎn",
+      "de": "die Sun Yat-Sen Gedenkstätte"
+    },
+    {
+      "zh": "一張",
+      "pinyin": "yì zhāng",
+      "de": "das Zählwort für ein Blatt Papier/einen Stadtplan etc."
+    },
+    {
+      "zh": "地圖",
+      "pinyin": "dìtú",
+      "de": "der Plan, die Karte"
+    },
+    {
+      "zh": "指",
+      "pinyin": "zhǐ",
+      "de": "zeigen"
+    },
+    {
+      "zh": "距離",
+      "pinyin": "jùlí",
+      "de": "die Entfernung"
+    },
+    {
+      "zh": "公共汽車",
+      "pinyin": "gōnggòng qìchē",
+      "de": "der Bus"
+    },
+    {
+      "zh": "十字路口",
+      "pinyin": "shízì lùkǒu",
+      "de": "die Kreuzung"
+    },
+    {
+      "zh": "右轉",
+      "pinyin": "yòu zhuǎn",
+      "de": "rechts abbiegen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "從……到……",
+      "erklaerung": "從A到B，一種指出地方或時間長度的方式。",
+      "beispiele": [
+        "從這裡到仁愛路，該怎麼走呢？",
+        "從古代到現代，人類的歷史到底有多長？"
+      ],
+      "uebungen": [
+        "從（　）到（　）有多遠呢？",
+        "從（　）到（　）總共七十二個小時。"
+      ]
+    },
+    {
+      "titel": "或……",
+      "erklaerung": "二者選一的一種說法，通常使用疑問語氣。",
+      "beispiele": [
+        "這兒附近有公車站或捷運站嗎？",
+        "你有鉛筆或原子筆嗎？"
+      ],
+      "uebungen": [
+        "超市有（　）或（　）嗎？",
+        "家裡有（　）或（　）吧？"
+      ]
+    }
+  ]
+}

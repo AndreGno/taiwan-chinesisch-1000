@@ -1,0 +1,145 @@
+{
+  "nummer": 55,
+  "titel_zh": "母親節的禮物",
+  "titel_de": "Das Muttertagsgeschenk",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "我們來查查月曆看今年的母親節是五月幾號。",
+      "pinyin": "Wǒmen lái chá chá yuèlì kàn jīnnián de Mǔqīn Jié shì wǔ yuè jǐ hào",
+      "de": "Lass uns im Kalender nachsehen, an welchem Tag im Mai Muttertag ist."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "下個星期天五月十號就是母親節了。",
+      "pinyin": "Xià ge xīngqítiān wǔyuè shí hào jiùshì Mǔqīn Jié le",
+      "de": "Nächsten Sonntag, am zehnten Mai, ist Muttertag."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "咱們商量一下，看要送什麼禮物比較好。",
+      "pinyin": "Zánmen shāngliang yíxià kàn yào sòng shénme lǐwù bǐjiào hǎo",
+      "de": "Lass uns überlegen, welches Geschenk besser ist."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "媽媽樣樣不缺，實在很難決定。",
+      "pinyin": "Māma yàng yàng bù quē shízài hěn nán juédìng",
+      "de": "Unsere Mutter hat alles. Es ist schwer, zu entscheiden."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "化粧品和首飾都是女人的最愛。",
+      "pinyin": "Huàzhuāngp-n hé shǒushì dōu shì nǚrén de zuì'ài",
+      "de": "Frauen freuen sich gewöhnlich über Kosmetik oder Schmuck."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "媽從不化粧，也不戴首飾，這些好像都不合適。",
+      "pinyin": "Mā cóng bú huàzhuāng yě bú dài shǒushì zhèxiē hǎoxiàng dōu bù héshì",
+      "de": "Unsere Mutter trägt kein Make-Up und keinen Schmuck. Das alles passt nicht zu ihr."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "盆栽呢，像長春藤之類的，怎麼樣？",
+      "pinyin": "Pénzāi ne xiàng chángchūnténg zhī lèi de zěnmeyàng",
+      "de": "Was ist mit Topfpflanzen, wie Efeu oder so? Ist das in Ordnung?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "好主意，媽一向喜歡花草，就買盆栽好了。",
+      "pinyin": "Hǎo zhǔyì mā yíxiàng xǐhuan huācǎo jiù mǎi pénzāi hǎo le",
+      "de": "Gute Idee. Unsere Mutter liebt schon immer Pflanzen. Kaufen wir eine Topfpflanze."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "查",
+      "pinyin": "chá",
+      "de": "nachsehen"
+    },
+    {
+      "zh": "化粧品",
+      "pinyin": "huàzhuāngp-n",
+      "de": "die Kosmetik, das Make-Up"
+    },
+    {
+      "zh": "月曆",
+      "pinyin": "yuèlì",
+      "de": "der Kalender"
+    },
+    {
+      "zh": "首飾",
+      "pinyin": "shǒushì",
+      "de": "der Schmuk"
+    },
+    {
+      "zh": "母親節",
+      "pinyin": "Mǔqīn Jié",
+      "de": "der Muttertag"
+    },
+    {
+      "zh": "戴",
+      "pinyin": "dài",
+      "de": "tragen"
+    },
+    {
+      "zh": "咱們",
+      "pinyin": "zánmen",
+      "de": "wir"
+    },
+    {
+      "zh": "合適",
+      "pinyin": "héshì",
+      "de": "passende"
+    },
+    {
+      "zh": "商量",
+      "pinyin": "shāngliang",
+      "de": "sich beraten"
+    },
+    {
+      "zh": "盆栽",
+      "pinyin": "pénzā",
+      "de": "die Topfpflanzen"
+    },
+    {
+      "zh": "缺（少）",
+      "pinyin": "quē(shǎo)",
+      "de": "fehlen"
+    },
+    {
+      "zh": "長春藤",
+      "pinyin": "chángchūnténg",
+      "de": "der Efeu"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "一向和一直的用法",
+      "erklaerung": "時間副詞「一向」和「一直」都可以表示行為狀態在較長時間的持續。但「一向」常用於描寫事物的現象，「一直」常用來表示動作、行為的進行。「一向」只用於過去時態，「一直」適用於所有時態。例：一直哭、一直跳、*一向哭、*一向跳。",
+      "beispiele": [
+        "他一直跟我道歉。",
+        "他一向喜歡開玩笑。"
+      ],
+      "uebungen": [
+        "我會（　）照顧你，絕不離開你。",
+        "他（　）咆哮像發瘋似的。",
+        "西方人（　）喜歡在聖誕節狂歡。",
+        "我將會（　）追隨您的腳步前進。"
+      ]
+    },
+    {
+      "titel": "從不……也不……",
+      "erklaerung": "表示兩種動作或狀態都不存在。「也」主要表示並列的關係。",
+      "beispiele": [
+        "老師從來不化粧，也不戴首飾。",
+        "他從來不遲到，也不早退。"
+      ],
+      "uebungen": [
+        "我（　）抽煙（　）喝酒。",
+        "林先生（　）吃魚（　）吃蝦。"
+      ]
+    }
+  ]
+}

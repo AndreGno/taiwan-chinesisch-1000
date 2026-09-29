@@ -1,0 +1,141 @@
+{
+  "nummer": 65,
+  "titel_zh": "中秋月餅",
+  "titel_de": "Der Mondkuchen",
+  "dialog": [
+    {
+      "sprecher": "媽媽",
+      "zh": "肚子餓了吧？要不要吃月餅？",
+      "pinyin": "Dùzi è le ba Yào bu yào chī yuèbing",
+      "de": "Du hast doch bestimmt Hunger, oder? Möchtest du ein Stück Mondkuchen essen?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "好哇。我要豆沙餡兒的。",
+      "pinyin": "Hǎo wa Wǒ yào dòushā xiànr de",
+      "de": "Ja gerne. Ich möchte einen mit einer süßen Bohnenbreifüllung."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "奶奶知道你愛吃豆沙口味的，特別多寄了幾個來。",
+      "pinyin": "Nǎinai zhīdào nǐ ài chī dòushā kǒuwèi de tèbié duō jìle jǐ ge lái",
+      "de": "Großmutter wusste, dass du die Sorte mit der süssen Bohnenbreifüllung liebst. Deshalb hat sie extra mehr von dieser Sorte geschickt."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "一想到奶奶，月餅好像就特別地香甜可口。",
+      "pinyin": "Yì xiǎng dào nǎinai yuèbing hǎoxiàng jiù tèbié de xiāngtián kěkǒu",
+      "de": "Wenn ich an Großmutter denke, schmeckt mir der Mondkuchen besonders gut."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "不能全家團聚賞月，過節的興致就少了許多。",
+      "pinyin": "Bù néng quán jiā tuánjù shǎng yuè guòjié de xìngzhì jiù shǎo le xǔduō",
+      "de": "Wenn die ganze Familie nicht zusammenkommen kann, um den Vollmond zu bewundern, dann fehlt einfach die Feiertagsstimmung"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "每個月十五日，月亮都一樣圓，為什麼只在八月慶祝中秋節呢？",
+      "pinyin": "Měi ge yuè shíwǔ rì yuèliang dōu yíyàng yuán wèi shénme zhǐ zài bāyuè qìngzhù Zhōngqiū Jié ne",
+      "de": "Eigentlich ist der Mond in jedem Monat derselbe. Warum feiern wir nur die Herbstmitte?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "因為秋天是收穫的季節，所以在中秋節慶祝豐收。",
+      "pinyin": "Yīnwèi qiūtiān shì shōuhuò de jìjié suǒyǐ zài Zhōngqiū Jié qìngzhù fēngshōu",
+      "de": "Weil der Herbst die Erntezeit ist, feiern wir das Herbstmittefest der reichen Ernte."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "我還記得奶奶曾經講過關於嫦娥的故事，真好聽。",
+      "pinyin": "Wǒ hái jìde nǎinai céngjīng jiǎngguò guāny/ Cháng'é de gùshi zhēn hǎo tīng",
+      "de": "Ich erinnere mich an die Geschichte von Chang-O, die Großmutter erzählt hat. Das war wirklich eine gute Geschichte."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "月餅",
+      "pinyin": "yuèbing",
+      "de": "der Mondkuchen"
+    },
+    {
+      "zh": "興致",
+      "pinyin": "xìngzhì",
+      "de": "die gute Stimmung, die gute Laune"
+    },
+    {
+      "zh": "肚子",
+      "pinyin": "dùzi",
+      "de": "der Bauch"
+    },
+    {
+      "zh": "慶祝",
+      "pinyin": "qìngzhù",
+      "de": "feiern"
+    },
+    {
+      "zh": "餓",
+      "pinyin": "è",
+      "de": "der Hunger, Hunger haben"
+    },
+    {
+      "zh": "中秋節",
+      "pinyin": "Zhōngqiū Jié",
+      "de": "das Herbstmittefest/das Mondfest"
+    },
+    {
+      "zh": "豆沙",
+      "pinyin": "dòushā",
+      "de": "der süsse Bohnenbrei"
+    },
+    {
+      "zh": "收穫",
+      "pinyin": "shōuhuò",
+      "de": "die Ernte"
+    },
+    {
+      "zh": "餡",
+      "pinyin": "xiàn",
+      "de": "die Füllung"
+    },
+    {
+      "zh": "豐收",
+      "pinyin": "fēngshōu",
+      "de": "die reiche Ernte"
+    },
+    {
+      "zh": "香甜可口",
+      "pinyin": "xiāngtián kěkǒu",
+      "de": "köstlich"
+    },
+    {
+      "zh": "記得",
+      "pinyin": "jìde",
+      "de": "erinnern"
+    },
+    {
+      "zh": "賞月",
+      "pinyin": "shǎng yuè",
+      "de": "den Vollmond bewundern"
+    },
+    {
+      "zh": "嫦娥",
+      "pinyin": "Cháng'é",
+      "de": "Chang-O, die in der chinesischen Legende zum Mond aufstieg, nachdem sie die Unsterblichkeitspillen ihres Mannes heimlich eingenommen hatte"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不能……就……",
+      "erklaerung": "第一分句表示現實條件的限制，第二分句表示主觀意願的否定。",
+      "beispiele": [
+        "你不能去，我就不去了。",
+        "王先生不能教，我就不想學。"
+      ],
+      "uebungen": [
+        "他（　）參加，我（　）參加。",
+        "孩子（　）喝咖啡，（　）別泡咖啡。"
+      ]
+    }
+  ]
+}

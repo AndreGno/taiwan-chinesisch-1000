@@ -1,0 +1,126 @@
+{
+  "nummer": 26,
+  "titel_zh": "廣告",
+  "titel_de": "Die Anzeige",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "方先生，您買這麼多份報紙做什麼？",
+      "pinyin": "Fāng xiānsheng nín mǎi zhème duō fèn bàozhǐ zuò shénme",
+      "de": "Herr Fang, wofür haben Sie so viele Zeitungen gekauft?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我想看看房屋出租廣告。",
+      "pinyin": "Wǒ xiǎng kànkan fángwū chūzū guǎnggào",
+      "de": "Ich möchte mir die Immobilienanzeigen anschauen."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您在找房子，準備搬家嗎？",
+      "pinyin": "Nín zài zhǎo fángzi zhǔnbèi bānjiā ma",
+      "de": "Sie suchen ein Haus und bereiten sich auf einen Umzug vor?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "是啊，您知道這附近有房子出租嗎？",
+      "pinyin": "Shì a nín zhīdào zhè fùjìn yǒu fángzi chūzū ma",
+      "de": "Genau, wissen Sie, ob es hier in der Nähe zu vermietende Häuser gibt?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "您可以找房屋仲介公司介紹合適的房子。",
+      "pinyin": "Nín kěyǐ zhǎo fángwū zhòngjiè gōngsī jièshào héshì de fángzi",
+      "de": "Sie können sich an eine Immobiliengesellschaft wenden und beraten lassen."
+    },
+    {
+      "sprecher": "方",
+      "zh": "我不想付仲介費，我要自己找。",
+      "pinyin": "Wǒ bù xiǎng fù zhòngjiè fèi wǒ yào zìjǐ zhǎo",
+      "de": "Ich möchte keine Maklergebühren zahlen. Ich will selbst suchen."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您想租多大的房子？要不要帶家具？",
+      "pinyin": "Nín xiǎng zū duō dà de fángzi Yào bu yào dài jiājù",
+      "de": "Wie groß soll das Haus sein? Soll es möbliert sein?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我想租一間有衛浴設備的套房，最好帶家具。",
+      "pinyin": "Wǒ xiǎng zū yì jiān yǒu wèiyù shèbèi de tàofáng zuìhǎo dài jiājù",
+      "de": "Ich möchte eine Wohnung mit kompletter sanitärer Einrichtung und am besten möbliert."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "廣告",
+      "pinyin": "guǎnggào",
+      "de": "die Anzeige, die Werbung"
+    },
+    {
+      "zh": "報紙",
+      "pinyin": "bàozhǐ",
+      "de": "die Zeitung"
+    },
+    {
+      "zh": "出租",
+      "pinyin": "chūzū",
+      "de": "zu vermieten"
+    },
+    {
+      "zh": "房屋仲介公司",
+      "pinyin": "fángwū zhòngjiè gōngsī",
+      "de": "die Immobiliengesellschaft"
+    },
+    {
+      "zh": "介紹",
+      "pinyin": "jièshào",
+      "de": "vorstellen, vermitteln"
+    },
+    {
+      "zh": "合適",
+      "pinyin": "héshì",
+      "de": "passend, geeignet"
+    },
+    {
+      "zh": "付",
+      "pinyin": "fù",
+      "de": "(be-)zahlen"
+    },
+    {
+      "zh": "仲介費",
+      "pinyin": "zhòngjiè fèi",
+      "de": "die Maklergebühr, die Provision"
+    },
+    {
+      "zh": "衛浴設備",
+      "pinyin": "wèiyù shèbèi",
+      "de": "die sanitäre Einrichtung"
+    },
+    {
+      "zh": "套房",
+      "pinyin": "tàofáng",
+      "de": "die Wohnung"
+    },
+    {
+      "zh": "最好",
+      "pinyin": "zuìhǎo",
+      "de": "am besten/liebsten"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不想……，要……",
+      "erklaerung": "一種選擇、下決定的語氣，第一句敘述不願意的狀態，第二句則表達願意的選擇為何。",
+      "beispiele": [
+        "我不想付仲介費，我要自己找房子。",
+        "他畢業後不想繼續升學，要當一名廚師。"
+      ],
+      "uebungen": [
+        "李小姐不想（　），要（）。",
+        "大偉不想（　），要（　）。"
+      ]
+    }
+  ]
+}

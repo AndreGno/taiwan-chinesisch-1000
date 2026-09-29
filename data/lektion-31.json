@@ -1,0 +1,144 @@
+{
+  "nummer": 31,
+  "titel_zh": "稱呼",
+  "titel_de": "Die Anrede",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "您能不能幫我堂弟介紹一位英文老師。",
+      "pinyin": "Nín néng bù néng bāng wǒ tángdì jièshào yí wèi Yīngwén lǎoshī",
+      "de": "Können Sie meinem „tángdì“ einen Englischlehrer empfehlen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "好的。堂弟跟您有什麼樣的親屬關係呢？",
+      "pinyin": "Hǎo de Tángdì gēn nín yǒu shénmeyàng de qīnshǔ guānxì ne",
+      "de": "Sicher. Welches Verwandtschaftsverhältnis haben Sie zu Ihrem „tángdì“?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "他是我叔叔的兒子，比我小兩歲。",
+      "pinyin": "Tā shì wǒ shúshu de érzi bǐ wǒ xiǎo liǎng suì",
+      "de": "Er ist der Sohn meines shúshu und zwei Jahre jünger als ich."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "阿姨的女兒您怎麼稱呼呢？",
+      "pinyin": "Fāng xiānsheng Ayí de nǚér nín zěnme chēnghū ne",
+      "de": "Wie bezeichnen Sie die Tochter der ayí?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "比我大的叫表姐，比我小的叫表妹。",
+      "pinyin": "Bǐ wǒ dà de jiào biǎojiě bǐ wǒ xiǎo de jiào biǎomèi",
+      "de": "Wenn sie älter als ich ist, nenne ich sie “biӽojiČ” und wenn sie jünger ist “biӽomèi”."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "華人的親屬稱呼真是複雜。",
+      "pinyin": "Huárén de qīnshǔ chēnghū zhēn shì fùzá",
+      "de": "Chinesische Verwandtschaftsbezeichnungen sind wirklich sehr kompliziert."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "沒錯，如果我不說明，你一定搞不清楚。",
+      "pinyin": "Méi cuò rúguǒ wǒ bù shuōmíng nǐ yídìng gǎo bù qīngchu",
+      "de": "Ganz genau, hätte ich es Ihnen nicht erklärt, würden Sie es sicher nicht verstehen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "親戚跟你們家常來往嗎？",
+      "pinyin": "Qīnqi gēn nǐmen jiā cháng láiwǎng ma",
+      "de": "Haben die Verwandten oft Kontakt zu Ihrer Familie?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是的，只要是過年過節，我們一定團聚在一起。",
+      "pinyin": "Shì de zhǐyào shì guònián guòjié wǒmen yídìng tuánǐ jù zài yìqǐ",
+      "de": "Ja, immer wenn wir das neue Jahr oder andere Feste feiern, kommen wir alle unbedingt zusammen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "稱呼",
+      "pinyin": "chēnghū",
+      "de": "rufen, nennen, bezeichnen"
+    },
+    {
+      "zh": "女兒",
+      "pinyin": "nǚ'ér",
+      "de": "die Tochter"
+    },
+    {
+      "zh": "幫（忙）",
+      "pinyin": "bāng(máng)",
+      "de": "helfen"
+    },
+    {
+      "zh": "表姐（妹）",
+      "pinyin": "biǎojiě(mèi)",
+      "de": "die (jüngere und ältere) Kusine"
+    },
+    {
+      "zh": "堂弟",
+      "pinyin": "tángdì",
+      "de": "der Cousin"
+    },
+    {
+      "zh": "複雜",
+      "pinyin": "fùzá",
+      "de": "kompliziert"
+    },
+    {
+      "zh": "親屬",
+      "pinyin": "qīnshǔ",
+      "de": "die Verwandten, die Verwandtschaft"
+    },
+    {
+      "zh": "說明",
+      "pinyin": "shuōmíng",
+      "de": "erklären"
+    },
+    {
+      "zh": "兒子",
+      "pinyin": "érzi",
+      "de": "der Sohn"
+    },
+    {
+      "zh": "團聚",
+      "pinyin": "tuánjù",
+      "de": "zusammen kommen, sich treffen"
+    },
+    {
+      "zh": "比我小（大）",
+      "pinyin": "bǐ wǒ xiǎo(dà)",
+      "de": "jünger bzw. älter als ich"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "能不能……",
+      "erklaerung": "一種詢問、請求的語氣。",
+      "beispiele": [
+        "您能不能幫我堂弟介紹一位英文老師？",
+        "明天是週末，我們能不能出去玩？"
+      ],
+      "uebungen": [
+        "天氣好熱，我們能不能（　）。",
+        "如果我考試的成績很好，你能不能（）。"
+      ]
+    },
+    {
+      "titel": "只要……",
+      "erklaerung": "「只要」表示的是充足條件，只要具備這一條件就可以產生相應的結果。",
+      "beispiele": [
+        "只要有喜慶的事，我們一定團聚在一起。",
+        "只要你用功，一定可以得到好成績。"
+      ],
+      "uebungen": [
+        "學中文只要（　），一定可以學得快又好。",
+        "我們只要（　）就可以（）。"
+      ]
+    }
+  ]
+}

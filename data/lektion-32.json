@@ -1,0 +1,127 @@
+{
+  "nummer": 32,
+  "titel_zh": "書店",
+  "titel_de": "Der Buchladen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "小姐，你們這兒有漢英字典嗎？",
+      "pinyin": "Xiǎojiě nǐmen zhèr yǒu Hàn Yīng zìdiǎn ma",
+      "de": "Guten Tag, haben Sie hier Chinesisch-Englisch Wörterbücher?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "您要買哪家出版社的？精裝本還是平裝本？",
+      "pinyin": "Nín yào mǎi nǎ jiā chūbǎn shè de Jīngzhuāng běn háishì píngzhuāng běn",
+      "de": "Von welchem Verlag möchten Sie eins kaufen? Und soll es eine gebundene oder Taschenbuchausgabe sein?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我想先看看書再做決定。",
+      "pinyin": "Wǒ xiǎng xiān kànkan shū zài zuò juédìng",
+      "de": "Ich würde mir gerne erst die Bücher anschauen und mich dann entscheiden."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "漢英字典都在第三排書架上，您自己挑吧。",
+      "pinyin": "Hàn Yīng zìdiǎn dōu zài dì-sān pái shūjià shàng nín zìjǐ tiāo ba",
+      "de": "Chinesisch-Englisch Wörterbücher stehen alle in der dritten Regalreihe. Wählen Sie selbst aus."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "你這兒還賣些什麼書？",
+      "pinyin": "Nǐ zhèr hái mài xiē shénme shū",
+      "de": "Was für Bücher verkaufen Sie hier noch?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "還賣小說和雜誌。",
+      "pinyin": "Hái mài xiǎoshuō hé zázhì",
+      "de": "Wir verkaufen noch Romane und Zeitschriften."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我先看一看，如果有合適的，我就買。",
+      "pinyin": "Wǒ xiān kànyikàn rúguǒ yǒu héshì de wǒ jiù mǎi",
+      "de": "Ich schaue mich erst mal um. Wenn ich was passendes gefunden habe, kaufe ich es."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "要不要買一本這個月的暢銷小說？",
+      "pinyin": "Yào bu yào mǎi yì běn zhè ge yuè de chàngxiāo xiǎoshuō",
+      "de": "Möchten Sie den Bestsellerroman dieses Monats kaufen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我對小說沒興趣，就買這本字典吧。",
+      "pinyin": "Wǒ duì xiǎoshuō méi xìngqù jiù mǎi zhè běn zìdiǎn ba",
+      "de": "Ich habe kein Interesse an Romanen. Ich kaufe nur dieses Wörtebuch."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "漢英字典",
+      "pinyin": "Hàn Yīng zìdiǎn",
+      "de": "das Chinesisch-Deutsch Wörterbuch"
+    },
+    {
+      "zh": "出版社",
+      "pinyin": "chūbǎn shè",
+      "de": "der Verlag"
+    },
+    {
+      "zh": "精裝本",
+      "pinyin": "jīngzhuāng běn",
+      "de": "das gebundene Buch, der Hardcover"
+    },
+    {
+      "zh": "平裝本",
+      "pinyin": "píngzhuāng běn",
+      "de": "das Taschenbuch"
+    },
+    {
+      "zh": "決定",
+      "pinyin": "juédìng",
+      "de": "sich entscheiden"
+    },
+    {
+      "zh": "排",
+      "pinyin": "pái",
+      "de": "die Reihe"
+    },
+    {
+      "zh": "挑",
+      "pinyin": "tiāo",
+      "de": "aussuchen, auswählen"
+    },
+    {
+      "zh": "小說",
+      "pinyin": "xiǎoshuō",
+      "de": "der Roman"
+    },
+    {
+      "zh": "雜誌",
+      "pinyin": "zázhì",
+      "de": "die Zeitschrift, das Magazin"
+    },
+    {
+      "zh": "暢銷",
+      "pinyin": "chàngxiāo",
+      "de": "der Bestseller"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "先……再……",
+      "erklaerung": "說明做兩件事或兩個動作的前後次序。",
+      "beispiele": [
+        "我想先看看書再做決定。",
+        "你不如先想清楚了再進行下一步。"
+      ],
+      "uebungen": [
+        "我們應該先（　）再（）。",
+        "吃飯最好先（　）再（）。"
+      ]
+    }
+  ]
+}

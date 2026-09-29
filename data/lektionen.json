@@ -1,5 +1,377 @@
 [
-  { "nummer": 1, "titel_zh": "自我介紹", "titel_de": "Sich selbst vorstellen" },
-  { "nummer": 2, "titel_zh": "（Platzhalter）", "titel_de": "Platzhalter – wird durch die echte Datenextraktion ersetzt" },
-  { "nummer": 3, "titel_zh": "（Platzhalter）", "titel_de": "Platzhalter – wird durch die echte Datenextraktion ersetzt" }
+  {
+    "nummer": 1,
+    "titel_zh": "自我介紹",
+    "titel_de": "Sich selbst vorstellen"
+  },
+  {
+    "nummer": 2,
+    "titel_zh": "早安",
+    "titel_de": "Guten Morgen"
+  },
+  {
+    "nummer": 3,
+    "titel_zh": "認識新朋友",
+    "titel_de": "Neue Freunde kennenlernen"
+  },
+  {
+    "nummer": 4,
+    "titel_zh": "看一本書",
+    "titel_de": "Ein Buch lesen"
+  },
+  {
+    "nummer": 5,
+    "titel_zh": "去朋友家",
+    "titel_de": "Freunde besuchen"
+  },
+  {
+    "nummer": 6,
+    "titel_zh": "現在幾點鐘",
+    "titel_de": "Wie spät ist es jetzt?"
+  },
+  {
+    "nummer": 7,
+    "titel_zh": "今天星期三",
+    "titel_de": "Heute ist Mittwoch"
+  },
+  {
+    "nummer": 8,
+    "titel_zh": "打電話",
+    "titel_de": "Telefonieren"
+  },
+  {
+    "nummer": 9,
+    "titel_zh": "買火車票",
+    "titel_de": "Eine Zugfahrkarte lösen"
+  },
+  {
+    "nummer": 10,
+    "titel_zh": "買東西",
+    "titel_de": "Einkaufen"
+  },
+  {
+    "nummer": 11,
+    "titel_zh": "說中文",
+    "titel_de": "Chinesisch sprechen"
+  },
+  {
+    "nummer": 12,
+    "titel_zh": "起床了",
+    "titel_de": "Aufgestanden"
+  },
+  {
+    "nummer": 13,
+    "titel_zh": "學了多久",
+    "titel_de": "Wie lange schon gelernt"
+  },
+  {
+    "nummer": 14,
+    "titel_zh": "新住址",
+    "titel_de": "Neue Adresse"
+  },
+  {
+    "nummer": 15,
+    "titel_zh": "通知",
+    "titel_de": "Benachrichtigen"
+  },
+  {
+    "nummer": 16,
+    "titel_zh": "去郵局",
+    "titel_de": "Zum Postamt gehen"
+  },
+  {
+    "nummer": 17,
+    "titel_zh": "買郵票",
+    "titel_de": "Briefmarken kaufen"
+  },
+  {
+    "nummer": 18,
+    "titel_zh": "春夏秋冬",
+    "titel_de": "Frühling, Sommer, Herbst, Winter"
+  },
+  {
+    "nummer": 19,
+    "titel_zh": "家具",
+    "titel_de": "Möbel"
+  },
+  {
+    "nummer": 20,
+    "titel_zh": "餐具",
+    "titel_de": "Das Tafelgeschirr"
+  },
+  {
+    "nummer": 21,
+    "titel_zh": "點菜",
+    "titel_de": "Gerichte bestellen"
+  },
+  {
+    "nummer": 22,
+    "titel_zh": "請客",
+    "titel_de": "Einladung"
+  },
+  {
+    "nummer": 23,
+    "titel_zh": "生日快樂",
+    "titel_de": "Glücklicher Geburtstag"
+  },
+  {
+    "nummer": 24,
+    "titel_zh": "旅行",
+    "titel_de": "Das Reisen"
+  },
+  {
+    "nummer": 25,
+    "titel_zh": "新年假期",
+    "titel_de": "Die Neujahrsferien"
+  },
+  {
+    "nummer": 26,
+    "titel_zh": "廣告",
+    "titel_de": "Die Anzeige"
+  },
+  {
+    "nummer": 27,
+    "titel_zh": "租房子",
+    "titel_de": "Ein Haus mieten"
+  },
+  {
+    "nummer": 28,
+    "titel_zh": "生病",
+    "titel_de": "Krank sein"
+  },
+  {
+    "nummer": 29,
+    "titel_zh": "看醫生",
+    "titel_de": "Der Arztbesuch"
+  },
+  {
+    "nummer": 30,
+    "titel_zh": "親戚",
+    "titel_de": "Die Verwandtschaft"
+  },
+  {
+    "nummer": 31,
+    "titel_zh": "稱呼",
+    "titel_de": "Die Anrede"
+  },
+  {
+    "nummer": 32,
+    "titel_zh": "書店",
+    "titel_de": "Der Buchladen"
+  },
+  {
+    "nummer": 33,
+    "titel_zh": "銀行",
+    "titel_de": "Die Bank"
+  },
+  {
+    "nummer": 34,
+    "titel_zh": "支票",
+    "titel_de": "Der Scheck"
+  },
+  {
+    "nummer": 35,
+    "titel_zh": "網路通訊",
+    "titel_de": "Die Internetkommunikation"
+  },
+  {
+    "nummer": 36,
+    "titel_zh": "訂旅館",
+    "titel_de": "Ein Hotel buchen"
+  },
+  {
+    "nummer": 37,
+    "titel_zh": "機場",
+    "titel_de": "Der Flughafen"
+  },
+  {
+    "nummer": 38,
+    "titel_zh": "接機",
+    "titel_de": "Jemanden vom Flughafen abholen"
+  },
+  {
+    "nummer": 39,
+    "titel_zh": "游泳",
+    "titel_de": "Das Schwimmen"
+  },
+  {
+    "nummer": 40,
+    "titel_zh": "安全第一",
+    "titel_de": "Sicherheit geht vor"
+  },
+  {
+    "nummer": 41,
+    "titel_zh": "服飾店",
+    "titel_de": "Der Klamottenladen"
+  },
+  {
+    "nummer": 42,
+    "titel_zh": "問路",
+    "titel_de": "Nach dem Weg fragen"
+  },
+  {
+    "nummer": 43,
+    "titel_zh": "搭捷運",
+    "titel_de": "MRT fahren"
+  },
+  {
+    "nummer": 44,
+    "titel_zh": "參觀展覽",
+    "titel_de": "Eine Ausstellung besichtigen"
+  },
+  {
+    "nummer": 45,
+    "titel_zh": "下雨天",
+    "titel_de": "Der Regentag"
+  },
+  {
+    "nummer": 46,
+    "titel_zh": "年貨大街",
+    "titel_de": "Neujahrseinkauf"
+  },
+  {
+    "nummer": 47,
+    "titel_zh": "新年新希望",
+    "titel_de": "Neues Jahr, neue Hoffungen"
+  },
+  {
+    "nummer": 48,
+    "titel_zh": "儲蓄",
+    "titel_de": "Sparen"
+  },
+  {
+    "nummer": 49,
+    "titel_zh": "註冊",
+    "titel_de": "Die Einschreibung"
+  },
+  {
+    "nummer": 50,
+    "titel_zh": "學校校園",
+    "titel_de": "Der Universitätscampus"
+  },
+  {
+    "nummer": 51,
+    "titel_zh": "校園生活",
+    "titel_de": "Das Studentenleben"
+  },
+  {
+    "nummer": 52,
+    "titel_zh": "買一雙鞋",
+    "titel_de": "Schuhe kaufen"
+  },
+  {
+    "nummer": 53,
+    "titel_zh": "糖醋排骨",
+    "titel_de": "Rippchen süß-sauer"
+  },
+  {
+    "nummer": 54,
+    "titel_zh": "健康的重要",
+    "titel_de": "Die Bedeutung der Gesundheit"
+  },
+  {
+    "nummer": 55,
+    "titel_zh": "母親節的禮物",
+    "titel_de": "Das Muttertagsgeschenk"
+  },
+  {
+    "nummer": 56,
+    "titel_zh": "逛超市",
+    "titel_de": "Das Einkaufen im Supermarkt"
+  },
+  {
+    "nummer": 57,
+    "titel_zh": "看電影",
+    "titel_de": "Der Kinobesuch"
+  },
+  {
+    "nummer": 58,
+    "titel_zh": "電視節目",
+    "titel_de": "Die Fernsehsendung"
+  },
+  {
+    "nummer": 59,
+    "titel_zh": "暑假的計畫",
+    "titel_de": "Die Planung der Sommerferien"
+  },
+  {
+    "nummer": 60,
+    "titel_zh": "探望祖父母",
+    "titel_de": "Die Großeltern besuchen"
+  },
+  {
+    "nummer": 61,
+    "titel_zh": "環島旅行（一）",
+    "titel_de": "Die Inselrundfahrt (1)"
+  },
+  {
+    "nummer": 62,
+    "titel_zh": "環島旅行（二）",
+    "titel_de": "Die Inselrundfahrt (2)"
+  },
+  {
+    "nummer": 63,
+    "titel_zh": "說故事比賽",
+    "titel_de": "Der Geschichtenerzählwettbewerb"
+  },
+  {
+    "nummer": 64,
+    "titel_zh": "為朋友送行",
+    "titel_de": "Sich verabschieden"
+  },
+  {
+    "nummer": 65,
+    "titel_zh": "中秋月餅",
+    "titel_de": "Der Mondkuchen"
+  },
+  {
+    "nummer": 66,
+    "titel_zh": "萬聖節的遊戲",
+    "titel_de": "Halloween"
+  },
+  {
+    "nummer": 67,
+    "titel_zh": "一封信",
+    "titel_de": "Ein Brief"
+  },
+  {
+    "nummer": 68,
+    "titel_zh": "下雪了",
+    "titel_de": "Es schneit"
+  },
+  {
+    "nummer": 69,
+    "titel_zh": "聖誕禮物",
+    "titel_de": "Das Weihnachtsgeschenk"
+  },
+  {
+    "nummer": 70,
+    "titel_zh": "歡度聖誕節",
+    "titel_de": "Fröhliche Weihnachten"
+  },
+  {
+    "nummer": 71,
+    "titel_zh": "期末考試",
+    "titel_de": "Die Abschlussprüfung"
+  },
+  {
+    "nummer": 72,
+    "titel_zh": "發成績單",
+    "titel_de": "Zeugnis verteilen"
+  },
+  {
+    "nummer": 73,
+    "titel_zh": "過新年（一）",
+    "titel_de": "Das chinesische Neujahr (1)"
+  },
+  {
+    "nummer": 74,
+    "titel_zh": "過新年（二）",
+    "titel_de": "Das chinesische Neujahr (2)"
+  },
+  {
+    "nummer": 75,
+    "titel_zh": "整理庭院",
+    "titel_de": "Den Garten in Ordnung bringen"
+  }
 ]

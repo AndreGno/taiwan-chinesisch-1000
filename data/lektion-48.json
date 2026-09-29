@@ -1,0 +1,131 @@
+{
+  "nummer": 48,
+  "titel_zh": "儲蓄",
+  "titel_de": "Sparen",
+  "dialog": [
+    {
+      "sprecher": "張先生",
+      "zh": "你買了什麼好東西？包裝得這麼漂亮。",
+      "pinyin": "Nǐ mǎile shénme hǎo dōngxi Bāozhuāng de zhème piàoliang",
+      "de": "Was hast du Schönes gekauft? Es ist hübsch verpackt."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "是兩個撲滿，準備送給我的外甥做新年禮物。",
+      "pinyin": "Shì liǎng ge pūmǎn zhǔnbèi sòng gěi wǒ de wàisheng zuò xīnnián lǐwù",
+      "de": "Es sind zwei Sparschweine als Neujahrsgeschenk für meine Neffen."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "我想，買巧克力糖或是玩具，他們會更喜歡的。",
+      "pinyin": "Wǒ xiǎng mǎi qiǎokèlì táng huò shì wánjù tāmen huì gèng xǐhuān de",
+      "de": "Ich denke, dass sie sich noch mehr über Schokolade oder Spielzeuge freuen würden."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我買撲滿做禮物是有原因的。",
+      "pinyin": "Wǒ mǎi pūmǎn zuò lǐwù shì yǒu yuányīn de",
+      "de": "Ich habe meine Gründe Sparschweine zu kaufen."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "什麼原因？說來聽聽。",
+      "pinyin": "Shénme yuányīn Shuō lái tīngting",
+      "de": "Was für Gründe? Erzähl mal."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我想讓他們改掉亂花錢的壞習慣。",
+      "pinyin": "Wǒ xiǎng ràng tāmen gǎi diào luàn huā qián de huài xíguàn",
+      "de": "Ich möchte, dass sie sich die schlechte Gewohnheit, Geld zu verschwenden, abgewöhnen."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "因此你要買撲滿來鼓勵他們儲蓄。",
+      "pinyin": "Yīnc- nǐ yào mǎi pūmǎn lái gǔlì tāmen chúxù",
+      "de": "Um sie zum Sparen zu ermutigen, hast du ihnen deshalb Sparschweine gekauft."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "是啊！我希望他們能養成儲蓄的好習慣。",
+      "pinyin": "Shì a Wǒ xīwàng tāmen néng yǎngchéng chúxù de hǎo xíguàn",
+      "de": "Genau. Ich hoffe, sie werden die gute Gewohnheit des Geldsparens entwickeln."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "儲蓄",
+      "pinyin": "chúxù",
+      "de": "sparen"
+    },
+    {
+      "zh": "包裝",
+      "pinyin": "bāozhuāng",
+      "de": "verpacken, Verpackung"
+    },
+    {
+      "zh": "撲滿",
+      "pinyin": "pūmǎn",
+      "de": "das Sparschwein"
+    },
+    {
+      "zh": "外甥",
+      "pinyin": "wàisheng",
+      "de": "der Neffe"
+    },
+    {
+      "zh": "禮物",
+      "pinyin": "lǐwù",
+      "de": "das Geschenk"
+    },
+    {
+      "zh": "巧克力糖",
+      "pinyin": "qiǎokèlì táng",
+      "de": "die Schokolade"
+    },
+    {
+      "zh": "玩具",
+      "pinyin": "wánjù",
+      "de": "das Spielzeug, die Spielwaren"
+    },
+    {
+      "zh": "原因",
+      "pinyin": "yuányīn",
+      "de": "der Grund"
+    },
+    {
+      "zh": "亂花錢",
+      "pinyin": "luàn huā qián",
+      "de": "das Geld verschwenden, das Geld rücksichtslos ausgeben"
+    },
+    {
+      "zh": "壞習慣",
+      "pinyin": "huài xíguàn",
+      "de": "die schlechte Gewohnheit/die Angewohnheit"
+    },
+    {
+      "zh": "鼓勵",
+      "pinyin": "gǔlì",
+      "de": "ermutigen"
+    },
+    {
+      "zh": "養成",
+      "pinyin": "yǎngchéng",
+      "de": "entwickeln, (Gewohnheit) pflegen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "因此……",
+      "erklaerung": "連接詞。因而、所以。表示事情的結果。",
+      "beispiele": [
+        "因此你要買撲滿來鼓勵他們儲蓄。",
+        "這次比賽，我的表現很好，因此爸爸決定送我一個禮物。"
+      ],
+      "uebungen": [
+        "你太浪費錢了，因此（　）。",
+        "今年的雨水很少，因此（　），大家加油！"
+      ]
+    }
+  ]
+}

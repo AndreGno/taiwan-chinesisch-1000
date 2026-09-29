@@ -1,0 +1,127 @@
+{
+  "nummer": 5,
+  "titel_zh": "去朋友家",
+  "titel_de": "Freunde besuchen",
+  "dialog": [
+    {
+      "sprecher": "李先生",
+      "zh": "王先生在家嗎？",
+      "pinyin": "Wáng xiānsheng zài jiā ma",
+      "de": "Ist Herr Wang zu Hause?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "在，請問您貴姓？",
+      "pinyin": "Zài qǐngwèn nín guìxìng",
+      "de": "Er ist da. Darf ich nach Ihrem Namen fragen?"
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我叫李文，我想見王先生。",
+      "pinyin": "Wǒ jiào Lǐ Wén wǒ xiǎng jiàn Wáng xiānsheng",
+      "de": "Ich heiße Li, Wen. Ich möchte Herrn Wang sehen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "您請進來坐，我去告訴他，您已經來了。",
+      "pinyin": "Nín qǐng jìnlái zuò wǒ qù gàosu tā nín yǐjīng lái le",
+      "de": "Kommen Sie bitte herein und nehmen Sie Platz! Ich sage ihm Bescheid, dass Sie schon da sind."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "李先生，好久不見。",
+      "pinyin": "Lǐ xiānsheng hǎojiǔ bú jiàn",
+      "de": "Herr Li, ich habe Sie lange nicht gesehen."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "您忙嗎？我有點兒事，想請教您。",
+      "pinyin": "Nín máng ma Wǒ yǒudiǎnr shì xiǎng qǐngjiào nín",
+      "de": "Sind Sie beschäftigt? Ich habe eine Angelegenheit und möchte Sie um Rat bitten."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您請說，別客氣。",
+      "pinyin": "Nín qǐng shuō bié kèqi",
+      "de": "Fragen Sie ruhig und haben Sie keine Hemmungen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "想",
+      "pinyin": "xiǎng",
+      "de": "denken, wollen, möchten"
+    },
+    {
+      "zh": "見",
+      "pinyin": "jiàn",
+      "de": "sehen, besuchen"
+    },
+    {
+      "zh": "進來",
+      "pinyin": "jìnlái",
+      "de": "hereinkommen"
+    },
+    {
+      "zh": "去",
+      "pinyin": "qù",
+      "de": "gehen, hingehen"
+    },
+    {
+      "zh": "告訴",
+      "pinyin": "gàosu",
+      "de": "mitteilen, Bescheid sagen"
+    },
+    {
+      "zh": "好久",
+      "pinyin": "hǎojiǔ",
+      "de": "sehr lange, schon lange, nach langer Zeit"
+    },
+    {
+      "zh": "忙",
+      "pinyin": "máng",
+      "de": "beschäftigt"
+    },
+    {
+      "zh": "事（情）",
+      "pinyin": "shì(qing)",
+      "de": "die Angelegenheit, die Sache"
+    },
+    {
+      "zh": "請教",
+      "pinyin": "qǐngjiào",
+      "de": "jdn. um einen Rat bitten"
+    },
+    {
+      "zh": "說",
+      "pinyin": "shuō",
+      "de": "erzählen, sprechen, sagen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……了",
+      "erklaerung": "助詞。置於句末或句中停頓處，表示 1.動作結束。 2.不耐煩、勸止等的語氣。",
+      "beispiele": [
+        "我去告訴他，您已經來了。",
+        "好了，別哭了，他已經把書還給你了。"
+      ],
+      "uebungen": [
+        "等我的工作（　），我們一起去看他。",
+        "別再（　），我已經聽得很多了。"
+      ]
+    },
+    {
+      "titel": "已經……",
+      "erklaerung": "表示時間已過，或動作、狀況、事情完成了。",
+      "beispiele": [
+        "我去告訴他，您已經來了。",
+        "一大清早，他已經坐在書房中看書了。"
+      ],
+      "uebungen": [
+        "天氣已經（　），我們回家吧。",
+        "時間（　），趕快去吧！"
+      ]
+    }
+  ]
+}

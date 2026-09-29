@@ -1,0 +1,144 @@
+{
+  "nummer": 57,
+  "titel_zh": "看電影",
+  "titel_de": "Der Kinobesuch",
+  "dialog": [
+    {
+      "sprecher": "李先生",
+      "zh": "晚上一塊兒去看電影好嗎？",
+      "pinyin": "Wǎnshang yíkuàir qù kàn diàny-ng hǎo ma",
+      "de": "Lass uns heute Abend zusammen ins Kino gehen."
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "好哇！最近有不少好片子。",
+      "pinyin": "Hǎo wa Zuìjìn yǒu bùshǎo hǎo piànzi",
+      "de": "Prima! In letzter Zeit laufen einige gute Filme."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "你想看哪一類的電影呢？",
+      "pinyin": "Nǐ xiǎng kàn nǎ yí lèi de diàny-ng ne",
+      "de": "Welche Art von Film möchtest du gerne ansehen?"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "文藝片和歌舞片我都很喜歡。",
+      "pinyin": "Wényì piàn hé gēwǔ piàn wǒ dōu hěn xǐhuan",
+      "de": "Ich mag sowohl Drama als auch Musicals."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "歌舞片又唱又跳、熱熱鬧鬧的，有許多人很愛看。",
+      "pinyin": "Gēwǔ piàn yòu chàng yòu tiào rèrè-nàonào de yǒu xǔduō rén hěn ài kàn",
+      "de": "Da sie beim Musical die ganze Zeit singen und tanzen, ist immer viel los, was viele Leute gerne sehen."
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "有一部文藝片，主角都是赫赫有名的大明星。聽說劇情很感人，只要看過的人都說好。",
+      "pinyin": "Yǒu yí bù wényì piàn zhǔjué dōu shì hèhè yǒu míng de dà míngxīng Tīngshuō jùqíng hěn gǎnrén zhǐyào kànguò de rén dōu shuō hǎo",
+      "de": "Hier gibt es ein Drama. Der Hauptdarsteller und die Hauptdarstellerin sind beide bekannte Stars. Ich habe gehört die Handlung des Stücks ist sehr rührend. Alle, die es gesehen haben, sagten, es sei gut."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "好吧，就看這部電影。",
+      "pinyin": "Hǎo ba jiù kàn zhè bù diàny-ng",
+      "de": "O.K. Dann sehen wir uns diesen Film an."
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "如果想看，就要早點兒買票，我們現在就走吧！",
+      "pinyin": "Rú guǒ xiǎng kàn jiù yào zǎodiǎnr mǎi piào wǒmen xiànzài jiù zǒu ba",
+      "de": "Wenn wir ihn sehen möchten, müssen wir rechtzeitig Eintrittskarten kaufen. Lass uns jetzt gehen!"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "電影",
+      "pinyin": "diàny-ng",
+      "de": "der Kinofilm"
+    },
+    {
+      "zh": "唱",
+      "pinyin": "chàng",
+      "de": "singen"
+    },
+    {
+      "zh": "一塊兒",
+      "pinyin": "yíkuàir",
+      "de": "zusammen"
+    },
+    {
+      "zh": "主角",
+      "pinyin": "zhǔjué",
+      "de": "der Hauptdarsteller"
+    },
+    {
+      "zh": "片子",
+      "pinyin": "piànzi",
+      "de": "der Film"
+    },
+    {
+      "zh": "赫赫有名",
+      "pinyin": "hèhè yǒu míng",
+      "de": "berühmt / bekannt"
+    },
+    {
+      "zh": "類",
+      "pinyin": "lèi",
+      "de": "die Art"
+    },
+    {
+      "zh": "明星",
+      "pinyin": "míng xīng",
+      "de": "der Star"
+    },
+    {
+      "zh": "文藝片",
+      "pinyin": "wén yì piàn",
+      "de": "das Drama"
+    },
+    {
+      "zh": "劇情",
+      "pinyin": "jù qíng",
+      "de": "die Geschichte / die Handlung"
+    },
+    {
+      "zh": "歌舞片",
+      "pinyin": "gē wǔ piàn",
+      "de": "das Musical"
+    },
+    {
+      "zh": "買票",
+      "pinyin": "mǎi piào",
+      "de": "die Eintrittskarte kaufen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "哪和什麼的用法",
+      "erklaerung": "「哪一類電影」是“which”的意思，「哪」的後面一定要有量詞，「什麼」後面一定沒有量詞。",
+      "beispiele": [
+        "這裡有三本辭典，你要買哪一本？我要買這一本。",
+        "你喜歡吃哪一種水果？我喜歡吃蘋果。",
+        "你想買什麼？我想買辭典。"
+      ],
+      "uebungen": [
+        "你要買（　）辭典？我要買漢英辭典。",
+        "你家有（　）人？我家有爸爸、媽媽和一個弟弟。"
+      ]
+    },
+    {
+      "titel": "就……",
+      "erklaerung": "表示加強確定語氣的副詞。",
+      "beispiele": [
+        "如果想看，就要早點兒買票。",
+        "我偏不信邪，就要試試看。"
+      ],
+      "uebungen": [
+        "這（　）是我要的答案。",
+        "這位（　）是我的好朋友。"
+      ]
+    }
+  ]
+}

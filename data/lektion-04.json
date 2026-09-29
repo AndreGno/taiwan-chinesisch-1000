@@ -1,0 +1,133 @@
+{
+  "nummer": 4,
+  "titel_zh": "看一本書",
+  "titel_de": "Ein Buch lesen",
+  "dialog": [
+    {
+      "sprecher": "方",
+      "zh": "王先生，您在看什麼？",
+      "pinyin": "Wáng xiānsheng nín zài kàn shénme",
+      "de": "Herr Wang, was lesen Sie gerade?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "我正在看一本書。",
+      "pinyin": "Wǒ zhèng zài kàn yì běn shū",
+      "de": "Ich lese gerade ein Buch."
+    },
+    {
+      "sprecher": "方",
+      "zh": "這本書是誰的？",
+      "pinyin": "Zhè běn shū shì shéi de",
+      "de": "Wem gehört dieses Buch?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "這本書是我的。",
+      "pinyin": "Zhè běn shū shì wǒ de",
+      "de": "Dieses Buch gehört mir."
+    },
+    {
+      "sprecher": "方",
+      "zh": "這是什麼書？",
+      "pinyin": "Zhè shì shénme shū",
+      "de": "Was ist das für ein Buch?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "這是一本介紹臺灣文化的書。",
+      "pinyin": "Zhè shì yì běn jièshào Táiwān wénhuà de shū",
+      "de": "Dies ist ein Buch über taiwanesische Kultur."
+    },
+    {
+      "sprecher": "方",
+      "zh": "太好了！可以借給我看嗎？",
+      "pinyin": "Tài hǎo le Kěyǐ jiè gěi wǒ kàn ma",
+      "de": "Prima! Darf ich mir das ausleihen?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "當然，你拿去看吧，我那裡還有第二冊。",
+      "pinyin": "Dāngrán nǐ ná qù kàn ba wǒ nàlǐ hái yǒu dì-èr cè",
+      "de": "Natürlich, nehmen Sie es ruhig. Ich habe dort noch einen zweiten Band."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "看",
+      "pinyin": "kàn",
+      "de": "sehen, lesen, gucken"
+    },
+    {
+      "zh": "臺灣文化",
+      "pinyin": "Táiwān wénhuà",
+      "de": "taiwanesische Kultur"
+    },
+    {
+      "zh": "本",
+      "pinyin": "běn",
+      "de": "ZEW. für Hefte und Bücher"
+    },
+    {
+      "zh": "可以",
+      "pinyin": "kěyǐ",
+      "de": "in Ordnung, es ist erlaubt"
+    },
+    {
+      "zh": "書",
+      "pinyin": "shū",
+      "de": "das Buch"
+    },
+    {
+      "zh": "借給",
+      "pinyin": "jiè gěi",
+      "de": "jdm. ausleihen"
+    },
+    {
+      "zh": "什麼",
+      "pinyin": "shénme",
+      "de": "was"
+    },
+    {
+      "zh": "拿去",
+      "pinyin": "ná qù",
+      "de": "nimm es dir, nehmen Sie es sich"
+    },
+    {
+      "zh": "介紹",
+      "pinyin": "jièshào",
+      "de": "sich/jmdn./etw. vorstellen"
+    },
+    {
+      "zh": "冊",
+      "pinyin": "cè",
+      "de": "der Band"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……吧",
+      "erklaerung": "助詞：1.表示商量、請求等語氣。（例：教教我吧！） 2.表示指使。（例：快走吧!） 3.表示同意。 4.表示推測。 5.表示感嘆。（例：算了吧!）",
+      "beispiele": [
+        "你拿去看吧。（表示同意）",
+        "明天該不會下雨吧？（表示推測）"
+      ],
+      "uebungen": [
+        "好，我明天和你（　）。",
+        "你該不會想要（　）？"
+      ]
+    },
+    {
+      "titel": "正在……",
+      "erklaerung": "強調動作在進行當中。",
+      "beispiele": [
+        "我正在看報。",
+        "外面正在下雨。"
+      ],
+      "uebungen": [
+        "王先生正在（　）。",
+        "電視新聞正在播報（　）。"
+      ]
+    }
+  ]
+}

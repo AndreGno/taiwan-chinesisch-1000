@@ -1,0 +1,134 @@
+{
+  "nummer": 63,
+  "titel_zh": "說故事比賽",
+  "titel_de": "Der Geschichtenerzählwettbewerb",
+  "dialog": [
+    {
+      "sprecher": "芳芳",
+      "zh": "下星期學校要舉行一個說故事比賽。",
+      "pinyin": "Xià xīngqí xuéxiào yào jǔxíng yí ge shuō gùshi bǐsài",
+      "de": "Mama, nächste Woche veranstaltet unsere Schule einen Geschichtenerzählwettbewerb."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "比賽有什麼規定？由誰來評分？",
+      "pinyin": "Bǐsài yǒu shénme guīdìng Yóu shéi lái píng fēn",
+      "de": "Welche Regeln gibt es für diesen Wettbewerb? Wer wird die Bewertung vornehmen?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "請家長來評分。每個參賽者說一個故事或者笑話都行。",
+      "pinyin": "Qǐng jiāzhǎng lái píng fēn Měi ge cānsàizhě shuō yí ge gùshi huòzhě xiàohua dōu xíng",
+      "de": "Die Eltern sind eingeladen, die Bewertung vorzunehmen. Wir können entweder eine kleine Geschichte oder einen Witz erzählen."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "你自己選一個故事去參加吧！",
+      "pinyin": "Nǐ zìjǐ xuǎn yí ge gùshi qù cānjiā ba",
+      "de": "Du kannst eine kurze Geschichte auswählen Wettbewerb für die Teilnahme an diesem."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我想說「差不多先生」的故事，好不好?",
+      "pinyin": "Wǒ xiǎng shuō chàbuduō xiānsheng de gùshi hǎo bu hǎo",
+      "de": "Ich möchte die Geschichte “Herr Mehr –oder -weniger” erzählen. Ist das in Ordnung?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "很好哇。你要好好兒練習，最好能背下來。",
+      "pinyin": "Hěn hǎo wā Nǐ yào hǎohāor liànxí zuìhǎo néng bèi xiàlai",
+      "de": "Eine gute Idee! Du solltest sie oft genug üben. Am besten lernst du sie auswendig."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "還要背下來？",
+      "pinyin": "Hái yào bèi xiàlái",
+      "de": "Muss ich sie auswendig lernen?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "既然要參加，就要認真地準備。",
+      "pinyin": "Jìrán yào cānjiā jiù yào rènzhēn de zhǔnbèi",
+      "de": "Da es ein Wettbewerb ist, solltest du dich ernsthaft vorbereiten."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "說故事",
+      "pinyin": "shuō gùshi",
+      "de": "die Geschichten erzählen"
+    },
+    {
+      "zh": "或者",
+      "pinyin": "huòzhě",
+      "de": "oder"
+    },
+    {
+      "zh": "比賽",
+      "pinyin": "bǐsài",
+      "de": "der Wettbewerb"
+    },
+    {
+      "zh": "笑話",
+      "pinyin": "xiàohua",
+      "de": "der Witz"
+    },
+    {
+      "zh": "舉行",
+      "pinyin": "jǔxíng",
+      "de": "durchführen"
+    },
+    {
+      "zh": "參加",
+      "pinyin": "cānjiā",
+      "de": "teilnehmen"
+    },
+    {
+      "zh": "由",
+      "pinyin": "yóu",
+      "de": "von wem"
+    },
+    {
+      "zh": "既然",
+      "pinyin": "jìrán",
+      "de": "da / weil"
+    },
+    {
+      "zh": "評分",
+      "pinyin": "píngfēn",
+      "de": "bewerten"
+    },
+    {
+      "zh": "認真",
+      "pinyin": "rènzhēn",
+      "de": "ernsthaft"
+    },
+    {
+      "zh": "家長",
+      "pinyin": "jiāzhǎng",
+      "de": "die Eltern"
+    },
+    {
+      "zh": "差不多先生",
+      "pinyin": "chàbuduō xiānsheng",
+      "de": "“Herr Mehr-oder-weniger” war ein von Hu Shih(胡適) verfasstes Essay. Hu Shih war ein einflussreicher Schriftsteller und ein chinesischer soziokultureller Philosoph im frühen 20. Jahrhundert. Er wurde durch seine litevarische Arbeit zur Bewegung des 4.Mai berühmt. Diese wollte China modernisieren, der Welt seine Ernsthaftigkeit zeigen und machte die gewöhnliche Mundart Chinas zum Hauptmedium von Schrift und Journalismus in Abgrenzung zum klassischen Chinesisch."
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "既然……就（要）……",
+      "erklaerung": "「既然」表完成的時間副詞，有「已經如此」的意思，通常與「就」、「也」、「還」等副詞相呼應。",
+      "beispiele": [
+        "既然要參加，就要認真地準備。",
+        "既然沒有錢，就節省一點兒。"
+      ],
+      "uebungen": [
+        "（　）不愛吃魚，（　）少吃一點兒。",
+        "（　）不想參加比賽，（　）早一點兒說。",
+        "（　）買不起那個東西，（　）不要看了。",
+        "（　）一意孤行，我（　）不便多說了。",
+        "（　）你不願意，我（　）能說什麼呢？"
+      ]
+    }
+  ]
+}

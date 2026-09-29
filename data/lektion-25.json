@@ -1,0 +1,126 @@
+{
+  "nummer": 25,
+  "titel_zh": "新年假期",
+  "titel_de": "Die Neujahrsferien",
+  "dialog": [
+    {
+      "sprecher": "莉莉",
+      "zh": "方先生，新年假期過得好嗎？",
+      "pinyin": "Fāng xiānsheng xīnnián jiàqí guò de hǎo ma",
+      "de": "Herr Fang, haben Sie die Neujahrsferien schön verbracht?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "好極了，我跟朋友到阿里山去玩兒了。",
+      "pinyin": "Hǎo jí le wǒ gēn péngyǒu dào Alǐ Shān qù wánr le",
+      "de": "Sie waren ganz toll. Ich bin mit einem Freund zum A-Li Berg gefahren."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "山上的風景怎樣？有沒有拍照片呢？",
+      "pinyin": "Shān shàng de fēngj-ng zěnyàng Yǒuméiyǒu pāi zhàopiàn ne",
+      "de": "Wie war die Aussicht auf dem Berg? Haben Sie Bilder aufgenommen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "風景太美了。我照了很多彩色照片和幻燈片。",
+      "pinyin": "Fēngj-ng tài měi le Wǒ zhàole hěn duō cǎisè zhàopiàn hé huàndēng piàn",
+      "de": "Die Landschaft ist einfach fantastisch. Ich habe viele Farbfotos und Dias aufgenommen"
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "讓我看看那些照片。",
+      "pinyin": "Ràng wǒ kànkan nàxiē zhàopiàn",
+      "de": "Lassen Sie mich mal die Fotos sehen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "請等一下，我去拿相簿。",
+      "pinyin": "Qǐng děng yíxià wǒ qù ná xiàngbù",
+      "de": "Warten Sie einen Moment. Ich hole das Fotoalbum."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "你照得真好，我很欣賞。",
+      "pinyin": "Nǐ zhào de zhēn hǎo wǒ hěn xīnshǎng",
+      "de": "Sie haben richtig schön fotografiert. Es gefällt mir sehr gut."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "謝謝。不過沖洗這些照片，可花了我不少錢。",
+      "pinyin": "Xièxie Búguò chōngx- zhèxiē zhàopiàn kě huāle wǒ bùshǎo qián",
+      "de": "Danke sehr. Das Entwickeln dieser Bilder hat mir aber viel Geld gekostet."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "新年假期",
+      "pinyin": "xīnnián jiàqí",
+      "de": "die Neujahrsferien"
+    },
+    {
+      "zh": "過得好",
+      "pinyin": "guò de hǎo",
+      "de": "gut verbracht"
+    },
+    {
+      "zh": "好極了",
+      "pinyin": "hǎo jí le",
+      "de": "wunderbar"
+    },
+    {
+      "zh": "彩色照片",
+      "pinyin": "cǎisè zhàopiàn",
+      "de": "das Farbfoto"
+    },
+    {
+      "zh": "幻燈片",
+      "pinyin": "huàndēng piàn",
+      "de": "das Dia"
+    },
+    {
+      "zh": "等一下",
+      "pinyin": "děng yíxià",
+      "de": "warte (-n Sie) einen Moment"
+    },
+    {
+      "zh": "拿",
+      "pinyin": "ná",
+      "de": "holen, nehmen"
+    },
+    {
+      "zh": "相簿",
+      "pinyin": "xiàngbù",
+      "de": "das Fotoalbum"
+    },
+    {
+      "zh": "欣賞",
+      "pinyin": "xīnshǎng",
+      "de": "gefallen, genießen"
+    },
+    {
+      "zh": "沖洗",
+      "pinyin": "chōngx-",
+      "de": "das Foto entwickeln"
+    },
+    {
+      "zh": "花（費）",
+      "pinyin": "huā(fèi)",
+      "de": "hier: kosten, Geld ausgeben"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "不過……，可",
+      "erklaerung": "在本課意思是「僅只」，表示程度的輕重。",
+      "beispiele": [
+        "不過沖洗這些照片，可花了我不少錢。",
+        "不過為了買這本書，可花了我一個星期的零用錢。"
+      ],
+      "uebungen": [
+        "不過買了幾個麵包，可（　）。",
+        "不過（　），可（　）。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nummer": 21,
+  "titel_zh": "點菜",
+  "titel_de": "Gerichte bestellen",
+  "dialog": [
+    {
+      "sprecher": "侍者",
+      "zh": "兩位請坐這邊兒，請先看看菜單。",
+      "pinyin": "Liǎng wèi qǐng zuò zhè biānr qǐng xiān kànkan càidān",
+      "de": "Meine Herren, bitte nehmen Sie hier Platz und schauen Sie zuerst in die Speisekarte."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "您來點菜吧，我什麼東西都吃。",
+      "pinyin": "Nín lái diǎn cài ba wǒ shénme dōngxi dōu chī",
+      "de": "Bestellen Sie doch die Gerichte. Ich esse alles."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "今天有什麼特別的菜？",
+      "pinyin": "Jīntiān yǒu shénme tèbié de cài",
+      "de": "Gibt es heute irgendwelche besonderen Gerichte?"
+    },
+    {
+      "sprecher": "侍者",
+      "zh": "來一個粉蒸牛肉好不好？是我們這兒的名菜。",
+      "pinyin": "Lái yí ge fěn zhēng niúròu hǎo bu hǎo Shì wǒmen zhèr de míng cài",
+      "de": "Wie wäre es mit einer Portion “gedämpftes mariniertes Rindfleisch in Reismehl”? Das ist unsere Hausspezialität."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我不想吃牛肉，叫別的菜吧。",
+      "pinyin": "Wǒ bù xiǎng chī niúròu jiào bié de cài ba",
+      "de": "Ich möchte kein Rindfleisch essen. Bestellen Sie doch lieber etwas anderes."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "就來一個宮保雞丁和一個糖醋排骨吧。",
+      "pinyin": "Jiù lái yí ge gōngbǎo jī dīng hé yí ge tángcù páigú ba",
+      "de": "Dann bestelle ich einmal Hühnerfleischwürfel mit Erdnüssen in scharfer Soße und süßsaure Rippchen."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "我不敢吃辣的，糖醋的又酸又甜，我也不愛吃。",
+      "pinyin": "Wǒ bù gǎn chī là de tángcù de yòu suān yòu tián wǒ yě bú ài chī",
+      "de": "Ich traue mich nicht Scharfes zu essen und die süßsaure Soße ist nicht nur süß, sondern auch noch sauer. Das mag ich auch nicht."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "還是您來點菜吧！您點什麼，我就吃什麼。",
+      "pinyin": "Háishì nín lái diǎn cài ba Nín diǎn shénme wǒ jiù chī shénǐ me",
+      "de": "Dann bestellen Sie doch bitte mal. Was Sie auch immer bestellen, esse ich."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "點菜",
+      "pinyin": "diǎn cài",
+      "de": "Gerichte bestellen"
+    },
+    {
+      "zh": "菜單",
+      "pinyin": "càidān",
+      "de": "die Speisekarte"
+    },
+    {
+      "zh": "特別的",
+      "pinyin": "tèbié de",
+      "de": "besonders"
+    },
+    {
+      "zh": "粉蒸牛肉",
+      "pinyin": "fěn zhēng niúròu",
+      "de": "gedämpftes mariniertes Rindfleisch in Reismehl"
+    },
+    {
+      "zh": "名菜",
+      "pinyin": "míng cài",
+      "de": "die Hausspezialität, die berühmte Spezialität"
+    },
+    {
+      "zh": "牛肉",
+      "pinyin": "niúròu",
+      "de": "das Rindfleisch"
+    },
+    {
+      "zh": "宮保雞丁",
+      "pinyin": "gōngbǎo jī dīng",
+      "de": "Hühnerfleischwürfel mit Erdnüssen in scharfer Soße"
+    },
+    {
+      "zh": "糖醋排骨",
+      "pinyin": "tángcù páigú",
+      "de": "süßsaure Rippchen"
+    },
+    {
+      "zh": "辣的",
+      "pinyin": "là de",
+      "de": "Scharfes"
+    },
+    {
+      "zh": "酸",
+      "pinyin": "suān",
+      "de": "sauer"
+    },
+    {
+      "zh": "甜",
+      "pinyin": "tián",
+      "de": "süß"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……好不好？",
+      "erklaerung": "一種詢問的語氣，先表明意見再徵詢對方的看法，放在句末。",
+      "beispiele": [
+        "來一份粉蒸牛肉，好不好？",
+        "我們明天去看電影，好不好？"
+      ],
+      "uebungen": [
+        "（　）好不好？",
+        "（　）好不好？"
+      ]
+    }
+  ]
+}

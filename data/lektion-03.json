@@ -1,0 +1,121 @@
+{
+  "nummer": 3,
+  "titel_zh": "認識新朋友",
+  "titel_de": "Neue Freunde kennenlernen",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "方先生，您早。這是我的朋友李先生。",
+      "pinyin": "Fāng xiānsheng nín zǎo Zhè shì wǒ de péngyǒu Lǐ xiānsheng",
+      "de": "Guten Morgen, Herr Fang. Dies ist ein Freund von mir, Herr Li."
+    },
+    {
+      "sprecher": "李",
+      "zh": "我是李文，很高興認識您。",
+      "pinyin": "Wǒ shì Lǐ wén hěn gāoxìng rènshì nín",
+      "de": "Ich bin Li, Wen, sehr erfreut Sie kennen zu lernen."
+    },
+    {
+      "sprecher": "方",
+      "zh": "李先生，您好。請坐，請喝茶。",
+      "pinyin": "Lǐ xiānsheng nínhǎo Qǐng zuò qǐng hē chá",
+      "de": "Guten Tag, Herr Li. Bitte setzen Sie sich und nehmen Sie eine Tasse Tee."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您別客氣，我們自己來。",
+      "pinyin": "Nín bié kèqi wǒmen zìjǐ lái",
+      "de": "Machen Sie sich keine Umstände, wir bedienen uns selbst."
+    },
+    {
+      "sprecher": "方",
+      "zh": "李先生，您是在上班，還是念書？",
+      "pinyin": "Lǐ xiānsheng nín shì zài shàngbān hái shì niànshū",
+      "de": "Herr Li, sind Sie berufstätig, oder studieren Sie noch?"
+    },
+    {
+      "sprecher": "李",
+      "zh": "我還在念書。",
+      "pinyin": "Wǒ hái zài niànshū",
+      "de": "Ich studiere noch."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "這",
+      "pinyin": "zhè",
+      "de": "diese/r/s"
+    },
+    {
+      "zh": "朋友",
+      "pinyin": "péngyǒu",
+      "de": "der Freund"
+    },
+    {
+      "zh": "請坐",
+      "pinyin": "qǐng zuò",
+      "de": "Nehmen Sie bitte Platz"
+    },
+    {
+      "zh": "喝茶",
+      "pinyin": "hē chá",
+      "de": "Tee trinken"
+    },
+    {
+      "zh": "別客氣",
+      "pinyin": "bié kèqi",
+      "de": "Mach dir/Machen Sie sich keine Umstände"
+    },
+    {
+      "zh": "自己來",
+      "pinyin": "zìjǐ lái",
+      "de": "es selber machen, sich selber bedienen"
+    },
+    {
+      "zh": "在",
+      "pinyin": "zài",
+      "de": "sich befinden"
+    },
+    {
+      "zh": "上班",
+      "pinyin": "shàngbān",
+      "de": "arbeiten, berufstätig sein"
+    },
+    {
+      "zh": "還是",
+      "pinyin": "hái shì",
+      "de": "oder"
+    },
+    {
+      "zh": "念書",
+      "pinyin": "niànshū",
+      "de": "studieren"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "是……",
+      "erklaerung": "判斷句的最基本形式，通常用來說明一個物件或一個人的屬性。",
+      "beispiele": [
+        "這是我的朋友李先生。",
+        "他是我的同學。"
+      ],
+      "uebungen": [
+        "認識新朋友是（　）。",
+        "那是（　）。"
+      ]
+    },
+    {
+      "titel": "是……還是……",
+      "erklaerung": "想要確定某一個情況的意思，是A或者是B。",
+      "beispiele": [
+        "李先生，您是在上班，還是念書呢？",
+        "你看，這是紅色的，還是橘色的？"
+      ],
+      "uebungen": [
+        "你明天是（　）還是（　）？",
+        "明天是（　）還是（　）？"
+      ]
+    }
+  ]
+}

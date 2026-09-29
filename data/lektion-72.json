@@ -1,0 +1,144 @@
+{
+  "nummer": 72,
+  "titel_zh": "發成績單",
+  "titel_de": "Zeugnis verteilen",
+  "dialog": [
+    {
+      "sprecher": "蓓蒂",
+      "zh": "早上匆匆忙忙地出門，忘記戴圍巾了。",
+      "pinyin": "Zǎoshang cōngcōngmángmáng de chūmén wàngjì dài wéijīn le",
+      "de": "Heute Morgen habe ich das Haus so eilig verlassen, dass ich vergessen habe meinen Schal mitzunehmen."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "是不是昨晚太晚睡了？早上起不來？",
+      "pinyin": "Shì bú shì zuó wǎn tài wǎn shuì le Zǎoshang qǐ bù lái",
+      "de": "Bist du vielleicht zu spät ins Bett gegangen und konntest deshalb nicht rechtzeitig aufstehen?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "不是。今天要發成績單，心裡有點兒緊張。",
+      "pinyin": "Bú shì Jīntiān yào fā chéngjī dān xīnli yǒudiǎnr jǐnǐ zhāng",
+      "de": "Nein, heute werden die Zeugnisse ausgegeben. Deshalb bin ich ein wenig nervös."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "你的成績一向那麼好，還怕不及格嗎？",
+      "pinyin": "Nǐ de chéngjī yíxiàng nàme hǎo hái pà bú jígé ma",
+      "de": "Du hast immer so gute Noten. Hast du dennoch Angst durchzufallen?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "我父親說，如果成績好，就給我買一個手機。",
+      "pinyin": "Wǒ fùqīn shuō rúguǒ chéngjī hǎo jiù gěi wǒ mǎi yí ge shǒujī",
+      "de": "Mein Vater sagte, wenn ich gute Noten habe, kauft er mir ein Handy."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我只希望化學和地理都能及格。",
+      "pinyin": "Wǒ zhǐ xīwàng huàxué hé dìlǐ dōu néng jígé",
+      "de": "Ich hoffe nur, dass ich Chemie und Geographie bestehen werde."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "你不會不及格的，頂多分數低一點兒。",
+      "pinyin": "Nǐ bú huì bù jígé de dǐng duō fēnshù dī yìdiǎnr",
+      "de": "Du kannst gar nicht durchfallen. Schlimmstenfalls ist die Punktzahl etwas niedriger."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "經過這次的教訓，以後會用功一點兒的。",
+      "pinyin": "Jīngguò zhè cì de jiàoxun yǐhòu huì yònggōng yìdiǎnr de",
+      "de": "Ich habe jedenfalls etwas daraus gelernt. In Zukunft muss ich etwas fleißiger sein."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "成績單",
+      "pinyin": "chéngjī dān",
+      "de": "das Zeugnis"
+    },
+    {
+      "zh": "化學",
+      "pinyin": "huàxué",
+      "de": "die Chemie"
+    },
+    {
+      "zh": "匆匆忙忙",
+      "pinyin": "cōngcōng mángmáng",
+      "de": "eilig"
+    },
+    {
+      "zh": "地理",
+      "pinyin": "dìlǐ",
+      "de": "die Geographie"
+    },
+    {
+      "zh": "圍巾",
+      "pinyin": "wéijīn",
+      "de": "der Schal"
+    },
+    {
+      "zh": "及格",
+      "pinyin": "jígé",
+      "de": "eine Prüfung bestehen"
+    },
+    {
+      "zh": "發",
+      "pinyin": "fā",
+      "de": "ausgeben, verteilen"
+    },
+    {
+      "zh": "分數",
+      "pinyin": "fēnshù",
+      "de": "die Punkte, die Punktzahl"
+    },
+    {
+      "zh": "成績",
+      "pinyin": "chéngjī",
+      "de": "die Note"
+    },
+    {
+      "zh": "低",
+      "pinyin": "dī",
+      "de": "niedrig"
+    },
+    {
+      "zh": "手機",
+      "pinyin": "shǒujī",
+      "de": "das Handy"
+    },
+    {
+      "zh": "教訓",
+      "pinyin": "jiàoxun",
+      "de": "etw. daraus lernen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "如果（只要、既然、因為）……，就……",
+      "erklaerung": "表示承接上文，得出結論。",
+      "beispiele": [
+        "如果成績好，爸爸就會給我買一個隨身聽。",
+        "如果你先到了，就等我一下。"
+      ],
+      "uebungen": [
+        "（　）下雨，我（　）不去了。",
+        "（　）粗心，後果恐怕（　）不堪設想了。"
+      ]
+    },
+    {
+      "titel": "那麼+形/動，還怕……",
+      "erklaerung": "「那麼」強調說話人的感嘆語氣，有略帶誇張、使語言生動的作用。",
+      "beispiele": [
+        "你那麼用功，還怕考試不及格嗎？",
+        "你那麼聰明，還怕學不好中文嗎？"
+      ],
+      "uebungen": [
+        "你（　）有錢，（　）買不起那件衣服。",
+        "你（　）仔細，（　）做不好那件事。",
+        "你（　）可愛，（　）別人不喜歡你。"
+      ]
+    }
+  ]
+}

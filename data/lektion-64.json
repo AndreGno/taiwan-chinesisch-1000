@@ -1,0 +1,126 @@
+{
+  "nummer": 64,
+  "titel_zh": "為朋友送行",
+  "titel_de": "Sich verabschieden",
+  "dialog": [
+    {
+      "sprecher": "王太太",
+      "zh": "一眨眼，兩個月的假期就過去了。",
+      "pinyin": "Yì zhǎyǎn liǎng ge yuè de jiàqí jiù guòqù le",
+      "de": "Es ist wie ein Augenblick. Zwei Monate Ferien gingen wie im Fluge vorbei."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "好像才剛來接機，立刻又要來送行了。",
+      "pinyin": "Hǎoxiàng cái gāng lái jiē jī lìkè yòu yào lái sòngxíng le",
+      "de": "Es ist, als ob wir euch gerade erst abgeholt hätten und jetzt verabschieden wir uns schon wieder von euch."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "你的收穫真不少，行李由三個箱子變成了六個。",
+      "pinyin": "Nǐ de shōuhuò zhēn bùshǎo xíngl- yóu sān ge xiāngzi biànchéng le liù ge",
+      "de": "Du hast ganz schön viel Gewinn gemacht. Deine drei Koffer haben sich in sechs verwandelt."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "最大的收穫是孩子們的中文都進步了。",
+      "pinyin": "Zuì dà de shōuhuò shì háizimen de Zhōngwén dōu jìnbù le",
+      "de": "Unser größter Gewinn ist, dass die Kinder in Chinesisch große Fortschritte gemacht haben."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "這次小弟把注音符號都學會了。",
+      "pinyin": "Zhè cì xiǎodì bǎ zhùyīn fúhào dōu xué huì le",
+      "de": "Diesmal hat unser kleiner Junge sogar die phonetischen Symbole in Mandarin gelernt."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "芳芳中文也說得流利多了。",
+      "pinyin": "Fāngfāng Zhōngwén yě shuō de liúlì duō le",
+      "de": "Fang-Fang spricht auch viel fließender Chinesisch."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "每次和朋友說再見，總會忍不住地難過起來。",
+      "pinyin": "Měi cì hé péngyǒu shuō zàijiàn zǒng huì rěnb/zhù de nánguò qǐlái",
+      "de": "Jedes Mal, wenn wir uns von Freunden trennen, werde ich unweigerlich traurig."
+    },
+    {
+      "sprecher": "張先生",
+      "zh": "別這樣，很快就會再見面了。祝你們一路平安。",
+      "pinyin": "Bié zhèyàng hěn kuài jiù huì zài jiànmiàn le Zhù nǐmen yí lù píng'ān",
+      "de": "Sei nicht so. Wir werden uns schon bald wiedersehen. Wir wünschen euch eine gute Reise."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "送行",
+      "pinyin": "sòngxíng",
+      "de": "sich von jm verabschieden"
+    },
+    {
+      "zh": "注音符號",
+      "pinyin": "zhùyīn fúhào",
+      "de": "die phonetischen Symbole/die Lautschriften in Mandarin"
+    },
+    {
+      "zh": "一眨眼",
+      "pinyin": "yì zhǎyǎn",
+      "de": "der Augenblick"
+    },
+    {
+      "zh": "流利",
+      "pinyin": "liúlì",
+      "de": "fließend"
+    },
+    {
+      "zh": "好像",
+      "pinyin": "hǎoxiàng",
+      "de": "als ob"
+    },
+    {
+      "zh": "忍不住",
+      "pinyin": "rěnb/zhù",
+      "de": "nicht zurückhalten können, unweigerlich etw. werden/machen"
+    },
+    {
+      "zh": "收穫",
+      "pinyin": "shōuhuò",
+      "de": "die Ernte, der Gewinn"
+    },
+    {
+      "zh": "難過",
+      "pinyin": "nánguò",
+      "de": "traurig"
+    },
+    {
+      "zh": "箱子",
+      "pinyin": "xiāngzi",
+      "de": "der Koffer"
+    },
+    {
+      "zh": "一路平安",
+      "pinyin": "yí lù píng'ān",
+      "de": "die gute Reise"
+    },
+    {
+      "zh": "變成",
+      "pinyin": "biànchéng",
+      "de": "verwandeln"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "剛與才的用法",
+      "erklaerung": "「剛」和「才」都可以與「就」搭配使用，表示一件事情緊接另一件事情發生。用「剛」側重於在時間上緊接著發生；用「才」時，則側重於兩件事情緊湊地相繼發生。",
+      "beispiele": [
+        "好像才剛來接機，立刻又要來送行了。",
+        "他剛離開，你走快一點，說不定可以趕上他。"
+      ],
+      "uebungen": [
+        "考試（　）開始，還有三十分鐘，不用緊張。",
+        "你（　）到臺灣兩個月，中文就進步很多了。"
+      ]
+    }
+  ]
+}

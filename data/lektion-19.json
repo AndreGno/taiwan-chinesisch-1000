@@ -1,0 +1,138 @@
+{
+  "nummer": 19,
+  "titel_zh": "家具",
+  "titel_de": "Möbel",
+  "dialog": [
+    {
+      "sprecher": "店員",
+      "zh": "小姐，您要買什麼樣的家具？沙發還是書櫃呢？",
+      "pinyin": "Xiǎojiě nín yào mǎi shénme yàng de jiājù Shāfā hái shì shūguì ne",
+      "de": "Guten Tag, was für eine Art von Möbeln suchen Sie? Ein Sofa oder ein Bücherregal?"
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "我只是看看。",
+      "pinyin": "Wǒ zhǐshì kànkan",
+      "de": "Ich schaue mich nur um."
+    },
+    {
+      "sprecher": "店員",
+      "zh": "我們正在打折，所有的家具都比平常便宜。",
+      "pinyin": "Wǒmen zhèng zài dǎzhé suǒyǒu de jiājù dōu bǐ píngcháng piányi",
+      "de": "Wir haben zur Zeit ein Sonderangebot. Alle Möbelstücke sind günstiger als sonst."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "這套沙發樣式很不錯，要多少錢？",
+      "pinyin": "Zhè tào shāfā yàngshì hěn búcuò yào duōshao qián",
+      "de": "Das Design dieser Polstergarnitur ist wirklich nicht schlecht. Wie viel kostet sie?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "這套沙發不貴，打折以後只要一萬八千塊錢。",
+      "pinyin": "Zhè tào shāfā bú guì dǎzhé yǐhòu zhǐ yào yíwàn bāqiān kuài qián",
+      "de": "Diese Polstergarnitur ist nicht teuer. Mit Rabatt kostet sie nur noch 18.000 NT$."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "那張圓形餐桌的材質是什麼呢？",
+      "pinyin": "Nà zhāng yuán xíng cānzhuō de cáizhí shì shénme ne",
+      "de": "Aus welchem Material ist dieser runde Esstisch hergestellt?"
+    },
+    {
+      "sprecher": "店員",
+      "zh": "那張餐桌是用最好的橡木做的。",
+      "pinyin": "Nà zhāng cānzhuō shì yòng zuì hǎo de xiàngmù zuò de",
+      "de": "Dieser Esstisch ist aus bester Eiche hergestellt."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "這些家具都很漂亮，不過我再考慮考慮。",
+      "pinyin": "Zhèxiē jiājù dōu hěn piàoliang búguò wǒ zài kǎolǜ kǎolǜ",
+      "de": "Diese Möbel sind alle sehr schön. Ich muss aber noch einmal darüber nachdenken."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "家具",
+      "pinyin": "jiājù",
+      "de": "das Möbelstück, die Möbel"
+    },
+    {
+      "zh": "沙發",
+      "pinyin": "shāfā",
+      "de": "das Sofa, die Polstergarnitur"
+    },
+    {
+      "zh": "書櫃",
+      "pinyin": "shūguì",
+      "de": "das Bücherregal"
+    },
+    {
+      "zh": "打折",
+      "pinyin": "dǎzhé",
+      "de": "das Sonderangebot, der Rabatt"
+    },
+    {
+      "zh": "平常",
+      "pinyin": "píngcháng",
+      "de": "normalerweise"
+    },
+    {
+      "zh": "便宜",
+      "pinyin": "piányi",
+      "de": "günstig, billig"
+    },
+    {
+      "zh": "套",
+      "pinyin": "tào",
+      "de": "das Set"
+    },
+    {
+      "zh": "樣式",
+      "pinyin": "yàngshì",
+      "de": "das Design"
+    },
+    {
+      "zh": "圓形餐桌",
+      "pinyin": "yuán xíng cānzhuō",
+      "de": "der runde Esstisch"
+    },
+    {
+      "zh": "材質",
+      "pinyin": "cáizhí",
+      "de": "das Material"
+    },
+    {
+      "zh": "考慮",
+      "pinyin": "kǎolǜ",
+      "de": "überlegen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "所有……都……",
+      "erklaerung": "強調「每一樣、全部都怎樣」的一種說法。",
+      "beispiele": [
+        "這家店正在打折，所有的家具都比平常便宜。",
+        "二十週年高中同學會，班上所有的同學都來參加。"
+      ],
+      "uebungen": [
+        "這家餐廳所有的菜都很好吃。",
+        "你送的東西都很實用。"
+      ]
+    },
+    {
+      "titel": "不過……",
+      "erklaerung": "表示轉折的語氣，通常是先肯定前一個句子的狀態，緊接著再有一個轉折。",
+      "beispiele": [
+        "這些家具都很漂亮，不過我再考慮考慮。",
+        "這件衣服很漂亮，不過價錢太貴了。"
+      ],
+      "uebungen": [
+        "這些花都很美，不過（　）。",
+        "那本書很好看，不過（　）。"
+      ]
+    }
+  ]
+}

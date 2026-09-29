@@ -1,0 +1,145 @@
+{
+  "nummer": 74,
+  "titel_zh": "過新年（二）",
+  "titel_de": "Das chinesische Neujahr (2)",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "新年時，中國城裡有舞龍舞獅的表演。",
+      "pinyin": "Xīnnián shí Zhōngguóchéng lǐ yǒu wǔlóng wǔshī de biǎoyǎn",
+      "de": "An diesem chinesischen Neujahr wird es in Chinatown eine Drachen-und Löwentanzvorführung geben."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我們帶孩子們去看熱鬧吧。",
+      "pinyin": "Wǒmen dài háizimen qù kàn rènào ba",
+      "de": "Lass uns die Kinder mitnehmen, um dieses besondere Ereignis zu sehen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "裝壓歲錢的紅包袋，準備好了嗎？",
+      "pinyin": "Zhuāng yāsuìqián de hóng bāo dài zhǔnbèi hǎo le ma",
+      "de": "Sind die roten Umschläge für ihr Geldgeschenk zum Frühlingsfest schon vorbereitet?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "早就買好了。記得打電話向爸媽拜年。",
+      "pinyin": "Zǎo jiù mǎi hǎo le Jìde dǎ diànhuà xiàng bà mā bàinián",
+      "de": "Ich habe sie schon sehr früh gekauft. Denke daran, Vater und Mutter anzurufen um ihnen Neujahrsgrüße auszurichten."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "今年應該是龍年吧？",
+      "pinyin": "Jīnnián yīnggāi shì lóng nián ba",
+      "de": "Dieses Jahr sollte das Jahr des Drachen sein, oder?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "沒錯，按照十二生肖的順序，應該是龍年。",
+      "pinyin": "Méicuò ànzhào shíèr shēngxiào de shùnxù yīnggāi shì lóng nián",
+      "de": "Stimmt, gemäß der Reihenfolge der 12 Tiere, müsste es das Jahr des Drachen sein."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "據說，龍年會是吉祥的一年。",
+      "pinyin": "Jùshuō lóng nián huì shì jíxiáng de yì nián",
+      "de": "Man sagt, das Jahr des Drachen bringe viel Glück."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "新年新希望，我希望新的一年能萬事如意。",
+      "pinyin": "Xīnnián xīn xīwàng wǒ xīwàng xīn de yì nián néng wànshì rúyì",
+      "de": "Neues Jahr neues Glück. Ich hoffe, dass im neuen Jahr alles nach unseren Plänen verläuft."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "中國城",
+      "pinyin": "Zhōngguóchéng",
+      "de": "das Chinatown"
+    },
+    {
+      "zh": "龍年",
+      "pinyin": "lóng nián",
+      "de": "das Jahr des Drachens"
+    },
+    {
+      "zh": "舞龍舞獅",
+      "pinyin": "wǔlóng wǔshī",
+      "de": "der Drachen- und Löwentanz"
+    },
+    {
+      "zh": "順序",
+      "pinyin": "shùnxù",
+      "de": "die Reihenfolge"
+    },
+    {
+      "zh": "表演",
+      "pinyin": "biǎoyǎn",
+      "de": "die Vorführung"
+    },
+    {
+      "zh": "據說",
+      "pinyin": "jùshuō",
+      "de": "man sagt"
+    },
+    {
+      "zh": "紅包",
+      "pinyin": "hóngbāo",
+      "de": "der rote Umschlag"
+    },
+    {
+      "zh": "吉祥",
+      "pinyin": "jíxiáng",
+      "de": "das Glück versprechend"
+    },
+    {
+      "zh": "壓歲錢",
+      "pinyin": "yāsuìqián",
+      "de": "das Geldgeschenk für die Kinder zum chinesischen Neujahrfest"
+    },
+    {
+      "zh": "拜年",
+      "pinyin": "bàinián",
+      "de": "jdm zu Neujahr gratulieren"
+    },
+    {
+      "zh": "十二生肖",
+      "pinyin": "shíèr shēngxiào",
+      "de": "die 12 Tierzeichen, die den 12 Erdzweigen entsprechen"
+    },
+    {
+      "zh": "萬事如意",
+      "pinyin": "wànshì rúyì",
+      "de": "möge alles nach Wunsch verlaufen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "按照和根據的用法",
+      "erklaerung": "「按照」有「根據」的意思，但偏重於行為的方法、要求、規劃，表示遵從某種標準，怎麼做；「根據」作介詞時，是把某一情況作為得出結論、作出判斷的前提，也就是說：為什麼這麼說、這麼做。",
+      "beispiele": [
+        "按照價錢高低，來排購買的順序。",
+        "按照分數高低分發。",
+        "根據研究調查的結果，證明這樣做是行不通的。",
+        "你根據什麼標準認為我們一定會輸。"
+      ],
+      "uebungen": [
+        "你應該（　）醫生說的，按時吃藥，多休息。",
+        "（　）醫生的判斷，他應該過幾天就可以出院了。"
+      ]
+    },
+    {
+      "titel": "據說",
+      "erklaerung": "表示根據別人說，有時是有出處而不願意說明。「據說」本身不能有主語，在句中多用作獨立語。",
+      "beispiele": [
+        "王先生很愛看電影。 → 據說，王先生很愛看電影。",
+        "他很喜歡吃日本料理。 → 據說，他很喜歡吃日本料理。"
+      ],
+      "uebungen": [
+        "（　），老師明天要給我們考試。",
+        "（　），他後天要到美國。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "nummer": 75,
+  "titel_zh": "整理庭院",
+  "titel_de": "Den Garten in Ordnung bringen",
+  "dialog": [
+    {
+      "sprecher": "李太太",
+      "zh": "春天到了，應該整理花園了。",
+      "pinyin": "Chūntiān dàole yīnggāi zhěngl- huāyuán le",
+      "de": "Der Frühling ist da. Wir sollten den Garten in Ordnung bringen."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "經過一個冬天，去年種的花兒都枯死了。",
+      "pinyin": "Jīngguò yí ge dōngtiān qùnián zhòng de huār dōu kūsǐ le",
+      "de": "Nach dem Winter sind alle Blumen, die wir letztes Jahr gepflanzt haben, verwelkt."
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "菜圃也得重新翻土撒種了。",
+      "pinyin": "Càipǔ yě děi chóngxīn fān tǔ sā zhǒng le",
+      "de": "Das Gemüsebeet muss auch umgegraben und neu gesät werden."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "鏟子、鋤頭這些工具還夠用嗎？",
+      "pinyin": "Chǎnzi chútou zhèxiē gōngjù hái gòu yòng ma",
+      "de": "Haben wir genügend Schaufeln, Hacken und andere Werkzeuge?"
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "工具是夠了，但是肥料該買了。",
+      "pinyin": "Gōngjù shì gòule dànshì féiliào gāi mǎi le",
+      "de": "Werkzeuge haben wir genügend, aber Dünger müssen wir kaufen."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "明天就去買肥料，開始動工。",
+      "pinyin": "Míngtiān jiù qù mǎi féiliào kāishǐ dònggōng",
+      "de": "Morgen werden wir Dünger kaufen. Lass uns mit der Arbeit anfangen."
+    },
+    {
+      "sprecher": "李太太",
+      "zh": "希望今年的收穫能好一點兒。",
+      "pinyin": "Xīwàng jīnnián de shōuhuò néng hǎo yìdiǎnr",
+      "de": "Hoffentlich werden wir dieses Jahr eine größere Ernte haben."
+    },
+    {
+      "sprecher": "李先生",
+      "zh": "「一分耕耘，一分收穫」，付出多少，就會得到多少。",
+      "pinyin": "Yì fēn gēngy/n yì fēn shōuhuò fùchū duōshao jiù huì dédào duōshao",
+      "de": "“Ohne Fleiß kein Preis.” Du sollst gemäß deiner Mühe ernten."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "花園",
+      "pinyin": "huāyuán",
+      "de": "der Garten"
+    },
+    {
+      "zh": "撒種",
+      "pinyin": "sā zhǒng",
+      "de": "säen"
+    },
+    {
+      "zh": "種",
+      "pinyin": "zhòng",
+      "de": "pflanzen"
+    },
+    {
+      "zh": "鏟子",
+      "pinyin": "chǎnzi",
+      "de": "die Schaufel"
+    },
+    {
+      "zh": "枯死",
+      "pinyin": "kūsǐ",
+      "de": "verwelken"
+    },
+    {
+      "zh": "鋤頭",
+      "pinyin": "chútou",
+      "de": "die Hacke"
+    },
+    {
+      "zh": "菜圃",
+      "pinyin": "càipǔ",
+      "de": "das Gemüsebeet"
+    },
+    {
+      "zh": "工具",
+      "pinyin": "gōngjù",
+      "de": "das Werkzeug"
+    },
+    {
+      "zh": "翻土",
+      "pinyin": "fān tǔ",
+      "de": "umgraben"
+    },
+    {
+      "zh": "肥料",
+      "pinyin": "féiliào",
+      "de": "der Dünger"
+    },
+    {
+      "zh": "一分耕耘，一分收穫",
+      "pinyin": "yì fēn gēngy/n yì fēn shōuhuò",
+      "de": "Ohne Fleiß kein Preis"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "經過和通過的用法",
+      "erklaerung": "「經過」表示經歷（活動、事件），強調事情的過程，可帶「了」。「通過」強調使用的方法或方式。",
+      "beispiele": [
+        "經過（了）一個寒假，大家都長高了。",
+        "經過（了）一個冬天，去年種的花兒都枯死了。",
+        "通過電腦，我們可以取得許多信息。",
+        "我不會說日語，通過翻譯，我才能和日本人交談。"
+      ],
+      "uebungen": [
+        "我想（　）你的介紹，我一定可以和他成為好朋友。",
+        "（　）十幾個小時的飛行，我們終於來到美麗的寶島。",
+        "請說說你們認識的（　）。",
+        "請問，火車（　）臺南時停不停？"
+      ]
+    }
+  ]
+}

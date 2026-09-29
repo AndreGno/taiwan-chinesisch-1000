@@ -1,0 +1,126 @@
+{
+  "nummer": 68,
+  "titel_zh": "下雪了",
+  "titel_de": "Es schneit",
+  "dialog": [
+    {
+      "sprecher": "張太太",
+      "zh": "下了一場雪，外面的景色美麗得就像聖誕卡一樣。",
+      "pinyin": "Xiàle yì chǎng xuě wàimiàn de jǐngsè měilì de jiù xiàng shèngdàn kǎ yíyàng",
+      "de": "Nachdem es geschneit hat, sieht die Landschaft draußen genauso schön aus, wie auf einer Weihnachtskarte."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "你不是想賞雪嗎？這次可如願了。",
+      "pinyin": "Nǐ bú shì xiǎng shǎng xuě ma zhè cì kě rúyuàn le",
+      "de": "Wolltest du nicht den Schnee sehen? Diesmal geht dein Wunsch in Erfüllung."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "雪下得不夠大，再大點兒可以堆雪人了。",
+      "pinyin": "Xuě xià de búgòu dà zài dà diǎnr kěyǐ duī xuěrén le",
+      "de": "Es hat nicht genug geschneit. Wenn noch etwas mehr fallen würde, dann könnten wir einen Schneemann bauen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "你喜歡下大雪，姐夫可不喜歡。",
+      "pinyin": "Nǐ xǐhuan xià dà xuě jiěfu kě bù xǐhuan",
+      "de": "Du magst vielleicht viel Schnee, aber dein Schwager nicht."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "雪景這麼美！他不懂得欣賞嗎？",
+      "pinyin": "Xuějǐng zhème měi Tā bù dǒng de xīnshǎng ma",
+      "de": "Was für eine schöne Schneelandschaft! Wie könnte er denn das nicht bewundern?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "賞雪當然是令人高興的事，但鏟雪可是一件苦差事！",
+      "pinyin": "Shǎng xuě dāngrán shì lìng rén gāoxìng de shì dàn chǎn xuě kě shì yí jiàn kǔ chāishi",
+      "de": "Eine Schneelandschaft zu bewundern ist natürlich etwas erfreuliches, aber Schneeschaufeln ist etwas unerfreuliches."
+    },
+    {
+      "sprecher": "張太太",
+      "zh": "在臺灣，高山上下一點兒雪，還是新聞呢。",
+      "pinyin": "Zài Táiwān gāoshān shàng xià yìdiǎnr xuě háishì xīnǐ wén ne",
+      "de": "In Taiwan ist es eine Nachricht wert, wenn auch nur ein wenig Schnee auf den Bergen fällt."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "什麼東西都是這樣，「物以稀為貴」。",
+      "pinyin": "Shénme dōngxi dōu shì zhèyàng wù yǐ xī wéi guì",
+      "de": "Ganz gleich was, je seltener etwas ist, um so wertvoller wird es."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "下雪",
+      "pinyin": "xià xuě",
+      "de": "schneien"
+    },
+    {
+      "zh": "雪人",
+      "pinyin": "xuěrén",
+      "de": "der Schneemann"
+    },
+    {
+      "zh": "聖誕卡",
+      "pinyin": "shèngdàn kǎ",
+      "de": "die Weihnachtskarte"
+    },
+    {
+      "zh": "姐夫",
+      "pinyin": "jiěfu",
+      "de": "der Schwager (Ehemann der älteren Schwester)"
+    },
+    {
+      "zh": "賞雪",
+      "pinyin": "shǎng xuě",
+      "de": "eine Schneelandschaft bewundern"
+    },
+    {
+      "zh": "雪景",
+      "pinyin": "xuějǐng",
+      "de": "die Schneelandschaft"
+    },
+    {
+      "zh": "如願",
+      "pinyin": "rúyuàn",
+      "de": "jmds Wunsch geht in Erfüllung"
+    },
+    {
+      "zh": "鏟雪",
+      "pinyin": "chǎn xuě",
+      "de": "Schnee schaufeln"
+    },
+    {
+      "zh": "堆",
+      "pinyin": "duī",
+      "de": "aufhäufen"
+    },
+    {
+      "zh": "苦差事",
+      "pinyin": "kǔ chāishi",
+      "de": "die unerfreuliche Aufgabe"
+    },
+    {
+      "zh": "物以稀為貴",
+      "pinyin": "wù yǐ xī wéi guì",
+      "de": "je seltener etwas ist, um so wertvoller wird es."
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "可是和但是的替換",
+      "erklaerung": "「可是」和「但是」都做連詞，表示轉折。「但是」一定放主語前，「可是」可用在主語前或主語後。",
+      "beispiele": [
+        "貴的東西當然好，但是我買不起。",
+        "你做的魚很好吃，可是我不太能吃魚。"
+      ],
+      "uebungen": [
+        "那棟房子非常好，可是租金太高了。 → （　）",
+        "儲蓄是好習慣，但是也不能太節省了。 → （　）"
+      ]
+    }
+  ]
+}

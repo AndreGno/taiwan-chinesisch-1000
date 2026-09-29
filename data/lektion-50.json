@@ -1,0 +1,136 @@
+{
+  "nummer": 50,
+  "titel_zh": "學校校園",
+  "titel_de": "Der Universitätscampus",
+  "dialog": [
+    {
+      "sprecher": "丁先生",
+      "zh": "臺大的校園真美，到處都是花草樹木。",
+      "pinyin": "Táidà de xiàoyuán zhēn měi dàochù dōu shì huācǎo shùmù",
+      "de": "Der Campus der Tai-Da ist so schön, überall sind Zierpflanzen und Bäume."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "這是一個很好的讀書環境。",
+      "pinyin": "Zhè shì yí ge hěn hǎo de dúshū huánjìng",
+      "de": "Das ist eine sehr gute Umgebung fürs Lernen."
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "那些貼得花花綠綠的板子，是做什麼的？",
+      "pinyin": "Nàxiē tiē de huāhuālǜlǜ de bǎnzi shì zuò shénme de",
+      "de": "Wozu sind diese bunt beklebten Bretter da?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "那些都是學生社團的布告欄。",
+      "pinyin": "Nàxiē dōu shì xuésheng shètuán de bùgào lán",
+      "de": "Das ist das schwarze Brett für Studentenvereine."
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "有登山社、國樂社等三十幾個社團的廣告呢。",
+      "pinyin": "Yǒu dēngshānshè guóyuè shè děng sānshí jǐ ge shètuán de guǎnggào ne",
+      "de": "Es gibt Anzeigen von dreißig Vereinen für Bergsteigen, chinesischeo Orchester und anderen Sachen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我們先去辦理註冊手續，然後再來看這些吧。",
+      "pinyin": "Wǒmen xiān qù bànl- zhùcè shǒuxù ránhòu zài lái kàn zhèxiē ba",
+      "de": "Erledigen wir zuerst die Formalitäten für die Einschreibung, dann können wir nochmal zurückkommen und nachschauen."
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "行政大樓在哪兒？我得到那兒去。",
+      "pinyin": "Xíngzhèng dàlóu zài nǎr Wǒ děi dào nàr qù",
+      "de": "Wo ist das Verwaltungsgebäude? Da muss ich hin."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "就在前面。這棟是總圖書館，那棟是體育館。",
+      "pinyin": "Jiù zài qiánmiàn Zhè dòng shì zǒng túshūguǎn nà dòng shì tǐyùguǎn",
+      "de": "Gleich da vorne. Das hier ist die Hauptbibliothek und dort ist die Sporthalle."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "到處",
+      "pinyin": "dàochù",
+      "de": "überall"
+    },
+    {
+      "zh": "布告欄",
+      "pinyin": "bùgào lán",
+      "de": "das schwarze Brett"
+    },
+    {
+      "zh": "花草樹木",
+      "pinyin": "huācǎo shùmù",
+      "de": "die Zierpflanzen und Bäume"
+    },
+    {
+      "zh": "登山社",
+      "pinyin": "dēngshān shè",
+      "de": "der Bergsteigerverein"
+    },
+    {
+      "zh": "環境",
+      "pinyin": "huánjìng",
+      "de": "die Umgebung, das Umfeld"
+    },
+    {
+      "zh": "國樂社",
+      "pinyin": "guóyuè shè",
+      "de": "das Orchester mit chinesischen Instrumenten"
+    },
+    {
+      "zh": "貼",
+      "pinyin": "tiē",
+      "de": "kleben"
+    },
+    {
+      "zh": "行政大樓",
+      "pinyin": "xíngzhèng dàlóu",
+      "de": "das Verwaltungsgebäude"
+    },
+    {
+      "zh": "花花綠綠",
+      "pinyin": "huāhuālǜlǜ",
+      "de": "bunt, vielfarbig"
+    },
+    {
+      "zh": "總圖書館",
+      "pinyin": "zǒng túshūguǎn",
+      "de": "die Hauptbibliothek"
+    },
+    {
+      "zh": "板子",
+      "pinyin": "bǎn zi",
+      "de": "das Brett"
+    },
+    {
+      "zh": "體育館",
+      "pinyin": "tǐyùguǎn",
+      "de": "die Sporthalle"
+    },
+    {
+      "zh": "學生社團",
+      "pinyin": "xuéshēng shètuán",
+      "de": "die Studentenvereine"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "先……然後……",
+      "erklaerung": "說明做事情的先後次序，與「先……再……」意思相近。",
+      "beispiele": [
+        "我們先去辦理註冊手續，然後再來看這些吧。",
+        "我們先去買票，然後再去吃飯吧！"
+      ],
+      "uebungen": [
+        "他先（　）然後（　）。",
+        "大華先（　）然後（　）。"
+      ]
+    }
+  ]
+}

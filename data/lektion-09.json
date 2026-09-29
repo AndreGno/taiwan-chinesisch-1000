@@ -1,0 +1,138 @@
+{
+  "nummer": 9,
+  "titel_zh": "買火車票",
+  "titel_de": "Eine Zugfahrkarte lösen",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "我要去台北，請問下一班火車什麼時候開？",
+      "pinyin": "Wǒ yào qù Táiběi qǐngwèn xià yì bān huǒchē shénme shíhou kāi",
+      "de": "Ich will nach Taipeh fahren. Wann fährt der nächste Zug?"
+    },
+    {
+      "sprecher": "售票員",
+      "zh": "十五分鐘後有一班車，十點三十分開。",
+      "pinyin": "Shíwǔ fēn zhōng hòu yǒu yì bān chē shí diǎn sānshí fēn kāi",
+      "de": "In 15 Minuten fährt ein Zug. Er fährt um 10:30 Uhr ab."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "一張票多少錢？",
+      "pinyin": "Yì zhāng piào duōshao qián",
+      "de": "Wie viel kostet eine Fahrkarte?"
+    },
+    {
+      "sprecher": "售票員",
+      "zh": "您要來回票，還是單程票？",
+      "pinyin": "Nín yào láihuí piào háishì dānchéng piào",
+      "de": "Möchten Sie eine Fahrkarte für Hin-und Rückfahrt oder für eine einfache Fahrt?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我要單程票，多少錢？",
+      "pinyin": "Wǒ yào dānchéng piào duōshao qián",
+      "de": "Ich brauche eine einfache Fahrt. Wie viel kostet sie?"
+    },
+    {
+      "sprecher": "售票員",
+      "zh": "九十元。這是您的車票。",
+      "pinyin": "Jiǔshí yuán zhè shì nín de chēpiào",
+      "de": "90 NT$. Hier ist Ihre Fahrkarte."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "在哪兒上車呢？",
+      "pinyin": "Zài nǎr shàng chē ne",
+      "de": "Wo steige ich ein?"
+    },
+    {
+      "sprecher": "售票員",
+      "zh": "就在那邊兒，您的左邊兒。",
+      "pinyin": "Jiù zài nèibiānr nín de zuǒbiānr",
+      "de": "Genau dort, auf Ihrer linken Seite."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "台北",
+      "pinyin": "Táiběi",
+      "de": "Taipeh"
+    },
+    {
+      "zh": "單程票",
+      "pinyin": "dānchéng piào",
+      "de": "die Fahrkarte/das Ticket für eine einfache Fahrt"
+    },
+    {
+      "zh": "下一班火車",
+      "pinyin": "xià yì bān huǒchē",
+      "de": "der nächste Zug"
+    },
+    {
+      "zh": "元",
+      "pinyin": "yuán",
+      "de": "NT$ Neuer Taiwanesischer Dollar(standardisierte Währungseinheit)"
+    },
+    {
+      "zh": "時候",
+      "pinyin": "shíhou",
+      "de": "die Zeit"
+    },
+    {
+      "zh": "哪兒",
+      "pinyin": "nǎr",
+      "de": "wo?"
+    },
+    {
+      "zh": "開",
+      "pinyin": "kāi",
+      "de": "abfahren, öffnen"
+    },
+    {
+      "zh": "上車",
+      "pinyin": "shàng chē",
+      "de": "einsteigen"
+    },
+    {
+      "zh": "錢",
+      "pinyin": "qián",
+      "de": "das Geld"
+    },
+    {
+      "zh": "那邊（兒）",
+      "pinyin": "nèibiān(r)",
+      "de": "dort"
+    },
+    {
+      "zh": "來回票",
+      "pinyin": "láihuí piào",
+      "de": "die Rückfahrkarte"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "多少……",
+      "erklaerung": "表示疑問的用法，用來詢問數量。",
+      "beispiele": [
+        "一張票多少錢？",
+        "從這兒到那裡要多少時間？"
+      ],
+      "uebungen": [
+        "這件衣服多少（　）？",
+        "這個城市有多少（　）？"
+      ]
+    },
+    {
+      "titel": "在……",
+      "erklaerung": "1.表示動作正在進行。 2.介詞。表示動作所涉及的時間、地點、範圍等。",
+      "beispiele": [
+        "外面在下雨。",
+        "在哪兒上車呢？"
+      ],
+      "uebungen": [
+        "我在（　），不要吵我。",
+        "請問方大偉在（　）嗎？"
+      ]
+    }
+  ]
+}

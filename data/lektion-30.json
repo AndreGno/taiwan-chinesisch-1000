@@ -1,0 +1,149 @@
+{
+  "nummer": 30,
+  "titel_zh": "親戚",
+  "titel_de": "Die Verwandtschaft",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "昨天令尊的生日宴會怎麼樣？",
+      "pinyin": "Zuótiān lìngzūn de shēngrì yànhuì zěnmeyàng",
+      "de": "Wie war gestern die Geburtstagsfeier Ihres Vaters?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "親戚全都來了，客人很多。",
+      "pinyin": "Qīnqi quán dōu láile kèrén hěn duō",
+      "de": "Alle Verwandten waren da. Es waren sehr viele Gäste."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "因為我有事，所以不能去，真可惜。您有很多親戚嗎？",
+      "pinyin": "Yīnwèi wǒ yǒu shì suǒyǐ bù néng qù zhēn kěxí Nín yǒu hěn duō qīnqi ma",
+      "de": "Ich war beschäftigt und konnte nicht kommen, wirklich schade. Haben Sie viele Verwandte?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我有三個叔叔，一個舅舅和兩個阿姨。",
+      "pinyin": "Wǒ yǒu sān ge shúshu yí ge jiùjiu hé liǎng ge āyí",
+      "de": "Ich habe drei “shúshu” , einen “jiùjiu” und zwei “Ɨyí”."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "叔叔跟您是什麼關係呢？",
+      "pinyin": "Shúshu gēn nín shì shénme guānxì ne",
+      "de": "Wie ist die Beziehung von “shúshu” zu Ihnen?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是我父親的弟弟。",
+      "pinyin": "Shì wǒ fùqīn de dìdi",
+      "de": "Der jüngere Bruder meines Vaters."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "舅舅和阿姨呢？",
+      "pinyin": "Jiùjiu hé āyí ne",
+      "de": "Was ist mit “jiùjiu” und „Ɨyí“."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是我母親的兄弟姐妹。",
+      "pinyin": "Shì wǒ mǔqīn de xiōngdì jiěmèi",
+      "de": "Sie sind die Geschwister meiner Mutter."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我真希望認識他們。",
+      "pinyin": "Wǒ zhēn xīwàng rènshì tāmen",
+      "de": "Ich hoffe sehr, sie mal kennenzulernen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "親戚",
+      "pinyin": "qīnqi",
+      "de": "die Verwandten, die Verwandtschaft"
+    },
+    {
+      "zh": "叔叔",
+      "pinyin": "shúshu",
+      "de": "der Onkel (jüngerer Bruder des Vaters)"
+    },
+    {
+      "zh": "令尊",
+      "pinyin": "lìngzūn",
+      "de": "der Vater"
+    },
+    {
+      "zh": "舅舅",
+      "pinyin": "jiùjiu",
+      "de": "der Onkel (Bruder der Mutter)"
+    },
+    {
+      "zh": "生日宴會",
+      "pinyin": "shēngrì yànhuì",
+      "de": "die Geburtstagsfeier"
+    },
+    {
+      "zh": "阿姨",
+      "pinyin": "āyí",
+      "de": "die Tante (Schwester der Mutter)"
+    },
+    {
+      "zh": "全",
+      "pinyin": "quán",
+      "de": "alle"
+    },
+    {
+      "zh": "關係",
+      "pinyin": "guānxì",
+      "de": "die Beziehung, das Verhältnis"
+    },
+    {
+      "zh": "客人",
+      "pinyin": "kèrén",
+      "de": "der Gast"
+    },
+    {
+      "zh": "兄弟姐妹",
+      "pinyin": "xiōngdì jiěmèi",
+      "de": "die Geschwister"
+    },
+    {
+      "zh": "可惜",
+      "pinyin": "kěxí",
+      "de": "schade"
+    },
+    {
+      "zh": "希望",
+      "pinyin": "xīwàng",
+      "de": "hoffen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "因為……所以……",
+      "erklaerung": "這種句型通常是有相關的前因後果之分，「因為」連接原因子句，「所以」連接結果子句。",
+      "beispiele": [
+        "因為我有事，所以不能去。",
+        "因為她努力學習，所以表現比別人更好。"
+      ],
+      "uebungen": [
+        "我們因為（　）所以（　）。",
+        "他因為（　）所以（　）。"
+      ]
+    },
+    {
+      "titel": "真……",
+      "erklaerung": "副詞：非常、的確、實在。一種強調的語氣，通常用在動詞或形容詞的前面，例如「真希望、真喜歡、真好、真棒」等。",
+      "beispiele": [
+        "我真希望有機會認識他們。",
+        "他真喜歡吃蜜餞。"
+      ],
+      "uebungen": [
+        "王小梅真（　）。",
+        "李大衛真（　）。"
+      ]
+    }
+  ]
+}

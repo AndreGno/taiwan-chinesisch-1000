@@ -1,0 +1,121 @@
+{
+  "nummer": 24,
+  "titel_zh": "旅行",
+  "titel_de": "Das Reisen",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "您想不想出去旅行？",
+      "pinyin": "Nín xiǎng bu xiǎng chūqù lǚxíng",
+      "de": "Möchten Sie verreisen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "您計畫去哪兒？",
+      "pinyin": "Nín jìhuà qù nǎr",
+      "de": "Wohin planen Sie denn zu reisen?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我們一塊兒去阿里山好不好？",
+      "pinyin": "Wǒmen yíkuàir qù Alǐ Shān hǎo bu hǎo",
+      "de": "Wollen wir gemeinsam zum Ali Berg fahren?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "聽說阿里山的風景很不錯，我老早就想去了。",
+      "pinyin": "Tīngshuō Alǐ Shān de fēngj-ng hěn búcuò wǒ lǎo zǎo jiù xiǎng qù le",
+      "de": "Ich habe von der schönen Landschaft um dem Ali Berg gehört. Ich wollte schon lange dorthin gehen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "阿里山的風景美得像圖畫一樣。",
+      "pinyin": "Alǐ Shān de fēngj-ng měi de xiàng túhuà yíyàng",
+      "de": "Die Landschaft am Ali Berg ist so schön wie auf einem Gemälde."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我們要不要準備餐點呢？",
+      "pinyin": "Wǒmen yào bu yào zhǔnbèi cāndiǎn ne",
+      "de": "Sollten wir etwas zu essen vorbereiten?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "不用了，只要帶照相機去就行了。",
+      "pinyin": "Búyòng le zhǐyào dài zhàoxiàngjī qù jiù xíng le",
+      "de": "Das brauchen wir nicht. Es reicht aus, wenn Sie ihren Fotoapparat mitnehmen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我要把美麗的風景都照下來。",
+      "pinyin": "Wǒ yào bǎ měilì de fēngj-ng dōu zhào xiàlái",
+      "de": "Ich möchte die gesamte wunderschöne Landschaft fotografieren."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "旅行",
+      "pinyin": "lǚxíng",
+      "de": "(ver-) reisen"
+    },
+    {
+      "zh": "出去",
+      "pinyin": "chūqù",
+      "de": "ausgehen"
+    },
+    {
+      "zh": "計畫",
+      "pinyin": "jì huà",
+      "de": "der Plan, das Vorhaben, planen"
+    },
+    {
+      "zh": "阿里山",
+      "pinyin": "Alǐ Shān",
+      "de": "der Ali Berg"
+    },
+    {
+      "zh": "風景",
+      "pinyin": "fēngj-ng",
+      "de": "die Landschaft, die Aussicht"
+    },
+    {
+      "zh": "圖畫",
+      "pinyin": "túhuà",
+      "de": "das Gemälde, das Bild"
+    },
+    {
+      "zh": "準備",
+      "pinyin": "zhǔnbèi",
+      "de": "vorbereiten"
+    },
+    {
+      "zh": "餐點",
+      "pinyin": "cāndiǎn",
+      "de": "die Speise"
+    },
+    {
+      "zh": "相機",
+      "pinyin": "xiàngjī",
+      "de": "der Fotoapparat"
+    },
+    {
+      "zh": "照",
+      "pinyin": "zhào",
+      "de": "fotografieren, aufnehmen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "像……一樣",
+      "erklaerung": "一種比喻的說法，兩者間定有相似的成分，可以拿來比擬，說「A像B一樣」。",
+      "beispiele": [
+        "阿里山的風景美得像圖畫一樣。",
+        "他所受到的歡迎，像超級巨星一樣。"
+      ],
+      "uebungen": [
+        "老師說的話像（　）一樣。",
+        "她（　）像（　）一樣。"
+      ]
+    }
+  ]
+}

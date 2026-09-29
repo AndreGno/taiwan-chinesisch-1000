@@ -1,0 +1,136 @@
+{
+  "nummer": 70,
+  "titel_zh": "歡度聖誕節",
+  "titel_de": "Fröhliche Weihnachten",
+  "dialog": [
+    {
+      "sprecher": "媽媽",
+      "zh": "芳芳，聖誕樹布置得差不多了吧？",
+      "pinyin": "Fāngfāng shèngdànshù bùzhì de chàbuduō le ba",
+      "de": "Fang-Fang, du bist doch mit dem Schmücken des Weihnachtsbaumes fertig, oder?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "再把這串燈飾掛上就好了。",
+      "pinyin": "Zài bǎ zhè chuàn dēngshì guàshàng jiù hǎo le",
+      "de": "Ich muss nur noch diese Lichterkette anbringen, dann bin ich fertig."
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "飾品太多了，拿幾個星星、小天使下來吧。",
+      "pinyin": "Shìpǐn tài duō le ná jǐ ge xīngxing xiǎo tiānsh- xiàlái ba",
+      "de": "Es ist zuviel Schmuck. Nimm einige Sterne und Engel ab."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "媽，您想聖誕老人會給我送禮物來嗎？",
+      "pinyin": "Mā nín xiǎng Shèngdàn Lǎorén huì gěi wǒ sòng lǐwù lái ma",
+      "de": "Mama, denkst du, dass der Weihnachtsmann mir die Geschenke bringen wird, die ich mir wünsche?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "聖誕老人一定不會讓妳失望的。",
+      "pinyin": "Shèngdàn Lǎorén yídìng bú huì ràng nǐ shīwàng de",
+      "de": "Ich denke, der Weihnachtsmann wird dich nicht enttäuschen"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "那我就放心了。聖誕大餐準備好了嗎？",
+      "pinyin": "Nà wǒ jiù fàngxīn le Shèngdàn dàcān zhǔnbèi hǎo le ma",
+      "de": "Dann bin ich beruhigt. Ist das Essen für Heiligabend fertig?"
+    },
+    {
+      "sprecher": "媽媽",
+      "zh": "火雞還要再烤一會兒。先聽聽聖誕歌曲吧。",
+      "pinyin": "Huǒjī hái yào zài kǎo yìhuǐr Xiān tīngting shèngdàn gēqǔ ba",
+      "de": "Der Truthahn muss noch etwas länger gebacken werden. Hör doch einige Weihnachtslieder."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "希望年年都有一個快樂的聖誕節。",
+      "pinyin": "Xīwàng niánnián dōu yǒu yí ge kuàilè de Shèngdàn Jié",
+      "de": "Ich hoffe, dass wir jedes Jahr fröhliche Weihnachten haben können."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "歡度",
+      "pinyin": "huāndù",
+      "de": "feiern"
+    },
+    {
+      "zh": "失望",
+      "pinyin": "shīwàng",
+      "de": "enttäuscht"
+    },
+    {
+      "zh": "聖誕樹",
+      "pinyin": "shèngdànshù",
+      "de": "der Weihnachtsbaum"
+    },
+    {
+      "zh": "聖誕大餐",
+      "pinyin": "shèngdàn dàcān",
+      "de": "das Festessen an Heiligabend"
+    },
+    {
+      "zh": "布置",
+      "pinyin": "bùzhì",
+      "de": "schmücken, dekorieren"
+    },
+    {
+      "zh": "準備",
+      "pinyin": "zhǔnbèi",
+      "de": "sich vorzubereiten"
+    },
+    {
+      "zh": "串",
+      "pinyin": "chuàn",
+      "de": "die Schnur, das Band"
+    },
+    {
+      "zh": "星星",
+      "pinyin": "xīngxing",
+      "de": "der Stern"
+    },
+    {
+      "zh": "火雞",
+      "pinyin": "huǒjī",
+      "de": "der Truthahn"
+    },
+    {
+      "zh": "小天使",
+      "pinyin": "xiǎo tiānsh-",
+      "de": "der Engel"
+    },
+    {
+      "zh": "烤",
+      "pinyin": "kǎo",
+      "de": "backen, braten,"
+    },
+    {
+      "zh": "聖誕老人",
+      "pinyin": "Shèngdàn Lǎorén",
+      "de": "der Weihnachtsmann"
+    },
+    {
+      "zh": "聖誕歌曲",
+      "pinyin": "shèngdàn gēqǔ",
+      "de": "das Weihnachtslied"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "把字句與被字句的用法",
+      "erklaerung": "「把字句」的句式：「N1+把N2+VP」，「被字句」：「N2+被+N1+VP」，N1是動作發出者，N2是動作接受者，VP表示動作及其結果。它們相同的地方是：都有某個動作造成每個人或事物移位，處於某種狀態，產生某種變化或結果。不同的是：「把字句」是主動句，「被字句」是被動句。",
+      "beispiele": [
+        "小偷把我的錢包偷走了。 → 我的錢包被小偷偷走了。",
+        "弟弟把電腦弄壞了。 → 電腦被弟弟弄壞了。"
+      ],
+      "uebungen": [
+        "老師把黑板擦乾淨了。 → （　）",
+        "冰箱裡的東西被他吃光了。 → （　）"
+      ]
+    }
+  ]
+}

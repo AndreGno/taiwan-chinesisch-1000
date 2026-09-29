@@ -1,0 +1,133 @@
+{
+  "nummer": 58,
+  "titel_zh": "電視節目",
+  "titel_de": "Die Fernsehsendung",
+  "dialog": [
+    {
+      "sprecher": "方小姐",
+      "zh": "最近有一部電視影集很受歡迎，你看過嗎？",
+      "pinyin": "Zuìjìn yǒu yí bù diànshì yǐngjí hěn shòu huānyíng nǐ kànguò ma",
+      "de": "Vor kurzem kam eine populäre Fernsehserie. Hast du sie gesehen?"
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "沒有，其實我很少看電視。",
+      "pinyin": "Méiyǒu qíshí wǒ hěn shǎo kàn diànshì",
+      "de": "Nein, eigentlich sehe ich ganz selten fern."
+    },
+    {
+      "sprecher": "方小姐",
+      "zh": "你平常都看哪些節目？",
+      "pinyin": "Nǐ píngcháng dōu kàn nǎxiē jiémù",
+      "de": "Welches Programm schaust du dir gewöhnlich an?"
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "除了新聞報導之外，頂多就是看體育節目。",
+      "pinyin": "Chúle xīnwén bàodǎo zhī wài dǐng duō jiùshì kàn tǐyù jiémù",
+      "de": "Ich schaue mir außer den Nachrichten nur noch das Sportprogramm an."
+    },
+    {
+      "sprecher": "方小姐",
+      "zh": "我經常看電視，連兒童節目都愛看。",
+      "pinyin": "Wǒ jīngcháng kàn diànshì lián ér tóng jié mù dōu ài kàn",
+      "de": "Ich sehe oft fern. Ich schaue mir sogar das Kinderprogramm an."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "不少卡通影片和兒童節目都製作得很用心。",
+      "pinyin": "Bù shǎo kǎtōng yǐngpiàn hé értóng jiémù dōu zhìzuò de hěn yòngxīn",
+      "de": "Nicht wenige Zeichentrickfilme und Kindersendungen sind mit viel Liebe gemacht."
+    },
+    {
+      "sprecher": "方小姐",
+      "zh": "有些電視節目具有娛樂性和教育性，內容豐富，水準很高。",
+      "pinyin": "Yǒu xiē diànshì jiémù jù yǒu yúlè xìng hé jiàoyù xìng nèiróng fēngfù shuǐzhǔn hěn gāo",
+      "de": "Manche Fernsehsendungen sind sehr unterhaltsam und pädagogisch wertvoll. Sie sind reich an Inhalt und auf hohem Niveau."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "其實，看電視也是一種很正當的休閒活動。",
+      "pinyin": "Qíshí kàn diànshì yě shì yì zhǒng hěn zhèng dāng de xiūxián huódòng",
+      "de": "Eigentlich ist Fernsehen eine sehr sinnvolle Freizeitaktivität."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "電視",
+      "pinyin": "diànshì",
+      "de": "der Fernseher/ das Fernsehen"
+    },
+    {
+      "zh": "體育節目",
+      "pinyin": "tǐyù jiémù",
+      "de": "die Sportsendung"
+    },
+    {
+      "zh": "影集",
+      "pinyin": "yǐngjí",
+      "de": "eine Fernsehserie"
+    },
+    {
+      "zh": "兒童節目",
+      "pinyin": "értóng jiémù",
+      "de": "das Kinderprogramm"
+    },
+    {
+      "zh": "其實",
+      "pinyin": "qíshí",
+      "de": "eigentlich"
+    },
+    {
+      "zh": "卡通影片",
+      "pinyin": "kǎtōng yǐngpiàn",
+      "de": "der Cartoon"
+    },
+    {
+      "zh": "節目",
+      "pinyin": "jiémù",
+      "de": "das Program"
+    },
+    {
+      "zh": "製作",
+      "pinyin": "zhìzuò",
+      "de": "etw. herstellen/produzieren"
+    },
+    {
+      "zh": "新聞報導",
+      "pinyin": "xīnwén bàodǎo",
+      "de": "die Nachrichten"
+    },
+    {
+      "zh": "水準",
+      "pinyin": "shuǐzhǔn",
+      "de": "das Niveau"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "V+得+補語",
+      "erklaerung": "表示情態的補語在動詞後必須用「得」來連接，例：看得開，走得滿身大汗。",
+      "beispiele": [
+        "不少卡通影片和兒童節目都製作得很用心。",
+        "同學上課不認真，老師生氣得不得了。"
+      ],
+      "uebungen": [
+        "這件突發的事情把大家搞得（　）。",
+        "這次考試我考得（　）。"
+      ]
+    },
+    {
+      "titel": "連……",
+      "erklaerung": "「連」表示竟然、甚至、即使等意思，用來強調事情發展的程度。",
+      "beispiele": [
+        "這件事連鄰居都知道了，真是丟臉。",
+        "這次的表演連外國人都來看了，水準很高。"
+      ],
+      "uebungen": [
+        "（　）他都考滿分了，可見題目很簡單。",
+        "他經常遲到，（　）考試時也一樣。"
+      ]
+    }
+  ]
+}

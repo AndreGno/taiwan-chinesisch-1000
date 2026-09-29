@@ -1,0 +1,122 @@
+{
+  "nummer": 53,
+  "titel_zh": "糖醋排骨",
+  "titel_de": "Rippchen süß-sauer",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "在超級市場買東西真方便。",
+      "pinyin": "Zài chāojí shìchǎng mǎi dōngxi zhēn fāngbiàn",
+      "de": "Es ist so bequem im Supermarkt Lebensmittel einzukaufen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "這家超級市場好像是一間大雜貨店，應有盡有。",
+      "pinyin": "Zhè jiā chāojí shìchǎng hǎoxiàng shì yì jiān dà záhuò diàn yīngyǒujìnyǒu",
+      "de": "Dieser Supermarkt ist wie ein großer Laden, der alles hat."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "這些排骨是冷凍的嗎？",
+      "pinyin": "Zhèxiē páigǔ shì lěngdòng de ma",
+      "de": "Sind diese Rippchen gefroren?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "這兒的東西都很新鮮，可以買一點兒。",
+      "pinyin": "Zhèr de dōngxi dōu hěn xīnxiān kěyǐ mǎi yìdiǎnr",
+      "de": "Alle Sachen hier sind sehr frisch. Wir können einige kaufen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我想吃糖醋排骨。",
+      "pinyin": "Wǒ xiǎng chī tángcù páigǔ",
+      "de": "Ich möchte gerne Rippchen süß-sauer essen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "好哇！我們就買一磅蕃茄，一磅洋蔥，一磅排骨來做糖醋排骨。",
+      "pinyin": "Hǎo wā Wǒmen jiù mǎi yí bàng fānqié yí bàng yángcōng yí bàng páigǔ lái zuò tángcù páigú",
+      "de": "In Ordung! Kaufen wir ein Pfund Tomaten, ein Pfund Zwiebeln und ein Pfund Rippchen für Rippchen süß-sauer."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "你喜歡香蕉還是蘋果呢？",
+      "pinyin": "Nǐ xǐhuān xiāngjiāo hái shì píngguǒ ne",
+      "de": "Magst du lieber Bananen oder Äpfel?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我愛吃蘋果。這裡的蘋果又大又紅，看起來非常好吃。",
+      "pinyin": "Wǒ ài chī píngguǒ zhèlǐ de píngguǒ yòu dà yòu hóng kàn qǐlái fēicháng hǎochī",
+      "de": "Ich esse lieber Äpfel. Diese Äpfel sind so groß und rot und sehen so appetitlich aus."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "超級市場",
+      "pinyin": "chāojí shìchǎng",
+      "de": "der Supermarkt"
+    },
+    {
+      "zh": "蕃茄",
+      "pinyin": "fānqié",
+      "de": "die Tomate"
+    },
+    {
+      "zh": "雜貨店",
+      "pinyin": "záhuò diàn",
+      "de": "der Laden"
+    },
+    {
+      "zh": "洋蔥",
+      "pinyin": "yángcōng",
+      "de": "die Zwiebel"
+    },
+    {
+      "zh": "冷凍",
+      "pinyin": "lěngdòng",
+      "de": "gefroren"
+    },
+    {
+      "zh": "排骨",
+      "pinyin": "páigǔ",
+      "de": "das Rippchen"
+    },
+    {
+      "zh": "新鮮",
+      "pinyin": "xīnxiān",
+      "de": "frisch"
+    },
+    {
+      "zh": "香蕉",
+      "pinyin": "xiāngjiāo",
+      "de": "die Banane"
+    },
+    {
+      "zh": "磅",
+      "pinyin": "bàng",
+      "de": "das Pfund"
+    },
+    {
+      "zh": "蘋果",
+      "pinyin": "píngguǒ",
+      "de": "die Äpfel"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "量詞：家、間、磅、朵、把、塊、本、輛",
+      "erklaerung": "量詞是表示事物或動作有關的數量單位。一般表示個體事物的名詞前都要求有一個特定的量詞，不能隨意使用。如：一條馬路、一本書、一朵花、一艘船、一篇文章。",
+      "beispiele": [
+        "我要買一磅蕃茄。",
+        "你要買三朵花嗎？"
+      ],
+      "uebungen": [
+        "這四（　）椅子都壞掉了。",
+        "這一（　）超市正在做促銷活動。",
+        "這一（　）小狗非常可愛。"
+      ]
+    }
+  ]
+}

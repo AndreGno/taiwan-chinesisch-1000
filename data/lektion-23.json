@@ -1,0 +1,126 @@
+{
+  "nummer": 23,
+  "titel_zh": "生日快樂",
+  "titel_de": "Glücklicher Geburtstag",
+  "dialog": [
+    {
+      "sprecher": "愛琳",
+      "zh": "莉莉，你來得正好，我今天心裏很不痛快。",
+      "pinyin": "Lìlì nǐ lái de zhènghǎo wǒ jīntiān xīnli hěn bú tòng kuài",
+      "de": "Li-Li, du kommst gerade richtig. Ich bin heute sehr unglücklich."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "怎麼了？跟誰生氣呀？",
+      "pinyin": "Zěnme le Gēn shéi shēngqì ya",
+      "de": "Was ist denn los? Ärgerst du dich über jemanden?"
+    },
+    {
+      "sprecher": "愛琳",
+      "zh": "我不是生氣，是傷心。",
+      "pinyin": "Wǒ bú shì shēngqì shì shāngxīn",
+      "de": "Ich bin nicht verärgert. Ich bin traurig."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "別哭了，什麼事讓你這麼傷心？",
+      "pinyin": "Bié kū le shénme shì ràng nǐ zhème shāngxīn",
+      "de": "Weine nicht. Was betrübt dich so?"
+    },
+    {
+      "sprecher": "愛琳",
+      "zh": "今天是我的生日，可是沒有一個人跟我說一聲「生日快樂」。",
+      "pinyin": "Jīntiān shì wǒ de shēngrì kěshì méiyǒu yí ge rén gēn wǒ shuō yì shēng shēngrì kuàilè",
+      "de": "Heute ist mein Geburtstag, aber keiner hat mir zum Geburtstag gratuliert."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "別生氣了，我可沒有忘記。你看，這是什麼？",
+      "pinyin": "Bié shēngqì le wǒ kě méiyǒu wàngjì Nǐ kàn zhè shì shénme",
+      "de": "Ärgere dich nicht, ich habe es nicht vergessen. Sieh, was das ist."
+    },
+    {
+      "sprecher": "愛琳",
+      "zh": "生日卡和蛋糕！莉莉，你真是我的好朋友。",
+      "pinyin": "Shēngrì kǎ hé dàngāo Lìlì nǐ zhēn shì wǒ de hǎo péngyǒu",
+      "de": "Eine Geburtstagskarte und eine Torte! Li- Li, du bist wirklich meine gute Freundin."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "愛琳，祝你生日快樂。",
+      "pinyin": "Àilín zhù nǐ shēngrì kuàilè",
+      "de": "Ai Lin, herzlichen Glückwunsch zum Geburtstag."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "生日快樂",
+      "pinyin": "shēngrì kuàilè",
+      "de": "Glücklicher Geburtstag, Herzlichen Glückwunsch zum Geburtstag"
+    },
+    {
+      "zh": "心裏",
+      "pinyin": "xīnli",
+      "de": "im Herzen"
+    },
+    {
+      "zh": "不痛快",
+      "pinyin": "bú tòngkuài",
+      "de": "unglücklich, betrübt"
+    },
+    {
+      "zh": "生氣",
+      "pinyin": "shēngqì",
+      "de": "sich ärgern"
+    },
+    {
+      "zh": "傷心",
+      "pinyin": "shāngxīn",
+      "de": "traurig"
+    },
+    {
+      "zh": "哭",
+      "pinyin": "kū",
+      "de": "weinen"
+    },
+    {
+      "zh": "讓",
+      "pinyin": "ràng",
+      "de": "lassen"
+    },
+    {
+      "zh": "忘記",
+      "pinyin": "wàngjì",
+      "de": "vergessen"
+    },
+    {
+      "zh": "卡（片）",
+      "pinyin": "kǎ(piàn)",
+      "de": "die Karte"
+    },
+    {
+      "zh": "蛋糕",
+      "pinyin": "dàngāo",
+      "de": "die Torte"
+    },
+    {
+      "zh": "祝",
+      "pinyin": "zhù",
+      "de": "gratulieren, jdm wünschen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "正……",
+      "erklaerung": "副詞：1.恰巧、剛好。 2.表示動作在進行的狀態。",
+      "beispiele": [
+        "你來的正好。",
+        "外面正下著傾盆大雨。"
+      ],
+      "uebungen": [
+        "雨下得（　）時候。",
+        "家人（　）客廳看電視。"
+      ]
+    }
+  ]
+}

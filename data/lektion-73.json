@@ -1,0 +1,126 @@
+{
+  "nummer": 73,
+  "titel_zh": "過新年（一）",
+  "titel_de": "Das chinesische Neujahr (1)",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "今年除夕，我們要如何慶祝呢？",
+      "pinyin": "Jīnnián chúxì wǒmen yào rúhé qìngzhù ne",
+      "de": "Was wollen wir am chinesischen Neujahrsabend unternehmen?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我只買了年糕，其他什麼也沒準備。",
+      "pinyin": "Wǒ zhǐ mǎile niángāo qítā shénme yě méi zhǔnbèi",
+      "de": "Ich habe nur etwas Neujahrsreiskuchen gekauft. Sonst habe ich noch nichts vorbereitet."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "在美國，不再有貼春聯、放鞭炮的景象了。",
+      "pinyin": "Zài Měiguó bú zài yǒu tiē chūnlián fàng biānpào de jǐngxiàng le",
+      "de": "In Amerika hängt niemand Neujahrsspruchrollen auf oder zündet Feuerwerkskörper."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "真懷念小時候過年的熱鬧情景。",
+      "pinyin": "Zhēn huáiniàn xiǎoshíhou guònián de rènào qíngj-ng",
+      "de": "Ich vermisste so sehr das lebhafte Treiben zu Neujahr, als ich klein war."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "吃了臘八粥以後，家家戶戶就開始大掃除，準備過年了。",
+      "pinyin": "Chīle làbāzhōu yǐhòu jiājiā-hùhù jiù kāishǐ dàsǎochú zhǔnbèi guònián le",
+      "de": "Nachdem man den “La-Ba” Reisbrei gegessen hat, macht jede Familie einen gründlichen Hausputz, um sich auf das neue Jahr vorzubereiten."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "新年時，大家都穿新衣、買新鞋。",
+      "pinyin": "Xīnnián shí dàijiā dōu chuān xīn yī mǎi xīn xié",
+      "de": "An Neujahr ziehen alle neue Kleider an und kaufen neue Schuhe."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "全家人團聚吃年夜飯，熱熱鬧鬧的，好令人懷念。",
+      "pinyin": "Quán jiā rén tuánjù chī niányèfàn rèrè-nàonào de hǎo lìng rén huáiniàn",
+      "de": "Die ganze Familie versammelt sich zum Neujahrsessen. Es war so lebhaft, wie es nur sein konnte."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "吃完年夜飯，大家一起守歲，為父母祈福，真有意思。",
+      "pinyin": "Chī wán niányè fàn dàjiā yìqǐ shǒusuì wèi fùmǔ qí fú zhēn yǒu yìsi",
+      "de": "Nach dem Neujahrsessen bleiben alle die Nacht hindurch wach, um Segnungen für ihre Eltern zu erbitten."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "除夕",
+      "pinyin": "chúxì",
+      "de": "Silvester/die letzte Nacht des Jahres"
+    },
+    {
+      "zh": "熱鬧",
+      "pinyin": "rènào",
+      "de": "lebhaft"
+    },
+    {
+      "zh": "春聯",
+      "pinyin": "chūnlián",
+      "de": "die Neujahrsspruchrolle"
+    },
+    {
+      "zh": "情景",
+      "pinyin": "qíngj-ng",
+      "de": "die Art und Weise"
+    },
+    {
+      "zh": "放鞭炮",
+      "pinyin": "fàng biānpào",
+      "de": "die Feuerwerkskörper zünden"
+    },
+    {
+      "zh": "大掃除",
+      "pinyin": "dàsǎochú",
+      "de": "der Hausputz"
+    },
+    {
+      "zh": "懷念",
+      "pinyin": "huáiniàn",
+      "de": "vermissen"
+    },
+    {
+      "zh": "年夜飯",
+      "pinyin": "niányè fàn",
+      "de": "das Neujahrsessen"
+    },
+    {
+      "zh": "年糕",
+      "pinyin": "niángāo",
+      "de": "der Neujahrsreiskuchen (ein Reiskuchen der hauptsächlich an Neujahr gegessen wird )"
+    },
+    {
+      "zh": "臘八粥",
+      "pinyin": "làbāzhōu",
+      "de": "Ein Brei aus Klebereis, verschiedenen Getreiden und getrockneten Früchten"
+    },
+    {
+      "zh": "守歲",
+      "pinyin": "shǒusuì",
+      "de": "die letzte Nacht des Jahres durchwachen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "只……，沒/不……",
+      "erklaerung": "「只」表示除此以外沒有別的，限制與動作有關的事物，常和「不（沒）」對舉。",
+      "beispiele": [
+        "我只買了年糕，其他什麼也沒準備。",
+        "我只洗了一件衣服，其他什麼也沒洗。"
+      ],
+      "uebungen": [
+        "他（　）留下電話號碼，其他的資料都（　）辦法查到。",
+        "我這次月考（　）考一科，其他的科目都（　）考。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "nummer": 20,
+  "titel_zh": "餐具",
+  "titel_de": "Das Tafelgeschirr",
+  "dialog": [
+    {
+      "sprecher": "林小姐",
+      "zh": "明天您能不能陪我去買幾件中式餐具?",
+      "pinyin": "Míngtiān nín néng bù néng péi wǒ qù mǎi jǐ jiàn zhōngshì cānjù",
+      "de": "Könnten Sie mich morgen zum Einkaufen von chinesischem Tafelgeschirr begleiten?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "您想買些什麼呢？",
+      "pinyin": "Nín xiǎng mǎi xiē shénme ne",
+      "de": "Haben Sie etwas Bestimmtes einzukaufen?"
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我要買些吃中國菜需要用的餐具。",
+      "pinyin": "Wǒ yào mǎi xiē chī Zhōngguó cài xūyào yòng de cānjù",
+      "de": "Ich möchte Tafelgeschirr kaufen, dass man für die chinesische Küche benötigt."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "您最少得有筷子、飯碗、菜盤和湯匙。",
+      "pinyin": "Nín zuì shǎo děi yǒu kuàizi fànwǎn càipán hé tāngchí",
+      "de": "Sie brauchen zumindest Essstäbchen, Reisschalen, Speiseteller und Esslöffel."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "每樣要買幾個才夠用呢？",
+      "pinyin": "Měi yàng yào mǎi jǐ ge cái gòu yòng ne",
+      "de": "Wie viele brauche ich von jedem, damit es ausreicht?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "最好買一整套，使用起來才方便。",
+      "pinyin": "Zuìhǎo mǎi yì zhěngtào shǐyòng qǐlai cái fāngbiàn",
+      "de": "Am besten kaufen Sie ein komplettes Set, damit es praktischer ist, wenn Sie es benutzen."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "我想多花一點兒錢，買一套漂亮的瓷器。",
+      "pinyin": "Wǒ xiǎng duō huā yìdiǎnr qián mǎi yí tào piàoliang de cíqì",
+      "de": "Ich möchte gerne etwas mehr Geld ausgeben, um schöneres Porzellan zu kaufen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "我贊成，美食也得有美的器具才行啊！",
+      "pinyin": "Wǒ zànchéng měishí yě děi yǒu měi de qìjù cái xíng a",
+      "de": "Ich stimme Ihnen zu. Schließlich braucht man für eine gute Küche auch gutes Geschirr!"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "陪",
+      "pinyin": "péi",
+      "de": "begleiten"
+    },
+    {
+      "zh": "夠用",
+      "pinyin": "gòu yòng",
+      "de": "genug, ausreichen"
+    },
+    {
+      "zh": "中式餐具",
+      "pinyin": "zhōngshì cānjù",
+      "de": "das chinesische Tafelgeschirr"
+    },
+    {
+      "zh": "整套",
+      "pinyin": "zhěngtào",
+      "de": "das komplette set"
+    },
+    {
+      "zh": "需要",
+      "pinyin": "xūyào",
+      "de": "brauchen, benötigen"
+    },
+    {
+      "zh": "瓷器",
+      "pinyin": "cíqì",
+      "de": "das Porzellan"
+    },
+    {
+      "zh": "筷子",
+      "pinyin": "kuàizi",
+      "de": "die Essstäbchen"
+    },
+    {
+      "zh": "贊成",
+      "pinyin": "zànchéng",
+      "de": "einverstanden, zustimmen"
+    },
+    {
+      "zh": "飯碗",
+      "pinyin": "fànwǎn",
+      "de": "die Reisschale"
+    },
+    {
+      "zh": "美食",
+      "pinyin": "měishí",
+      "de": "die gute Küche"
+    },
+    {
+      "zh": "菜盤",
+      "pinyin": "càipán",
+      "de": "der Speiseteller"
+    },
+    {
+      "zh": "湯匙",
+      "pinyin": "tāngchí",
+      "de": "der Esslöffel"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "最好……",
+      "erklaerung": "一種建議的語氣，以避免落入不好的情況，「最」通常表達一種極端、強烈的情況。",
+      "beispiele": [
+        "餐具最好買一整套，使用起來才方便。",
+        "筷子最好自己帶，才不會造成資源浪費。"
+      ],
+      "uebungen": [
+        "快下雨了，你最好（　）。",
+        "錢剩下不多了，我們最好（　）。"
+      ]
+    },
+    {
+      "titel": "也……",
+      "erklaerung": "副詞：1.同樣。 2.強調兩事並列。 3.表示強調。 4.表示委婉、讓步。",
+      "beispiele": [
+        "美食也得有美的器具才行啊！（同樣）",
+        "客人中也有坐車的，也有走路的。（強調兩事並列）",
+        "我再也不敢了。（表示強調）",
+        "這樣也好。（表示讓步）"
+      ],
+      "uebungen": [
+        "英雄（　）配美人才是！",
+        "這個玩笑太過分了，一點（　）好玩！"
+      ]
+    }
+  ]
+}

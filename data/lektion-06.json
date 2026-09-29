@@ -1,0 +1,133 @@
+{
+  "nummer": 6,
+  "titel_zh": "現在幾點鐘",
+  "titel_de": "Wie spät ist es jetzt?",
+  "dialog": [
+    {
+      "sprecher": "方",
+      "zh": "請問現在幾點了？",
+      "pinyin": "Qǐngwèn xiànzài jǐ diǎn le",
+      "de": "Wie spät ist es jetzt?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "現在是上午十點一刻。",
+      "pinyin": "Xiànzài shì shàngwǔ shí diǎn yí kè",
+      "de": "Jetzt ist es Viertel nach zehn vormittags."
+    },
+    {
+      "sprecher": "方",
+      "zh": "十點一刻是十點幾分呢？",
+      "pinyin": "Shí diǎn yí kè shì shí diǎn jǐ fēn ne",
+      "de": "Wie viele Minuten nach zehn sind Viertel nach zehn ?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "十點十五分。一刻鐘是十五分鐘。",
+      "pinyin": "Shí diǎn shíwǔ fēn yí kè zhōng shì shíwǔ fēn zhōng",
+      "de": "15 Minuten nach zehn. Eine Viertelstunde sind 15 Minuten."
+    },
+    {
+      "sprecher": "方",
+      "zh": "您每天幾點鐘下班呢？",
+      "pinyin": "Nín měi tiān jǐ diǎn zhōng xiàbān ne",
+      "de": "Wann machen Sie jeden Tag Feierabend?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "我每天下午五點半下班。",
+      "pinyin": "Wǒ měi tiān xiàwǔ wǔ diǎn bàn xiàbān",
+      "de": "Ich mache täglich um halb sechs nachmittags Feierabend."
+    },
+    {
+      "sprecher": "方",
+      "zh": "一天要工作幾個小時呢？",
+      "pinyin": "Yì tiān yào gōngzuò jǐ ge xiǎoshí ne",
+      "de": "Wie viele Stunden arbeiten Sie am Tag?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "一天工作八個小時。",
+      "pinyin": "Yì tiān gōngzuò bā ge xiǎoshí",
+      "de": "Ich arbeite acht Stunden am Tag."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "現在",
+      "pinyin": "xiànzài",
+      "de": "jetzt, gerade"
+    },
+    {
+      "zh": "分（鐘）",
+      "pinyin": "fēn(zhōng)",
+      "de": "die Minute"
+    },
+    {
+      "zh": "幾",
+      "pinyin": "jǐ",
+      "de": "wie viel/e"
+    },
+    {
+      "zh": "每天",
+      "pinyin": "měi tiān",
+      "de": "jeden Tag/täglich"
+    },
+    {
+      "zh": "點（鐘）",
+      "pinyin": "diǎn(zhōng)",
+      "de": "Uhr/die Stunde"
+    },
+    {
+      "zh": "下午",
+      "pinyin": "xiàwǔ",
+      "de": "der Nachmittag, nachmittags"
+    },
+    {
+      "zh": "上午",
+      "pinyin": "shàngwǔ",
+      "de": "der Vormittag, vormittags"
+    },
+    {
+      "zh": "半",
+      "pinyin": "bàn",
+      "de": "halb, die Hälfte"
+    },
+    {
+      "zh": "刻（鐘）",
+      "pinyin": "kè(zhōng)",
+      "de": "Viertel (-stunde)"
+    },
+    {
+      "zh": "工作",
+      "pinyin": "gōngzuò",
+      "de": "arbeiten, die Arbeit"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……點……分",
+      "erklaerung": "確切時間的一種表達方式。",
+      "beispiele": [
+        "現在是上午十點十五分。",
+        "昨天下午三點二十分你在上班嗎？"
+      ],
+      "uebungen": [
+        "百貨公司開門的時間是（　）。",
+        "你每天（　）點（　）分上班？"
+      ]
+    },
+    {
+      "titel": "……呢",
+      "erklaerung": "助詞： 1.表示疑問的語氣。 2.表示加強、確定的語氣。",
+      "beispiele": [
+        "您每天幾點鐘下班呢？",
+        "記得帶傘，外面正下著雨呢！"
+      ],
+      "uebungen": [
+        "你搭幾號公車（　）呢？",
+        "小心點，她在那裡（　）呢！"
+      ]
+    }
+  ]
+}

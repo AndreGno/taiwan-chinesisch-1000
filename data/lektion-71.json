@@ -1,0 +1,131 @@
+{
+  "nummer": 71,
+  "titel_zh": "期末考試",
+  "titel_de": "Die Abschlussprüfung",
+  "dialog": [
+    {
+      "sprecher": "珍妮",
+      "zh": "期末考快到了，功課溫習好了嗎？",
+      "pinyin": "Qīmòkǎo kuài dàole gōngkè wēnxí hǎo le ma",
+      "de": "Die Abschlussprüfung ist bald. Hast du den Lehrstoff wiederholt?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我每天都開夜車苦讀。",
+      "pinyin": "Wǒ měi tiān dōu kāi yèchē kǔ dú",
+      "de": "Ich lerne täglich bis tief in die Nacht."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "熬夜最傷身體了，別過度用功。",
+      "pinyin": "Aoyè zuì shāng shēnt- le bié guòdù yònggōng",
+      "de": "Die Nacht durchmachen schadet deiner Gesundheit sehr. Übertreibe es nicht."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "我是平時不用功，只好臨時抱佛腳了。",
+      "pinyin": "Wǒ shì píngshí bú yònggōng zhǐhǎo línshí bào fójiǎo le",
+      "de": "Normalerweise arbeite ich nicht so viel. Deshalb muss ich alles in letzter Minute erledigen."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "這次考試，你總共考幾科呢？",
+      "pinyin": "Zhè cì kǎoshì nǐ zǒnggòng kǎo jǐ kē ne",
+      "de": "In wie vielen Fächern musst du diese Prüfung schreiben?"
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "四科。有的課只要繳讀書報告就可以了。",
+      "pinyin": "Sì kē Yǒu de kè zhǐyào jiǎo dúshū bàogào jiù kěyǐ le",
+      "de": "Vier. In einigen Fächern muss ich nur einen Bericht abgeben."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "那你還緊張什麼？心情放輕鬆點兒。",
+      "pinyin": "Nà nǐ hái jǐnzhāng shénme Xīnqíng fàng qīngsōng diǎnr",
+      "de": "Warum bist du dann so aufgeregt? Entspanne dich ein wenig."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "要考試了，心情怎麼可能輕鬆呢？",
+      "pinyin": "Yào kǎoshì le xīnqíng zěnme kěnéng qīngsōng ne",
+      "de": "Wie kann ich mich vor einer Prüfung wirklich entspannen?"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "期末考",
+      "pinyin": "qīmòkǎo",
+      "de": "die Abschlussprüfung"
+    },
+    {
+      "zh": "過度",
+      "pinyin": "guòdù",
+      "de": "übertreiben"
+    },
+    {
+      "zh": "溫習",
+      "pinyin": "wēnxí",
+      "de": "wiederholen"
+    },
+    {
+      "zh": "科",
+      "pinyin": "kē",
+      "de": "das Fach"
+    },
+    {
+      "zh": "開夜車",
+      "pinyin": "kāi yèchē",
+      "de": "bis tief in die Nacht durcharbeiten"
+    },
+    {
+      "zh": "讀書報告",
+      "pinyin": "dúshū bàogào",
+      "de": "der Bericht"
+    },
+    {
+      "zh": "苦讀",
+      "pinyin": "kǔ dú",
+      "de": "fleißig lernen"
+    },
+    {
+      "zh": "心情",
+      "pinyin": "xīnqíng",
+      "de": "die Stimmung"
+    },
+    {
+      "zh": "熬夜",
+      "pinyin": "áoyè",
+      "de": "bis tief in die Nacht arbeiten"
+    },
+    {
+      "zh": "輕鬆",
+      "pinyin": "qīngsōng",
+      "de": "entspannen"
+    },
+    {
+      "zh": "傷",
+      "pinyin": "shāng",
+      "de": "schaden"
+    },
+    {
+      "zh": "臨時抱佛腳",
+      "pinyin": "línshí bào fójiǎo",
+      "de": "in letzter Minute erledigen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "怎麼+動/形",
+      "erklaerung": "表示詢問原因，等於「為什麼」，多用疑問句式，動詞、形容詞都可以用否定式。",
+      "beispiele": [
+        "你身上怎麼有一種特別的香味兒呢？",
+        "你怎麼不專心一點兒呢？"
+      ],
+      "uebungen": [
+        "他（　）不認真一點兒呢？",
+        "小李（　）沒報名呢？"
+      ]
+    }
+  ]
+}

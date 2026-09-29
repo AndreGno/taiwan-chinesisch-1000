@@ -1,0 +1,136 @@
+{
+  "nummer": 44,
+  "titel_zh": "參觀展覽",
+  "titel_de": "Eine Ausstellung besichtigen",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "莉莉，我在這兒，你什麼時候到的？",
+      "pinyin": "Lìlì wǒ zài zhèr nǐ shénme shíhou dào de",
+      "de": "Ich bin hier, Li-Li. Wann bist du angekommen?"
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "我也剛到沒多久。我正在想你會不會迷路呢。",
+      "pinyin": "Wǒ yě gāng dào méi duō jiǔ Wǒ zhèngzài xiǎng nǐ huì bu huì mílù ne",
+      "de": "Ich bin auch gerade erst gekommen. Ich habe mich gerade gefragt, ob du dich vielleicht verlaufen hast."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "今天很順利，我是搭捷運來的。",
+      "pinyin": "Jīntiān hěn shùnlì wǒ shì dā jiéyùn lái de",
+      "de": "Heute ging alles glatt. Ich bin mit der MRT hergefahren."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "這個展覽是自由參觀，不需要買門票，我們進去吧。",
+      "pinyin": "Zhè ge zhǎnlǎn shì zìyóu cānguān bù xūyào mǎi ménpiào wǒmen jìnqù ba",
+      "de": "Diese Ausstellung ist kostenlos. Man muss keine Eintrittskarten kaufen, also lass uns reingehen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我聽說有紀念孫中山先生的展覽，很想來看看。",
+      "pinyin": "Wǒ tīngshuō yǒu jìniàn Sūn Zhōngshān xiānsheng de zhǎnlǎn hěn xiǎng lái kànkan",
+      "de": "Ich habe von der Gedenkausstellung für Dr. Sun Yat-Sen gehört und wollte sie mir gerne anschauen."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "你對孫中山先生的歷史有興趣？",
+      "pinyin": "Nǐ duì Sūn Zhōngshān xiānsheng de lìshǐ yǒu xìngqù",
+      "de": "Interessierst du dich für die Geschichte von Dr. Sun Yat-Sen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我想對這位偉大的政治家，多了解一些。",
+      "pinyin": "Wǒ xiǎng duì zhè wèi wěidà de zhèngzhìjiā duō liǎojiě yìxiē.",
+      "de": "Ich möchte mehr über diesen großen Staatsmann erfahren."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "今天的展覽，一定可以滿足你的願望。",
+      "pinyin": "Jīntiān de zhǎnlǎn yídìng kěyǐ mǎnz/ nǐ de yuànwàng",
+      "de": "Die heutige Ausstellung wird sicher deinen Wunsch erfüllen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "參觀",
+      "pinyin": "cānguān",
+      "de": "besichtigen, besuchen"
+    },
+    {
+      "zh": "歷史",
+      "pinyin": "lìshǐ",
+      "de": "die Geschichte"
+    },
+    {
+      "zh": "展覽",
+      "pinyin": "zhǎnlǎn",
+      "de": "die Ausstellung"
+    },
+    {
+      "zh": "偉大",
+      "pinyin": "wěidà",
+      "de": "großartig, groß"
+    },
+    {
+      "zh": "迷路",
+      "pinyin": "mílù",
+      "de": "sich verirren, sich verlaufen"
+    },
+    {
+      "zh": "政治家",
+      "pinyin": "zhèngzhìjiā",
+      "de": "der Staatsmann, der Politiker"
+    },
+    {
+      "zh": "順利",
+      "pinyin": "shùnlì",
+      "de": "glatt, zügig, reibungslos"
+    },
+    {
+      "zh": "了解",
+      "pinyin": "liǎojiě",
+      "de": "erfahren, kennen lernen"
+    },
+    {
+      "zh": "自由",
+      "pinyin": "zìyóu",
+      "de": "frei, kostenlos"
+    },
+    {
+      "zh": "滿足",
+      "pinyin": "mǎnz/",
+      "de": "erfüllen, zufrieden stellen"
+    },
+    {
+      "zh": "門票",
+      "pinyin": "ménpiào",
+      "de": "die Eintrittskarte"
+    },
+    {
+      "zh": "願望",
+      "pinyin": "yuànwàng",
+      "de": "der Wunsch, das Verlangen, der Herzenswunsch"
+    },
+    {
+      "zh": "孫中山",
+      "pinyin": "Sūn Zhōngshān",
+      "de": "der Dr. Sun Yat-Sen Landesvater der Republik China"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "對……有興趣",
+      "erklaerung": "表示一種嗜好或喜愛。",
+      "beispiele": [
+        "你對孫中山先生的歷史有興趣？",
+        "我家弟弟對閱讀成語故事有興趣。"
+      ],
+      "uebungen": [
+        "一般人對（　）有興趣。",
+        "許多人對（　）有興趣。"
+      ]
+    }
+  ]
+}

@@ -3,39 +3,134 @@
   "titel_zh": "自我介紹",
   "titel_de": "Sich selbst vorstellen",
   "dialog": [
-    { "sprecher": "王", "zh": "您好，我是王明華。請問貴姓大名？", "pinyin": "Nín hǎo, wǒ shì Wáng Mínghuá. Qǐngwèn guìxìng dàmíng?", "de": "Guten Tag, ich heiße Wang, Ming-Hua. Darf ich bitte nach Ihrem Namen fragen?" },
-    { "sprecher": "方", "zh": "您好，我姓方，名字叫大偉。", "pinyin": "Nín hǎo, wǒ xìng Fāng, míngzi jiào Dàwěi.", "de": "Guten Tag, mein Familienname ist Fang, mein Vorname Ta-Wei." },
-    { "sprecher": "王", "zh": "方先生，很高興認識您。", "pinyin": "Fāng xiānsheng, hěn gāoxìng rènshì nín.", "de": "Herr Fang, es freut mich, Sie kennen zu lernen." },
-    { "sprecher": "方", "zh": "我也是。那位小姐是誰？", "pinyin": "Wǒ yě shì. Nà wèi xiǎojiě shì shéi?", "de": "Ganz meinerseits. Wer ist diese Dame?" },
-    { "sprecher": "王", "zh": "她叫趙小梅，是我的同事。", "pinyin": "Tā jiào Zhào Xiǎoméi, shì wǒ de tóngshì.", "de": "Sie heißt Chao, Hsiao-Mei. Sie ist meine Kollegin." },
-    { "sprecher": "方", "zh": "那位先生是誰？", "pinyin": "Nà wèi xiānsheng shì shéi?", "de": "Wer ist der Herr dort drüben?" },
-    { "sprecher": "王", "zh": "他叫王大方，是我的弟弟。", "pinyin": "Tā jiào Wáng Dàfāng, shì wǒ de dìdi.", "de": "Er heißt Wang, Ta-Fang. Er ist mein jüngerer Bruder." }
+    {
+      "sprecher": "王",
+      "zh": "您好，我是王明華。請問貴姓大名？",
+      "pinyin": "Nín hǎo wǒ shì Wáng Mínghuá Qǐngwèn guìxìng dàmíng",
+      "de": "Guten Tag, ich heiße Wang, Ming-Hua. Darf ich bitte nach Ihrem Namen fragen?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "您好，我姓方，名字叫大偉。",
+      "pinyin": "Nín hǎo wǒ xìng Fāng míngzi jiào Dàwěi.",
+      "de": "Guten Tag, mein Familienname ist Fang, mein Vorname Ta-Wei."
+    },
+    {
+      "sprecher": "王",
+      "zh": "方先生，很高興認識您。",
+      "pinyin": "Fāng xiānsheng hěn gāoxìng rènshì nín",
+      "de": "Herr Fang, es freut mich, Sie kennen zu lernen."
+    },
+    {
+      "sprecher": "方",
+      "zh": "我也是。那位小姐是誰？",
+      "pinyin": "Wǒ yě shì Nà wèi xiǎojiě shì shéi",
+      "de": "Ganz meinerseits. Wer ist diese Dame?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "她叫趙小梅，是我的同事。",
+      "pinyin": "Tā jiào Zhào Xiǎoméi shì wǒ de tóngshì",
+      "de": "Sie heißt Chao, Hsiao-Mei. Sie ist meine Kollegin."
+    },
+    {
+      "sprecher": "方",
+      "zh": "那位先生是誰？",
+      "pinyin": "Nà wèi xiānsheng shì shéi",
+      "de": "Wer ist der Herr dort drüben?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "他叫王大方，是我的弟弟。",
+      "pinyin": "Tā jiào Wáng Dàfāng shì wǒ de dìdi",
+      "de": "Er heißt Wang, Ta-Fang. Er ist mein jüngerer Bruder."
+    }
   ],
   "vokabeln": [
-    { "zh": "您好", "pinyin": "nínhǎo", "de": "Guten Tag" },
-    { "zh": "我", "pinyin": "wǒ", "de": "ich, mich, mir" },
-    { "zh": "貴姓", "pinyin": "guìxìng", "de": "Ihr geschätzter Familienname" },
-    { "zh": "名字", "pinyin": "míngzi", "de": "der Name" },
-    { "zh": "叫", "pinyin": "jiào", "de": "rufen, heißen, nennen" },
-    { "zh": "先生", "pinyin": "xiānsheng", "de": "der Mann, der Herr" },
-    { "zh": "高興", "pinyin": "gāoxìng", "de": "froh sein, sich freuen" },
-    { "zh": "認識", "pinyin": "rènshì", "de": "kennen, kennen lernen" },
-    { "zh": "小姐", "pinyin": "xiǎojiě", "de": "das Fräulein, die Frau, die Dame" },
-    { "zh": "他", "pinyin": "tā", "de": "er, ihn, ihm" },
-    { "zh": "她", "pinyin": "tā", "de": "sie, sie, ihr" },
-    { "zh": "弟弟", "pinyin": "dìdi", "de": "jüngerer Bruder" }
+    {
+      "zh": "您好",
+      "pinyin": "nínhǎo",
+      "de": "Guten Tag"
+    },
+    {
+      "zh": "我",
+      "pinyin": "wǒ",
+      "de": "ich, mich, mir"
+    },
+    {
+      "zh": "貴姓",
+      "pinyin": "guìxìng",
+      "de": "Ihr geschätzter Familienname"
+    },
+    {
+      "zh": "名字",
+      "pinyin": "míngzi",
+      "de": "der Name"
+    },
+    {
+      "zh": "叫",
+      "pinyin": "jiào",
+      "de": "rufen, heißen, nennen"
+    },
+    {
+      "zh": "先生",
+      "pinyin": "xiānsheng",
+      "de": "der Mann, der Herr"
+    },
+    {
+      "zh": "高興",
+      "pinyin": "gāoxìng",
+      "de": "froh sein, sich freuen"
+    },
+    {
+      "zh": "認識",
+      "pinyin": "rènshì",
+      "de": "kennen, kennen lernen"
+    },
+    {
+      "zh": "小姐",
+      "pinyin": "xiǎojiě",
+      "de": "das Fräulein, die Frau, die Dame"
+    },
+    {
+      "zh": "他",
+      "pinyin": "tā",
+      "de": "er, ihn, ihm"
+    },
+    {
+      "zh": "（她）",
+      "pinyin": "(tā)",
+      "de": "sie, sie, ihr"
+    },
+    {
+      "zh": "弟弟",
+      "pinyin": "dìdi",
+      "de": "jüngerer Bruder"
+    }
   ],
   "grammatik": [
     {
-      "titel": "姓 / 叫",
-      "erklaerung": "姓 (xìng) nennt nur den Familiennamen, 叫 (jiào) den vollständigen Namen oder Vornamen. Beide Verben stehen direkt vor dem Namen, ohne 是.",
+      "titel": "那……",
+      "erklaerung": "代詞。指比較遠的人、事、物等。與「這」相對。",
       "beispiele": [
-        "我姓王。(Wǒ xìng Wáng.) — Ich heiße mit Familiennamen Wang.",
-        "我叫王明華。(Wǒ jiào Wáng Mínghuá.) — Ich heiße Wang Ming-Hua."
+        "那位小姐是誰？",
+        "那邊有一個人。"
       ],
       "uebungen": [
-        "我（　）王。",
-        "他（　）大偉，是我的朋友。"
+        "請問那個人叫（　）？ → 那個人叫王小梅。",
+        "那一本書是（　）？ → 這一本書是我的。"
+      ]
+    },
+    {
+      "titel": "姓……名字叫……",
+      "erklaerung": "介紹姓名時，為了讓人聽得更加明白，把姓和名分開介紹的一種方式。",
+      "beispiele": [
+        "我姓方，名字叫大偉 → 我叫方大偉。",
+        "他姓王，名字叫明華 → 他叫王明華。"
+      ],
+      "uebungen": [
+        "那位小姐姓（　），名字叫（　）。 → 那位小姐叫（　）。",
+        "那位先生姓（　），名字叫（　）。 → 那位先生叫（　）。"
       ]
     }
   ]

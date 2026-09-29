@@ -1,0 +1,133 @@
+{
+  "nummer": 12,
+  "titel_zh": "起床了",
+  "titel_de": "Aufgestanden",
+  "dialog": [
+    {
+      "sprecher": "王太太",
+      "zh": "明華，該起床了！",
+      "pinyin": "Mínghuá gāi qǐchuáng le",
+      "de": "Ming Hua, es ist Zeit aufzustehen!"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "還沒呢，還不到起床的時候嘛。",
+      "pinyin": "Háiméi ne hái bú dào qǐchuáng de shíhou ma",
+      "de": "Noch nicht. Es ist noch nicht Zeit aufzustehen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "你今天不是第一堂有課嗎？",
+      "pinyin": "Nǐ jīntiān bú shì dì-yī táng yǒu kè ma",
+      "de": "Hast du heute nicht in der ersten Stunde Unterricht?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是啊，可是現在是七點半，我們還有一個小時，不是嗎？",
+      "pinyin": "Shì a kěshì xiànzài shì qī diǎn bàn wǒmen hái yǒu yí ge xiǎoshí bú shì ma",
+      "de": "Stimmt, aber jetzt ist es 7:30 Uhr. Wir haben noch eine Stunde, oder?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "時間不早了。你早飯要吃什麼？",
+      "pinyin": "Shíjiān bù zǎo le nǐ zǎofàn yào chī shénme",
+      "de": "Es ist nicht zu früh. Was willst du zum Frühstück haben?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "一杯咖啡。我找不到我的錢包，妳看見了嗎？",
+      "pinyin": "Yì bēi kāfēi Wǒ zhǎobudào wǒ de qiánbāo nǐ kànjiàn le ma",
+      "de": "Eine Tasse Kaffee. Ich finde mein Portemonnaie nicht. Hast du es gesehen?"
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "沒有啊。你也許放在另外一件衣服的口袋裏了。",
+      "pinyin": "Méiyǒu a Nǐ yěxǔ fàng zài lìngwài yí jiàn yīfú de kǒudài lǐ le",
+      "de": "Nein. Du hast es vielleicht in eine andere Jackentasche gesteckt."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "對了，果然在這兒。謝謝你。",
+      "pinyin": "Duì le guǒrán zài zhèr Xièxie nǐ",
+      "de": "Ja, hier ist es. Danke sehr!"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "起床",
+      "pinyin": "qǐchuáng",
+      "de": "aus dem Bett aufstehen"
+    },
+    {
+      "zh": "一杯",
+      "pinyin": "yì bēi",
+      "de": "eine Tasse"
+    },
+    {
+      "zh": "還沒",
+      "pinyin": "háiméi",
+      "de": "noch nicht"
+    },
+    {
+      "zh": "咖啡",
+      "pinyin": "kāfēi",
+      "de": "der Kaffee"
+    },
+    {
+      "zh": "堂",
+      "pinyin": "táng",
+      "de": "die Unterrichtsstunde"
+    },
+    {
+      "zh": "錢包",
+      "pinyin": "qiánbāo",
+      "de": "das Portemonnaie, der Geldbeutel"
+    },
+    {
+      "zh": "早飯",
+      "pinyin": "zǎofàn",
+      "de": "das Frühstück"
+    },
+    {
+      "zh": "放",
+      "pinyin": "fàng",
+      "de": "hinlegen, einstecken"
+    },
+    {
+      "zh": "什麼",
+      "pinyin": "shénme",
+      "de": "was"
+    },
+    {
+      "zh": "口袋",
+      "pinyin": "kǒudài",
+      "de": "die Hosen-/Jackentasche"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "可是……",
+      "erklaerung": "一種轉折語氣的連接詞，通常用來對前一句話表示不同的意見。",
+      "beispiele": [
+        "我是第一堂有課，可是現在才七點半，時間還早。",
+        "他的人是很好，可是欠缺魄力。"
+      ],
+      "uebungen": [
+        "今天的天氣不錯，可是（　）。",
+        "我很想吃牛排，可是（　）。"
+      ]
+    },
+    {
+      "titel": "……不是嗎",
+      "erklaerung": "一種反問語氣，有時是為了對前面所說的話再次強調或確認。",
+      "beispiele": [
+        "我們還有一個小時，不是嗎？",
+        "他們後天才去陽明山，不是嗎？"
+      ],
+      "uebungen": [
+        "（　），不是嗎？",
+        "（　），不是嗎？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "nummer": 7,
+  "titel_zh": "今天星期三",
+  "titel_de": "Heute ist Mittwoch",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "今天是幾月、幾日、星期幾？",
+      "pinyin": "Jīntiān shì jǐ yuè jǐ rì xīngqí jǐ",
+      "de": "Welcher Monat, Tag, und Wochentag ist heute?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "今天是三月十五日星期三。",
+      "pinyin": "Jīntiān shì sānyuè shíwǔ rì xīngqí sān",
+      "de": "Heute ist Mittwoch, der 15.März."
+    },
+    {
+      "sprecher": "王",
+      "zh": "明天呢？",
+      "pinyin": "Míngtiān ne",
+      "de": "Und morgen?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "明天是三月十六日星期四。",
+      "pinyin": "Míngtiān shì sānyuè shíliù rì xīngqí sì",
+      "de": "Morgen ist Donnerstag, der 16.März."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您是今天去看李先生的嗎？",
+      "pinyin": "Nín shì jīntiān qù kàn Lǐ xiānsheng de ma",
+      "de": "Haben Sie heute Herrn Li besucht?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "不是，我是昨天去看他的。",
+      "pinyin": "Bú shì wǒ shì zuótiān qù kàn tā de",
+      "de": "Nein, ich habe ihn gestern besucht."
+    },
+    {
+      "sprecher": "王",
+      "zh": "您是哪一年出生的？",
+      "pinyin": "Nín shì nǎ yì nián chūshēng de",
+      "de": "In welchem Jahr sind Sie geboren?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "我是1959年生，後天正是我的生日。",
+      "pinyin": "Wǒ shì 1959 nián shēng hòutiān zhèng shì wǒ de shēngrì",
+      "de": "Ich bin im Jahre 1959 geboren. Genau übermorgen ist mein Geburtstag."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "今天",
+      "pinyin": "jīntiān",
+      "de": "heute"
+    },
+    {
+      "zh": "昨天",
+      "pinyin": "zuótiān",
+      "de": "gestern"
+    },
+    {
+      "zh": "月",
+      "pinyin": "yuè",
+      "de": "der Monat"
+    },
+    {
+      "zh": "年",
+      "pinyin": "nián",
+      "de": "das Jahr"
+    },
+    {
+      "zh": "日",
+      "pinyin": "rì",
+      "de": "der Tag"
+    },
+    {
+      "zh": "出生",
+      "pinyin": "chūshēng",
+      "de": "geboren sein"
+    },
+    {
+      "zh": "星期",
+      "pinyin": "xīng-qí",
+      "de": "die Woche"
+    },
+    {
+      "zh": "後天",
+      "pinyin": "hòutiān",
+      "de": "übermorgen"
+    },
+    {
+      "zh": "明天",
+      "pinyin": "míngtiān",
+      "de": "morgen"
+    },
+    {
+      "zh": "生日",
+      "pinyin": "shēngrì",
+      "de": "der Geburtstag"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "……的",
+      "erklaerung": "助詞：1.置於名詞或代名詞後，表示所屬、所有的關係。 2.置於形容詞後。 3.置於修飾片語或子句後。 4.置於副詞後。同「地」。 5.置於句尾。表示肯定或加強的語氣。",
+      "beispiele": [
+        "後天是我的生日。",
+        "一本介紹臺灣文化的書。",
+        "他寄來的信，我已經在昨天收到了。",
+        "王先生慢慢的走。",
+        "我是昨天去看他的。"
+      ],
+      "uebungen": [
+        "那是（　）書。",
+        "你這樣做是不（　）！"
+      ]
+    },
+    {
+      "titel": "幾……",
+      "erklaerung": "1.疑問詞，用來詢問數目或詢問時間。 2.表示大於一，而小於十的不定數目。",
+      "beispiele": [
+        "今天是幾月、幾日、星期幾？（詢問時間）",
+        "今晚一共有幾個人要來？（詢問數目）"
+      ],
+      "uebungen": [
+        "你今天早上（　）上班？",
+        "這本書（　）就可以買到了。"
+      ]
+    }
+  ]
+}

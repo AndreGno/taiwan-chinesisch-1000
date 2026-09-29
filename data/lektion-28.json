@@ -1,0 +1,138 @@
+{
+  "nummer": 28,
+  "titel_zh": "生病",
+  "titel_de": "Krank sein",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "你怎麼了？身體不舒服嗎？",
+      "pinyin": "Nǐ zěnme le Shēnt- bù shūfu ma",
+      "de": "Was hast du? Fühlst du dich unwohl?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我有一點兒鼻塞，喉嚨也很痛。",
+      "pinyin": "Wǒ yǒu yìdiǎnr bísāi hóulóng yě hěn tòng",
+      "de": "Meine Nase ist ein wenig verstopft und mein Hals tut auch ein bisschen weh."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "你量過體溫了嗎？有沒有發燒？",
+      "pinyin": "Nǐ liángguò tǐwēn le ma Yǒuméiyǒu fāshāo",
+      "de": "Hast du schon deine Temperatur gemessen? Hast du Fieber?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我量過了，有一點兒發燒。",
+      "pinyin": "Wǒ liángguò le yǒu yìdiǎnr fāshāo",
+      "de": "Ich habe meine Temperatur gemessen und ich bin etwas fiebrig."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "也許是感冒了。怎麼會生病呢？",
+      "pinyin": "Yěxǔ shì gǎnmào le Zěnme huì shēngbìng ne",
+      "de": "Es ist womöglich eine Erkältung. Wie hast du dich erkältet?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我想是昨天衣服穿得太少了。",
+      "pinyin": "Wǒ xiǎng shì zuótiān yīfú chuān de tài shǎo le",
+      "de": "Ich denke, ich hatte gestern zu wenig an."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "你最好讓醫生檢查一下。",
+      "pinyin": "Nǐ zuìhǎo ràng yīshēng jiǎnchá yíxià",
+      "de": "Am besten lässt du dich vom Arzt untersuchen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我吃幾片阿斯匹靈，多喝點兒水，就會好的。",
+      "pinyin": "Wǒ chī jī piàn Asīpīlíng duō hē diǎnr shuǐ jiù huì hǎo de",
+      "de": "Ich nehme ein paar Aspirintabletten, trinke mehr und dann wird es schon besser werden."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "生病",
+      "pinyin": "shēngbìng",
+      "de": "krank sein, erkranken"
+    },
+    {
+      "zh": "不舒服",
+      "pinyin": "bù shūfu",
+      "de": "unwohl sein"
+    },
+    {
+      "zh": "鼻塞",
+      "pinyin": "bísāi",
+      "de": "die verstopfte Nase"
+    },
+    {
+      "zh": "喉嚨",
+      "pinyin": "hóulóng",
+      "de": "der Hals"
+    },
+    {
+      "zh": "痛",
+      "pinyin": "tòng",
+      "de": "der Schmerz"
+    },
+    {
+      "zh": "量體溫",
+      "pinyin": "liáng tǐwēn",
+      "de": "die Körpertemperatur messen"
+    },
+    {
+      "zh": "發燒",
+      "pinyin": "fāshāo",
+      "de": "das Fieber"
+    },
+    {
+      "zh": "感冒",
+      "pinyin": "gǎnmào",
+      "de": "die Erkältung, sich erkälten"
+    },
+    {
+      "zh": "醫生",
+      "pinyin": "yīshēng",
+      "de": "der Arzt, der Doktor"
+    },
+    {
+      "zh": "檢查",
+      "pinyin": "jiǎnchá",
+      "de": "untersuchen, kontrollieren"
+    },
+    {
+      "zh": "阿斯匹靈",
+      "pinyin": "Asīpīlíng",
+      "de": "das Aspirin"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "有一點兒……",
+      "erklaerung": "指存在的一種狀況，但程度不是很嚴重。",
+      "beispiele": [
+        "我有一點兒鼻塞，喉嚨也很痛。",
+        "這道菜有一點兒辣，也有些鹹。"
+      ],
+      "uebungen": [
+        "這個地方有一點兒（　）。",
+        "這台腳踏車有一點兒（　）。"
+      ]
+    },
+    {
+      "titel": "……一下",
+      "erklaerung": "在本課是附於動詞後面，有略微的意思。",
+      "beispiele": [
+        "你最好讓醫生檢查一下。",
+        "既然來了，就看一下吧！"
+      ],
+      "uebungen": [
+        "坐太久了，最好起來運動（　）。",
+        "小明說等一下（　）。"
+      ]
+    }
+  ]
+}

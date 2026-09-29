@@ -1,0 +1,128 @@
+{
+  "nummer": 8,
+  "titel_zh": "打電話",
+  "titel_de": "Telefonieren",
+  "dialog": [
+    {
+      "sprecher": "王",
+      "zh": "麻煩您，請找方先生接電話。",
+      "pinyin": "Máfan nín qǐng zhǎo Fāng xiānsheng jiē diànhuà",
+      "de": "Entschuldigen Sie die Umstände, ich möchte bitte Herrn Fang sprechen."
+    },
+    {
+      "sprecher": "方",
+      "zh": "我就是，您哪位？",
+      "pinyin": "Wǒ jiùshì nín nǎ wèi",
+      "de": "Ich bin am Apparat. Mit wem spreche ich?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "我是王明華。大偉，您好。",
+      "pinyin": "Wǒ shì Wáng Mínghuá Dà wěi nínhǎo",
+      "de": "Ich bin Wang, Ming-Hua. Guten Tag, Ta-Wei."
+    },
+    {
+      "sprecher": "方",
+      "zh": "您好，有什麼事嗎？",
+      "pinyin": "Nínhǎo yǒu shéme shì ma",
+      "de": "Guten Tag! Was gibt es?"
+    },
+    {
+      "sprecher": "王",
+      "zh": "您有李文的電話號碼嗎？",
+      "pinyin": "Nín yǒu Lǐ Wén de diànhuà hàomǎ ma",
+      "de": "Haben Sie Li, Wens Telefonnummer?"
+    },
+    {
+      "sprecher": "方",
+      "zh": "對不起，我聽不清楚，請大聲一點兒。",
+      "pinyin": "Duìbuqǐ wǒ tīng bù qīngchu qǐng dà shēng yìdiǎnr",
+      "de": "Entschuldigen Sie, ich kann Sie nicht verstehen. Bitte sprechen Sie lauter."
+    },
+    {
+      "sprecher": "王",
+      "zh": "電話有雜音，請掛上電話，我再撥一次。",
+      "pinyin": "Diànhuà yǒu záyīn qǐng guàshàng diànhuà wǒ zài bō yí cì",
+      "de": "Die Telefonleitung rauscht. Bitte legen Sie auf. Ich wähle noch einmal."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "找",
+      "pinyin": "zhǎo",
+      "de": "suchen"
+    },
+    {
+      "zh": "清楚",
+      "pinyin": "qīngchu",
+      "de": "klar, deutlich"
+    },
+    {
+      "zh": "接",
+      "pinyin": "jiē",
+      "de": "nehmen,verbinden, empfangen"
+    },
+    {
+      "zh": "大聲一點兒",
+      "pinyin": "dà shēng yìdiǎnr",
+      "de": "lauter (sprechen)"
+    },
+    {
+      "zh": "電話號碼",
+      "pinyin": "diànhuà hàomǎ",
+      "de": "die Telefonnummer"
+    },
+    {
+      "zh": "雜音",
+      "pinyin": "záyīn",
+      "de": "das Rauschen"
+    },
+    {
+      "zh": "對不起",
+      "pinyin": "duìbuqǐ",
+      "de": "Entschuldigen Sie bitte, Entschuldigung"
+    },
+    {
+      "zh": "掛上",
+      "pinyin": "guàshàng",
+      "de": "auflegen, -hängen"
+    },
+    {
+      "zh": "聽",
+      "pinyin": "tīng",
+      "de": "(zu-) hören"
+    },
+    {
+      "zh": "再撥一次",
+      "pinyin": "zài bō yí cì",
+      "de": "noch einmal wählen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "就……",
+      "erklaerung": "副詞： 1.即、正。表示肯定的語氣。 2.即刻、馬上。表示事情或動作緊接著發生。 3.只、僅，一種強調的語氣。",
+      "beispiele": [
+        "我就是，您哪位？（表示肯定的語氣）",
+        "你等我一下，我去去就來。（表示事情或動作緊接著發生）",
+        "他就只有這一個兒子了。（只、僅，強調的語氣）"
+      ],
+      "uebungen": [
+        "那就是他（　）。",
+        "你等我一下，我去去（　）。"
+      ]
+    },
+    {
+      "titel": "麻煩您，請……",
+      "erklaerung": "請求別人幫忙時的一種客氣說法的開場白。",
+      "beispiele": [
+        "麻煩您，請找方先生接電話。",
+        "麻煩您，請幫我拿一張請假單。"
+      ],
+      "uebungen": [
+        "麻煩您，請注意（　）。",
+        "麻煩您，請（　）。"
+      ]
+    }
+  ]
+}

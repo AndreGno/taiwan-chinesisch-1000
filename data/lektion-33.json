@@ -1,0 +1,131 @@
+{
+  "nummer": 33,
+  "titel_zh": "銀行",
+  "titel_de": "Die Bank",
+  "dialog": [
+    {
+      "sprecher": "方先生",
+      "zh": "我想在銀行開一個戶頭，手續麻煩嗎?",
+      "pinyin": "Wǒ xiǎng zài yínháng kāi yí ge hùtóu shǒuxù máfan ma",
+      "de": "Ich möchte ein Konto bei der Bank eröffnen. Ist die Bearbeitung kompliziert?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "手續很簡單。您要開哪種戶頭呢？",
+      "pinyin": "Shǒuxù hěn jiǎndān Nín yào kāi nǎ zhǒng hùtóu ne",
+      "de": "Die Bearbeitung ist sehr einfach. Was für ein Konto möchten Sie eröffnen?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我要開一個儲蓄存款的戶頭。",
+      "pinyin": "Wǒ yào kāi yí ge chúxù cúnkuǎn de hùtóu",
+      "de": "Ich möchte ein Sparkonto eröffnen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "是要活期的呢，還是定期的呢？",
+      "pinyin": "Shì yào huóqí de ne hái shì dìngqí de ne",
+      "de": "Soll es ein Girokonto oder ein Festgeldkonto sein?"
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "活期的，存款、提款比較方便。",
+      "pinyin": "Huóqí de cún kuǎn tí kuǎn bǐjiào fāngbiàn",
+      "de": "Ein Girokonto. Da ist das Einzahlen und Abheben einfacher."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "您只要帶身分證和印章去就可以了。",
+      "pinyin": "Nín zhǐyào dài shēnfèn zhèng hé yìnzhāng qù jiù kěyǐ le",
+      "de": "Es genügt, wenn Sie nur Ihren Ausweis und Namensstempel mitnehmen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "要不要填什麼表格呢？",
+      "pinyin": "Yào bú yào tián shénme biǎogé ne",
+      "de": "Muss ich irgendein Formular ausfüllen?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "要填一些表格，另外還得存點兒錢在戶頭裏。",
+      "pinyin": "Yāo tián yìxiē biǎogé lìngwài hái děi cún diǎnr qián zài hùtóu lǐ",
+      "de": "Sie müssen einige Formulare ausfüllen und außerdem noch ein wenig Geld in das Konto einzahlen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "戶頭",
+      "pinyin": "hùtóu",
+      "de": "das Konto"
+    },
+    {
+      "zh": "手續",
+      "pinyin": "shǒuxù",
+      "de": "die Bearbeitung"
+    },
+    {
+      "zh": "簡單",
+      "pinyin": "jiǎndān",
+      "de": "einfach"
+    },
+    {
+      "zh": "儲蓄存款",
+      "pinyin": "chúxù cúnkuǎn",
+      "de": "das Sparkonto"
+    },
+    {
+      "zh": "活期",
+      "pinyin": "huóqí",
+      "de": "das Giro (-konto)"
+    },
+    {
+      "zh": "定期",
+      "pinyin": "dìngqí",
+      "de": "das Festgeld (-konto)"
+    },
+    {
+      "zh": "存款",
+      "pinyin": "cúnkuǎn",
+      "de": "einzahlen"
+    },
+    {
+      "zh": "提款",
+      "pinyin": "tí kuǎn",
+      "de": "abheben"
+    },
+    {
+      "zh": "身分證明",
+      "pinyin": "shēnfèn zhèngmíng",
+      "de": "der Personalausweis"
+    },
+    {
+      "zh": "印章",
+      "pinyin": "yìnzhāng",
+      "de": "der Namensstempel, das Siegel"
+    },
+    {
+      "zh": "填",
+      "pinyin": "tián",
+      "de": "ausfüllen"
+    },
+    {
+      "zh": "表（格）",
+      "pinyin": "biǎo(gé)",
+      "de": "das Formular"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "另外……",
+      "erklaerung": "進一步說明還有一種情況。",
+      "beispiele": [
+        "要填一些表格，另外還得存點兒錢在戶頭裏。",
+        "要買一本書，另外還要買幾枝筆。"
+      ],
+      "uebungen": [
+        "他除了有遲到的毛病，另外（）。",
+        "媽媽給弟弟一根棒棒糖，另外（）。"
+      ]
+    }
+  ]
+}

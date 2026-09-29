@@ -1,0 +1,158 @@
+{
+  "nummer": 51,
+  "titel_zh": "校園生活",
+  "titel_de": "Das Studentenleben",
+  "dialog": [
+    {
+      "sprecher": "李小姐",
+      "zh": "開學快一個月了，一切都習慣嗎？",
+      "pinyin": "Kāixué kuài yí ge yuè le yíqiè dōu xíguàn ma",
+      "de": "Es ist schon fast ein Monat her seit Semesterbeginn. Hast du dich schon an alles gewöhnt?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "每天不是到教室上課，就是跑圖書館，好累！",
+      "pinyin": "Měitiān bú shì dào jiàoshì shàngkè jiùshì pǎo túshūguǎn hǎo lèi",
+      "de": "Jeden Tag habe ich entweder in der Klasse Unterricht oder ich gehe zur Bibliothek. Es ist so anstrengend."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "研究所的功課當然很重。你選了幾個學分？",
+      "pinyin": "Yánjiùsuǒ de gōngkè dāngrán hěn zhòng Nǐ xuǎnle jǐ ge xuéfēn",
+      "de": "Die Studienbelastungen sind an einem Institut natürlich sehr hoch. Wieviele Fächer hast du belegt?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "這學期連必修課在內，總共選了八個學分。",
+      "pinyin": "Zhè xuéqí lián bìxiū kè zài nèi zǒnggòng xuǎnle bā ge xuéfēn",
+      "de": "Ich habe, einschließlich der Pflichtfächer, nur acht Fächer belegt."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "宿舍怎麼樣？室友好相處嗎？",
+      "pinyin": "Sùshè zěnmeyàng Shìyǒu hǎo xiāngchǔ ma",
+      "de": "Wie ist es mit dem Studentenwohnheim? Kommst du mit deinen Zimmerkameraden zurecht?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "宿舍和室友都不錯，就是有點兒吵。",
+      "pinyin": "Sùshè hé shìyǒu dōu búcuò jiùshì yǒudiǎnr chǎo",
+      "de": "Das Studentenwohnheim und die Zimmerkameraden sind in Ordnung. Es ist nur etwas laut."
+    },
+    {
+      "sprecher": "李小姐",
+      "zh": "如果想讀書就到圖書館去，找資料也比較方便。",
+      "pinyin": "Rúguǒ xiǎng dúshū jiù dào túshūguǎn qù zhǎo zīliào yě bǐjiào fāngbiàn",
+      "de": "Wenn man lernen möchte, kann man in die Bibliothek gehen. Wenn du irgendwelche Informationsmaterialien brauchst, kannst du sie dort leicht finden."
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "我得到圖書館去用功了，一塊兒去吧！",
+      "pinyin": "Wǒ děi dào túshūguǎn qù yònggōng le yíkuàir qù ba",
+      "de": "Ich muss in die Bibliothek um zu lernen. Kommst du mit?"
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "開學",
+      "pinyin": "kāixué",
+      "de": "der Schulanfang / der Semesterbeginn"
+    },
+    {
+      "zh": "總共",
+      "pinyin": "zǒnggòng",
+      "de": "insgesamt"
+    },
+    {
+      "zh": "習慣",
+      "pinyin": "xíguàn",
+      "de": "die Gewohnheit / hier: sich an etw. gewöhnen"
+    },
+    {
+      "zh": "宿舍",
+      "pinyin": "sùshè",
+      "de": "das Studentenwohnheim"
+    },
+    {
+      "zh": "教室",
+      "pinyin": "jiàoshì",
+      "de": "der Klassenraum"
+    },
+    {
+      "zh": "室友",
+      "pinyin": "shìyǒu",
+      "de": "der Zimmerkamerad"
+    },
+    {
+      "zh": "研究所",
+      "pinyin": "yánjiùsuǒ",
+      "de": "das Institut"
+    },
+    {
+      "zh": "相處",
+      "pinyin": "xiāngchǔ",
+      "de": "zurecht kommen"
+    },
+    {
+      "zh": "功課",
+      "pinyin": "gōngkè",
+      "de": "die Aufgabe, die Lektion"
+    },
+    {
+      "zh": "吵",
+      "pinyin": "chǎo",
+      "de": "laut"
+    },
+    {
+      "zh": "學分",
+      "pinyin": "xuéfēn",
+      "de": "das Fach"
+    },
+    {
+      "zh": "資料",
+      "pinyin": "zīliào",
+      "de": "das Informationsmaterial, das Lehrmaterial"
+    },
+    {
+      "zh": "連……在內",
+      "pinyin": "lián … zài nèi",
+      "de": "einschließlich"
+    },
+    {
+      "zh": "用功",
+      "pinyin": "yònggōng",
+      "de": "fleißig levnen"
+    },
+    {
+      "zh": "必修課",
+      "pinyin": "bìxiū kè",
+      "de": "das Pflichtfach"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "是……就是……",
+      "erklaerung": "表示選擇關係，通常是二選一的意思，有時候帶有申辯的意味。",
+      "beispiele": [
+        "每天不是上課，就是跑圖書館。",
+        "他不是第一名，就是第二名，表現非常優異。"
+      ],
+      "uebungen": [
+        "他整天不是打針就是吃藥。",
+        "他整天不是寫字就是畫畫。彈琴、唱歌 → （　）寫信、打電話 → （　）抽煙、喝酒 → （　）"
+      ]
+    },
+    {
+      "titel": "連……在內……",
+      "erklaerung": "「連」表示包括的意思，句中通常有數量短語。",
+      "beispiele": [
+        "連你在內，總共五個學生。",
+        "連星期日在內，總共可放假九天。"
+      ],
+      "uebungen": [
+        "連這本字典在內，總共有幾本書？（七本） → （　）",
+        "連他在內，總共請了幾個客人？（四個） → （　）"
+      ]
+    }
+  ]
+}

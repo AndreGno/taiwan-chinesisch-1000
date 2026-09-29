@@ -1,0 +1,143 @@
+{
+  "nummer": 49,
+  "titel_zh": "註冊",
+  "titel_de": "Die Einschreibung",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "你申請進臺灣大學讀書，學校准了嗎?",
+      "pinyin": "Nǐ shēnq-ng jìn Táiwān dàxué dúshū xuéjiào zhǔnle ma",
+      "de": "Hast du schon eine Zulassung für deine Bewerbung an der Nationalen Universität Taiwan erhalten?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "學校是准了，可是還得做一個入學測驗。",
+      "pinyin": "Xuéxiào shì zhǔnle kěshì hái děi zuò yí ge rùxué cèyàn.",
+      "de": "Die Universität hat mich angenommen, aber ich muss noch eine Aufnahmeprüfung machen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "什麼時候要去辦入學手續呢？",
+      "pinyin": "Shénme shíhou yào qù bàn rùxué shǒuxù ne",
+      "de": "Wann wirst du dich einschreiben?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "學校寄了一份通知給我，下週二去註冊。",
+      "pinyin": "Xuéxiào jìle yí fèn tōngzhī gěi wǒ xià zhōu èr qù zhùcè",
+      "de": "Die Universität hat mir eine Benachrichtigung geschickt. Ich werde mich am nächsten Dienstag einschreiben."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "學校有沒有提供獎學金？",
+      "pinyin": "Xuéxiào yǒuméiyǒu tígōng jiǎngxuéjīn",
+      "de": "Bietet die Universität auch Stipendien an?"
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "沒有，我得自己繳學費，幸虧學費不貴。",
+      "pinyin": "Méiyǒu wǒ děi zìjǐ jiǎo xuéfèi xìngkuī xuéfèi bú guì",
+      "de": "Nein, ich muss die Studiengebühren selbst bezahlen. Zum Glück sind sie nicht zu hoch."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "註冊那天我陪你去，我對臺大校園很熟悉。",
+      "pinyin": "Zhùcè nà tiān wǒ péi nǐ qù wǒ duì Táidà xiàoyuán hěn shóuxī",
+      "de": "Am Tag deiner Einschreibung komme ich mit. Ich kenne mich auf dem Taiwan Universitätscampus gut aus."
+    },
+    {
+      "sprecher": "丁先生",
+      "zh": "我也正想請你幫忙呢。",
+      "pinyin": "Wǒ yě zhèng xiǎng qǐng nǐ bāngmáng ne",
+      "de": "Ich wollte dich gerade genau darum bitten."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "申請",
+      "pinyin": "shēnq-ng",
+      "de": "bewerben"
+    },
+    {
+      "zh": "通知",
+      "pinyin": "tōng zhī",
+      "de": "die Benachrichtigung, die Information"
+    },
+    {
+      "zh": "臺灣大學",
+      "pinyin": "Táiwān dàxué",
+      "de": "die Nationale Universität Taiwan (Tai-Da)"
+    },
+    {
+      "zh": "註冊",
+      "pinyin": "zhùcè",
+      "de": "sich einschreiben"
+    },
+    {
+      "zh": "准",
+      "pinyin": "zhǔn",
+      "de": "zulassen, erlauben"
+    },
+    {
+      "zh": "提供",
+      "pinyin": "tígōng",
+      "de": "anbieten"
+    },
+    {
+      "zh": "入學測驗",
+      "pinyin": "rùxué cèyàn",
+      "de": "die Aufnahmeprüfung"
+    },
+    {
+      "zh": "獎學金",
+      "pinyin": "jiǎngxuéjīn",
+      "de": "das Stipendium"
+    },
+    {
+      "zh": "辦（理）",
+      "pinyin": "bàn(lǐ)",
+      "de": "beantragen"
+    },
+    {
+      "zh": "繳學費",
+      "pinyin": "jiǎo xuéfèi",
+      "de": "die Studiengebühren bezahlen"
+    },
+    {
+      "zh": "入學手續",
+      "pinyin": "rùxué shǒuxù",
+      "de": "die Einschreibung, die Immatrikulation"
+    },
+    {
+      "zh": "熟悉",
+      "pinyin": "shóuxī",
+      "de": "sehr vertraut/ bekannt mit"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "是……可是……",
+      "erklaerung": "一種有條件限制的說法。",
+      "beispiele": [
+        "學校是准了，可是還得做一個入學測驗。",
+        "這本書好是好，可是太貴了。"
+      ],
+      "uebungen": [
+        "這件衣服好看是（　），可是（）。",
+        "那位小姐漂亮是（　），可是（）。"
+      ]
+    },
+    {
+      "titel": "幸虧……",
+      "erklaerung": "表達一種慶幸的語氣。",
+      "beispiele": [
+        "我得自己繳學費，幸虧學費不貴。",
+        "他得辛勤工作養活家庭，幸虧身體還不錯。"
+      ],
+      "uebungen": [
+        "校車翻覆了，幸虧（　）。",
+        "她忘了帶便當，幸虧（　）。"
+      ]
+    }
+  ]
+}

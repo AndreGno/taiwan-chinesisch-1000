@@ -1,0 +1,142 @@
+{
+  "nummer": 62,
+  "titel_zh": "環島旅行（二）",
+  "titel_de": "Die Inselrundfahrt (2)",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "今天要到環島旅行的最後一站墾丁國家公園。",
+      "pinyin": "Jīntiān yào dào huándǎo lǚxíng de zuìhòu yí zhàn Kěndīng guójiā gōngyuán",
+      "de": "Heute kommen wir zu unserer letzten Station, dem Kenting National Park."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "這次在橫貫公路停留的時間太短了。",
+      "pinyin": "Zhè cì zài héngguàn gōnglù tíngliú de shíjiān tài duǎn le",
+      "de": "Diesmal war unser Aufenthalt auf der Querverbindungsstrasse zu kurz."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "就是啊！連看阿美族山地歌舞的時間都沒有。",
+      "pinyin": "Jiùshì a Lián kàn Āměizú shāndì gēwǔ de shíjiān dōu méiyǒu",
+      "de": "Genau! Wir hatten nicht einmal Zeit, um eine Tanzvorstellung der Ureinwohner des Amei-Stammes anzusehen."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "以後有機會再來。時間不早了，如果要去墾丁必須快一點兒。",
+      "pinyin": "Yǐhòu yǒu jīhuì zài lái Shíjiān bù zǎo le rúguǒ yào qù Kěndīng bìxū kuài yìdiǎnr",
+      "de": "Später, wenn wir noch die Gelegenheit dafür haben, können wir wieder kommen. Es ist spät. Wenn wir nach Kenting fahren wollen, müssen wir uns beeilen."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "墾丁公園裏有各種不同的熱帶植物，非常值得一遊。",
+      "pinyin": "Kěndīng gōngyuán lǐ yǒu gè zhǒng bù tóng de rèdài zhíwù fēicháng zhíde yì yóu",
+      "de": "Im Kenting Nationalpark gibt es viele verschiedene Arten von tropischen Pflanzen. Sie sind wirklich sehenswert."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "聽說臺灣的最南端是鵝鑾鼻。",
+      "pinyin": "Tīngshuō Táiwān de zuì nán duān shì Eluánbí",
+      "de": "Ich habe gehört, Taiwans südlichster Punkt sei das Kap Eluanbi."
+    },
+    {
+      "sprecher": "王太太",
+      "zh": "墾丁有迷人的海灘，鵝鑾鼻有一座古老的燈塔。",
+      "pinyin": "Kěndīng yǒu mírén de hǎitān Eluánbí yǒu yí zuò gǔlǎo de dēngtǎ",
+      "de": "Im Kenting gibt es einen wirklich traumhaften Strand. In Eluanbi gibt es einen alten Leuchtturm."
+    },
+    {
+      "sprecher": "芳芳",
+      "zh": "臺灣是一個寶島，每個地方的風景都很優美。",
+      "pinyin": "Táiwān shì yí ge bǎodǎo měi ge dìfang de fēngj-ng dōu hěn yōuměi",
+      "de": "Taiwan ist eine Schatzinsel. Die Landschaft ist überall so schön."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "墾丁國家公園",
+      "pinyin": "Kěndīng guójiā gōngyuán",
+      "de": "Kenting National Park"
+    },
+    {
+      "zh": "鵝鑾鼻",
+      "pinyin": "Eluánbí",
+      "de": "Oluanpi; Eluanbi"
+    },
+    {
+      "zh": "停留",
+      "pinyin": "tíngliú",
+      "de": "der Aufenthalt"
+    },
+    {
+      "zh": "迷人",
+      "pinyin": "mírén",
+      "de": "traumhaft, anziehend"
+    },
+    {
+      "zh": "阿美族",
+      "pinyin": "Aměizú",
+      "de": "der Ami Stamm"
+    },
+    {
+      "zh": "海灘",
+      "pinyin": "hǎitān",
+      "de": "der Strand"
+    },
+    {
+      "zh": "山地歌舞",
+      "pinyin": "shāndì gēwǔ",
+      "de": "die Tanzvorstellung der Ureinwohner"
+    },
+    {
+      "zh": "古老",
+      "pinyin": "gǔlǎo",
+      "de": "uralt"
+    },
+    {
+      "zh": "熱帶植物",
+      "pinyin": "rèdài zhíwù",
+      "de": "die tropische Pflanze"
+    },
+    {
+      "zh": "燈塔",
+      "pinyin": "dēngtǎ",
+      "de": "der Leuchtturm"
+    },
+    {
+      "zh": "最南端",
+      "pinyin": "zuì nán duān",
+      "de": "der südlichste Punkt, das südlichste Kap"
+    },
+    {
+      "zh": "寶島",
+      "pinyin": "bǎodǎo",
+      "de": "die Schatzinsel"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "有……還有……",
+      "erklaerung": "表示兩者同時存在，「還」是「又」的意思。",
+      "beispiele": [
+        "鵝鑾鼻有迷人的海灘，還有一座古老的燈塔。",
+        "王老闆有聰明的頭腦，還有過人的毅力，難怪生意蒸蒸日上。"
+      ],
+      "uebungen": [
+        "桌子上（　）十個蘋果，（　）八根香蕉。",
+        "櫃子裡（　）許多衣服，（　）幾頂帽子。"
+      ]
+    },
+    {
+      "titel": "優美、漂亮和美麗的用法",
+      "erklaerung": "「優美」可以形容風景、情調之美，表示優婉閑雅、超凡不俗，不僅指外在的具體形象，同時也指內在的氣質。「美麗」和「漂亮」多指外在的形象，都有好看的意思，但「美麗」多用來形容容貌姿態、風光景色之類的事物；「漂亮」多用來形容服飾、用具、建築物之類的事物。",
+      "beispiele": [
+        "風景優美。2.美麗的家園。"
+      ],
+      "uebungen": [
+        "姿態（　）。2.（　）的大衣。",
+        "（　）的臉蛋。"
+      ]
+    }
+  ]
+}

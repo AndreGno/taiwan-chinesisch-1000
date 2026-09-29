@@ -1,0 +1,148 @@
+{
+  "nummer": 45,
+  "titel_zh": "下雨天",
+  "titel_de": "Der Regentag",
+  "dialog": [
+    {
+      "sprecher": "莉莉",
+      "zh": "什麼時候下起雨來了？我一點兒都不知道。",
+      "pinyin": "Shénme shíhòu xià qǐ yǔ lái le Wǒ yìdiǎnr dōu bù zhīdào",
+      "de": "Wann hast es denn angefangen zu regnen? Ich habe es gar nicht mitbekommen."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我們專心看展覽，所以沒有發現下雨了。",
+      "pinyin": "Wǒmen zhuānxīn kàn zhǎnlǎn suǒyǐ méiyǒu fāxiàn xià yǔ le.",
+      "de": "Wir waren so auf die Ausstellung konzentriert, dass wir den Regen gar nicht bemerkt haben."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "氣象報告沒有說今天會下雨嘛。",
+      "pinyin": "Qìxiàng bàogào méiyǒu shuō jīntiān huì xià yǔ ma",
+      "de": "Die Wettervorhersage hat nicht berichtet, dass es heute regnen würde."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "我們沒有傘也沒有雨衣，怎麼回去呢?",
+      "pinyin": "Wǒmen méiyǒu sǎn yě méiyǒu yǔyī zěnme huíqù ne",
+      "de": "Wir haben weder einen Regenschirm noch Regenjacken. Wie sollen wir zurück kommen?"
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "只是毛毛雨，應該沒有關係，現在就走吧。",
+      "pinyin": "Zhǐshì máomaoyǔ yīnggāi méiyǒu guānxì xiànzài jiù zǒu ba",
+      "de": "Es nieselt nur. Es dürfte nichts ausmachen. Dann gehen wir jetzt."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "淋雨容易感冒，還是等一等吧。",
+      "pinyin": "Lín yǔ róngyì gǎnmào hái shì děngyiděng ba",
+      "de": "Wenn wir nass werden, holen wir uns leicht eine Erkältung. Warten wir lieber noch ein bisschen."
+    },
+    {
+      "sprecher": "莉莉",
+      "zh": "我最討厭雨天了，既潮溼又不方便。",
+      "pinyin": "Wǒ zuì tǎoyàn yǔtiān le jì cháoshī yòu bù fāngbiàn",
+      "de": "Ich verabscheue Regentage, da sie so nass und unangenehm sind."
+    },
+    {
+      "sprecher": "方先生",
+      "zh": "雨好像停了，我們坐公共汽車慢慢晃回去吧。",
+      "pinyin": "Yǔ hǎoxiàng tíngle wǒmen zuò gōnggòng qìchē mànmān huàng huíqù ba",
+      "de": "Der Regen scheint aufzuhören. Nehmen wir den Bus und bummeln nach Hause."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "專心",
+      "pinyin": "zhuānxīn",
+      "de": "konzentrieren, aufmerksam sein"
+    },
+    {
+      "zh": "容易",
+      "pinyin": "róngyì",
+      "de": "leicht, einfach"
+    },
+    {
+      "zh": "發現",
+      "pinyin": "fāxiàn",
+      "de": "bemerken, mitbekommen"
+    },
+    {
+      "zh": "等一等",
+      "pinyin": "děngyiděng",
+      "de": "ein bisschen warten, ein wenig warten"
+    },
+    {
+      "zh": "氣象報告",
+      "pinyin": "qìxiàng bàogào",
+      "de": "die Wetternachrichten, die -vorhersagen"
+    },
+    {
+      "zh": "討厭",
+      "pinyin": "tǎoyàn",
+      "de": "verabscheuen, nicht gerne haben"
+    },
+    {
+      "zh": "傘",
+      "pinyin": "sǎn",
+      "de": "der (Regen-) Schirm"
+    },
+    {
+      "zh": "潮溼",
+      "pinyin": "cháoshī",
+      "de": "nass, feucht"
+    },
+    {
+      "zh": "雨衣",
+      "pinyin": "yǔyī",
+      "de": "die Regenjacke"
+    },
+    {
+      "zh": "停",
+      "pinyin": "tíng",
+      "de": "stoppen, halten"
+    },
+    {
+      "zh": "毛毛雨",
+      "pinyin": "máomaoyǔ",
+      "de": "der Nieselregen, der Sprühregen"
+    },
+    {
+      "zh": "慢慢晃",
+      "pinyin": "mànmān huàng",
+      "de": "bummeln"
+    },
+    {
+      "zh": "淋雨",
+      "pinyin": "lín yǔ",
+      "de": "(im Regen) nass werden"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "既……",
+      "erklaerung": "連詞：1.表示並列的連接詞。與「且」、「又」、「也」等詞連用。 2.已經、既然，表前後情況有連帶關係。常與「就」或「則」連用。",
+      "beispiele": [
+        "我最討厭雨天了，既潮溼又不方便。",
+        "既要愛情，也要麵包。"
+      ],
+      "uebungen": [
+        "（　）不能打，（　）不能罵。",
+        "他（　）喜歡吃肉，（　）不喜歡運動，難怪變胖了。"
+      ]
+    },
+    {
+      "titel": "好像……",
+      "erklaerung": "一種猜測、不確定的語氣。",
+      "beispiele": [
+        "雨好像停了，我們坐公共汽車慢慢晃回去吧。",
+        "那家餐廳好像關門了，我們換一家吧。"
+      ],
+      "uebungen": [
+        "那個人好像（　），我們趕快走吧。",
+        "這道菜好像（　），還是別吃的好。"
+      ]
+    }
+  ]
+}

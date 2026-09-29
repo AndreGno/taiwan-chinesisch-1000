@@ -1,0 +1,133 @@
+{
+  "nummer": 69,
+  "titel_zh": "聖誕禮物",
+  "titel_de": "Das Weihnachtsgeschenk",
+  "dialog": [
+    {
+      "sprecher": "珍妮",
+      "zh": "聖誕節快到了，過節的氣氛越來越濃了。",
+      "pinyin": "Shèngdàn Jié kuài dàole guòjié de qìfēn yuè lái yuè nóng le",
+      "de": "Weihnachten kommt bald und die Weihnachtsstimmung nimmt mehr und mehr zu."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "聖誕飾品的樣式也一年比一年多。",
+      "pinyin": "Shèngdàn shìpǐn de yàngshì yě yì nián bǐ yì nián duō",
+      "de": "Und auch die Weihnachtsdekoration wird jedes Jahr immer vielfälti-ger."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "聖誕禮物都準備好了嗎？",
+      "pinyin": "Shèngdàn lǐwù dōu zhǔnbèi hǎo le ma",
+      "de": "Sind alle Weihnachtsgeschenke schon vorbereitet?"
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "今天我就是出來採購聖誕禮物的。",
+      "pinyin": "Jīntiān wǒ jiùshì chūlái cǎigòu shèngdàn lǐwù de",
+      "de": "Heute bin ich extra gekommen, um Weihnachtsgeschenke einzukaufen."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "我最喜歡看大家拆開禮物時高興的樣子。",
+      "pinyin": "Wǒ zuì xǐhuan kàn dàjiā chāi kāi lǐwù shí gāoxìng de yàngzi",
+      "de": "Am meisten freue ich mich darauf die glücklichen Gesichter zu sehen, wenn alle ihre Geschenke öffnen."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "這提醒我得買些包裝紙和緞帶。",
+      "pinyin": "Zhè tíxǐng wǒ děi mǎi xiē bāozhuāng zhǐ hé duàndài",
+      "de": "Das erinnert mich daran, dass ich etwas Geschenkpapier und Verpackungsband kaufen muss."
+    },
+    {
+      "sprecher": "珍妮",
+      "zh": "聖誕禮物一定要包得漂漂亮亮地才行。",
+      "pinyin": "Shèngdàn lǐwù yídìng yào bāo de piàopiao-liàngliàng de cái xíng",
+      "de": "Weihnachtsgeschenke müssen besonders hübsch eingepackt werden."
+    },
+    {
+      "sprecher": "蓓蒂",
+      "zh": "為了省時，我們還是各走各的，各買各的吧。",
+      "pinyin": "Wèile shěng shí wǒmen háishì gè zǒu gè de gè mǎi gè de ba",
+      "de": "Um Zeit zu sparen, sollten wir uns trennen. Jeder kauft seine eigenen Sachen."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "聖誕禮物",
+      "pinyin": "shèngdàn lǐwù",
+      "de": "das Weihnachtsgeschenk"
+    },
+    {
+      "zh": "採購",
+      "pinyin": "cǎigòu",
+      "de": "einkaufen"
+    },
+    {
+      "zh": "聖誕節",
+      "pinyin": "Shèngdàn Jié",
+      "de": "das Weihnachten"
+    },
+    {
+      "zh": "提醒",
+      "pinyin": "tíxǐng",
+      "de": "sich erinnern"
+    },
+    {
+      "zh": "氣氛",
+      "pinyin": "qìfēn",
+      "de": "die Stimmung"
+    },
+    {
+      "zh": "包裝紙",
+      "pinyin": "bāozhuāng zhǐ",
+      "de": "das Verpackungspapier"
+    },
+    {
+      "zh": "濃",
+      "pinyin": "nóng",
+      "de": "dicht, dick"
+    },
+    {
+      "zh": "緞帶",
+      "pinyin": "duàndài",
+      "de": "das Verpackungsband"
+    },
+    {
+      "zh": "樣式（花樣）",
+      "pinyin": "yàngshì(huāyàng)",
+      "de": "die Motive"
+    },
+    {
+      "zh": "各買各的",
+      "pinyin": "gè mǎi gè de",
+      "de": "jeder kauft seine eigenen Sachen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "為（了）……",
+      "erklaerung": "「為」表示原因、目的，可以在主語前。",
+      "beispiele": [
+        "為了避免差錯，最好再檢查一次。",
+        "為了不要遲到，我們還是早一點出發比較好。"
+      ],
+      "uebungen": [
+        "為了（　），我們買了許多禮物。",
+        "為了（　），大家都很努力。"
+      ]
+    },
+    {
+      "titel": "各V各的",
+      "erklaerung": "表示每個人各做各的事。",
+      "beispiele": [
+        "咱們各買各的，誰愛買什麼就買什麼。",
+        "我們還是各吃各的，誰愛吃什麼就吃什麼。"
+      ],
+      "uebungen": [
+        "我們（　）看（　），分工合作，才不會浪費時間。",
+        "她們（　）說（　），令人搞不清真相。"
+      ]
+    }
+  ]
+}

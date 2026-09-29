@@ -1,0 +1,126 @@
+{
+  "nummer": 40,
+  "titel_zh": "安全第一",
+  "titel_de": "Sicherheit geht vor",
+  "dialog": [
+    {
+      "sprecher": "王先生",
+      "zh": "這件泳衣真漂亮，不便宜吧？",
+      "pinyin": "Zhè jiàn yǒngyī zhēn piàoliang bù piányi ba",
+      "de": "Dieser Badeanzug ist wirklich schön. Er war bestimmt nicht billig, oder?"
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "是啊！為了學游泳，特別去買的。",
+      "pinyin": "Shì a Wèile xué yóuyǒng tèbié qù mǎi de",
+      "de": "Ja, um schwimmen zu lernen, habe ich ihn extra gekauft."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "我們先在水淺的地方練習，比較安全。",
+      "pinyin": "Wǒmen xiān zài shuǐ qiǎn de dìfang liànxí bǐjiào ānquán",
+      "de": "Wir üben erst mal im flachen Wasser. Da ist es sicherer."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "這座游泳池真大，那邊還有跳水台呢。",
+      "pinyin": "Zhè zuò yóuyǒngchí zhēn dà nà biān hái yǒu tiàoshuǐ tái ne",
+      "de": "Dieses Schwimmbad ist aber wirklich groß und dort drüben ist sogar ein Sprungbrett."
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "那兒的水深，不要隨便過去。學游泳，安全第一。",
+      "pinyin": "Nàr de shuǐ shēn bú yào suíbiàn guòqù Xué yóuyǒng ānquán dìyī",
+      "de": "Gehe nicht einfach dorthin, weil das Wasser tief ist. Die Sicherheit geht vor, wenn man schwimmen lernt."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "你看我的姿勢和動作對不對？",
+      "pinyin": "Nǐ kàn wǒ de zīshì hé dòngzuò duì bu duì",
+      "de": "Sind meine Haltung und Bewegungen richtig?"
+    },
+    {
+      "sprecher": "王先生",
+      "zh": "不錯，很有進步，再過幾天，就可以學會了。",
+      "pinyin": "Búcuò hěn yǒu jìnbù zài guò jǐ tiān jiù kěyǐ xué huì le",
+      "de": "Nicht schlecht. Du machst Fortschritte. In wenigen Tagen wirst du es schon erlernt haben."
+    },
+    {
+      "sprecher": "林小姐",
+      "zh": "「名師出高徒」啊！有好老師，學生一定學得快。",
+      "pinyin": "Míngshī chū gāotú a Yǒu hǎo lǎoshī xuésheng yídìng xué de kuài",
+      "de": "Ein großer Meister bringt gute Schüler hervor! Mit einem guten Lehrer lernen die Schüler natürlich sehr schnell."
+    }
+  ],
+  "vokabeln": [
+    {
+      "zh": "（游）泳衣",
+      "pinyin": "(yóu) yǒngyī",
+      "de": "der Badeanzug"
+    },
+    {
+      "zh": "便宜",
+      "pinyin": "piányi",
+      "de": "billig, günstig"
+    },
+    {
+      "zh": "為了",
+      "pinyin": "wèile",
+      "de": "um....zu"
+    },
+    {
+      "zh": "水淺（深）",
+      "pinyin": "shuǐ qiǎn(shēn)",
+      "de": "das seichte, flache (tiefe) Wasser"
+    },
+    {
+      "zh": "練習",
+      "pinyin": "liànxí",
+      "de": "üben, trainieren"
+    },
+    {
+      "zh": "安全",
+      "pinyin": "ānquán",
+      "de": "die Sicherheit"
+    },
+    {
+      "zh": "游泳池",
+      "pinyin": "yóuyǒngchí",
+      "de": "das Schwimmbad, das Schwimmbecken"
+    },
+    {
+      "zh": "跳水台",
+      "pinyin": "tiàoshuǐ tái",
+      "de": "das Sprungbrett"
+    },
+    {
+      "zh": "安全第一",
+      "pinyin": "ānquán dìyī",
+      "de": "die Sicherheit geht vor"
+    },
+    {
+      "zh": "動作",
+      "pinyin": "dòngzuò",
+      "de": "die Bewegung"
+    },
+    {
+      "zh": "進步",
+      "pinyin": "jìnbù",
+      "de": "Fortschritte machen"
+    }
+  ],
+  "grammatik": [
+    {
+      "titel": "為了……特別……",
+      "erklaerung": "表示針對某種目的，更進一步做了什麼事。",
+      "beispiele": [
+        "為了學游泳，特別去買了泳裝。",
+        "為了讓媽媽高興，特別買了這件衣服要送她。"
+      ],
+      "uebungen": [
+        "為了（　），特別（　）。",
+        "為了（　），特別（　）。"
+      ]
+    }
+  ]
+}
