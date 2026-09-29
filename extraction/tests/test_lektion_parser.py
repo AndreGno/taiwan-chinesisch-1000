@@ -6,7 +6,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lektion_parser import (  # noqa: E402
-    de_bereinigen, dekodiere_zeichen, parse_lektion, pinyin_anhaengen,
+    de_anhaengen, de_bereinigen, dekodiere_zeichen, parse_lektion, pinyin_anhaengen,
     pinyin_aus_zeichen, vokabeln_aus_zeile, zeichen_aus_seite, zeilen_bilden,
     zh_bereinigen,
 )
@@ -74,6 +74,11 @@ def test_pinyin_ausrufezeichen_ist_o_mit_strich():
 def test_pinyin_jahreszahl_aus_df_font():
     zeichen = _zeichen("W# sh= ", PINYIN) + _zeichen("2!:!6!:", HANZI, x=40)
     assert pinyin_aus_zeichen(zeichen) == "Wǒ shì 1959"
+
+
+def test_deutsch_trennstrich_am_zeilenende():
+    assert de_anhaengen("in der Ren-", "ai Straße.") == "in der Ren-ai Straße."
+    assert de_anhaengen("Die Sicherheit geht vor,", "wenn man") == "Die Sicherheit geht vor, wenn man"
 
 
 def test_pinyin_trennstrich_verbindet_folgezeile():

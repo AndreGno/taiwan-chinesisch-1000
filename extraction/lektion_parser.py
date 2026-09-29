@@ -170,6 +170,13 @@ def pinyin_aus_zeichen(zeichen: list[dict]) -> str:
     return re.sub(r"(?<=\d) (?=\d)", "", text)
 
 
+def de_anhaengen(bisher: str, neu: str) -> str:
+    """Deutsche Folgezeile anhängen; "Ren-" + "ai Straße" -> "Ren-ai Straße"."""
+    if bisher.endswith("-") and neu[:1].islower():
+        return de_bereinigen(bisher + neu)
+    return de_bereinigen(bisher + " " + neu)
+
+
 def pinyin_anhaengen(bisher: str, neu: str) -> str:
     """Folgezeile anhängen; ein Trennstrich am Zeilenende verbindet die Silben."""
     if not bisher:
@@ -319,7 +326,7 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                 uebersetzungen.append(de)
                 continue
             if abschnitt == "uebersetzung" and arten == {"de"}:
-                uebersetzungen[-1] = de_bereinigen(uebersetzungen[-1] + " " + de)
+                uebersetzungen[-1] = de_anhaengen(uebersetzungen[-1], de)
                 continue
 
         if "文化諺語" in zh_bereinigen(text_roh):
@@ -351,9 +358,13 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                 pz = [z for z in zeile if zeichen_art(z) != "zh" or z in ascii_satz]
                 if pinyin_textbeginn is not None:
                     pz = _pinyin_ohne_sprecher(pz, pinyin_textbeginn)
-                    pinyin_textbeginn = None
+                pinyin = pinyin_aus_zeichen(pz)
+                if not pinyin:
+                    # verirrte Einzelzeichen (Lektion 31: "-，" über der Pinyin-Zeile)
+                    continue
+                pinyin_textbeginn = None
                 d = lektion["dialog"][-1]
-                d["pinyin"] = pinyin_anhaengen(d["pinyin"], pinyin_aus_zeichen(pz))
+                d["pinyin"] = pinyin_anhaengen(d["pinyin"], pinyin)
                 continue
             if all(z["size"] > DIALOG_GROESSE for z in inhalt if zeichen_art(z) != "pinyin"):
                 zh_text = zh_bereinigen(_text([z for z in inhalt if zeichen_art(z) != "pinyin"]))
@@ -378,7 +389,7 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                 rest = neue.pop(0)
                 v = lektion["vokabeln"][-1]
                 v["pinyin"] = pinyin_anhaengen(v["pinyin"], rest["pinyin"])
-                v["de"] = de_bereinigen(v["de"] + " " + rest["de"])
+                v["de"] = de_anhaengen(v["de"], rest["de"])
             lektion["vokabeln"].extend(neue)
             continue
 
