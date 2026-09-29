@@ -115,8 +115,19 @@ def test_fix_span_laesst_pinyin_und_deutsch_unveraendert():
     assert fix_span("m0ngzi", "PintoneTimes") == "m0ngzi"
 
 
-def test_fix_span_laesst_ascii_im_hanzi_font_unveraendert():
-    assert fix_span(")㸍*!2/", ZHUIN) == ")她*!2/"
+def test_fix_span_ascii_im_hanzi_font_um_eins_zurueck():
+    assert fix_span(")㸍*!2/", ZHUIN) == "(她) 1."
+    assert fix_span("W,㶡", YUAN_CHUIN) == "V+句"
+    assert fix_span("xbsn", KAI_CHUIN) == "warm"
+
+
+def test_fix_span_jahreszahl_lektion_7():
+    # Seite 20: "2:6:" + 㸜 -> 1959年 (Zhuyin/Pinyin darunter: 1 9 5 9 nián)
+    assert fix_span("2:6:㸜", ZHUIN) == "1959年"
+
+
+def test_fix_span_echtes_leerzeichen_bleibt():
+    assert fix_span("㸜 㸜", ZHUIN) == "年 年"
 
 
 def test_fix_span_unbekannter_font_laesst_echte_hanzi_stehen():
@@ -129,7 +140,7 @@ POIN1 = "DFPBiaoKai-W5-PoIn1-BFW-"
 def test_fix_span_poin_fonts_bekannte_faelle():
     assert fix_span("琞", POIN1) == "興"
     assert fix_span("炂", POIN1) == "那"
-    assert fix_span("灝!", POIN1) == "弟!"
+    assert fix_span("灝!", POIN1) == "弟 "
     assert fix_span("簭", "DFPBiaoKai-W5-PoIn2-BFW-") == "一"
     assert fix_span("䇅", POIN1) == "流"
 
@@ -150,8 +161,16 @@ def test_fix_span_sonderfonts_zi_und_zhuyin_annotation():
     assert fix_span("ऩᎍ", "DFBiaoKai-W5-WIN-BF-ETen") == "胡適"
 
 
-def test_fix_span_seitenzahl_im_mingliu_font_bleibt():
-    assert fix_span("2", "MingLiU-ETen-B5-H") == "2"
+def test_fix_span_seitenzahl_im_mingliu_font():
+    # Indexseite 8 zeigt gedruckt "1", PyMuPDF liest "2"
+    assert fix_span("2", "MingLiU-ETen-B5-H") == "1"
+    assert fix_span("ˤ", "MingLiU-ETen-B5-H") == "。"
+
+
+def test_fix_span_ascii_verschiebung_nie_in_pinyin_oder_deutsch():
+    assert fix_span("m0ngzi ji4o", "PintoneTimes") == "m0ngzi ji4o"
+    assert fix_span("Guten Tag!", "TimesNewRomanPSMT") == "Guten Tag!"
+    assert fix_span("Lektion 1", "ErasITC-Demi") == "Lektion 1"
 
 
 def test_fix_span_echtes_zeichen_wird_nicht_nochmals_ersetzt():

@@ -449,12 +449,22 @@ def fix_span(text: str, font: str) -> str:
         unveraendert zurueck; Pinyin-Spans (PintoneTimes, TimesNewRomanPSMT)
         separat mit pinyin_fix.fix_pinyin behandeln.
       - Ergebnis kann "" sein, wenn der Span nur Zhuyin-Annotation enthaelt.
-      - ASCII-Zeichen in den Hanzi-Fonts bleiben roh ("!" Fuellzeichen,
-        ")" "*" "2/" ...), siehe Bericht Runde 2."""
+      - ASCII-Zeichen in den Hanzi-Fonts sind um eins verschoben und werden
+        zurueckgesetzt ("!" -> " ", "2/" -> "1.", ")她*" -> "(她)"); das echte
+        Leerzeichen bleibt."""
     if font in FONT_CHAR_MAPS:
         tabelle = FONT_CHAR_MAPS[font]
-        return "".join(tabelle.get(c, c) for c in text)
+        return "".join(_ascii_zurueck(c) if c < "" else tabelle.get(c, c) for c in text)
     offset = BIG5_FONT_OFFSETS.get(font)
     if offset is None:
         return text
-    return "".join(c if ord(c) < 0x80 else _big5_dekodieren(c, offset) for c in text)
+    return "".join(_ascii_zurueck(c) if c < "" else _big5_dekodieren(c, offset) for c in text)
+
+
+def _ascii_zurueck(zeichen: str) -> str:
+    # In allen Hanzi-Fonts (inkl. MingLiU-Seitenzahlen) ist ASCII um eins
+    # verschoben: "!" = Leerzeichen, "2" = 1, ":" = 9, "W" = V. Am Seitenbild
+    # fuer alle 84 vorkommenden Zeichen/Font-Paare geprueft (crops3/g_a*.png).
+    if zeichen <= " ":
+        return zeichen
+    return chr(ord(zeichen) - 1)
