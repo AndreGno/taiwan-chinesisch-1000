@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1000 Wörter Chinesisch — Interaktiv</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="kopf">
+    <div class="kopf-zeile">
+      <span id="streak-badge" class="streak-badge">🔥 0 Tage</span>
+      <div class="fortschritt-aktionen">
+        <button id="export-btn">Fortschritt exportieren</button>
+        <label class="datei-label">
+          Fortschritt importieren
+          <input type="file" id="import-input" accept="application/json" hidden />
+        </label>
+      </div>
+    </div>
+    <h1>用1000個詞彙說華語 <span class="untertitel">— Mit 1000 Wörtern Chinesisch</span></h1>
+    <div class="fortschritt-gesamt">
+      <div class="fortschritt-balken"><span id="gesamt-fortschritt" style="width:0%"></span></div>
+    </div>
+  </header>
+  <main>
+    <div id="lektion-grid" class="lektion-grid">Lade Lektionen…</div>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
