@@ -366,6 +366,52 @@ _LEVEL1_ANZAHL = 5401  # A440-C67E
 _RESERVIERT = 408  # C6A1-C8FE
 
 
+# Fonts mit eigenem, nicht berechenbarem Glyphensatz: per Sichtpruefung jedes
+# Codepoints am Seitenbild zugeordnet (crops3/g_p*.png, g_misc.png).
+# PoIn = 破音字-Varianten (Zeichen mit abweichender Zhuyin-Lesung); derselbe
+# Codepoint bedeutet je PoIn-Font etwas anderes (U+6FED: 奶 vs. 太).
+# "" = reine Zhuyin-Annotation ohne eigenes Zeichen, entfaellt.
+FONT_CHAR_MAPS = {
+    "DFPBiaoKai-W5-PoIn1-BFW-": {
+        "澨": "一", "澬": "了", "澷": "子", "澹": "不", "濃": "分", "濄": "切",
+        "濊": "太", "濏": "巴", "濭": "奶", "瀋": "吐", "瀐": "地", "瀛": "曲",
+        "瀯": "西", "瀺": "伯", "灝": "弟", "炂": "那", "炌": "兒", "炐": "刻",
+        "炔": "叔", "炘": "和", "炙": "呢", "炣": "妹", "烢": "爸", "烦": "的",
+        "烨": "空", "烶": "長", "焁": "便", "焈": "冠", "焐": "哇", "焣": "思",
+        "焬": "括", "焰": "星", "煃": "為", "煊": "相", "煣": "要", "煩": "重",
+        "熇": "哮", "熘": "差", "熦": "晃", "燥": "假", "燰": "啦", "燲": "啊",
+        "爉": "得", "爕": "教", "爾": "處", "牱": "幾", "犃": "曾", "狀": "量",
+        "狜": "媽", "独": "會", "狾": "爺", "猒": "舅", "獫": "種", "玓": "麼",
+        "玤": "彈", "玮": "播", "玱": "數", "玵": "模", "玶": "樂", "琞": "興",
+        "琰": "頭", "琹": "應", "瑨": "謝", "瑱": "還",
+        "䇅": "流",  # Einzelglyphe ausserhalb der Reihe (Seite 84, "一流")
+    },
+    "DFPBiaoKai-W5-PoIn2-BFW-": {
+        "簭": "一", "籐": "行", "籡": "那", "籾": "的", "粕": "甚", "粨": "差",
+        "糀": "得", "紊": "漂",
+    },
+    "DFPBiaoKai-W5-PoIn3-BFW-": {"纊": "什"},
+    "DFPBiaoKai-W5-PoIn5-BFW-": {"缕": "著"},
+    "DFKaiPoIn1-Md-BPMW-BF-ET": {
+        "濏": "一", "濧": "分", "濭": "太", "煏": "相", "犽": "媽", "珫": "興",
+        "瑽": "覺",
+    },
+    "DFYuanPoIn1-Bd-BPMW-BF-E": {
+        "濏": "一", "濟": "不", "炔": "那", "炝": "兒", "炩": "和", "炪": "呢",
+        "煈": "為", "煪": "重", "燨": "啊", "燽": "得", "牖": "幾", "犢": "量",
+        "珫": "興",
+    },
+    "DFYuanPoIn2-Bd-BPMW-BF-E": {"竟": "一", "筦": "得", "箪": "漂"},
+    "DFBiaoKai-W5-WINP-BF-ETe": {"Ԇ": "字", "ġ": ""},
+    "DFKaiShu-W3-HKP-BF-ETen-": {"ԅ": "字"},
+    "DFYuan-Md-HK-BF-ETen-B5-": {"ԅ": "字", "ϧ": "什"},
+    "DFYuan-Bd-HK-BF-ETen-B5-": {"Ϳ": "", "΍": "", "Ζ": ""},
+    "DFChuIn_Kai-Md-BPMW-BF-E": {"ڗ": ""},
+    "DFBiaoKai-W5-WIN-BF-ETen": {"ऩ": "胡", "ᎍ": "適"},
+    "MingLiU-ETen-B5-H": {"ˤ": "。"},
+}
+
+
 def _big5_zeichen(lead_start: int, index: int) -> str | None:
     lead = lead_start + index // 157
     rest = index % 157
@@ -395,6 +441,9 @@ def fix_span(text: str, font: str) -> str:
 
     Spans in unbekannten Fonts (Deutsch, Pinyin, Seitenzahlen ...) bleiben
     unveraendert, ebenso ASCII-Zeichen in den Hanzi-Fonts."""
+    if font in FONT_CHAR_MAPS:
+        tabelle = FONT_CHAR_MAPS[font]
+        return "".join(tabelle.get(c, c) for c in text)
     offset = BIG5_FONT_OFFSETS.get(font)
     if offset is None:
         return text

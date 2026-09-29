@@ -121,3 +121,34 @@ def test_fix_span_laesst_ascii_im_hanzi_font_unveraendert():
 
 def test_fix_span_unbekannter_font_laesst_echte_hanzi_stehen():
     assert fix_span("兼　", "AdobeMingStd-Light-ETen-") == "兼　"
+
+
+POIN1 = "DFPBiaoKai-W5-PoIn1-BFW-"
+
+
+def test_fix_span_poin_fonts_bekannte_faelle():
+    assert fix_span("琞", POIN1) == "興"
+    assert fix_span("炂", POIN1) == "那"
+    assert fix_span("灝!", POIN1) == "弟!"
+    assert fix_span("簭", "DFPBiaoKai-W5-PoIn2-BFW-") == "一"
+    assert fix_span("䇅", POIN1) == "流"
+
+
+def test_fix_span_poin_codepoint_je_font_verschieden():
+    assert fix_span("濭", POIN1) == "奶"
+    assert fix_span("濭", "DFKaiPoIn1-Md-BPMW-BF-ET") == "太"
+
+
+def test_fix_span_poin_font_laesst_unbekannte_zeichen_stehen():
+    assert fix_span("倖", POIN1) == "倖"
+
+
+def test_fix_span_sonderfonts_zi_und_zhuyin_annotation():
+    # Seite 8: "名字叫" - 字 aus eigenem Font, ġ ist nur dessen Zhuyin "ㄗ˙"
+    assert fix_span("Ԇġġ", "DFBiaoKai-W5-WINP-BF-ETe") == "字"
+    assert fix_span("ڗ", "DFChuIn_Kai-Md-BPMW-BF-E") == ""
+    assert fix_span("ऩᎍ", "DFBiaoKai-W5-WIN-BF-ETen") == "胡適"
+
+
+def test_fix_span_seitenzahl_im_mingliu_font_bleibt():
+    assert fix_span("2", "MingLiU-ETen-B5-H") == "2"
