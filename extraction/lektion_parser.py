@@ -41,7 +41,9 @@ def dekodiere_zeichen(zeichen: str, font: str) -> str:
     "xjf" = "wie", "F.nbjm" = "E-mail", Lektion 7 "2:6:" = "1959" (am
     Seitenbild geprüft). Echte Leerzeichen gibt es dort nur vereinzelt, sie
     bleiben Leerraum. SZenKai (Zhuyin-Zeilen über dem Dialog) enthält nur
-    Füllzeichen."""
+    Füllzeichen. fix_span verschiebt seit b55935f genauso, kennt aber nur die
+    Fonts seiner Tabellen; ASCII geht deshalb hier nie an fix_span (sonst
+    doppelte Verschiebung)."""
     if font.startswith(("DF", "SZenKai")) and ord(zeichen) < 0x80:
         verschoben = chr(ord(zeichen) - 1)
         return verschoben if verschoben > " " else " "
@@ -153,7 +155,8 @@ def pinyin_aus_zeichen(zeichen: list[dict]) -> str:
     teile = []
     for ist_df, zz in laeufe:
         if ist_df:
-            teile.append(_text(zz))
+            # "，" steht hier für das Silbentrennzeichen (nǚ'ér), Zhuyin-Tonzeichen entfallen
+            teile.append(re.sub(r"[ˊˇˋ˙]", "", _text(zz).replace("，", "'")))
             continue
         roh = "".join(
             "ō" if z["c"] == "!" and z["font"] == "PintoneTimes" and i > 0
@@ -161,6 +164,8 @@ def pinyin_aus_zeichen(zeichen: list[dict]) -> str:
             for i, z in enumerate(zz))
         teile.append(fix_pinyin(roh))
     text = re.sub(r"\s+", " ", " ".join(teile)).strip()
+    text = re.sub(r"\s*([-'])\s*(?=\S)", r"\1", text)  # "dì - yī" -> "dì-yī"
+    text = re.sub(r"^[^\w(]+", "", text)  # verirrte Zeichen vorn (Lektion 31: "-，")
     return re.sub(r"(?<=\d) (?=\d)", "", text)
 
 
@@ -182,13 +187,23 @@ def vokabeln_aus_zeile(zeile: list[dict]) -> list[dict]:
 
     Buchstaben in DF-Fonts gehören hier zum Deutschen ("wie viel/e")."""
     eintraege = []
+    letztes = None  # (Feld, x1) des letzten sichtbaren Zeichens
     for z in zeile:
         art = zeichen_art(z)
         if art in ("latein", "satz"):
             art = "de"
-        # ASCII-Satzzeichen aus DF-Fonts ("wo?", "wie viel/e") bleiben im Deutschen
-        if art == "zh" and z["c"].isascii() and eintraege and eintraege[-1]["de"]:
-            art = "de"
+        if art == "leer":
+            pass
+        elif (z["font"].startswith("DF") and letztes and letztes[0] != "zh"
+              and z["x0"] - letztes[1] < 2.5):
+            # direkt anliegend: gehört zum laufenden Feld ("wo?", "(ein)werfen",
+            # "dàbǎo-kǒufú", "Hu Shih(胡適)", Apostroph in "nǚ'ér")
+            art = letztes[0]
+        elif (art == "zh" and z["c"].isascii() and eintraege and eintraege[-1]["pinyin"]
+              and not eintraege[-1]["de"]):
+            art = "de"  # DF-Klammer vor deutschem Text: "(ein)werfen"
+        if art != "leer":
+            letztes = (art, z["x1"])
         if art == "zh" and (not eintraege or eintraege[-1]["pinyin"] or eintraege[-1]["de"]):
             eintraege.append({"zh": [], "pinyin": [], "de": []})
         if not eintraege:
@@ -274,6 +289,7 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
     abschnitt = "kopf"
     pinyin_textbeginn = None  # gesetzt, solange der Sprecher-Pinyin noch fehlt
     grammatik_feld = None
+    titel_zeichen = []
 
     for zeile in zeilen_bilden(zeichen):
         inhalt = _inhalt(zeile)
@@ -311,7 +327,14 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
 
         if _ist_grammatiktitel(inhalt):
             abschnitt = "grammatik"
-            titel = re.sub(r"[：:]$", "", zh_bereinigen(text_roh)).strip()
+            vorher = lektion["grammatik"][-1] if lektion["grammatik"] else None
+            if vorher and not (vorher["erklaerung"] or vorher["beispiele"] or vorher["uebungen"]):
+                # Titel liegt auf zwei knapp versetzten Grundlinien (PoIn-Glyphen)
+                titel_zeichen = sorted(titel_zeichen + zeile, key=lambda z: z["x0"])
+                lektion["grammatik"].pop()
+            else:
+                titel_zeichen = zeile
+            titel = re.sub(r"[：:]$", "", zh_bereinigen(_text(titel_zeichen))).strip()
             lektion["grammatik"].append(
                 {"titel": titel, "erklaerung": "", "beispiele": [], "uebungen": []})
             grammatik_feld = None
@@ -345,19 +368,17 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                     hinweise.append(f"Dialogtext ohne Sprecher: {zh_text[:30]}")
                 continue
 
-        if abschnitt in ("kopf", "dialog", "vokabeln") and "de" in arten:
+        if ((abschnitt in ("kopf", "dialog", "vokabeln") and "de" in arten)
+                or (abschnitt == "vokabeln" and arten & {"latein", "pinyin"})):
             abschnitt = "vokabeln"
-            if arten == {"de"} and lektion["vokabeln"]:
+            neue = vokabeln_aus_zeile(zeile)
+            # Umgebrochener Rest der vorigen Vokabel steht vor dem nächsten Eintrag
+            if neue and not neue[0]["zh"] and lektion["vokabeln"]:
+                rest = neue.pop(0)
                 v = lektion["vokabeln"][-1]
-                v["de"] = de_bereinigen(v["de"] + " " + _text(
-                    [z for z in zeile if ist_deutsch_font(z)]))
-            else:
-                lektion["vokabeln"].extend(vokabeln_aus_zeile(zeile))
-            continue
-
-        if abschnitt == "vokabeln" and arten == {"pinyin"} and lektion["vokabeln"]:
-            v = lektion["vokabeln"][-1]
-            v["pinyin"] = pinyin_anhaengen(v["pinyin"], pinyin_aus_zeichen(inhalt))
+                v["pinyin"] = pinyin_anhaengen(v["pinyin"], rest["pinyin"])
+                v["de"] = de_bereinigen(v["de"] + " " + rest["de"])
+            lektion["vokabeln"].extend(neue)
             continue
 
         if abschnitt == "sprichwort":

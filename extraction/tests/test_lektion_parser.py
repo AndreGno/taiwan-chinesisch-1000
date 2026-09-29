@@ -172,6 +172,37 @@ def test_lektion_grammatik():
     }]
 
 
+def test_vokabel_anliegende_df_zeichen_bleiben_im_feld():
+    zeile = zeilen_bilden(zeichen_aus_seite(seite(
+        span("投", HANZI, 14, 87, 100), span("t@u", PINYIN, 10, 110, 100),
+        span(")", HANZI, 14, 160, 100), span("ein", TNR, 13, 167, 100),
+        span("*", HANZI, 14, 186.5, 100), span("werfen", TNR, 13, 193.5, 100),
+        span("大飽口福", HANZI, 14, 300, 100), span("d4b3o", PINYIN, 10, 360, 100),
+        span(".", HANZI, 14, 385, 100), span("k#uf/", PINYIN, 10, 392, 100),
+        span("genießen", TNR, 13, 450, 100))))[0]
+    assert vokabeln_aus_zeile(zeile) == [
+        {"zh": "投", "pinyin": "tóu", "de": "(ein)werfen"},
+        {"zh": "大飽口福", "pinyin": "dàbǎo-kǒufú", "de": "genießen"},
+    ]
+
+
+def test_vokabel_folgezeile_mit_pinyin_und_deutsch():
+    s1 = seite(
+        span("王：好。", HANZI, 15, 87, 185),
+        span("鞋跟", HANZI, 14, 87, 600), span("xi6 g5n", PINYIN, 10, 120, 600),
+        span("der Schuhabsatz", TNR, 13, 170, 600),
+        span("一分錢，一分貨", HANZI, 14, 300, 600), span("y= f5n qi2n y= f5n", PINYIN, 10, 400, 600),
+        span("hu$", PINYIN, 10, 87, 625), span("Qualität hat ihren Preis", TNR, 13, 120, 625),
+        span("低", HANZI, 14, 300, 625), span("d9", PINYIN, 10, 320, 625),
+        span("niedrig", TNR, 13, 350, 625))
+    lektion, _ = parse_lektion(3, s1, seite())
+    assert lektion["vokabeln"] == [
+        {"zh": "鞋跟", "pinyin": "xié gēn", "de": "der Schuhabsatz"},
+        {"zh": "一分錢，一分貨", "pinyin": "yì fēn qián yì fēn huò", "de": "Qualität hat ihren Preis"},
+        {"zh": "低", "pinyin": "dī", "de": "niedrig"},
+    ]
+
+
 def test_lektion_meldet_fehlende_uebersetzung():
     s1 = seite(span("王：好。", HANZI, 15, 87, 185))
     lektion, hinweise = parse_lektion(2, s1, seite())
