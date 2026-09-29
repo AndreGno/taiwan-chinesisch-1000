@@ -1,6 +1,6 @@
 import { lokalesDatum, tageDifferenz } from "./datum.js";
 
-const SPEICHER_SCHLUESSEL = "streak-status";
+const SPEICHER_SCHLUESSEL = "zh1000-streak-status";
 
 // Reine Funktion: kein Status → Streak 1. Gleicher Tag → unverändert. Gestern gelernt →
 // +1. Lücke von 2 oder mehr Tagen (oder ein Status mit Datum in der Zukunft, was nur
