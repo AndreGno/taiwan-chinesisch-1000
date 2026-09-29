@@ -164,7 +164,8 @@ def pinyin_aus_zeichen(zeichen: list[dict]) -> str:
             for i, z in enumerate(zz))
         teile.append(fix_pinyin(roh))
     text = re.sub(r"\s+", " ", " ".join(teile)).strip()
-    text = re.sub(r"\s*([-'])\s*(?=\S)", r"\1", text)  # "dì - yī" -> "dì-yī"
+    text = re.sub(r"\s+-\s+(?=\S)", "-", text)  # "dì - yī" -> "dì-yī"
+    text = re.sub(r"\s*'\s*(?=\S)", "'", text)
     text = re.sub(r"^[^\w(]+", "", text)  # verirrte Zeichen vorn (Lektion 31: "-，")
     return re.sub(r"(?<=\d) (?=\d)", "", text)
 
