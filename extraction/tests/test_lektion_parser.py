@@ -11,10 +11,10 @@ from lektion_parser import (  # noqa: E402
     zh_bereinigen,
 )
 
-# Test-Fonts beginnen mit "DF" (ASCII-Verschiebung greift), stehen aber in
-# keiner Big5-Tabelle von fix_span, damit echte Hanzi unverändert bleiben.
-HANZI = "DFTestKai"
-YUAN = "DFYuanTest"
+# Echte Fonts aus zeichen_fix.FONT_CHAR_MAPS: fix_span verschiebt dort ASCII,
+# lässt aber Hanzi außerhalb der (winzigen) Tabelle unverändert.
+HANZI = "DFBiaoKai-W5-WIN-BF-ETen"
+YUAN = "DFYuan-Md-HK-BF-ETen-B5-"
 PINYIN = "PintoneTimes"
 TNR = "TimesNewRomanPSMT"
 

@@ -34,19 +34,14 @@ LUECKE = "（　）"
 
 
 def dekodiere_zeichen(zeichen: str, font: str) -> str:
-    """Ein einzelnes PDF-Zeichen lesbar machen.
+    """Ein einzelnes PDF-Zeichen lesbar machen (fix_span, inkl. der
+    ASCII-Verschiebung in den Hanzi-Fonts: "!" = Leerzeichen, "2/" = "1.",
+    Lektion 7 "2:6:" = "1959").
 
-    In den DF-Fonts (Hanzi) liegen auch die ASCII-Zeichen um einen Codepoint
-    verschoben: "!" = Leerzeichen, "2/" = "1.", ")" "*" = "(" ")", "@" = "?",
-    "xjf" = "wie", "F.nbjm" = "E-mail", Lektion 7 "2:6:" = "1959" (am
-    Seitenbild geprüft). Echte Leerzeichen gibt es dort nur vereinzelt, sie
-    bleiben Leerraum. SZenKai (Zhuyin-Zeilen über dem Dialog) enthält nur
-    Füllzeichen. fix_span verschiebt seit b55935f genauso, kennt aber nur die
-    Fonts seiner Tabellen; ASCII geht deshalb hier nie an fix_span (sonst
-    doppelte Verschiebung)."""
-    if font.startswith(("DF", "SZenKai")) and ord(zeichen) < 0x80:
-        verschoben = chr(ord(zeichen) - 1)
-        return verschoben if verschoben > " " else " "
+    SZenKai (Zhuyin-Zeilen über dem Dialog) kennt fix_span nicht; der Font
+    enthält nur Füllzeichen ("!", "\\x02") und wird zu Leerraum."""
+    if font.startswith("SZenKai") and ord(zeichen) < 0x80:
+        return " "
     return fix_span(zeichen, font)
 
 
