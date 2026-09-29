@@ -293,6 +293,7 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
     pinyin_textbeginn = None  # gesetzt, solange der Sprecher-Pinyin noch fehlt
     grammatik_feld = None
     titel_zeichen = []
+    sprichwort = None
 
     for zeile in zeilen_bilden(zeichen):
         inhalt = _inhalt(zeile)
@@ -325,7 +326,11 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                 continue
 
         if "文化諺語" in zh_bereinigen(text_roh):
+            # Kasten "Chinesische Sprichwörter" (L11, L40, L47): wird als eigener
+            # Grammatik-Eintrag ans Ende gestellt
             abschnitt = "sprichwort"
+            sprichwort = {"titel": "文化諺語", "erklaerung": "", "beispiele": [""],
+                          "uebungen": []}
             continue
 
         if _ist_grammatiktitel(inhalt):
@@ -389,7 +394,11 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
             continue
 
         if abschnitt == "sprichwort":
-            hinweise.append(f"Sprichwort übersprungen: {zh_bereinigen(text_roh)[:30]}")
+            sprichwort["beispiele"][0] += zh_bereinigen(
+                _text([z for z in inhalt if zeichen_art(z) == "zh"]))
+            de = _text([z for z in zeile if ist_deutsch_font(z)])
+            if de.strip():
+                sprichwort["erklaerung"] = de_anhaengen(sprichwort["erklaerung"], de).strip()
             continue
 
         if abschnitt == "grammatik" and lektion["grammatik"]:
@@ -414,6 +423,8 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
 
         hinweise.append(f"Zeile nicht zugeordnet ({abschnitt}): {text_roh.strip()[:40]}")
 
+    if sprichwort:
+        lektion["grammatik"].append(sprichwort)
     for i, d in enumerate(lektion["dialog"]):
         if i < len(uebersetzungen):
             d["de"] = uebersetzungen[i]

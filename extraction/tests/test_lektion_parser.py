@@ -208,6 +208,23 @@ def test_vokabel_folgezeile_mit_pinyin_und_deutsch():
     ]
 
 
+def test_sprichwort_wird_eigener_grammatik_eintrag_am_ende():
+    s1 = seite(span("王：好。", HANZI, 15, 87, 185))
+    s2 = seite(
+        span("文化諺語", YUAN, 14, 87, 100), span("Chinesische Sprichwörter", "Calibri", 10, 150, 100),
+        span("一年之計在於春。", HANZI, 14, 87, 120),
+        span("Die Pläne eines Jahres", TNR, 13, 88, 140),
+        span("entspringen dem Frühling.", TNR, 13, 88, 160),
+        span("唯一的!", YUAN, 14, 90, 300), span("//////", YUAN, 14, 140, 300),
+        span("說明：僅有的。", HANZI, 14, 87, 320),
+        span("例句：!2/他是唯一的人。", HANZI, 14, 87, 340))
+    lektion, _ = parse_lektion(47, s1, s2)
+    assert [g["titel"] for g in lektion["grammatik"]] == ["唯一的……", "文化諺語"]
+    assert lektion["grammatik"][1] == {
+        "titel": "文化諺語", "erklaerung": "Die Pläne eines Jahres entspringen dem Frühling.",
+        "beispiele": ["一年之計在於春。"], "uebungen": []}
+
+
 def test_lektion_meldet_fehlende_uebersetzung():
     s1 = seite(span("王：好。", HANZI, 15, 87, 185))
     lektion, hinweise = parse_lektion(2, s1, seite())
