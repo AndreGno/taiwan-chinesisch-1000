@@ -208,7 +208,22 @@ def test_vokabel_folgezeile_mit_pinyin_und_deutsch():
     ]
 
 
-def test_sprichwort_wird_eigener_grammatik_eintrag_am_ende():
+def test_druckfehler_im_pinyin_werden_korrigiert():
+    s1 = seite(
+        span("王：好。", HANZI, 15, 87, 185),
+        span("盆栽", HANZI, 14, 87, 600), span("p6nz1", PINYIN, 10, 120, 600),
+        span("die Topfpflanzen", TNR, 13, 170, 600))
+    assert parse_lektion(55, s1, seite())[0]["vokabeln"][0]["pinyin"] == "pénzāi"
+    # nur in der betroffenen Lektion
+    assert parse_lektion(54, s1, seite())[0]["vokabeln"][0]["pinyin"] == "pénzā"
+
+
+def test_ohne_sprichwort_ist_das_feld_null():
+    s1 = seite(span("王：好。", HANZI, 15, 87, 185))
+    assert parse_lektion(2, s1, seite())[0]["sprichwort"] is None
+
+
+def test_sprichwort_wird_eigenes_feld_mit_pinyin():
     s1 = seite(span("王：好。", HANZI, 15, 87, 185))
     s2 = seite(
         span("文化諺語", YUAN, 14, 87, 100), span("Chinesische Sprichwörter", "Calibri", 10, 150, 100),
@@ -219,10 +234,10 @@ def test_sprichwort_wird_eigener_grammatik_eintrag_am_ende():
         span("說明：僅有的。", HANZI, 14, 87, 320),
         span("例句：!2/他是唯一的人。", HANZI, 14, 87, 340))
     lektion, _ = parse_lektion(47, s1, s2)
-    assert [g["titel"] for g in lektion["grammatik"]] == ["唯一的……", "文化諺語"]
-    assert lektion["grammatik"][1] == {
-        "titel": "文化諺語", "erklaerung": "Die Pläne eines Jahres entspringen dem Frühling.",
-        "beispiele": ["一年之計在於春。"], "uebungen": []}
+    assert [g["titel"] for g in lektion["grammatik"]] == ["唯一的……"]
+    assert lektion["sprichwort"] == {
+        "zh": "一年之計在於春。", "pinyin": "Yì nián zhī jì zàiyú chūn.",
+        "de": "Die Pläne eines Jahres entspringen dem Frühling."}
 
 
 def test_lektion_meldet_fehlende_uebersetzung():

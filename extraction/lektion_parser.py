@@ -10,7 +10,7 @@ Aufbau einer Lektion (beide Seiten hintereinander gelesen):
     (10 pt), die mit dem Pinyin des Sprechers beginnt
   - Vokabeln: je Eintrag Hanzi (14 pt), Pinyin (10 pt), Deutsch (13 pt), bis zu
     drei Einträge nebeneinander; läuft teils auf Seite 2 weiter
-  - optional "文化諺語 Chinesische Sprichwörter" (wird übersprungen)
+  - optional "文化諺語 Chinesische Sprichwörter" (eigenes Feld "sprichwort")
   - Grammatik: Titel im Yuan-Font, darunter 說明 / 例句 / 練習
   - deutsche Dialogübersetzung "Sprecher：" + deutscher Text (14 pt)
 Die Abschnittsüberschriften sind Bilder, deshalb wird nach Font und Größe
@@ -31,6 +31,19 @@ SEITEN_VERSATZ = 1000  # y-Versatz für Seite 2, damit beide Seiten eine Folge b
 DEUTSCH_FONTS = ("TimesNewRoman", "Calibri", "ErasITC")
 LEERRAUM = " 　\t"
 LUECKE = "（　）"
+
+# Das Buch druckt zu den Sprichwörtern kein Pinyin, deshalb von Hand ergänzt.
+SPRICHWORT_PINYIN = {
+    "衣服是新的好，朋友是舊的好。": "Yīfu shì xīn de hǎo, péngyou shì jiù de hǎo.",
+    "名師出高徒": "Míngshī chū gāotú",
+    "一年之計在於春。": "Yì nián zhī jì zàiyú chūn.",
+}
+
+# Druckfehler im Vokabel-Pinyin des Buchs: (Lektion, Hanzi) -> richtiges Pinyin
+DRUCKFEHLER_PINYIN = {
+    (7, "星期"): "xīngqí",  # gedruckt mit überzähligem Strich zwischen den Silben
+    (55, "盆栽"): "pénzāi",  # gedruckt "pénzā", das i fehlt
+}
 
 
 def dekodiere_zeichen(zeichen: str, font: str) -> str:
@@ -286,7 +299,7 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
     """Beide Seiten einer Lektion parsen. Liefert (Lektion, Hinweise)."""
     zeichen = zeichen_aus_seite(seite1) + zeichen_aus_seite(seite2, SEITEN_VERSATZ)
     lektion = {"nummer": nummer, "titel_zh": "", "titel_de": "",
-               "dialog": [], "vokabeln": [], "grammatik": []}
+               "dialog": [], "vokabeln": [], "grammatik": [], "sprichwort": None}
     hinweise = []
     uebersetzungen = []
     abschnitt = "kopf"
@@ -326,11 +339,9 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
                 continue
 
         if "文化諺語" in zh_bereinigen(text_roh):
-            # Kasten "Chinesische Sprichwörter" (L11, L40, L47): wird als eigener
-            # Grammatik-Eintrag ans Ende gestellt
+            # Kasten "Chinesische Sprichwörter" (L11, L40, L47)
             abschnitt = "sprichwort"
-            sprichwort = {"titel": "文化諺語", "erklaerung": "", "beispiele": [""],
-                          "uebungen": []}
+            sprichwort = {"zh": "", "pinyin": "", "de": ""}
             continue
 
         if _ist_grammatiktitel(inhalt):
@@ -394,11 +405,11 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
             continue
 
         if abschnitt == "sprichwort":
-            sprichwort["beispiele"][0] += zh_bereinigen(
+            sprichwort["zh"] += zh_bereinigen(
                 _text([z for z in inhalt if zeichen_art(z) == "zh"]))
             de = _text([z for z in zeile if ist_deutsch_font(z)])
             if de.strip():
-                sprichwort["erklaerung"] = de_anhaengen(sprichwort["erklaerung"], de).strip()
+                sprichwort["de"] = de_anhaengen(sprichwort["de"], de).strip()
             continue
 
         if abschnitt == "grammatik" and lektion["grammatik"]:
@@ -424,7 +435,12 @@ def parse_lektion(nummer: int, seite1: dict, seite2: dict) -> tuple[dict, list[s
         hinweise.append(f"Zeile nicht zugeordnet ({abschnitt}): {text_roh.strip()[:40]}")
 
     if sprichwort:
-        lektion["grammatik"].append(sprichwort)
+        sprichwort["pinyin"] = SPRICHWORT_PINYIN.get(sprichwort["zh"], "")
+        if not sprichwort["pinyin"]:
+            hinweise.append(f"Sprichwort ohne Pinyin: {sprichwort['zh']}")
+        lektion["sprichwort"] = sprichwort
+    for v in lektion["vokabeln"]:
+        v["pinyin"] = DRUCKFEHLER_PINYIN.get((nummer, v["zh"]), v["pinyin"])
     for i, d in enumerate(lektion["dialog"]):
         if i < len(uebersetzungen):
             d["de"] = uebersetzungen[i]
