@@ -100,7 +100,7 @@
     },
     {
       "zh": "盆栽",
-      "pinyin": "pénzā",
+      "pinyin": "pénzāi",
       "de": "die Topfpflanzen"
     },
     {
@@ -141,5 +141,6 @@
         "林先生（　）吃魚（　）吃蝦。"
       ]
     }
-  ]
+  ],
+  "sprichwort": null
 }

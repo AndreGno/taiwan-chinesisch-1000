@@ -85,7 +85,7 @@
     },
     {
       "zh": "星期",
-      "pinyin": "xīng-qí",
+      "pinyin": "xīngqí",
       "de": "die Woche"
     },
     {
@@ -132,5 +132,6 @@
         "這本書（　）就可以買到了。"
       ]
     }
-  ]
+  ],
+  "sprichwort": null
 }

@@ -128,14 +128,11 @@
         "啊！這裡的風景（　）！",
         "啊，你說這是（　）！"
       ]
-    },
-    {
-      "titel": "文化諺語",
-      "erklaerung": "Wenn es um Kleidung geht, ist neue besser. Wenn es um Freunde geht, die alten.",
-      "beispiele": [
-        "衣服是新的好，朋友是舊的好。"
-      ],
-      "uebungen": []
     }
-  ]
+  ],
+  "sprichwort": {
+    "zh": "衣服是新的好，朋友是舊的好。",
+    "pinyin": "Yīfu shì xīn de hǎo, péngyou shì jiù de hǎo.",
+    "de": "Wenn es um Kleidung geht, ist neue besser. Wenn es um Freunde geht, die alten."
+  }
 }

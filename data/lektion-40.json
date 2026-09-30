@@ -121,14 +121,11 @@
         "為了（　），特別（　）。",
         "為了（　），特別（　）。"
       ]
-    },
-    {
-      "titel": "文化諺語",
-      "erklaerung": "Ein großer Meister bringt gute Schüler hervor.",
-      "beispiele": [
-        "名師出高徒"
-      ],
-      "uebungen": []
     }
-  ]
+  ],
+  "sprichwort": {
+    "zh": "名師出高徒",
+    "pinyin": "Míngshī chū gāotú",
+    "de": "Ein großer Meister bringt gute Schüler hervor."
+  }
 }
