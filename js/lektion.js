@@ -28,6 +28,7 @@ function ohneInterpunktion(text) {
 export function verfuegbareUebungen(lektion) {
   return {
     karteikarten: lektion.vokabeln.some((v) => v.zh),
+    vokabelquiz: lektion.vokabeln.filter((v) => v.zh && v.de).length >= 4,
     satzbau: lektion.dialog.some((z) => ohneInterpunktion(z.zh).length >= 3),
     hoerverstehen: lektion.dialog.filter((z) => z.zh && z.de).length >= 2,
     aussprache: lektion.dialog.some((z) => z.zh),
@@ -113,6 +114,7 @@ export function rendereUebungenMenu(lektion) {
   return `
     <div class="uebungen-menu">
       ${knopf("karteikarten", "Karteikarten", "Keine Vokabeln vorhanden.")}
+      ${knopf("vokabelquiz", "Vokabel-Quiz", "Zu wenige Vokabeln vorhanden.")}
       ${knopf("satzbau", "Satzbau", "Keine ausreichend langen Sätze vorhanden.")}
       ${knopf("hoerverstehen", "Hörverständnis", "Zu wenige vollständige Satzpaare vorhanden.")}
       ${knopf("aussprache", "Aussprache", "Kein Dialog vorhanden.")}
@@ -139,6 +141,10 @@ function verdrahteUebungenMenu(lektion, container) {
           const { rendereKarteikarten } = await import("./karteikarten.js");
           if (!inhalt.isConnected) return;
           rendereKarteikarten(lektion.vokabeln, inhalt);
+        } else if (modul === "vokabelquiz") {
+          const { rendereVokabelquiz } = await import("./vokabelquiz.js");
+          if (!inhalt.isConnected) return;
+          rendereVokabelquiz(lektion.vokabeln, inhalt);
         } else if (modul === "satzbau") {
           const { rendereSatzbau } = await import("./satzbau.js");
           if (!inhalt.isConnected) return;

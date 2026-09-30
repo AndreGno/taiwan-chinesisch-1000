@@ -35,6 +35,7 @@ test("verfuegbareUebungen: leere Lektion deaktiviert alles", () => {
   const leer = normalisiereLektion({ nummer: 1 });
   assert.deepEqual(verfuegbareUebungen(leer), {
     karteikarten: false,
+    vokabelquiz: false,
     satzbau: false,
     hoerverstehen: false,
     aussprache: false,
@@ -46,6 +47,13 @@ test("verfuegbareUebungen: Satzbau braucht mindestens 3 Zeichen ohne Interpunkti
   assert.equal(verfuegbareUebungen(zuKurz).satzbau, false);
   const langGenug = normalisiereLektion({ nummer: 1, dialog: [{ zh: "你好嗎？" }] });
   assert.equal(verfuegbareUebungen(langGenug).satzbau, true);
+});
+
+test("verfuegbareUebungen: Vokabel-Quiz braucht mindestens 4 Vokabeln mit Bedeutung", () => {
+  const drei = [{ zh: "你", de: "du" }, { zh: "我", de: "ich" }, { zh: "他", de: "er" }];
+  assert.equal(verfuegbareUebungen(normalisiereLektion({ nummer: 1, vokabeln: drei })).vokabelquiz, false);
+  const vier = [...drei, { zh: "她", de: "sie" }];
+  assert.equal(verfuegbareUebungen(normalisiereLektion({ nummer: 1, vokabeln: vier })).vokabelquiz, true);
 });
 
 test("verfuegbareUebungen: Hoerverstehen braucht mindestens 2 vollstaendige Zeilen", () => {
