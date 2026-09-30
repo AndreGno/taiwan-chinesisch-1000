@@ -235,6 +235,9 @@ main {
 }
 .tts-knopf:hover { background: var(--karte-bg-hover); }
 
+.sprichwort { margin-top: 1.5rem; box-shadow: var(--glow), inset 0 0 0 1px var(--pink); }
+.sprichwort h3 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--pink); }
+
 .grammatik-block h3 { margin: 0 0 0.4rem; color: var(--pink); }
 .grammatik-block ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
 .grammatik-block li { margin-bottom: 0.25rem; overflow-wrap: anywhere; }

@@ -23,6 +23,7 @@ export function normalisiereLektion(lektion) {
     dialog: Array.isArray(lektion?.dialog) ? lektion.dialog : [],
     vokabeln: Array.isArray(lektion?.vokabeln) ? lektion.vokabeln : [],
     grammatik: Array.isArray(lektion?.grammatik) ? lektion.grammatik : [],
+    sprichwort: lektion?.sprichwort ?? null,
   };
 }
 

@@ -49,18 +49,31 @@ function sprichKnopf(text) {
   return `<button class="tts-knopf" data-sprich="${escapeHtml(text)}" title="Vorlesen (synthetische Sprachausgabe)">🔊</button>`;
 }
 
-export function rendereDialog(dialog) {
+function rendereSprichwort(s) {
+  if (!s) return "";
+  return `
+      <div class="dialog-zeile sprichwort">
+        <h3>文化諺語 Chinesisches Sprichwort</h3>
+        <p class="zh">${escapeHtml(s.zh)} ${sprichKnopf(s.zh)}</p>
+        ${s.pinyin ? `<p class="pinyin">${escapeHtml(s.pinyin)}</p>` : ""}
+        ${s.de ? `<p class="de">${escapeHtml(s.de)}</p>` : ""}
+      </div>`;
+}
+
+export function rendereDialog(dialog, sprichwort = null) {
   if (!dialog.length) return `<p class="hinweis">Für diese Lektion liegt noch kein Dialog vor.</p>`;
-  return dialog
-    .map(
-      (z) => `
+  return (
+    dialog
+      .map(
+        (z) => `
       <div class="dialog-zeile">
         <p class="zh">${z.sprecher ? escapeHtml(z.sprecher) + "：" : ""}${escapeHtml(z.zh)} ${sprichKnopf(z.zh)}</p>
         ${z.pinyin ? `<p class="pinyin">${escapeHtml(z.pinyin)}</p>` : ""}
         ${z.de ? `<p class="de">${escapeHtml(z.de)}</p>` : ""}
       </div>`
-    )
-    .join("");
+      )
+      .join("") + rendereSprichwort(sprichwort)
+  );
 }
 
 export function rendereVokabeln(vokabeln) {
@@ -149,7 +162,7 @@ function verdrahteUebungenMenu(lektion, container) {
 
 export function rendereTabInhalt(lektion, tabKey, container) {
   if (tabKey === "dialog") {
-    container.innerHTML = rendereDialog(lektion.dialog);
+    container.innerHTML = rendereDialog(lektion.dialog, lektion.sprichwort);
     verdrahteTtsKnoepfe(container);
   } else if (tabKey === "vokabeln") {
     container.innerHTML = rendereVokabeln(lektion.vokabeln);

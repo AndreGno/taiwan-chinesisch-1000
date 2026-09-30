@@ -1,7 +1,17 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { normalisiereLektion } from "./app.js";
-import { verfuegbareTabs, verfuegbareUebungen } from "./lektion.js";
+import { verfuegbareTabs, verfuegbareUebungen, rendereDialog } from "./lektion.js";
+
+test("rendereDialog zeigt das Sprichwort als eigenen Kasten", () => {
+  const dialog = [{ sprecher: "王", zh: "好。" }];
+  const html = rendereDialog(dialog, { zh: "名師出高徒", pinyin: "Míngshī chū gāotú", de: "Ein großer Meister" });
+  assert.match(html, /class="[^"]*\bsprichwort\b/);
+  assert.match(html, /名師出高徒/);
+  assert.match(html, /Míngshī chū gāotú/);
+  assert.match(html, /Ein großer Meister/);
+  assert.doesNotMatch(rendereDialog(dialog, null), /sprichwort/);
+});
 
 test("verfuegbareTabs zeigt Uebungen immer, Inhalts-Tabs nur mit Daten", () => {
   const leer = normalisiereLektion({ nummer: 1 });

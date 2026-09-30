@@ -9,8 +9,10 @@ export function mische(array) {
   return kopie;
 }
 
+// Ein Baustein je Hanzi; Ziffern und lateinische Wörter ("1959", "E-mail") bleiben
+// zusammen. Satzzeichen (auch 「」『』……) und Leerraum sind keine Bausteine.
 export function zerlegeInZeichen(satz) {
-  return (satz || "").replace(/[，。？！、：；]/g, "").split("");
+  return (satz || "").match(/[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*|[^\s\p{P}]/gu) ?? [];
 }
 
 export function pruefeSatz(eingabe, zielSatzZh) {

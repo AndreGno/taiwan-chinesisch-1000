@@ -22,7 +22,14 @@ test("normalisiereLektion füllt fehlende Felder", () => {
     dialog: [],
     vokabeln: [],
     grammatik: [],
+    sprichwort: null,
   });
+});
+
+test("normalisiereLektion übernimmt ein Sprichwort, sonst null", () => {
+  const sprichwort = { zh: "名師出高徒", pinyin: "Míngshī chū gāotú", de: "Ein großer Meister …" };
+  assert.deepEqual(normalisiereLektion({ nummer: 40, sprichwort }).sprichwort, sprichwort);
+  assert.equal(normalisiereLektion({ nummer: 1, sprichwort: null }).sprichwort, null);
 });
 
 test("normalisiereLektion übernimmt vorhandene Arrays unverändert", () => {

@@ -6,6 +6,14 @@ test("zerlegeInZeichen entfernt Satzzeichen und zerlegt in Einzelzeichen", () =>
   assert.deepEqual(zerlegeInZeichen("你好，嗎？"), ["你", "好", "嗎"]);
 });
 
+test("zerlegeInZeichen: Anführungszeichen, Auslassungspunkte und Leerraum sind keine Bausteine", () => {
+  assert.deepEqual(zerlegeInZeichen("他說：「好 『對』……」?!"), ["他", "說", "好", "對"]);
+});
+
+test("zerlegeInZeichen: Ziffern und lateinische Wörter bleiben ein Baustein", () => {
+  assert.deepEqual(zerlegeInZeichen("我1959年用E-mail。"), ["我", "1959", "年", "用", "E-mail"]);
+});
+
 test("zerlegeInZeichen liefert [] für leer/undefined", () => {
   assert.deepEqual(zerlegeInZeichen(""), []);
   assert.deepEqual(zerlegeInZeichen(undefined), []);
